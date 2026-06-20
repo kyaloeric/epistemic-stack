@@ -1,0 +1,8 @@
+services:
+  epistemic-stack:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Optional: set to run the live pipeline instead of the offline demo.
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}

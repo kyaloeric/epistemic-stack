@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+cases/*/raw/*.txt
+!cases/*/raw/README.txt
+.DS_Store

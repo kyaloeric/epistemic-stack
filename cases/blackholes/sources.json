@@ -1,0 +1,25 @@
+{
+  "case": "blackholes",
+  "question": "Could the Large Hadron Collider create a black hole that destroys the Earth?",
+  "shape": "confident/settled answer resting on a large body of interacting physics knowledge",
+  "sources": [
+    {
+      "id": "cern_faq",
+      "title": "CERN — Will CERN generate a black hole?",
+      "url": "https://home.cern/resources/faqs/safety-lhc",
+      "author": "CERN",
+      "side": "no_risk",
+      "role": "the institutional answer and its stated grounds"
+    },
+    {
+      "id": "lsag_report",
+      "title": "LHC Safety Assessment Group report",
+      "url": "https://home.cern/science/accelerators/large-hadron-collider/safety-lhc",
+      "author": "LSAG",
+      "side": "no_risk",
+      "role": "the formal safety argument with its dependencies"
+    }
+  ],
+  "challenge": "Probe a confident argument for its dependencies and key considerations; surface the weakest or most speculative links (e.g. cosmic-ray analogy, Hawking radiation assumptions) in an accessible way.",
+  "note": "Add the cosmic-ray safety-argument sources and any critical commentary to test whether the structure surfaces the real load-bearing assumptions."
+}

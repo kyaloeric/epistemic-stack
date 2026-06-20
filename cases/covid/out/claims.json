@@ -1,0 +1,54 @@
+{
+  "case": "covid",
+  "sources": [
+    {
+      "id": "acx_writeup",
+      "title": "Practically-A-Book Review: Rootclaim $100,000 Lab Leak Debate",
+      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
+      "author": "Scott Alexander",
+      "side": "zoonosis",
+      "role": "core case material — the central synthesis of the debate"
+    },
+    {
+      "id": "judge_will",
+      "title": "Judge Will Van Treuren's decision",
+      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
+      "author": "Will Van Treuren (microbiologist, PhD Stanford)",
+      "side": "zoonosis",
+      "role": "expert judge ruling"
+    },
+    {
+      "id": "judge_eric",
+      "title": "Judge Eric Stansifer's decision",
+      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
+      "author": "Eric Stansifer (applied mathematician)",
+      "side": "zoonosis",
+      "role": "expert judge ruling"
+    },
+    {
+      "id": "weissman_bayes",
+      "title": "Michael Weissman's Bayesian analysis of COVID origins",
+      "url": "https://michaelweissman.substack.com/",
+      "author": "Michael Weissman",
+      "side": "lab_leak",
+      "role": "rigorous independent Bayesian analysis (example of a more formal method)"
+    },
+    {
+      "id": "rootclaim_response",
+      "title": "COVID origins debate: Response to Scott Alexander",
+      "url": "https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/",
+      "author": "Saar Wilf / Rootclaim",
+      "side": "lab_leak",
+      "role": "the losing side's rebuttal — key for representing disagreement faithfully"
+    },
+    {
+      "id": "rootclaim_results",
+      "title": "Rootclaim's COVID-19 Origins debate results",
+      "url": "https://blog.rootclaim.com/rootclaims-covid-19-origins-debate-results/",
+      "author": "Rootclaim",
+      "side": "lab_leak",
+      "role": "post-debate position statement"
+    }
+  ],
+  "claims": []
+}

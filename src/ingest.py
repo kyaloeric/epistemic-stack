@@ -1,0 +1,90 @@
+"""Ingestion stage: sources -> atomic claims with provenance.
+
+Reads cases/<case>/sources.json, fetches/loads each source's text, extracts atomic
+claims via the ingest prompt, assigns stable ids, writes cases/<case>/out/claims.json.
+
+Source text loading: this scaffold expects pre-fetched text in cases/<case>/raw/<source_id>.txt
+(fetching contested-topic pages is left to the user to control exactly what's ingested —
+provenance demands knowing precisely what went in). A helper to fetch is stubbed below.
+"""
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from prompts.ingest import SYSTEM, USER_TEMPLATE  # noqa: E402
+from src.llm import call_json  # noqa: E402
+
+
+def load_source_text(case_dir: str, source_id: str) -> str:
+    path = os.path.join(case_dir, "raw", f"{source_id}.txt")
+    if not os.path.exists(path):
+        print(f"  [skip] no raw text for '{source_id}' at {path} — add it to ingest this source.")
+        return ""
+    with open(path, encoding="utf-8") as f:
+        return f.read()
+
+
+def ingest(case: str, root: str = ".") -> dict:
+    case_dir = os.path.join(root, "cases", case)
+    with open(os.path.join(case_dir, "sources.json"), encoding="utf-8") as f:
+        manifest = json.load(f)
+
+    all_claims = []
+    counter = 1
+    for src in manifest["sources"]:
+        content = load_source_text(case_dir, src["id"])
+        if not content:
+            continue
+        print(f"  ingesting {src['id']} ({len(content)} chars)...")
+        # chunk long sources to stay within limits; simple paragraph chunking
+        chunks = _chunk(content, 12000)
+        for chunk in chunks:
+            user = USER_TEMPLATE.format(
+                title=src["title"], author=src.get("author", "unknown"),
+                side=src.get("side", "n/a"), content=chunk,
+            )
+            try:
+                claims = call_json(SYSTEM, user)
+            except Exception as e:
+                print(f"    [warn] extraction failed on a chunk: {e}")
+                continue
+            for c in claims:
+                c_id = f"C{counter:03d}"
+                counter += 1
+                all_claims.append({
+                    "id": c_id,
+                    "text": c.get("text", ""),
+                    "kind": c.get("kind", "evidence"),
+                    "attestations": [{
+                        "source_id": src["id"],
+                        "verbatim_span": c.get("verbatim_span", ""),
+                        "context": c.get("context", ""),
+                        "framing": c.get("framing", ""),
+                    }],
+                    "probability_estimates": (
+                        [{"source_id": src["id"], "value": c["probability_estimate"], "note": ""}]
+                        if c.get("probability_estimate") else []
+                    ),
+                })
+
+    out_dir = os.path.join(case_dir, "out")
+    os.makedirs(out_dir, exist_ok=True)
+    out = {"case": case, "sources": manifest["sources"], "claims": all_claims}
+    with open(os.path.join(out_dir, "claims.json"), "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=2, ensure_ascii=False)
+    print(f"  -> {len(all_claims)} claims written to {out_dir}/claims.json")
+    return out
+
+
+def _chunk(text: str, size: int):
+    paras = text.split("\n\n")
+    chunks, cur = [], ""
+    for p in paras:
+        if len(cur) + len(p) > size and cur:
+            chunks.append(cur)
+            cur = ""
+        cur += p + "\n\n"
+    if cur.strip():
+        chunks.append(cur)
+    return chunks

@@ -1,0 +1,17 @@
+{
+  "case": "eggs",
+  "question": "Are eggs good or bad to eat, and what does the answer depend on?",
+  "shape": "mundane-but-contested everyday question where framing the right sub-questions is half the work",
+  "sources": [
+    {
+      "id": "examine_eggs",
+      "title": "Examine.com — eggs and cholesterol evidence summary",
+      "url": "https://examine.com/",
+      "author": "Examine.com",
+      "side": "neutral",
+      "role": "disciplined claim-by-claim evidence grading (a model for the method itself)"
+    }
+  ],
+  "challenge": "Much of the difficulty is resolving WHICH sub-questions matter (dietary cholesterol vs serum cholesterol vs CVD outcomes; whole-population vs subgroup like hyper-responders) and what the appropriate ways of knowing are. The structure layer should make the sub-question decomposition explicit.",
+  "note": "Add a few representative meta-analyses and a contrarian source to show the structure captures genuine subgroup-dependent disagreement rather than flattening it."
+}

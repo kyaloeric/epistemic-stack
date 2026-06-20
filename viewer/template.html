@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Epistemic Stack — Claim Graph</title>
+<style>
+  :root { --bg:#fafaf8; --ink:#1a1a1a; --muted:#6b6b6b; --line:#e2e2dd;
+          --zoo:#1d6f5c; --lab:#9c3b2e; --neutral:#555; --crux:#b8860b; --card:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;
+         background:var(--bg); color:var(--ink); }
+  header { padding:20px 28px; border-bottom:1px solid var(--line); background:var(--card); }
+  h1 { margin:0; font-size:19px; }
+  .sub { color:var(--muted); font-size:13px; margin-top:4px; }
+  .wrap { display:grid; grid-template-columns:1fr 360px; gap:0; height:calc(100vh - 70px); }
+  .main { overflow:auto; padding:24px 28px; }
+  .side { border-left:1px solid var(--line); background:var(--card); overflow:auto; padding:20px; }
+  .controls { margin-bottom:18px; display:flex; gap:8px; flex-wrap:wrap; }
+  .controls button { border:1px solid var(--line); background:#fff; padding:6px 12px;
+                     border-radius:7px; cursor:pointer; font-size:13px; }
+  .controls button.active { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .claim { border:1px solid var(--line); border-radius:9px; padding:12px 14px; margin-bottom:10px;
+           background:var(--card); }
+  .claim.crux { border-color:var(--crux); box-shadow:0 0 0 2px rgba(184,134,11,.12); }
+  .claim h3 { margin:0 0 6px; font-size:14px; font-weight:600; }
+  .meta { font-size:12px; color:var(--muted); display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .pill { font-size:11px; padding:2px 7px; border-radius:20px; border:1px solid var(--line); }
+  .pill.zoo { color:var(--zoo); border-color:var(--zoo); }
+  .pill.lab { color:var(--lab); border-color:var(--lab); }
+  .pill.crux { color:var(--crux); border-color:var(--crux); font-weight:600; }
+  .span { font-size:12.5px; color:#444; background:#f4f4ef; border-left:3px solid var(--line);
+          padding:6px 10px; margin-top:8px; border-radius:0 6px 6px 0; font-style:italic; }
+  .crux-item { border-bottom:1px solid var(--line); padding:10px 0; }
+  .crux-item .rank { font-weight:700; color:var(--crux); }
+  .bar { height:5px; background:#eee; border-radius:3px; overflow:hidden; margin-top:5px; }
+  .bar > span { display:block; height:100%; background:var(--crux); }
+  .side h2 { font-size:13px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  .est { font-size:12px; color:var(--lab); margin-top:4px; }
+  code { font-size:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Claim Graph</h1>
+  <div class="sub" id="subtitle"></div>
+</header>
+<div class="wrap">
+  <div class="main">
+    <div class="controls" id="filters"></div>
+    <div id="claims"></div>
+  </div>
+  <div class="side">
+    <h2>Load-bearing cruxes</h2>
+    <div id="cruxes"></div>
+    <h2 style="margin-top:24px">Correlated-evidence flags</h2>
+    <div id="correlated"></div>
+  </div>
+</div>
+<script>
+const DATA = /*__GRAPH_DATA__*/{}/*__END__*/;
+
+function sideOf(claim){
+  const src = (DATA.sources||[]).find(s => claim.attestations && claim.attestations[0]
+    && s.id === claim.attestations[0].source_id);
+  return src ? (src.side||"neutral") : "neutral";
+}
+function render(filter){
+  const cruxIds = new Set((DATA.assessment?.cruxes||[]).map(c=>c.claim_id));
+  document.getElementById("title").textContent =
+    "Claim Graph — " + (DATA.case||"").toUpperCase();
+  document.getElementById("subtitle").textContent =
+    `${DATA.claims.length} claims · ${DATA.edges.length} edges · ${(DATA.sources||[]).length} sources`;
+
+  const box = document.getElementById("claims"); box.innerHTML="";
+  DATA.claims
+    .filter(c => filter==="all" || (filter==="crux" ? cruxIds.has(c.id) : c.kind===filter))
+    .forEach(c => {
+      const side = sideOf(c);
+      const isCrux = cruxIds.has(c.id);
+      const att = c.attestations && c.attestations[0] || {};
+      const el = document.createElement("div");
+      el.className = "claim" + (isCrux ? " crux":"");
+      el.innerHTML = `
+        <h3>${c.text||""}</h3>
+        <div class="meta">
+          <span class="pill ${side==='zoonosis'?'zoo':side==='lab_leak'?'lab':''}">${side}</span>
+          <span class="pill">${c.kind||""}</span>
+          ${isCrux?'<span class="pill crux">CRUX</span>':''}
+          <code>${c.id}</code>
+          <code>${(c.attestations||[]).length} attestation(s)</code>
+        </div>
+        ${att.verbatim_span?`<div class="span">&ldquo;${att.verbatim_span}&rdquo;</div>`:''}
+        ${(c.probability_estimates||[]).length?`<div class="est">estimates: ${
+          c.probability_estimates.map(p=>p.value).join("  ·  ")}</div>`:''}
+      `;
+      box.appendChild(el);
+    });
+}
+function renderCruxes(){
+  const box = document.getElementById("cruxes"); box.innerHTML="";
+  (DATA.assessment?.cruxes||[]).forEach((c,i)=>{
+    const el=document.createElement("div"); el.className="crux-item";
+    el.innerHTML=`<div><span class="rank">#${i+1}</span> <code>${c.claim_id}</code> — ${c.affects||""}</div>
+      <div class="bar"><span style="width:${Math.round((c.sensitivity||0)*100)}%"></span></div>
+      <div style="font-size:12.5px;color:#555;margin-top:6px">${c.rationale||""}</div>`;
+    box.appendChild(el);
+  });
+  const cor=document.getElementById("correlated"); cor.innerHTML="";
+  (DATA.assessment?.correlated_evidence_flags||[]).forEach(f=>{
+    const el=document.createElement("div"); el.className="crux-item";
+    el.innerHTML=`<code>${(f.claim_ids||[]).join(", ")}</code>
+      <div style="font-size:12.5px;color:#555;margin-top:4px">${f.rationale||""}</div>`;
+    cor.appendChild(el);
+  });
+  if(!(DATA.assessment?.correlated_evidence_flags||[]).length)
+    cor.innerHTML='<div style="color:#999;font-size:12.5px">none flagged</div>';
+}
+function buildFilters(){
+  const kinds=["all","crux","evidence","inference","assumption","conclusion","methodological"];
+  const box=document.getElementById("filters");
+  kinds.forEach((k,i)=>{
+    const b=document.createElement("button"); b.textContent=k; if(i===0)b.classList.add("active");
+    b.onclick=()=>{document.querySelectorAll("#filters button").forEach(x=>x.classList.remove("active"));
+      b.classList.add("active"); render(k);};
+    box.appendChild(b);
+  });
+}
+if(DATA && DATA.claims){ buildFilters(); render("all"); renderCruxes(); }
+else { document.body.innerHTML="<p style='padding:40px'>No graph data — run the pipeline first.</p>"; }
+</script>
+</body>
+</html>

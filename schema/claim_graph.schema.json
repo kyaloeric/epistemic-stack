@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Epistemic Stack — Claim Graph",
+  "description": "A provenanced, typed claim graph over a multi-source dispute. Designed to be interoperable and compounding: another team can extend this artifact, and pieces can be merged across investigations.",
+  "type": "object",
+  "required": ["case", "sources", "claims", "edges"],
+  "properties": {
+    "case": {
+      "type": "string",
+      "description": "Case identifier, e.g. 'covid', 'blackholes', 'eggs'."
+    },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "model": { "type": "string", "description": "Model + version used for extraction, for reproducibility." },
+
+    "sources": {
+      "type": "array",
+      "description": "Every source ingested. Provenance starts here.",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "url"],
+        "properties": {
+          "id":     { "type": "string", "description": "Stable short id, e.g. 'acx_writeup'." },
+          "title":  { "type": "string" },
+          "url":    { "type": "string" },
+          "author": { "type": "string" },
+          "date":   { "type": "string" },
+          "side":   { "type": "string", "enum": ["zoonosis", "lab_leak", "neutral", "n/a"],
+                      "description": "Which position the source argues for, if any. Used to detect 'performed settling'." }
+        }
+      }
+    },
+
+    "claims": {
+      "type": "array",
+      "description": "Atomic claims. Each is a node in the graph.",
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "attestations"],
+        "properties": {
+          "id":   { "type": "string", "description": "Stable id, e.g. 'C037'." },
+          "text": { "type": "string", "description": "The claim, normalised to one proposition." },
+          "kind": { "type": "string",
+                    "enum": ["evidence", "inference", "assumption", "conclusion", "methodological"],
+                    "description": "What role the claim plays." },
+
+          "attestations": {
+            "type": "array",
+            "description": "Every place this claim (or a restatement) appears. Multiple attestations = the same claim seen across sources.",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["source_id", "verbatim_span"],
+              "properties": {
+                "source_id":     { "type": "string" },
+                "verbatim_span": { "type": "string", "description": "Exact quoted text from the source. Non-negotiable: every claim must be auditable back to source." },
+                "context":       { "type": "string", "description": "Surrounding context / where in the source." },
+                "framing":       { "type": "string", "description": "How THIS source framed it, when it differs from the canonical text (captures 'similar-but-not-identical')." }
+              }
+            }
+          },
+
+          "probability_estimates": {
+            "type": "array",
+            "description": "Where analysts attached an explicit probability/likelihood to this claim. Makes the multi-analyst estimate spread navigable.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": { "type": "string" },
+                "value":     { "type": "string", "description": "As stated, e.g. 'P~0.9', '5:1 Bayes factor', 'negligible'." },
+                "note":      { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "edges": {
+      "type": "array",
+      "description": "Typed relationships between claims. This is the inference + discourse structure.",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "type"],
+        "properties": {
+          "from":   { "type": "string", "description": "Claim id." },
+          "to":     { "type": "string", "description": "Claim id." },
+          "type":   { "type": "string",
+                      "enum": ["supports", "contradicts", "is_evidence_for", "restates", "caveats", "depends_on"],
+                      "description": "Relationship. 'depends_on' marks load-bearing structure for crux detection." },
+          "source_id": { "type": "string", "description": "Which source asserts this relationship (a relationship is itself a claim)." },
+          "strength":  { "type": "string", "enum": ["asserted", "strong", "weak", "disputed"],
+                         "description": "How strongly the relationship is held / how contested it is." }
+        }
+      }
+    },
+
+    "assessment": {
+      "type": "object",
+      "description": "Output of the assessment layer. Kept separate from structure so consumers with different beliefs can re-run it.",
+      "properties": {
+        "cruxes": {
+          "type": "array",
+          "description": "Ranked load-bearing claims: flipping these most changes a conclusion.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "claim_id":     { "type": "string" },
+              "sensitivity":  { "type": "number", "description": "0-1, how much the conclusion moves if this flips." },
+              "affects":      { "type": "string", "description": "Which conclusion it's load-bearing for." },
+              "rationale":    { "type": "string" }
+            }
+          }
+        },
+        "correlated_evidence_flags": {
+          "type": "array",
+          "description": "Sets of claims treated as independent that may share a common source/cause.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "claim_ids": { "type": "array", "items": { "type": "string" } },
+              "rationale": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

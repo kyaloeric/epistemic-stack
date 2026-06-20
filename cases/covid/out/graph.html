@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Epistemic Stack — Claim Graph</title>
+<style>
+  :root { --bg:#fafaf8; --ink:#1a1a1a; --muted:#6b6b6b; --line:#e2e2dd;
+          --zoo:#1d6f5c; --lab:#9c3b2e; --neutral:#555; --crux:#b8860b; --card:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;
+         background:var(--bg); color:var(--ink); }
+  header { padding:20px 28px; border-bottom:1px solid var(--line); background:var(--card); }
+  h1 { margin:0; font-size:19px; }
+  .sub { color:var(--muted); font-size:13px; margin-top:4px; }
+  .wrap { display:grid; grid-template-columns:1fr 360px; gap:0; height:calc(100vh - 70px); }
+  .main { overflow:auto; padding:24px 28px; }
+  .side { border-left:1px solid var(--line); background:var(--card); overflow:auto; padding:20px; }
+  .controls { margin-bottom:18px; display:flex; gap:8px; flex-wrap:wrap; }
+  .controls button { border:1px solid var(--line); background:#fff; padding:6px 12px;
+                     border-radius:7px; cursor:pointer; font-size:13px; }
+  .controls button.active { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .claim { border:1px solid var(--line); border-radius:9px; padding:12px 14px; margin-bottom:10px;
+           background:var(--card); }
+  .claim.crux { border-color:var(--crux); box-shadow:0 0 0 2px rgba(184,134,11,.12); }
+  .claim h3 { margin:0 0 6px; font-size:14px; font-weight:600; }
+  .meta { font-size:12px; color:var(--muted); display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .pill { font-size:11px; padding:2px 7px; border-radius:20px; border:1px solid var(--line); }
+  .pill.zoo { color:var(--zoo); border-color:var(--zoo); }
+  .pill.lab { color:var(--lab); border-color:var(--lab); }
+  .pill.crux { color:var(--crux); border-color:var(--crux); font-weight:600; }
+  .span { font-size:12.5px; color:#444; background:#f4f4ef; border-left:3px solid var(--line);
+          padding:6px 10px; margin-top:8px; border-radius:0 6px 6px 0; font-style:italic; }
+  .crux-item { border-bottom:1px solid var(--line); padding:10px 0; }
+  .crux-item .rank { font-weight:700; color:var(--crux); }
+  .bar { height:5px; background:#eee; border-radius:3px; overflow:hidden; margin-top:5px; }
+  .bar > span { display:block; height:100%; background:var(--crux); }
+  .side h2 { font-size:13px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  .est { font-size:12px; color:var(--lab); margin-top:4px; }
+  code { font-size:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Claim Graph</h1>
+  <div class="sub" id="subtitle"></div>
+</header>
+<div class="wrap">
+  <div class="main">
+    <div class="controls" id="filters"></div>
+    <div id="claims"></div>
+  </div>
+  <div class="side">
+    <h2>Load-bearing cruxes</h2>
+    <div id="cruxes"></div>
+    <h2 style="margin-top:24px">Correlated-evidence flags</h2>
+    <div id="correlated"></div>
+  </div>
+</div>
+<script>
+const DATA = {
+  "case": "covid",
+  "sources": [
+    {
+      "id": "acx_writeup",
+      "title": "Practically-A-Book Review: Rootclaim Lab Leak Debate",
+      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
+      "author": "Scott Alexander",
+      "side": "zoonosis"
+    },
+    {
+      "id": "judge_will",
+      "title": "Judge Will's decision",
+      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
+      "author": "Will Van Treuren",
+      "side": "zoonosis"
+    },
+    {
+      "id": "weissman_bayes",
+      "title": "Weissman Bayesian analysis",
+      "url": "https://michaelweissman.substack.com/",
+      "author": "Michael Weissman",
+      "side": "lab_leak"
+    },
+    {
+      "id": "rootclaim_response",
+      "title": "Rootclaim: Response to Scott Alexander",
+      "url": "https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/",
+      "author": "Saar Wilf / Rootclaim",
+      "side": "lab_leak"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "text": "The earliest known COVID cases cluster around the Huanan Seafood Market",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the earliest known cases cluster around the market",
+          "context": "central geographic evidence",
+          "framing": "treated as strong evidence for zoonosis"
+        },
+        {
+          "source_id": "judge_will",
+          "verbatim_span": "the market cluster is the strongest single piece of evidence",
+          "context": "judge's weighting",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "load-bearing for 90-10 zoonosis",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "text": "COVID-19 originated via natural zoonotic spillover",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I'm still at 90-10 zoonosis",
+          "context": "overall conclusion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "P~0.9",
+          "note": ""
+        },
+        {
+          "source_id": "judge_will",
+          "value": "decisively zoonosis",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "text": "The market cluster reflects ascertainment/reporting bias, not the origin location",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "rootclaim_response",
+          "verbatim_span": "the cluster is an artifact of where testing and attention were focused",
+          "context": "core rebuttal",
+          "framing": "central to the lab-leak case"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C004",
+      "text": "Removing the market-cluster evidence flips the overall conclusion toward lab-leak",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "rootclaim_response",
+          "verbatim_span": "once it is removed, lab-leak becomes the winning hypothesis",
+          "context": "Rootclaim's sensitivity claim",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "rootclaim_response",
+          "value": "Scott would flip to 94% lab-leak",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "text": "Six independent Bayesian analyses of the same evidence span ~23 orders of magnitude",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "six independent Bayesian analyses spanned 23 orders of magnitude",
+          "context": "on disagreement between analysts",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C006",
+      "text": "COVID-19 originated from a research-related leak",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "weissman_bayes",
+          "verbatim_span": "the evidence favors a laboratory origin",
+          "context": "Weissman conclusion",
+          "framing": ""
+        },
+        {
+          "source_id": "rootclaim_response",
+          "verbatim_span": "high confidence that Covid originated from a lab",
+          "context": "Rootclaim conclusion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "rootclaim_response",
+          "value": "high confidence lab",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "C001",
+      "to": "C002",
+      "type": "depends_on",
+      "source_id": "acx_writeup",
+      "strength": "strong"
+    },
+    {
+      "from": "C001",
+      "to": "C002",
+      "type": "is_evidence_for",
+      "source_id": "judge_will",
+      "strength": "strong"
+    },
+    {
+      "from": "C003",
+      "to": "C001",
+      "type": "contradicts",
+      "source_id": "rootclaim_response",
+      "strength": "disputed"
+    },
+    {
+      "from": "C001",
+      "to": "C004",
+      "type": "depends_on",
+      "source_id": "rootclaim_response",
+      "strength": "strong"
+    },
+    {
+      "from": "C004",
+      "to": "C006",
+      "type": "supports",
+      "source_id": "rootclaim_response",
+      "strength": "asserted"
+    },
+    {
+      "from": "C003",
+      "to": "C006",
+      "type": "is_evidence_for",
+      "source_id": "rootclaim_response",
+      "strength": "weak"
+    },
+    {
+      "from": "C005",
+      "to": "C002",
+      "type": "caveats",
+      "source_id": "acx_writeup",
+      "strength": "asserted"
+    }
+  ],
+  "assessment": {
+    "cruxes": [
+      {
+        "claim_id": "C001",
+        "sensitivity": 1.0,
+        "affects": "conclusion (centrality estimate)",
+        "rationale": "High weighted out-degree (2.7) on dependency/evidence edges — other claims rest on 'The earliest known COVID cases cluster around the Huanan Seafood Market'."
+      },
+      {
+        "claim_id": "C003",
+        "sensitivity": 0.333,
+        "affects": "conclusion (centrality estimate)",
+        "rationale": "High weighted out-degree (0.9) on dependency/evidence edges — other claims rest on 'The market cluster reflects ascertainment/reporting bias, not the origin locatio'."
+      },
+      {
+        "claim_id": "C004",
+        "sensitivity": 0.185,
+        "affects": "conclusion (centrality estimate)",
+        "rationale": "High weighted out-degree (0.5) on dependency/evidence edges — other claims rest on 'Removing the market-cluster evidence flips the overall conclusion toward lab-lea'."
+      },
+      {
+        "claim_id": "C005",
+        "sensitivity": 0.074,
+        "affects": "conclusion (centrality estimate)",
+        "rationale": "High weighted out-degree (0.2) on dependency/evidence edges — other claims rest on 'Six independent Bayesian analyses of the same evidence span ~23 orders of magnit'."
+      }
+    ],
+    "correlated_evidence_flags": [
+      {
+        "claim_ids": [
+          "C001"
+        ],
+        "rationale": "Multiple cited case-count figures derive from the same Huanan market dataset; treating them as separate corroboration would double-count one source of evidence."
+      }
+    ]
+  }
+};
+
+function sideOf(claim){
+  const src = (DATA.sources||[]).find(s => claim.attestations && claim.attestations[0]
+    && s.id === claim.attestations[0].source_id);
+  return src ? (src.side||"neutral") : "neutral";
+}
+function render(filter){
+  const cruxIds = new Set((DATA.assessment?.cruxes||[]).map(c=>c.claim_id));
+  document.getElementById("title").textContent =
+    "Claim Graph — " + (DATA.case||"").toUpperCase();
+  document.getElementById("subtitle").textContent =
+    `${DATA.claims.length} claims · ${DATA.edges.length} edges · ${(DATA.sources||[]).length} sources`;
+
+  const box = document.getElementById("claims"); box.innerHTML="";
+  DATA.claims
+    .filter(c => filter==="all" || (filter==="crux" ? cruxIds.has(c.id) : c.kind===filter))
+    .forEach(c => {
+      const side = sideOf(c);
+      const isCrux = cruxIds.has(c.id);
+      const att = c.attestations && c.attestations[0] || {};
+      const el = document.createElement("div");
+      el.className = "claim" + (isCrux ? " crux":"");
+      el.innerHTML = `
+        <h3>${c.text||""}</h3>
+        <div class="meta">
+          <span class="pill ${side==='zoonosis'?'zoo':side==='lab_leak'?'lab':''}">${side}</span>
+          <span class="pill">${c.kind||""}</span>
+          ${isCrux?'<span class="pill crux">CRUX</span>':''}
+          <code>${c.id}</code>
+          <code>${(c.attestations||[]).length} attestation(s)</code>
+        </div>
+        ${att.verbatim_span?`<div class="span">&ldquo;${att.verbatim_span}&rdquo;</div>`:''}
+        ${(c.probability_estimates||[]).length?`<div class="est">estimates: ${
+          c.probability_estimates.map(p=>p.value).join("  ·  ")}</div>`:''}
+      `;
+      box.appendChild(el);
+    });
+}
+function renderCruxes(){
+  const box = document.getElementById("cruxes"); box.innerHTML="";
+  (DATA.assessment?.cruxes||[]).forEach((c,i)=>{
+    const el=document.createElement("div"); el.className="crux-item";
+    el.innerHTML=`<div><span class="rank">#${i+1}</span> <code>${c.claim_id}</code> — ${c.affects||""}</div>
+      <div class="bar"><span style="width:${Math.round((c.sensitivity||0)*100)}%"></span></div>
+      <div style="font-size:12.5px;color:#555;margin-top:6px">${c.rationale||""}</div>`;
+    box.appendChild(el);
+  });
+  const cor=document.getElementById("correlated"); cor.innerHTML="";
+  (DATA.assessment?.correlated_evidence_flags||[]).forEach(f=>{
+    const el=document.createElement("div"); el.className="crux-item";
+    el.innerHTML=`<code>${(f.claim_ids||[]).join(", ")}</code>
+      <div style="font-size:12.5px;color:#555;margin-top:4px">${f.rationale||""}</div>`;
+    cor.appendChild(el);
+  });
+  if(!(DATA.assessment?.correlated_evidence_flags||[]).length)
+    cor.innerHTML='<div style="color:#999;font-size:12.5px">none flagged</div>';
+}
+function buildFilters(){
+  const kinds=["all","crux","evidence","inference","assumption","conclusion","methodological"];
+  const box=document.getElementById("filters");
+  kinds.forEach((k,i)=>{
+    const b=document.createElement("button"); b.textContent=k; if(i===0)b.classList.add("active");
+    b.onclick=()=>{document.querySelectorAll("#filters button").forEach(x=>x.classList.remove("active"));
+      b.classList.add("active"); render(k);};
+    box.appendChild(b);
+  });
+}
+if(DATA && DATA.claims){ buildFilters(); render("all"); renderCruxes(); }
+else { document.body.innerHTML="<p style='padding:40px'>No graph data — run the pipeline first.</p>"; }
+</script>
+</body>
+</html>
