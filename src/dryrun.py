@@ -187,6 +187,52 @@ def structure_import(case, stage, json_path, root="."):
         print(f"  next: python -m src.dryrun assess-prompt --case {case}  (assessment layer)")
 
 
+def assess_prompt(case, root="."):
+    """Print a paste-ready prompt for crux detection over the built graph."""
+    from prompts.structure_assess import CRUX_SYSTEM
+    case_dir = os.path.join(root, "cases", case)
+    with open(os.path.join(case_dir, "out", "graph.json"), encoding="utf-8") as f:
+        graph = json.load(f)
+    claims = "\n".join(f'{c["id"]} [{c["kind"]}]: {c["text"]}' for c in graph["claims"])
+    edges = "\n".join(f'{e["from"]} --{e["type"]}--> {e["to"]}' for e in graph["edges"])
+    conclusions = "\n".join(c["id"] + ": " + c["text"]
+                            for c in graph["claims"] if c["kind"] == "conclusion")
+    payload = f"CONCLUSIONS:\n{conclusions}\n\nCLAIMS:\n{claims}\n\nEDGES:\n{edges}"
+    sep = "=" * 70
+    print(f"\n{sep}\nPASTE EVERYTHING BELOW INTO YOUR CLAUDE/CHATGPT WINDOW (cruxes)\n{sep}\n")
+    print(CRUX_SYSTEM)
+    print("\n--- GRAPH ---\n")
+    print(payload)
+    print(f"\n{sep}\nSave the JSON it returns, then run:\n"
+          f"  python -m src.dryrun assess-import --case {case} --json <file>\n"
+          f"Then compute the deterministic concentration receipt (no model needed):\n"
+          f"  python -m src.concentration {case}\n{sep}\n")
+
+
+def assess_import(case, json_path, root="."):
+    """Import cruxes, then auto-compute the deterministic concentration receipt."""
+    import re
+    from src.concentration import compute_concentration
+    case_dir = os.path.join(root, "cases", case)
+    out_dir = os.path.join(case_dir, "out")
+    with open(os.path.join(out_dir, "graph.json"), encoding="utf-8") as f:
+        graph = json.load(f)
+    with open(json_path, encoding="utf-8") as f:
+        raw = f.read()
+    m = re.search(r"(\[.*\])", raw, re.DOTALL)
+    if not m:
+        sys.exit("No JSON array found in pasted file.")
+    cruxes = json.loads(m.group(1))
+    graph.setdefault("assessment", {})["cruxes"] = cruxes
+    with open(os.path.join(out_dir, "graph.json"), "w", encoding="utf-8") as f:
+        json.dump(graph, f, indent=2, ensure_ascii=False)
+    with open(os.path.join(out_dir, "cruxes.json"), "w", encoding="utf-8") as f:
+        json.dump(cruxes, f, indent=2, ensure_ascii=False)
+    print(f"  {len(cruxes)} cruxes written -> {out_dir}/cruxes.json")
+    print("  computing deterministic concentration receipt...")
+    compute_concentration(case, root)
+
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -214,6 +260,15 @@ def main():
     si.add_argument("--json", required=True)
     si.add_argument("--root", default=".")
 
+    ap_ = sub.add_parser("assess-prompt", help="paste-ready prompt for crux detection")
+    ap_.add_argument("--case", required=True)
+    ap_.add_argument("--root", default=".")
+
+    ai = sub.add_parser("assess-import", help="import cruxes and compute concentration")
+    ai.add_argument("--case", required=True)
+    ai.add_argument("--json", required=True)
+    ai.add_argument("--root", default=".")
+
     args = ap.parse_args()
     if args.cmd == "prompt":
         make_prompt(args.case, args.source, args.chunk, args.root)
@@ -223,6 +278,10 @@ def main():
         structure_prompt(args.case, args.stage, args.root)
     elif args.cmd == "structure-import":
         structure_import(args.case, args.stage, args.json, args.root)
+    elif args.cmd == "assess-prompt":
+        assess_prompt(args.case, args.root)
+    elif args.cmd == "assess-import":
+        assess_import(args.case, args.json, args.root)
 
 
 if __name__ == "__main__":
