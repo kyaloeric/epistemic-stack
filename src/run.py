@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from src.ingest import ingest  # noqa: E402
 from src.structure import structure  # noqa: E402
 from src.assess import assess  # noqa: E402
+from src.concentration import compute_concentration  # noqa: E402
 
 
 def render_viewer(case: str, root: str = "."):
@@ -38,17 +39,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--case", required=True, help="covid | blackholes | eggs")
     ap.add_argument("--stage", default="all",
-                    choices=["all", "ingest", "structure", "assess", "viewer"])
+                    choices=["all", "ingest", "structure", "assess", "concentration", "viewer"])
     ap.add_argument("--root", default=".")
     args = ap.parse_args()
 
     print(f"== Epistemic Stack :: case={args.case} stage={args.stage} ==")
     if args.stage in ("all", "ingest"):
-        print("[1/3] INGESTION"); ingest(args.case, args.root)
+        print("[1/4] INGESTION"); ingest(args.case, args.root)
     if args.stage in ("all", "structure"):
-        print("[2/3] STRUCTURE"); structure(args.case, args.root)
+        print("[2/4] STRUCTURE"); structure(args.case, args.root)
     if args.stage in ("all", "assess"):
-        print("[3/3] ASSESSMENT"); assess(args.case, args.root)
+        print("[3/4] ASSESSMENT"); assess(args.case, args.root)
+    if args.stage in ("all", "concentration"):
+        print("[4/4] CONCENTRATION"); compute_concentration(args.case, args.root)
     if args.stage in ("all", "viewer"):
         print("[+] VIEWER"); render_viewer(args.case, args.root)
     print("== done ==")
