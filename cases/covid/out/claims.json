@@ -50,5 +50,4486 @@
       "role": "post-debate position statement"
     }
   ],
-  "claims": []
+  "claims": [
+    {
+      "id": "C001",
+      "text": "Saar Wilf is an ex-Israeli entrepreneur who has been developing a new form of reasoning called Rootclaim since 2016.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Saar Wilf is an ex-Israeli entrepreneur. Since 2016, he's been developing a new form of reasoning, meant to transcend normal human bias.",
+          "context": "Introduction of Saar Wilf and Rootclaim",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C002",
+      "text": "Rootclaim uses Bayesian reasoning.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "His method - called Rootclaim - uses Bayesian reasoning, a branch of math that explains the right way to weigh evidence.",
+          "context": "Description of Rootclaim methodology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C003",
+      "text": "No serious practitioners attempt full Bayesian reasoning on fuzzy real-world problems.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Nobody - not the statisticians, not Nate Silver, certainly not me - tries to do full Bayesian reasoning on fuzzy real-world problems.",
+          "context": "Author's characterization of standard practice in Bayesian reasoning",
+          "framing": "Author frames this as a universal joke/failure among practitioners"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C004",
+      "text": "Applying Bayesian reasoning to fuzzy real-world problems risks making philosophical mistakes when converting situations into numbers, potentially producing worse results than normal human intuition.",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "They'd be too hard to model. You'd make some philosophical mistake converting the situation into numbers, then end up much worse off than if you'd tried normal human intuition.",
+          "context": "Author's skepticism about full Bayesian modeling",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C005",
+      "text": "Rootclaim spent years working on the problem of avoiding pitfalls in Bayesian reasoning before posting analyses.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Rootclaim spent years working on this problem, until they were satisfied their method could avoid these kinds of pitfalls.",
+          "context": "Description of Rootclaim's development process",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C006",
+      "text": "In a celebrity Israeli murder case, Saar used Rootclaim to determine that the main suspect was likely innocent and that a local mental patient had committed the crime, and later DNA evidence appeared to support him.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "in a celebrity Israeli murder case, Saar used Rootclaim to determine that the main suspect was likely innocent, and a local mental patient had committed the crime. Later, new DNA evidence seemed to back him up.",
+          "context": "Example of Rootclaim's claimed early victories",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C007",
+      "text": "Saar Wilf sold his fraud detection startup to PayPal for $169 million in 2008.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "In 2008, he sold his fraud detection startup to PayPal for $169 million.",
+          "context": "Background on Saar Wilf's wealth",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C008",
+      "text": "Saar Wilf has won hundreds of thousands of dollars in professional poker.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "won hundreds of thousands of dollars in professional poker.",
+          "context": "Background on Saar Wilf",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C009",
+      "text": "Saar Wilf issued a $100,000 monetary challenge to anyone who disagrees with any of his Rootclaim analyses.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Saar issued a monetary challenge. If you disagree with any of his Rootclaim analyses - you think Putin does have cancer, or whatever - he and the Rootclaim team will bet you $100,000 that they're right.",
+          "context": "Description of the Rootclaim challenge",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C010",
+      "text": "Rootclaim found in favor of the lab leak hypothesis for COVID origins.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Rootclaim also found in favor of the lab leak hypothesis of COVID.",
+          "context": "Rootclaim's position on COVID origins",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C011",
+      "text": "Peter Miller (tgof137) agreed to take up Saar's $100,000 bet on COVID origins.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "fellow commenter tgof137 (Peter Miller) agreed to take him up on his $100K bet.",
+          "context": "Origin of the debate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C012",
+      "text": "Peter Miller describes himself as a physics student, programmer, and mountaineer who obsessively researches random topics.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "He describes himself as a \"physics student, programmer, and mountaineer\" who \"obsessively researches random topics\".",
+          "context": "Background on Peter Miller",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C013",
+      "text": "Peter Miller began investigating the lab leak hypothesis after a family member got into it, starting somewhere between neutral and positive toward the hypothesis.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "After a family member got into lab leak a few years ago, he started investigating. Although he started somewhere between neutral and positive towards the hypothesis",
+          "context": "Peter Miller's background on the topic",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C014",
+      "text": "Peter Miller ended up more than 90% convinced that the lab leak hypothesis was false.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he ended up \"90%+\" convinced it was false.",
+          "context": "Peter Miller's conclusion after research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "90%+",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "text": "Peter Miller believed that a smart and unbiased person would vote for zoonosis with approximately 80% odds after seeing all the evidence.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I [expected] a smart and unbiased person would vote for zoonosis with, say, 80% odds after seeing all the evidence",
+          "context": "Peter Miller's pre-debate expectation quoted in email to Scott Alexander",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "80%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "text": "Peter Miller calculated that the probability of both judges voting for lab origin was approximately 4% (20% squared), assuming uncorrelated judges.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "both judges voting for lab origin is uncorrelated, that's 20% squared, and it was pretty low odds of a catastrophic financial risk for me.",
+          "context": "Peter Miller's pre-debate risk assessment",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "20% squared",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C017",
+      "text": "The $100,000 bet represented a large fraction of Peter Miller's net worth.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Unlike Saar, Peter was not especially rich. $100K represented a big fraction of his net worth.",
+          "context": "Peter Miller's financial situation relative to the bet",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C018",
+      "text": "Peter Miller's biggest fear about the debate was that he would choke, be too anxious, and be unable to sleep the night before, not that he was wrong about the science.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "My biggest fear was that I'd choke at the debate for some reason, that I'd be too anxious and particularly that I'd be unable to sleep the night beforehand.",
+          "context": "Peter Miller's pre-debate concerns, quoted in email",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C019",
+      "text": "Peter Miller had zero prior debate experience.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I have zero prior debate experience to rely upon.",
+          "context": "Peter Miller's self-assessment",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C020",
+      "text": "Peter Miller is a mountain climber who sometimes faces a 5% chance of death.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he \"is a mountain climber where sometimes there is a 5% chance to die\"",
+          "context": "Peter Miller explaining his blase attitude toward the financial risk",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "5%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C021",
+      "text": "The two judges were Will van Treuren, a pharmaceutical entrepreneur with a PhD from Stanford and background in bacteriology and immunology, and Eric Stansifer, an applied mathematician with a PhD from MIT and experience in mathematical virology.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Will van Treuren, a pharmaceutical entrepreneur with a PhD from Stanford and a background in bacteriology and immunology. Eric Stansifer, an applied mathematician with a PhD from MIT and experience in mathematical virology.",
+          "context": "Description of the debate judges",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C022",
+      "text": "Each judge received $5,000 as payment for approximately 100 hours of work, paid by the two contestants along with their $100,000 table stakes.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "both of whom received $5,000 as payment for their ~100 hours of work, paid by the two contestants along with their $100,000 table stakes",
+          "context": "Financial arrangements of the debate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C023",
+      "text": "The debate format consisted of three sessions, each with hour-and-a-half arguments from both sides followed by three hours for debaters to answer questions from judges and each other.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The format would be three sessions, each consisting of hour-and-a-half arguments from both sides, then three hours for the debaters to answer questions from the judges and each other.",
+          "context": "Debate format description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C024",
+      "text": "In the second session on viral genetics, biotech entrepreneur and lab leak expert Yuri Deigin stood in for Saar.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "In the second session (on viral genetics) biotech entrepreneur and lab leak expert Yuri Deigin stood in for Saar",
+          "context": "Description of debate participants",
+          "framing": "Author labels Deigin a 'lab leak expert,' which carries implicit framing"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C025",
+      "text": "The first officially confirmed COVID case was a vendor at the Wuhan wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The first officially confirmed COVID case was a vendor at the Wuhan wet market.",
+          "context": "Peter Miller's opening epidemiological argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C026",
+      "text": "The next four confirmed COVID cases after the first were also at the Wuhan wet market, and half of the next 40 cases had market connections.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "So were the next four, and half of the next 40.",
+          "context": "Peter Miller's epidemiological argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C027",
+      "text": "A heat map of early COVID cases is centered on the wet market, not on the WIV lab.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "A heat map of early cases is obviously centered on the wet market, not on the lab.",
+          "context": "Peter Miller's epidemiological argument",
+          "framing": "Described as 'obvious'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C028",
+      "text": "The wet market and the WIV lab are approximately 6 miles apart as the crow flies, or a 15-mile, half-hour drive.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The wet market and the lab are about 6 miles away as the crow flies, or a 15 mile / half hour drive.",
+          "context": "Peter Miller's epidemiological argument on geographic distance",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C029",
+      "text": "A map of positive COVID samples at the wet market shows cases clustered in the southwest corner, where most wildlife was being sold.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "A map of cases at the wet market itself shows a clear pattern in favor of the very southwest corner... The southwest corner is where most of the wildlife was being sold.",
+          "context": "Peter Miller's epidemiological argument about the wet market",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C030",
+      "text": "There was reportedly a stall with raccoon-dogs in the southwest corner of the wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Rumor said that included a stall with raccoon-dogs",
+          "context": "Peter Miller's argument about the raccoon-dog stall",
+          "framing": "Qualified as 'rumor'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C031",
+      "text": "Raccoon-dogs are generally associated with many coronaviruses and are a plausible intermediate host between humans and bats.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "an animal which is generally teeming with weird coronaviruses, and is a plausible intermediate host between humans and bats",
+          "context": "Peter Miller's argument about raccoon-dogs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C032",
+      "text": "China said the rumor about a raccoon-dog stall at the market was false and refused to release any information.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "China said this rumor was false and refused to release any information.",
+          "context": "Peter Miller's argument about Chinese information suppression",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C033",
+      "text": "The existence of the raccoon-dog shop was confirmed when a virologist who had visited Wuhan in 2014 had taken a photograph of the shop as an example of the kind of place a future pandemic might start.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "a virologist had visited Wuhan in 2014, saw the awful conditions in the shop, and took a picture as an example of the kind of place that a future pandemic might start.",
+          "context": "Peter Miller's argument confirming raccoon-dog stall existence",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C034",
+      "text": "The author vouches only for the scientist's word that the photograph was taken for the stated reason.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "To be fair, we have only the scientist's word that this is why he had the picture. But he definitely did have it.",
+          "context": "Author's caveat about the photograph evidence",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C035",
+      "text": "It would be a more surprising coincidence if a lab-leak pandemic first got detected at a raccoon-dog stall in a wet market than if a zoonotic pandemic started in a city with a coronavirus research lab.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it would be an even more surprising coincidence if a lab-leak coronavirus pandemic just so happened to first get detected at a raccoon-dog stall in a wet market!",
+          "context": "Peter Miller's argument reframing the coincidence argument",
+          "framing": "Framed as rhetorical inversion of the lab-leak coincidence argument"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C036",
+      "text": "It is not clear that the first COVID case was at the wet market; a Mr. Chen with no connection to the market appeared to have fallen sick on December 8.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It's not clear that the first case was at the wet market; a certain Mr. Chen, with no connection to the market, seems to have fallen sick on December 8.",
+          "context": "Saar's counter-argument on the first COVID case",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C037",
+      "text": "An SCMP article suggested there were 92 previously-undetected cases suspicious for COVID as far back as November.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "An SCMP article suggested there were 92 previously-undetected cases suspicious for COVID as far back as November.",
+          "context": "Saar's argument for pre-market COVID circulation",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C038",
+      "text": "Half of the first forty universally-agreed-upon COVID cases had no market connection.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "even if half of the first forty universally-agreed-upon cases had market connections that means another half didn't.",
+          "context": "Saar's counter-argument on early case distribution",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C039",
+      "text": "There was a bias toward detecting COVID cases at the market because authorities thought the market was the origin and were thinking about zoonosis after SARS1.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "There was a bias towards detecting cases at the market: because authorities thought the market was the origin, and because everyone was thinking about zoonosis after SARS1, they only screened/diagnosed people with a market connection.",
+          "context": "Saar's argument for detection bias",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C040",
+      "text": "One of the few non-market-connected COVID cases detected during the initial period was only detected because a hospital worker noticed the symptoms and insisted on hospitalization despite the lack of a wet market connection.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "One of the few non-market-connected COVID cases detected during this period was only detected because he was the relative of a hospital worker; the worker noticed the signs and insisted they go to the hospital despite the lack of a wet market connection.",
+          "context": "Saar's argument illustrating detection bias",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C041",
+      "text": "The pattern of COVID cases at the wet market centered near the raccoon-dog stall could be because that area was sampled more.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "that could be because that area was sampled more",
+          "context": "Saar's alternative explanation for the spatial distribution of cases at the market",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C042",
+      "text": "The southwest corner of the wet market is close to a mahjong room where visitors and vendors would gather in a tight, poorly ventilated area.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it's also close to the mahjong room, where visitors and vendors at the market would go and unwind in a tight, poorly ventilated area.",
+          "context": "Saar's alternative explanation for spatial clustering of cases",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C043",
+      "text": "The WIV was doing lots of gain of function research.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the short version is that they were doing lots of gain of function research.",
+          "context": "Saar's argument introducing the WIV lab leak scenario",
+          "framing": "Asserted without citation as 'short version'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C044",
+      "text": "A scenario compatible with the evidence is that a WIV worker infected with a modified coronavirus passed it to contacts, and COVID spread quietly for weeks to months before the first market-related case was detected.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "one story compatible with the evidence is that a worker at WIV got infected with their modified coronavirus and passed it to his contacts. COVID started spreading quietly a few weeks to months before the first market-related case was detected.",
+          "context": "Saar's lab leak narrative",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C045",
+      "text": "According to Saar's narrative, an infected person went to the market, causing a super-spreader event, and the few anomalous non-market cases were forgotten or assumed to have market connections.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Then an infected person went to the market, causing a super-spreader event... the few anomalies - like the hospital worker's relative - were forgotten, or assumed to have wet market connections that nobody could find.",
+          "context": "Saar's lab leak scenario",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C046",
+      "text": "According to Saar, China suppressed all evidence of the WIV research, as was done in previous lab leak cases such as the USSR.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "China quashed all evidence of the research (as was done in previous lab leak cases, eg the USSR)",
+          "context": "Saar's lab leak narrative",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C047",
+      "text": "The WHO investigation of the 92 unusual pre-market pneumonias found, after testing samples, that none of those people actually had COVID.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the WHO did an investigation of whether there might have been COVID cases circulating before the wet market, and identified 92 unusual pneumonias that merited further review. But their final investigation, which included testing samples from the people after good tests became available, found that none of these people really had COVID.",
+          "context": "Peter Miller's rebuttal on the 92 pre-market cases",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C048",
+      "text": "Mr. Chen said in an interview that he was hospitalized for dental issues on December 8, caught COVID in the hospital on December 16, and was erroneously reported as hospitalized for COVID on December 8.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he said in an interview that he was hospitalized for dental issues on December 8, caught COVID in the hospital on December 16, and then was erroneously reported as \"hospitalized for COVID on December 8\".",
+          "context": "Peter Miller's rebuttal on the Mr. Chen case",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C049",
+      "text": "Mr. Chen's COVID infection date of December 16 is after the first wet market cases.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The December 16 date is after the first wet market cases.",
+          "context": "Peter Miller's rebuttal on Mr. Chen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C050",
+      "text": "COVID doubles in cases every 3.5 days.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The COVID pandemic doubles every 3.5 days.",
+          "context": "Peter Miller's epidemiological impossibility argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C051",
+      "text": "If the first COVID infection had occurred on November 11, one would expect 256 times as many cases as actually observed, making pre-December spread epidemiologically implausible.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "if the first infection was much earlier - let's say November 11 - we would expect 256x as much COVID as we actually saw.",
+          "context": "Peter Miller's epidemiological impossibility argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C052",
+      "text": "The numbers of hospitalizations and deaths in January were consistent with the pandemic having started in early December, not with 256 times that many people.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the number of hospitalizations, deaths, etc, in January or whenever were all consistent with the number of people you'd expect if the pandemic started in early December - and not consistent with 256x that many people.",
+          "context": "Peter Miller's epidemiological argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C053",
+      "text": "The first reported COVID case—a wet market vendor on December 11—was very early in the pandemic, though probably not literally the first case.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "probably we should just accept that the first reported case - a wet market vendor, December 11 - was very early in the pandemic. She wasn't literally the first case",
+          "context": "Peter Miller's conclusion on the first case",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C054",
+      "text": "The most likely actual first COVID case was someone who worked at the raccoon-dog shop, whose case may have been mild enough not to come to medical attention.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The most likely have been someone who worked at the raccoon-dog shop, whose case might (like 95% of COVID cases) have been mild enough not to come to medical attention",
+          "context": "Peter Miller's inference about the true index case",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "95%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C055",
+      "text": "Approximately 95% of COVID cases are mild enough not to come to medical attention.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "like 95% of COVID cases",
+          "context": "Peter Miller's parenthetical statistic on COVID case severity",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "95%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C056",
+      "text": "Contrarian bloggers were profiting from promoting the lab leak hypothesis on Substack while there was no corresponding financial incentive to defend zoonosis.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "contrarian bloggers were raking in Substack cash by promoting lab leak, but there seemed to be no incentive to defend zoonosis.",
+          "context": "Peter Miller's motivation for entering the debate, as characterized by Scott Alexander",
+          "framing": "Framed as an asymmetric incentive problem favoring lab leak promotion"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C057",
+      "text": "Authorities decided COVID spread through a wet market and started deliberately looking for wet market connections on December 30.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Although authorities eventually decided COVID spread through a wet market and started deliberately looking for wet market connections, this only happened on December 30.",
+          "context": "Scott Alexander summarizing argument about early case bias",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C058",
+      "text": "The earliest cases, including the 40 very earliest cases, were not biased toward wet market connections through the route of deliberate authority searching.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "So the earliest cases - including the 40 very earliest cases where half came from the wet market - weren't biased (at least not through that particular route)",
+          "context": "Scott Alexander summarizing argument about early case bias",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C059",
+      "text": "The first COVID case and half of the first 40 cases had wet market connections.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the claim that 'the first case, and half of the first 40 cases, had wet market connections' stands as real and convincing evidence.",
+          "context": "Scott Alexander characterizing the wet market connection claim",
+          "framing": "framed as 'real and convincing evidence'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C060",
+      "text": "The exact center of the map of positive COVID samples in the wet market was the mahjong room.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the exact center of the map of positive COVID samples in the wet market was the mahjong room",
+          "context": "Discussion of spatial distribution of COVID samples in wet market",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C061",
+      "text": "Samples taken from the mahjong room were not themselves positive for COVID.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the samples taken from the mahjong room were not, themselves, positive",
+          "context": "Discussion of spatial distribution of COVID samples in wet market",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C062",
+      "text": "There was no super-spreader event at the wet market; instead COVID spread there at a slow burn rate.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "There was no real 'super-spreader event' at the wet market. There was a slow burn one case the first day, a few more the next day, a few more the day after that.",
+          "context": "Scott Alexander summarizing Peter's argument about wet market spread dynamics",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C063",
+      "text": "A single visit from an infected lab worker could not explain the slow-burn spread pattern at the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It's hard to see how a single visit from an infected lab worker could do that.",
+          "context": "Scott Alexander evaluating lab leak scenario against wet market spread pattern",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C064",
+      "text": "For a lab leak to explain the wet market cluster, the lab would have had to leak in late November, infect exactly one lab worker, that worker would have had to go straight to the wet market, infect a vendor, then go home, quarantine, and recover, with all other cases downstream of that first infected vendor.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "So the only way it could possibly be a lab leak is if the lab leaked sometime in late November, infected exactly one lab worker, that worker went straight to the wet market, infected a vendor, then went home, quarantined, recovered, and all other cases were downstream of that first infected wet market vendor.",
+          "context": "Scott Alexander evaluating the lab leak scenario",
+          "framing": "framed as 'unparsimonious'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C065",
+      "text": "The lab leak scenario requiring the first infected worker to go straight to the wet market is unparsimonious.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This is unparsimonious.",
+          "context": "Scott Alexander evaluating the lab leak scenario",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C066",
+      "text": "The only source saying that Mr. Chen got sick early was an anonymous interview.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The only source saying that Mr. Chen got sick early was an anonymous interview.",
+          "context": "Saar's argument about Mr. Chen and early cases",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C067",
+      "text": "Mr. Chen had no wet market connections even if he was later than the first wet market cases.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "even if he was later than the first wet market cases, nobody was able to find any wet market connections.",
+          "context": "Saar's argument about Mr. Chen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C068",
+      "text": "Whoever infected Mr. Chen was earlier than the index case and not linked to the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This means that whoever infected him was earlier than the index case and not linked to the wet market.",
+          "context": "Saar's argument about Mr. Chen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C069",
+      "text": "Peter argued that COVID could not have been more than a few weeks old when the first wet market cases were detected, based on its known doubling rate.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter argued that COVID couldn't have been more than a few weeks old when the first wet market cases were detected. But this was based on its known doubling rate.",
+          "context": "Scott Alexander summarizing and rebutting Peter's argument about COVID's age",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C070",
+      "text": "If pre-discovery COVID had a slower doubling time than known COVID, it could have been around longer than Peter claimed.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "If pre-discovery COVID had a slower doubling time than known COVID, it could have been around longer.",
+          "context": "Rebuttal of Peter's argument about COVID's age",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C071",
+      "text": "Post-lockdown serology suggested case numbers larger than claimed at the time.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "post-lockdown serology suggested numbers that were larger than claimed at the time.",
+          "context": "Rebuttal of Peter's argument about COVID's age",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C072",
+      "text": "The infection could have been going on longer than Peter claimed, which would not require the first lab worker to go straight to the market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "So contra Peter's claims, the infection could have been going on longer, which wouldn't require the first lab worker to go straight to the market. It could have been weeks.",
+          "context": "Rebuttal of Peter's argument about COVID's age",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C073",
+      "text": "Dr. Jesse Bloom's investigation of the wet market samples failed to find a clear connection between COVID and raccoon-dogs or any other animals.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Dr. Jesse Bloom's investigation of the wet market samples, considered the final and most conclusive, failed to find a clear connection between COVID and raccoon-dogs or any other animals.",
+          "context": "Discussion of wet market animal-COVID connections",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C074",
+      "text": "The concentration of positive COVID samples appeared highest near the raccoon dog stall.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Although the concentration of positive samples seemed highest near the raccoon dog stall",
+          "context": "Discussion of Bloom's wet market sample analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C075",
+      "text": "In a formal statistical analysis of which animals' DNA was found near COVID samples most often, raccoon dogs ranked near the bottom.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "if you do a formal statistical analysis of which animals' DNA was found near COVID samples most often, raccoon dogs are near the bottom.",
+          "context": "Discussion of Bloom's wet market sample analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C076",
+      "text": "Wide-mouth bass ranked at the top of the statistical analysis of animals' DNA found near COVID samples.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The top is wide-mouth bass",
+          "context": "Discussion of Bloom's wet market sample analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C077",
+      "text": "Wide-mouth bass cannot get COVID.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "wide-mouth bass, which can't get COVID",
+          "context": "Discussion of Bloom's wet market sample analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C078",
+      "text": "The wide-mouth bass result is likely contamination from infected humans touching wide-mouth bass tanks.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This is obviously contamination, probably from infected humans touching wide-mouth bass tanks or something.",
+          "context": "Discussion of Bloom's wet market sample analysis",
+          "framing": "framed as 'obviously contamination'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C079",
+      "text": "The Chinese data included a negative COVID sample from a mahjong table.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the Chinese data included a negative sample from a mahjong table",
+          "context": "Discussion of mahjong room sample",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C080",
+      "text": "The Chinese data included a mention of poultry being sold nearby the mahjong table, which might mean this was not the mahjong room itself but some other mahjong table at a poultry shop elsewhere in the market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it included a mention of poultry being sold nearby, which might mean this wasn't the mahjong room itself, but some other mahjong table at a poultry shop elsewhere in market",
+          "context": "Discussion of mahjong room sample",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C081",
+      "text": "Dry mahjong tables might not hold the virus well.",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "(dry) mahjong tables might not hold the virus well anyway.",
+          "context": "Discussion of mahjong room negative sample",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C082",
+      "text": "Raccoon-dogs were sold in various cages at various stalls, separated by air gaps big enough to present a challenge for COVID transmission.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Raccoon-dogs were sold in various cages at various stalls, separated by air gaps big enough to present a challenge for COVID transmission",
+          "context": "Peter's rebuttal of raccoon dog statistical analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C083",
+      "text": "There is no reason to think one raccoon-dog would automatically pass COVID to all the others.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "there's no reason to think that one raccoon-dog would automatically pass it to all the others.",
+          "context": "Peter's rebuttal of raccoon dog statistical analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C084",
+      "text": "The statistical analysis showing raccoon dogs near the bottom proves there were many raccoon-dogs who didn't have COVID, but only one infected raccoon-dog is needed.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The statistical analysis just proves there were many raccoon-dogs who didn't have COVID. But you only need one.",
+          "context": "Peter's rebuttal of raccoon dog statistical analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C085",
+      "text": "The raccoon dog shop and the drain leading out of it had some of the highest positive COVID sample rates in the wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some of the highest positive sample rates",
+          "context": "Peter's rebuttal of raccoon dog statistical analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C086",
+      "text": "Based on its stated location, the negative mahjong sample is definitely from the mahjong room.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "based on the stated location, it's definitely the one in the mahjong room.",
+          "context": "Peter's response to the ambiguous mahjong room sample claim",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C087",
+      "text": "The first big split in coronavirus evolution is between two sub-strains called Lineage A and Lineage B, which differ by two mutations.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the first big split, seen in some of the earliest samples, is between two different sub-strains called Lineage A and Lineage B, which differ by two mutations.",
+          "context": "Yuri's presentation on viral lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C088",
+      "text": "In the two mutations that distinguish Lineages A and B, Lineage A is the same as BANAL-52, a bat virus that is the closest-known relative of COVID.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "In these two mutations, Lineage A is the same as BANAL-52, a bat virus which is the closest-known relative of COVID",
+          "context": "Yuri's presentation on viral lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C089",
+      "text": "Because COVID probably evolved from something like BANAL-52, Lineage A must have come first and then gotten two new mutations turning it into Lineage B.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Since COVID probably evolved from something like BANAL-52, Lineage A must have come first, spread for a while, and then gotten two new mutations, turning it into Lineage B.",
+          "context": "Yuri's argument about lineage order",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C090",
+      "text": "All of the cases at the wet market, including the first detected case, were Lineage B.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "All of the cases at the wet market, including the first detected case, were Lineage B.",
+          "context": "Yuri's presentation on viral lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C091",
+      "text": "Lineage A was not discovered until about a week after Lineage B was first detected.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Lineage A wasn't discovered until about a week later",
+          "context": "Yuri's presentation on viral lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C092",
+      "text": "None of the Lineage A patients had been to the wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "none of the Lineage A patients had been to the wet market.",
+          "context": "Yuri's presentation on viral lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C093",
+      "text": "The lineage data matches the lab leak story in which the virus spread undetected in the population, mutated to Lineage B, and then one person with Lineage B went to the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This matches Saar's story above. The lab leaked to somewhere else in Wuhan, not the wet market. The virus spread undetected in the population for a while. During this time, it mutated to Lineage B. Then one of the people with Lineage B went to the wet market and started a superspreader event.",
+          "context": "Scott Alexander summarizing the lab leak lineage interpretation",
+          "framing": "framed as supporting the lab leak story"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C094",
+      "text": "The market is unlikely to be the origin of the pandemic because the original Lineage A strain was not found there.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The market is unlikely to be the origin of the pandemic, because the original Lineage A strain wasn't found there.",
+          "context": "Yuri/Saar's argument about lineage and market origin",
+          "framing": "framed as supporting lab leak / against zoonosis"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C095",
+      "text": "Although Lineage A is evolutionarily older, Lineage B started spreading in humans first.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Although Lineage A is evolutionarily older, Lineage B started spreading in humans first.",
+          "context": "Peter's rebuttal on lineage order in humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C096",
+      "text": "Lineage B is more common than Lineage A, constituting a consistent two-thirds of early cases compared to one-third for Lineage A.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "a consistent 2/3 of the cases were B, compared to 1/3 A",
+          "context": "Peter's argument for Lineage B spreading first",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C097",
+      "text": "Both Lineage A and Lineage B spread at the same rate.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Both strains spread at the same rate",
+          "context": "Peter's argument for Lineage B spreading first",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C098",
+      "text": "The best explanation for Lineage B being twice as common is that it started spreading approximately 3-4 days earlier than Lineage A.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the best explanation is that B started earlier than A. Since COVID doubles every 3-4 days, probably Lineage B started 3-4 days earlier than Lineage A, which explains why it's always been twice as many cases.",
+          "context": "Peter's argument for Lineage B spreading first",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C099",
+      "text": "Lineage B has more internal genetic diversity than Lineage A.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Lineage B also has more internal genetic diversity than Lineage A.",
+          "context": "Peter's argument for Lineage B spreading first",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C100",
+      "text": "In general, older viruses have more genetic diversity according to the molecular clock.",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "In general, older viruses have more genetic diversity (the 'molecular clock').",
+          "context": "Peter's molecular clock argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C101",
+      "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first one in humans.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Pekar 2022 and Pipes 2021 do analyses with known parameters for spread rate and diversity, and find 90%+ odds that Lineage B was the first one in humans.",
+          "context": "Peter citing studies on lineage order",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "90%+",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C102",
+      "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a farm in the country, spread in raccoon-dogs accumulating mutations including Lineage A and Lineage B, and then raccoon-dogs were taken to Wuhan for sale.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Probably the virus crossed from bats into raccoon-dogs on some raccoon-dog farm out in the country. It spread in the raccoon-dogs for a while, racking up mutations, including the (less mutated) Lineage A strain and the (slightly more mutated) Lineage B strain. Then several raccoon-dogs were taken to Wuhan for sale, including one with Lineage A and another with Lineage B.",
+          "context": "Peter's proposed zoonotic origin story",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C103",
+      "text": "The raccoon-dog with Lineage B passed its virus to humans first, and about 3-4 days later the raccoon-dog with Lineage A passed its virus to humans.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The one with Lineage B passed its virus to humans earlier. Then 3-4 days later, the Lineage A one passed its virus to humans.",
+          "context": "Peter's proposed zoonotic origin story",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C104",
+      "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than 97% of Wuhan's population.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Lineage A was first found in a Wuhan neighborhood right next to the wet market (closer to the wet market than 97% of Wuhan's population).",
+          "context": "Peter's argument about geographic proximity of Lineage A to wet market",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C105",
+      "text": "It would be a bizarre coincidence if a lab leak pandemic separated into two strains and both were first detected at or near a wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it would be an even more bizarre coincidence if a lab leak pandemic separated into two strains, and both were first detected at a wet market!",
+          "context": "Peter's argument against lab leak based on lineage geography",
+          "framing": "framed as 'bizarre coincidence' against lab leak"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C106",
+      "text": "A positive Lineage A environmental sample was found at the wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "a positive Lineage A environmental sample was found at the wet market",
+          "context": "Scott Alexander reconciling lineage data with wet market origin",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C107",
+      "text": "Most COVID cases in the wet market went undetected.",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "everyone agrees most cases went undetected.",
+          "context": "Scott Alexander reconciling lineage data with wet market origin",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C108",
+      "text": "The double spillover hypothesis is the only story that explains the evolutionary precedence of Lineage A, the greater spread and older molecular clock of Lineage B, and the fact that both strains were first found very close to the wet market.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This is the only story that explains the evolutionary precedence of A, the greater spread and older molecular clock of B, and the fact that both strains were first found very close to the wet market.",
+          "context": "Scott Alexander concluding on lineage evidence",
+          "framing": "framed as unique explanation favoring zoonosis"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C109",
+      "text": "Yuri and Saar argued that Lineage B could be more common and diverse because it got the advantage of a super-spreader event in the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Lineage B could be more common and diverse because it got the advantage of a super-spreader event in the wet market.",
+          "context": "Yuri/Saar's rebuttal of Peter's lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C110",
+      "text": "There are scattered cases of intermediates between Lineage A and Lineage B, and cases of lineages that seem even more ancestral than either.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "There are a few scattered cases of intermediates between A and B, and a few other scattered cases of lineages that seem even more ancestral (ie closer to the bat virus) than either.",
+          "context": "Yuri/Saar's argument about intermediate lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C111",
+      "text": "Intermediate and ancestral lineage cases do not make sense under a double spillover hypothesis.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This doesn't make sense in a double spillover hypothesis.",
+          "context": "Yuri/Saar's argument about intermediate lineages",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C112",
+      "text": "Intermediate and ancestral lineage cases would make sense if the lineages separated in human transmission somewhere between the lab and the first super-spreader event at the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "But it does make sense if the lineages separated in human transmission somewhere between the lab and the first super-spreader event at the wet market.",
+          "context": "Yuri/Saar's argument about intermediate lineages",
+          "framing": "framed as supporting lab leak"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C113",
+      "text": "Peter argued that COVID spread in the wet market at exactly its normal spread rate, doubling about once every 3.5 days.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID spread in the wet market at exactly its normal spread rate, doubling about once every 3.5 days.",
+          "context": "Peter's rebuttal of the 'super-spreader event' characterization",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C114",
+      "text": "The scattered cases of 'intermediate' lineages were sequencing errors produced by computer software that autofills unsequenced bases.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The scattered cases of 'intermediates' are sequencing errors. They were all found by the same computer software, which 'autofills' unsequenced bases in a genome to the most plausible guess.",
+          "context": "Peter's rebuttal of intermediate lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C115",
+      "text": "Because Lineage B was already in the autofill software, partial sequences of a Lineage A virus could be autofilled as Lineage B, producing apparent 'intermediates'.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Because Lineage B was already in the software, depending on which part of a Lineage A virus you sequenced, you might get one half or the other autofilled as Lineage B, which looked like an 'intermediate'.",
+          "context": "Peter's rebuttal of intermediate lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C116",
+      "text": "The supposed intermediate sequences were all partial cases sequenced by the particular autofill software.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the supposed 'intermediates' were partial cases sequenced by this particular software.",
+          "context": "Peter's rebuttal of intermediate lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C117",
+      "text": "There were too many intermediates to be real, because both (T/T) and (C/C) intermediates were found, but only one real intermediate can exist.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "where Lineage A is (T/C) and Lineage B is (C/T), the software found both (T/T) 'intermediates' and (C/C) 'intermediates'. But obviously there can only be one real intermediate form, and we have to dismiss one or the other.",
+          "context": "Peter's argument that intermediates are software artifacts",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C118",
+      "text": "The scattered 'progenitor' cases closer to the ancestral bat virus than either Lineage A or B are reversions, where a new mutation happened to shift an already-mutated base back toward the ancestral virus.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The scattered 'progenitor' cases - those closer to the ancestral bat virus than either A or B - are reversions, ie cases where a new mutation in the virus happened to hit an already-mutated base and shift it back towards the ancestral virus.",
+          "context": "Peter's rebuttal of progenitor lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C119",
+      "text": "All of the progenitor cases were scattered cases found months after the pandemic started, often in entirely different countries from Wuhan.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "all of these 'progenitors' were scattered cases found months after the pandemic started, often in entirely different countries from Wuhan.",
+          "context": "Peter's rebuttal of progenitor lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C120",
+      "text": "If progenitor viruses were real, they would have either fizzled out or exploded into a substantial portion of all cases, not be found one time in one person in one country.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "If these were real progenitor viruses, they would have either fizzled out or exploded into a substantial portion of all cases, not be found one time in one guy in Malaysia.",
+          "context": "Peter's rebuttal of progenitor lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C121",
+      "text": "The number of apparent progenitor viruses found matches the number expected by chance given the volume of mutations the virus developed.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "we find the number of 'progenitors' found very nicely matches the number of progenitor-appearing viruses we would expect by chance.",
+          "context": "Peter's rebuttal of progenitor lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C122",
+      "text": "In many cases the apparent progenitor viruses are newer than the original lineages, because they also have some of the later mutations that Lineage A or B picked up alongside their apparent ancestral-bat-virus-like mutations.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "in many cases, we know the 'progenitors' are newer than the original lineages, because they also have some of the later mutations that Lineage A or B picked up along the way, alongside their apparent ancestral-bat-virus-like mutations.",
+          "context": "Peter's rebuttal of progenitor lineage argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C123",
+      "text": "Two years before COVID, scientists at the Wuhan Institute of Virology together with colleagues at the University of North Carolina sent in a grant proposal for the DEFUSE program.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Two years before COVID, scientists at the Wuhan Institute of Virology, together with colleagues at the University of North Carolina, sent in a grant proposal for the DEFUSE program.",
+          "context": "Yuri's presentation on the DEFUSE grant proposal",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C124",
+      "text": "The DEFUSE program involved going into bat caves, collecting new coronaviruses, and adding a furin cleavage site to make them more infectious.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This program, intended to locate and better understand potential future pandemic viruses, involved going into bat caves and collecting new coronaviruses. Once they had them, they would do gain-of-function: specifically, they would add a furin cleavage site to make them more infectious and see what happened",
+          "context": "Yuri's presentation on the DEFUSE grant proposal",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C125",
+      "text": "COVID's spike protein has two sections: one binds to human cells through the ACE2 receptor, and the other helps fuse with the cell after binding.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID's spike protein has two sections: one binds to human cells through the ACE2 receptor, the other helps fuse with the cell after binding.",
+          "context": "Interlude explaining COVID spike protein biology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C126",
+      "text": "To avoid the immune system, the two sections of COVID's spike protein are hidden together into one spike, which must be separated when it reaches a cell.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "In order to avoid the immune system, it hides both of these into one spike. But when it reaches a cell, it needs to separate them again.",
+          "context": "Interlude explaining COVID spike protein biology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C127",
+      "text": "COVID takes advantage of the human respiratory enzyme furin to separate the two spike sections, which also ensures it only infects its primary target, human respiratory cells.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It takes advantage of a human respiratory enzyme, furin, to do the separation - this also ensures that it only infects its primary target, human respiratory",
+          "context": "Interlude explaining COVID spike protein biology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C128",
+      "text": "COVID's bat-virus ancestors were gastrointestinal viruses",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID's bat-virus ancestors were gastrointestinal viruses",
+          "context": "Yuri's argument explaining the significance of the furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C129",
+      "text": "The addition of a furin cleavage site transformed COVID's ancestors from gastrointestinal viruses into respiratory viruses",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the addition of a furin cleavage site was what made them respiratory viruses",
+          "context": "Yuri's argument explaining the significance of the furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C130",
+      "text": "Two close relatives of COVID have been found: bat viruses called RATG-13 and BANAL-52",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "We've found two close relatives of COVID: bat viruses called RATG-13 and BANAL-52",
+          "context": "Yuri's argument about COVID's evolutionary origins",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C131",
+      "text": "COVID looks more or less like BANAL-52 plus a furin cleavage site",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID looks more or less like BANAL-52 plus a furin cleavage site",
+          "context": "Yuri's argument about COVID's genomic similarity to BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C132",
+      "text": "There are 1500 sarbecoviruses in the family of viruses that includes SARS and COVID",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "There are 1500 sarbecoviruses, members of the family of viruses that includes SARS and SARS2/COVID",
+          "context": "Yuri's argument about the uniqueness of COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C133",
+      "text": "None of the 1500 sarbecoviruses except COVID have furin cleavage sites",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "None of them except COVID have furin cleavage sites",
+          "context": "Yuri's argument about the uniqueness of COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C134",
+      "text": "BANAL-52, COVID's closest ancestor, does not have anything resembling a furin cleavage site that could mutate into a functional one like COVID's",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "BANAL-52, COVID's closest ancestor, doesn't even have anything resembling one that could mutate into a functional furin cleavage site like COVID's",
+          "context": "Yuri's argument about the anomalous nature of COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C135",
+      "text": "COVID has twelve completely new nucleotides in a row forming a fully-formed furin cleavage site, in contrast to just a few scattered single point mutations differentiating it from BANAL-52",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID - which mostly just resembles BANAL-52 with a few scattered single point mutations - has twelve completely new nucleotides in a row - a fully formed furin cleavage site that came out of nowhere",
+          "context": "Yuri's argument about the anomalous nature of COVID's furin cleavage site",
+          "framing": "framed as suspicious and anomalous ('came out of nowhere')"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C136",
+      "text": "The furin cleavage site is the only place where COVID differs from BANAL-52 in a profound way",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "There is nowhere else in the genome that COVID differs from BANAL-52 in such a profound way",
+          "context": "Yuri's argument about the anomalous nature of COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C137",
+      "text": "COVID's furin cleavage site uses the codon CGG to code for arginine both times arginine appears in it",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "instead of the nucleotides coding for arginine in the usual viral way, both times it uses the codons CGG",
+          "context": "Yuri's argument about the unusual coding of COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C138",
+      "text": "CGG is the way higher animals code for arginine, not the usual way viruses code for it",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the codons CGG - the way that higher animals code for arginine. This works fine - it's just not how viruses do it",
+          "context": "Yuri's argument about the unusual coding of COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C139",
+      "text": "The Wuhan Institute of Virology stated in 2018 that it planned to find viruses and add furin cleavage sites to them",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "WIV, which said in 2018 that it was going to find viruses and add furin cleavage sites to them",
+          "context": "Yuri's argument linking WIV's stated research plans to COVID's origin",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C140",
+      "text": "WIV found a close relative of BANAL-52 and added a furin cleavage site to it",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the obvious conclusion is that WIV, which said in 2018 that it was going to find viruses and add furin cleavage sites to them, found a close relative of BANAL-52 and added a furin cleavage site",
+          "context": "Yuri's lab leak conclusion",
+          "framing": "framed as 'the obvious conclusion'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C141",
+      "text": "WIV engineers used CGG to code for arginine because they were more familiar with the human method of encoding arginine",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Since they were humans, and most familiar with the human way of encoding arginine, they added it as CGG both times",
+          "context": "Yuri's explanation for the CGG codon usage in COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C142",
+      "text": "COVID was best at infecting human cells out of fifty animals it was tested in, including the usual coronavirus intermediate hosts",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Of fifty animals it was tested in, including the usual coronavirus intermediate hosts (pangolins, raccoon-dogs, etc), it was best at infecting human cells",
+          "context": "Yuri's argument that COVID was suspiciously optimized for humans",
+          "framing": "framed as 'surprisingly optimized for infecting humans'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C143",
+      "text": "A virus entering a new species will usually show a burst of mutations as it adapts to that species",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "a virus that enters a new species will usually show a burst of mutations as it 'figures out' the best way to adapt to that species' unique biology",
+          "context": "Yuri's argument about COVID's unusually constant mutation rate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C144",
+      "text": "COVID has had a pretty constant mutation rate in humans from the beginning of the pandemic to the end",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID has had a pretty constant mutation rate in humans from the beginning of the pandemic to the end",
+          "context": "Yuri's argument that COVID was already adapted to humans before the pandemic",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C145",
+      "text": "COVID's constant mutation rate suggests it was already adapted to humans before the pandemic",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "That suggests it was already adapted to humans",
+          "context": "Yuri's argument about COVID's pre-pandemic adaptation to humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C146",
+      "text": "COVID's pre-adaptation to humans could be explained by the lab screening for viruses with existing adaptations",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This could be because the lab screened for viruses with existing adaptations",
+          "context": "Yuri's explanation for COVID's apparent pre-adaptation to humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C147",
+      "text": "COVID's pre-adaptation to humans could be explained by the virus being passed through humanized mice in the lab",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "because they passed it through humanized mice in the lab",
+          "context": "Yuri's explanation for COVID's apparent pre-adaptation to humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C148",
+      "text": "COVID's pre-adaptation to humans could be explained by adaptation occurring during hundreds of undetected cases between the lab leak and detection at the wet market",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "because it adapted in the hundreds of undetected cases that happened between the lab and detection in the wet market",
+          "context": "Yuri's explanation for COVID's apparent pre-adaptation to humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C149",
+      "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BSL-4 facilities",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Usually, research with potentially dangerous coronaviruses is done in BSL-3 or 4, ie high to very-high security",
+          "context": "Yuri's argument about WIV's irresponsible biosafety practices",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C150",
+      "text": "WIV was doing research on potentially dangerous coronaviruses in BSL-2, medium security conditions",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "WIV was irresponsibly doing it in BSL-2, ie medium security",
+          "context": "Yuri's argument about WIV's irresponsible biosafety practices",
+          "framing": "framed as 'irresponsibly'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C151",
+      "text": "WIV researchers were not required to wear masks",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The researchers weren't even required to wear masks",
+          "context": "Yuri's argument about WIV's lax biosafety protocols",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C152",
+      "text": "About one-fifth of labs will leak any given pathogen they are working on",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "about 1/5 labs will leak any given pathogen they're working on",
+          "context": "Yuri's argument about the probability of a lab leak at WIV",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/5",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C153",
+      "text": "The DEFUSE grant proposal was rejected",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the particular DEFUSE grant proposal we know about got rejected",
+          "context": "Yuri's acknowledgment of the DEFUSE grant status before arguing WIV could have found alternative funding",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C154",
+      "text": "The DEFUSE grant proposal proves that WIV wanted to do gain-of-function research",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it proves that Wuhan wanted to do this",
+          "context": "Yuri's argument that WIV had the intent to do gain-of-function research regardless of the grant's rejection",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C155",
+      "text": "WIV could have funded gain-of-function research from another source or from its regular budget after the DEFUSE grant was rejected",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "they could easily have gotten funding somewhere else, or done it out of their regular budget",
+          "context": "Yuri's argument that rejection of DEFUSE does not preclude WIV from doing gain-of-function research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C156",
+      "text": "According to Peter, the DEFUSE grant specified that the University of North Carolina would conduct all gain-of-function research while WIV would be responsible for finding viruses",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the grant said that the Wuhan Institute of Virology was responsible for finding the viruses, and the University of North Carolina would do all the gain-of-function research",
+          "context": "Peter's rebuttal arguing WIV lacked the capability and mandate to do gain-of-function research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C157",
+      "text": "The University of North Carolina was actually good at gain-of-function research while WIV mostly was not",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "UNC was actually good at gain-of-function research and WIV mostly wasn't",
+          "context": "Peter's rebuttal about the division of labor in the DEFUSE grant",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C158",
+      "text": "WIV had done only a few very simple gain-of-function projects before and was not set up for the DEFUSE proposal",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "They had done a few very simple gain-of-function projects before, but weren't really set up for this particular proposal",
+          "context": "Peter's rebuttal arguing WIV lacked capability for gain-of-function research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C159",
+      "text": "WIV did not have BANAL-52",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "WIV didn't have BANAL-52",
+          "context": "Peter's rebuttal arguing WIV could not have created COVID",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C160",
+      "text": "BANAL-52 was not discovered until after the COVID pandemic started",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It wasn't discovered until after the COVID pandemic started, when scientists scoured the area for potential COVID relatives",
+          "context": "Peter's rebuttal about WIV not having access to BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C161",
+      "text": "COVID cannot be created from RATG-13 because they are too different",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "You can't create COVID from RATG-13; they're too different",
+          "context": "Peter's rebuttal arguing WIV lacked the necessary virus to create COVID",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C162",
+      "text": "Creating COVID would require BANAL-52 or some as-yet-undiscovered extremely close relative",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "You would need BANAL-52, or some as-yet-undiscovered extremely close relative",
+          "context": "Peter's rebuttal about what would be needed to create COVID",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C163",
+      "text": "WIV published lists of coronaviruses they had found pretty regularly, with their last list published in mid-2019",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "WIV's whole job was looking for new coronaviruses. They published lists of which ones they had found pretty regularly. They published their last list in mid-2019, just a few months before the pandemic",
+          "context": "Peter's argument that WIV's published records confirm they did not have BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C164",
+      "text": "Claims that WIV's published virus lists showed weird discrepancies were due to an inability to keep names consistent, not to hidden viruses",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Although lab leak proponents claimed these lists showed weird discrepancies, this was just the inability to keep names consistent, and all the lists showed basically the same viruses",
+          "context": "Peter's rebuttal to lab leak arguments about WIV's database",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C165",
+      "text": "WIV's published virus lists did not include BANAL-52 or any other suitable COVID relative, only RATG-13",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The lists didn't include BANAL-52 or any other suitable COVID relatives - only RATG-13, which isn't close enough to work",
+          "context": "Peter's argument that WIV's records confirm they lacked the necessary virus to create COVID",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C166",
+      "text": "Pre-pandemic, there was nothing about BANAL-52 that would have marked it as a potential pandemic candidate",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Pre-pandemic, there was nothing interesting about it; our understanding of virology wasn't good enough to point this out as a potential pandemic candidate",
+          "context": "Peter's argument that WIV had no reason to hide the discovery of BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C167",
+      "text": "Before the pandemic, gain-of-function research was not considered as unpopular as it is now, so WIV had no reason to hide such research",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "WIV did its gain-of-function research openly and proudly (before the pandemic, gain-of-function wasn't as unpopular as it is now) so it's not like they wanted to keep it secret",
+          "context": "Peter's argument that WIV had no motivation to conceal their virus database",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C168",
+      "text": "Labs typically add furin cleavage sites by mutating existing sequences rather than through nucleotide insertions",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Labs don't usually add furin cleavage sites through nucleotide insertions (they usually mutate what's already there)",
+          "context": "Peter's argument that COVID's furin cleavage site looks natural rather than engineered",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C169",
+      "text": "Viruses get insertions of 12 or more nucleotides in nature",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "viruses get weird insertions of 12+ nucleotides in nature",
+          "context": "Peter's argument that COVID's 12-nucleotide insertion could be natural",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C170",
+      "text": "HKU1, another emergent Chinese coronavirus that caused a small outbreak of pneumonia in 2004, had a 15-nucleotide insertion right next to its furin cleavage site",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "HKU1 is another emergent Chinese coronavirus that caused a small outbreak of pneumonia in 2004. It had a 15 nucleotide insertion right next to its furin cleavage site",
+          "context": "Peter's argument that natural nucleotide insertions occur in coronaviruses",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C171",
+      "text": "Later strains of COVID got further 12 to 15 nucleotide insertions",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Later strains of COVID got further 12 - 15 nucleotide insertions",
+          "context": "Peter's argument that natural nucleotide insertions occur in coronaviruses",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C172",
+      "text": "Many flu strains have 12 to 15 nucleotide insertions compared to earlier flu strains",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Plenty of flus have 12 to 15 nucleotide insertions compared to other earlier flu strains",
+          "context": "Peter's argument that natural nucleotide insertions are common",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C173",
+      "text": "Sometimes nucleotide insertions occur because a virus confuses its own RNA with its host's RNA and splices a bit of the host's RNA into itself",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Other times the virus gets confused between its own RNA and its host's, and splices a bit of the host's RNA into the virus",
+          "context": "Peter's explanation for how unusual host-like codons could appear naturally in a virus",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C174",
+      "text": "RNA splicing from host to virus would explain why COVID's furin cleavage site uses the unusual CGG codon for arginine, which is common in animals but rare in viruses",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This would neatly explain why the insertion used the unusual coding CGG for arginine, which is common in animals but rare in viruses",
+          "context": "Peter's natural explanation for the CGG codon usage in COVID's furin cleavage site",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C175",
+      "text": "CGG is not that rare in viruses — COVID uses CGG for arginine about 3% of the time",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it's not that rare in viruses - COVID uses CGG for arginine about 3% of the time",
+          "context": "Peter's rebuttal to the claim that CGG usage in COVID's furin cleavage site is diagnostic of human engineering",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "3%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C176",
+      "text": "In one example Peter found of humans adding arginine to a virus, none of the five arginines added used the CGG codon",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter was able to find one example of humans adding arginine to a virus, and 0 out of the 5 arginines added were CGG",
+          "context": "Peter's argument that human engineers do not preferentially use CGG for arginine",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C177",
+      "text": "When humans insert furin cleavage sites into viruses for gain-of-function research, the standard practice is to use RRKR",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "when humans are inserting furin cleavage sites into viruses for gain-of-function, the standard practice is RRKR, a very nice and simple furin cleavage site which works well",
+          "context": "Peter's argument that COVID's furin cleavage site does not match what human engineers would have created",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C178",
+      "text": "COVID's furin cleavage site uses PRRAR, which no human has ever used before in gain-of-function research",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID uses PRRAR, a bizarre furin cleavage site which no human has ever used before",
+          "context": "Peter's argument that COVID's furin cleavage site does not match what human engineers would have created",
+          "framing": "framed as 'bizarre'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C179",
+      "text": "Virologists expected COVID's PRRAR furin cleavage site to work poorly",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "virologists expected to work poorly",
+          "context": "Peter's argument that the PRRAR site would not have been chosen by a human engineer",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C180",
+      "text": "An adjacent part of COVID's genome twists the protein in an unusual way that allows PRRAR to be a viable furin cleavage site",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "an adjacent part of COVID's genome twisted the protein in an unusual way that allowed PRRAR to be a viable furin cleavage site",
+          "context": "Peter's explanation for why PRRAR works despite being unusual",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C181",
+      "text": "The discovery that PRRAR is viable as a furin cleavage site required a lot of computer power and was only made after COVID became important",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "this discovery took a lot of computer power, and was only made after COVID became important",
+          "context": "Peter's argument that Wuhan virologists could not have known PRRAR would work",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C182",
+      "text": "During the course of the pandemic, COVID mutated away from its PRRAR furin cleavage site towards a more normal form",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "sometime during the course of the pandemic, it mutated away from its weird PRRAR furin cleavage site towards a more normal form",
+          "context": "Peter's argument that even the virus 'decided' RRKR works better, consistent with PRRAR being a non-engineered accident",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C183",
+      "text": "COVID's furin cleavage site was inserted via what appears to be a frameshift mutation rather than a clean insertion",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID's furin cleavage site was inserted via what seems to be a frameshift mutation - it wasn't a clean insertion of the amino acids that formed the site, it was an insertion of a sequence which changed the context of the surrounding nucleotides into the amino acids that formed the site",
+          "context": "Peter's argument that the method of insertion is inconsistent with human engineering",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C184",
+      "text": "There would be no reason for a human engineer to insert the furin cleavage site via a frameshift mutation",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This is a pointless too-clever-by-half 'flourish' that there would be no reason for a human engineer to do",
+          "context": "Peter's argument that the frameshift insertion is inconsistent with human engineering",
+          "framing": "framed as 'a pointless too-clever-by-half flourish'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C185",
+      "text": "A frameshift insertion is exactly the kind of thing that happens by random chance in evolution",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it's exactly the kind of weird thing that happens in the random chance of evolution",
+          "context": "Peter's argument that the frameshift insertion supports natural origin",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C186",
+      "text": "If COVID is cultured in most standard media or animals, it will quickly develop characteristic mutations",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "If you culture it in most standard media or animals, it will quickly develop characteristic mutations",
+          "context": "Peter's argument about COVID's culturing requirements",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C187",
+      "text": "The original Wuhan strains of COVID did not have the characteristic mutations that develop when COVID is cultured in standard media or animals",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the original Wuhan strains didn't have these mutations",
+          "context": "Peter's argument about the implications of COVID's culturing requirements",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C188",
+      "text": "COVID can be cultured without developing characteristic mutations only in human airway cells or in live raccoon-dogs",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The only ways to culture it without mutations are in human airway cells, or (apparently) in live raccoon-dogs",
+          "context": "Peter's argument about the narrow conditions under which COVID can be cultured cleanly",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C189",
+      "text": "Culturing COVID in human airway cells requires a donor, and WIV had never done this before",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Getting human airway cells requires a donor (ie someone who donates their body to science), and Wuhan had never done this before",
+          "context": "Peter's argument that WIV lacked the capability to culture COVID without mutations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C190",
+      "text": "Culturing COVID in human airway cells was a technology only used at the University of North Carolina site, not at WIV",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it was one of the technologies only used at the superior North Carolina site",
+          "context": "Peter's argument that WIV lacked the capability to culture COVID in human airway cells",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C191",
+      "text": "The paper claiming COVID is uniquely adapted to humans defined adaptation by the animals' difference from humans on relevant cell receptors, making humans come out number one by default",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The paper that claimed that defined how well COVID was adapted to different animals by those animals' difference (on the relevant cell receptors) from humans. So in its methodology, humans came out #1 by default",
+          "context": "Peter's methodological critique of the claim that COVID is uniquely optimized for humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C192",
+      "text": "If the adaptation metric is not defined relative to humans, COVID is better adapted to many other animals than to humans",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "If you don't do that, COVID is better-adapted to most other animals",
+          "context": "Peter's rebuttal to the claim that COVID is uniquely adapted to humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C193",
+      "text": "It is not necessarily true that viruses see a burst of mutations when they enter a new host species",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It's not necessarily true that viruses see a burst of mutations when they enter a new host",
+          "context": "Peter's rebuttal to Yuri's argument about COVID's constant mutation rate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C194",
+      "text": "COVID spread to deer and mink without producing a burst of mutations in either case",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID spread to deer and mink, and in neither case was there a burst of mutations",
+          "context": "Peter's evidence that viruses don't necessarily show a burst of mutations when entering a new species",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C195",
+      "text": "COVID has a simple job of infecting respiratory cells and is already very good at it regardless of species",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID has a pretty simple job of infecting respiratory cells and is already very good at it, regardless of species",
+          "context": "Peter's explanation for COVID's constant mutation rate that does not require pre-adaptation to humans",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C196",
+      "text": "WIV did most of its virus-gathering in a trip to a Yunnan cave between 2010 and 2015",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "WIV did most of its virus-gathering in a trip to a Yunnan cave between 2010 and 2015",
+          "context": "Peter's argument that WIV's virus database was essentially complete and did not include BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C197",
+      "text": "All viruses gathered by WIV from the Yunnan cave between 2010 and 2015 have long since been processed and added to the database",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "All those viruses have long since been processed and added to the database",
+          "context": "Peter's argument that WIV's virus database was complete and did not include BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C198",
+      "text": "There is no sign that WIV made more virus-gathering trips after 2015",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "There's no sign that they made more trips",
+          "context": "Peter's argument that WIV's virus collection was essentially closed and did not include BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C199",
+      "text": "Researchers commonly have backlogs of work they have not yet published",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Plenty of researchers have backlogs of work they haven't published yet",
+          "context": "Yuri's rebuttal to Peter's argument that WIV's published lists prove they did not have BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C200",
+      "text": "WIV probably found a BANAL relative on a normal sampling trip, did preliminary studies, and planned to publish it later once they cleaned up their data",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Probably they found a BANAL relative in one of their normal sampling trips, did some preliminary studies on it, and planned to publish it later once they cleaned up their data",
+          "context": "Yuri's explanation for why BANAL-52 might not appear in WIV's published lists",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C201",
+      "text": "The part of DEFUSE saying they would only work on viruses 95% similar to SARS is unclear and might mean they start with those viruses but also do work on novel viruses",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The part of DEFUSE saying that they would only work on viruses that were 95% similar to SARS is unclear and might mean something else. It looks more like they say they start with those viruses, but also do some work on novel viruses",
+          "context": "Yuri's rebuttal to Peter's argument about DEFUSE's scope",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C202",
+      "text": "BANAL-52 could have been one of the novel viruses WIV worked on under the DEFUSE framework",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "BANAL-52 could have been one of the novel viruses",
+          "context": "Yuri's argument that BANAL-52 could fall within the scope of WIV's research under DEFUSE",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C203",
+      "text": "WIV researchers might have used an unusual furin cleavage site on purpose to make the virus easier to track or to test different furin cleavage sites",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The furin cleavage site is weird, but the researchers might have done that on purpose to make the virus easier to keep track of, or to test different furin cleavage sites",
+          "context": "Yuri's rebuttal to Peter's argument that PRRAR is inconsistent with human engineering",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C204",
+      "text": "Depending on the exact BANAL-52 relative used, the insertion might not even be a frameshift because of a particular way to spell serine",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Depending on the exact BANAL-52 relative they used, it might not even be a frameshift; there's a particular way to spell serine that would make the insertion more natural",
+          "context": "Yuri's rebuttal to Peter's argument about the frameshift insertion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C205",
+      "text": "The claims that COVID cannot be cultured in normal media are based on speculative original research by Peter and might not hold up",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The claims that COVID can't be cultured in normal media are based on speculative original research by Peter and might not hold up",
+          "context": "Yuri's rebuttal to Peter's argument about COVID's culturing requirements",
+          "framing": "framed as 'speculative original research'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C206",
+      "text": "The DEFUSE proposal involved plans to return to the same Yunnan cave.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "they said in DEFUSE they planned to go back to the same Yunnan cave",
+          "context": "Discussion of WIV's virus-collection trips and likelihood of finding BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C207",
+      "text": "BANAL-52 was found far away from the Yunnan cave mentioned in DEFUSE.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "BANAL-52 was found far away from that cave",
+          "context": "Argument about why WIV was unlikely to have collected BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C208",
+      "text": "BANAL-52 was so rare that it was not found until well after the pandemic started and people were actively searching for it.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "BANAL-52 is so rare that it wasn't found until well after the pandemic started and people were looking for it very hard",
+          "context": "Argument about probability of WIV having collected BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C209",
+      "text": "If WIV kept to their normal virus-collection rate between the DEFUSE proposal and COVID, they would have obtained about thirty new viruses.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "if they kept to their normal virus-collection rate, they would have gotten about thirty new viruses",
+          "context": "Probabilistic argument about WIV's likelihood of having BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C210",
+      "text": "The chance that one of WIV's approximately thirty collected viruses would be BANAL-52 is low.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the chance that one of their 30 would be BANAL-52 is low",
+          "context": "Probabilistic argument about WIV's likelihood of having BANAL-52",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C211",
+      "text": "The Huanan Seafood Market had over 10,000 visitors per day.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It was busy, with over 10,000 visitors a day",
+          "context": "Saar's closing argument explaining why a wet market was a likely superspreader location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C212",
+      "text": "The Huanan Seafood Market had approximately 1,000 vendors who came back daily.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Many of the people there (eg the 1,000 vendors) came back daily, letting them reinfect each other",
+          "context": "Saar's closing argument explaining why a wet market was a likely superspreader location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C213",
+      "text": "The Huanan Seafood Market had poor ventilation, especially in the high-positivity area near the raccoon-dog stall.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It had poor ventilation, especially in the high-positivity area near the raccoon-dog stall",
+          "context": "Saar's closing argument explaining why a wet market was a likely superspreader location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C214",
+      "text": "The Huanan Seafood Market had cold, wet surfaces on which the virus could survive for long periods.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It had cold wet surfaces on which the virus could survive for long periods",
+          "context": "Saar's closing argument explaining why a wet market was a likely superspreader location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C215",
+      "text": "The Huanan Seafood Market was indoors, which prevented UV light from killing the virus.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It was indoors, which prevented UV light from killing the virus",
+          "context": "Saar's closing argument explaining why a wet market was a likely superspreader location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C216",
+      "text": "During China's COVID Zero policy, most COVID outbreaks that authorities had to contain were at wet markets.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Most of these were at wet markets",
+          "context": "Saar's argument that wet markets are natural superspreader locations independent of animal spillover",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C217",
+      "text": "The large COVID outbreak in Beijing started at Xinfadi Market, Beijing's local seafood market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the big COVID outbreak in Beijing started at Xinfadi Market, their local seafood market",
+          "context": "Saar's argument that wet markets concentrate COVID cases even without animal spillover",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C218",
+      "text": "The Beijing Xinfadi Market outbreak could not have been an animal spillover because there were no raccoon-dogs or other wild wildlife there.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "This couldn't be an animal spillover, because there were no raccoon-dogs or other weird wildlife there",
+          "context": "Saar's argument that wet markets concentrate COVID independent of zoonotic transmission",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C219",
+      "text": "COVID clusters concentrate in wet markets even when there is no animal spillover.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Since COVID clusters concentrate in wet markets even when there is no animal spillover, we should accept this as a property of the virus",
+          "context": "Saar's closing argument conclusion about wet markets",
+          "framing": "Saar frames this as justification to not attribute significance to the Huanan wet market cluster"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C220",
+      "text": "Wet market outbreaks in Zero COVID era China make up about half of total outbreaks, with additional examples in Singapore and Thailand.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "which make up about half of the total outbreaks in Zero COVID era China, plus others in Singapore and Thailand",
+          "context": "Saar's argument about COVID clustering in wet markets",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C221",
+      "text": "Approximately 1 in 10,000 citizens of Wuhan was a wet market vendor.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "About 1/10,000 citizens of Wuhan was a wet market vendor",
+          "context": "Peter's argument about the improbability of the first COVID case being a wet market vendor",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/10,000",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C222",
+      "text": "The Huanan Seafood Market was the 1,600th most popular place in Wuhan according to Weibo check-in data.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the wet market was the 1600th most popular place in Wuhan",
+          "context": "Peter's argument about the probability of first COVID cases appearing at the wet market",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C223",
+      "text": "Weighting by location busyness, there is less than a 1/1600 chance that first COVID cases would be at the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "if you weight locations by busy-ness, there's a less than 1/1600 chance that the first cases would be in the wet market",
+          "context": "Peter's probabilistic argument against wet market as natural first-cluster location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "less than 1/1600",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C224",
+      "text": "Thousands of other places in Wuhan, such as schools, hospitals, workplaces, and places of worship, share similar indoor/poor ventilation/repeat visitor characteristics to the wet market.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "So do thousands of other places in Wuhan, like schools, hospitals, workplaces, places of worship. The wet market isn't special in any way",
+          "context": "Peter rebutting Saar's argument that wet markets are uniquely suited for superspreading",
+          "framing": "Peter frames the wet market as unremarkable compared to other Wuhan venues"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C225",
+      "text": "COVID did not spread at an unusual rate at the Huanan wet market; it doubled at the normal rate of once per 3.5 days.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "COVID spread at the same rate in the wet market as it does everywhere else: doubling once per 3.5 days",
+          "context": "Peter's argument that the wet market was not actually a superspreader event location",
+          "framing": "Peter frames this as disproving the superspreader narrative"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C226",
+      "text": "The Beijing Xinfadi Market outbreak was caused by a seafood stall receiving frozen fish from a non-Zero-COVID country that had COVID particles on it.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it was because the seafood stall got frozen fish from some non-Zero-COVID country, the fish had COVID particles on it, and the vendor got infected and spread it to everyone else",
+          "context": "Peter rebutting Saar's claim that Xinfadi proves wet markets spread COVID independently of animal spillover",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C227",
+      "text": "Wet markets start outbreaks because infected goods are being sold there, not because of inherent superspreading properties.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "wet markets start outbreaks because there are infected goods being sold there. Then the virus spreads through the wet market at a completely normal rate",
+          "context": "Peter's counter-argument to Saar's wet market superspreader claim",
+          "framing": "Peter frames this as the opposite of Saar's intended point"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C228",
+      "text": "The Weibo check-in list of 1,600 places bigger than the wet market is likely inaccurate because people do not check in to seafood markets.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The Weibo list of 1600 places bigger than the wet market is likely inaccurate, because it's based on check-in data and people don't check in to seafood markets",
+          "context": "Saar rebutting Peter's Weibo-based probability estimate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C229",
+      "text": "Most of the 1,600 places supposedly larger than Huanan Market are not amenable to superspreading.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Most of those 1600 places aren't amenable to superspread",
+          "context": "Saar rebutting Peter's argument about the wet market's relative size",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C230",
+      "text": "The 70 markets supposedly larger than Huanan are supermarkets and open markets, not comparable seafood markets.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The 70 markets supposedly bigger than Huanan are irrelevant, because they're supermarkets, open markets, etc.",
+          "context": "Saar rebutting Peter's argument about the wet market's relative size",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C231",
+      "text": "The Huanan Seafood Market is the largest seafood market in central China.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Huanan is the largest seafood market in central China",
+          "context": "Saar's rebuttal about the significance of Huanan as a first-cluster location",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C232",
+      "text": "Wet markets were not a common spillover location in SARS-1.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Markets weren't a common spillover location in SARS1",
+          "context": "Saar's argument that the zoonosis hypothesis should not receive a high Bayes factor for the wet market clustering",
+          "framing": "Saar frames this as undercutting any Bayesian advantage for zoonosis from the wet market evidence"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C233",
+      "text": "There is evidence for isolated pre-market COVID cases, including a British expatriate named Connor Reed who says he got sick in November, three weeks before the first wet market case.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "A British expatriate in Wuhan, Connor Reed, says he got sick in November, three weeks before the first wet market case",
+          "context": "Saar presenting evidence for pre-market COVID cases",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C234",
+      "text": "A hospital later tested Connor Reed's samples and said it was COVID.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Later the hospital tested his samples and said it was COVID",
+          "context": "Saar presenting evidence for pre-market COVID case",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C235",
+      "text": "A paper reports 90 COVID cases before the first wet market case.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Another paper reports 90 cases before the first wet market one",
+          "context": "Saar presenting evidence for pre-market COVID spread",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C236",
+      "text": "Connor Reed's case was not reported in any peer-reviewed paper but was reported in the tabloid The Daily Mail months after it supposedly happened.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The case wasn't reported in any peer-reviewed paper, was reported in the tabloid The Daily Mail, months after it supposedly happened",
+          "context": "Peter rebutting Connor Reed's credibility as a pre-market case",
+          "framing": "Peter frames this as undermining Reed's credibility"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C237",
+      "text": "Connor Reed told the Daily Mail that his cat also died of coronavirus, which Peter characterizes as rare-to-impossible.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "He also told the Mail that his cat died of coronavirus too, which is rare-to-impossible",
+          "context": "Peter rebutting Connor Reed's credibility",
+          "framing": "Peter frames this as an implausibility undermining Reed's story"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C238",
+      "text": "Connor Reed was 25 years old, and almost no 25-year-olds go to the hospital for coronavirus.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he was 25 years old and almost no 25-year-olds go to the hospital for coronavirus",
+          "context": "Peter rebutting Connor Reed's claim of having a hospital test",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C239",
+      "text": "The hospital that supposedly tested Connor Reed never informed anyone else of the positive COVID result, which Peter characterizes as extremely surprising if true.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The hospital never informed anyone else of this extremely surprising fact which would be the biggest scientific story of the year if true",
+          "context": "Peter rebutting Connor Reed's case as a pre-market COVID infection",
+          "framing": "Peter frames the hospital's silence as evidence against the story's truth"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C240",
+      "text": "Connor Reed died of a drug overdose shortly after giving his story to the Daily Mail.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he died of a drug overdose shortly after giving the Mail that story",
+          "context": "Peter rebutting Connor Reed's credibility",
+          "framing": "Peter frames this as further reducing Reed's credibility given other implausibilities"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C241",
+      "text": "Connor Reed claimed he got his COVID case at a market 'like in the media'.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he claimed he got his case at a market 'like in the media'",
+          "context": "Peter rebutting Connor Reed's pre-market case claim",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C242",
+      "text": "The 90 pre-market cases came from a paper that merely counted cases differently than other papers, not from secret pre-pandemic cases.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "that paper just counted cases differently than other papers, and they were referring to normal cases after the pandemic officially started",
+          "context": "Peter rebutting the claim of 90 pre-market COVID cases",
+          "framing": "Peter frames the 90-case claim as based on misreading a paper"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C243",
+      "text": "A lab leak proponent constructed a conspiracy theory that a paper's author was secretly communicating 90 hidden pre-pandemic cases, even though the paper's text said nothing of the sort.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "A lab leak guy found a paper that mentioned 90 more cases than other papers, and made up a conspiracy theory where the author was trying to secretly communicate that there had been 90 secret cases before any of the confirmed cases, even though there was nothing about this in the text of the paper",
+          "context": "Peter rebutting the 90 pre-market cases claim",
+          "framing": "Peter frames the interpretation as a fabricated conspiracy theory"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C244",
+      "text": "Rootclaim's central estimate odds were 533-to-1 in favor of lab leak.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Although Saar's final odds here are 533-to-1, this just the central estimate",
+          "context": "Author's summary of probabilistic analyses from both sides",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "533-to-1",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C245",
+      "text": "Rootclaim's real final probability for lab leak is 94%.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Rootclaim's real final probability is 94% lab leak",
+          "context": "Author's summary of Rootclaim's probabilistic model output",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "94%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C246",
+      "text": "Both judges decided in favor of Peter Miller (zoonosis) in the Rootclaim debate.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Both judges decided in favor of Peter",
+          "context": "Author announcing the debate outcome",
+          "framing": "Author characterizes the result as a decisive victory"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C247",
+      "text": "The Manifold prediction market started 70-30 in favor of lab leak before the debate videos came out.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "It started out 70-30 in favor of lab leak",
+          "context": "Author citing prediction market movement during the debate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "70-30",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C248",
+      "text": "As the debate videos were released, the prediction market moved in favor of zoonosis.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "As the videos came out, zoonosis started doing better and better",
+          "context": "Author describing prediction market movement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C249",
+      "text": "The Good Judgment Project's superforecasters assessed the lab leak hypothesis at 75-25 in favor of zoonosis after studying it in depth.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "his forecasters ended up 75-25 in favor of zoonosis",
+          "context": "Author citing external evidence supporting the debate outcome",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "75-25",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C250",
+      "text": "The Rootclaim debate was one of ten sources the Good Judgment Project found especially interesting when studying the lab leak hypothesis.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The Rootclaim debate was one of ten sources they said they found especially interesting",
+          "context": "Author noting the debate's influence on superforecasters",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C251",
+      "text": "The Global Catastrophic Risks Institute surveyed 168 virologists, infectious disease epidemiologists, and other scientists from 47 countries on COVID origins.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the Global Catastrophic Risks Institute surveyed experts ('168 virologists, infectious disease epidemiologists, and other scientists from 47 countries')",
+          "context": "Author citing expert survey results on COVID origins",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C252",
+      "text": "The author was close to 50-50 on COVID origins before the debate.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I was close to 50-50 before the debate",
+          "context": "Author disclosing personal probability shift",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "50-50",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C253",
+      "text": "After the debate, the author is 90-10 in favor of zoonosis.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "now I'm 90-10 in favor of zoonosis",
+          "context": "Author disclosing personal probability shift after the debate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "90-10",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C254",
+      "text": "Saar believed the debate went wrong for his side because the judges used Bayesian math he had not sufficiently explained how to do correctly.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Saar's opinion is that the debate went wrong (for his side) because he didn't realize the judges were going to use Bayesian math, they did the math wrong (because Saar hadn't done enough work explaining how to do it right), and so they got the wrong answer",
+          "context": "Author summarizing Saar's post-debate view",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C255",
+      "text": "Judge Eric wrote approximately 30,000 words about which considerations moved him before including his probabilistic analysis.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Judge Eric wrote 30,000 words about which considerations moved him, and only then includes the analysis",
+          "context": "Author discussing how judges approached the probabilistic analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C256",
+      "text": "Judge Eric stated he was not convinced that Bayesian calculation is an appropriate way to estimate the relative posterior probability of zoonosis and lab leak.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I am not convinced that this Bayesian calculation is even an appropriate way to estimate the relative posterior probability of Z and LL",
+          "context": "Judge Eric's direct quote about Bayesian analysis in his decision",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C257",
+      "text": "Judge Will's decision ran to approximately 10,000 words.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Judge Will's decision ran to 10,000 words",
+          "context": "Author describing the scope of Judge Will's written decision",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C258",
+      "text": "Judge Will tried both intuitive reasoning and Bayesian analysis independently and was relieved when they returned the same result.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "He said he independently tried both reasoning it out intuitively, and running the Bayesian analysis, and was relieved when these two methods returned the same result",
+          "context": "Author summarizing Judge Will's methodological approach",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C259",
+      "text": "Judge Will is skeptical that Bayesian decision-making methods are more objective than intuitive reasoning.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I am skeptical that the Bayesian decision making/evaluation methods are any more 'objective' than [intuitive reasoning]",
+          "context": "Judge Will's direct quote from his decision",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C260",
+      "text": "Judge Will believes Bayesian methods maximize legibility rather than objectivity, and hide the intuitive portion in the data inclusion step and values.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I think they maximize legibility, not objectivity, and tend to hide the intuitive/heuristic portion in the data inclusion step and values where it's harder to see",
+          "context": "Judge Will's direct quote from his decision critiquing Bayesian methods",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C261",
+      "text": "Judge Will doubts that Bayesian analysis is a good strategy for humans given cognitive limitations.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I am unsure that it's a good strategy for a human given our cognitive limitations",
+          "context": "Judge Will's direct quote from his decision",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C262",
+      "text": "The judges in the Rootclaim debate said that numbers were only a supplement for their intuitive reasoning, not the sole basis of their verdict.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the judges themselves say the numbers were only a supplement for their intuitive reasoning",
+          "context": "Introductory section addressing Saar's concerns about the judging methodology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C263",
+      "text": "Peter assigned a 1/10,000 probability that a lab leak pandemic would first show up at a wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter said there was only a 1/10,000 chance that a lab leak pandemic would first show up at a wet market",
+          "context": "Discussion of Peter's probabilistic argument about wet market origins",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/10,000",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C264",
+      "text": "Peter's argument was that a zoonotic pandemic would obviously start at a site selling weird animals, whereas a lab leak pandemic could show up anywhere.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "obviously a zoonotic pandemic would start at a site selling weird animals. But a lab leak pandemic - if it didn't start at the lab - could show up anywhere",
+          "context": "Explanation of Peter's reasoning for the 1/10,000 wet market probability",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C265",
+      "text": "Approximately 1 in 10,000 Wuhan citizens work at the wet market.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "1/10,000 Wuhan citizens work at the wet market",
+          "context": "Peter's argument for why the wet market probability under lab leak is 1/10,000",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/10,000",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C266",
+      "text": "Saar argued that extreme odds like 1-in-10,000 should rarely appear outside well-understood domains.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "you should rarely see odds like 1/10,000 outside of well-understood domains",
+          "context": "Summary of Saar's general argument against Peter's extreme probability estimates",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C267",
+      "text": "A prosecutor presenting DNA evidence with a 1-in-a-billion match probability may be overstating the Bayes factor because there are better explanations such as lab mistakes, framing, or an object of the suspect being brought to the scene.",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "if we try to estimate p(DNA|~guilty) by truly assuming innocence, it is immediately evident how ridiculous it is to claim only 1 out of a billion innocent suspects will have a DNA match to the crime scene. There are obviously far better explanations like a lab mistake, framing, an object of the suspect being brought by someone to the scene, etc.",
+          "context": "Saar's blog post example used to illustrate the danger of extreme probability claims",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C268",
+      "text": "The real probability of p(wet market|lab leak) is not the 1/10,000 base-rate chance, but the higher probability that something is wrong with Peter's argument.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the real p(wet market|lab leak) isn't the 1/10,000 chance a pandemic arising in a random place hits the wet market, but the (higher?) probability that there's something wrong with Peter's argument",
+          "context": "Scott Alexander's synthesis of Saar's general argument about extreme odds",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C269",
+      "text": "Scott Alexander did not find Saar's specific examples against Peter's wet market argument convincing.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I didn't find his specific examples convincing",
+          "context": "Scott Alexander's personal assessment of Saar's specific rebuttals to Peter's wet market claim",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C270",
+      "text": "Using the logic that any sufficiently extreme probability estimate should be reduced due to possible model error can, taken too far, lead to absurd conclusions such as a non-trivial probability that the sun will not rise tomorrow.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "If you take this kind of reasoning too far, you can convince yourself that the sun won't rise tomorrow morning",
+          "context": "Scott Alexander's caution about over-applying Saar's principle of limiting extreme odds",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C271",
+      "text": "If one reduces confidence in each of 100 reasons the sun might not rise to 99% certainty of non-occurrence, the resulting probability of the sun rising is 0.99^100, approximately 36%.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "maybe you should lower your disbelief in each hypothesis to something more reasonable, like 99%. But now the chance that the sun rises tomorrow is 0.99^100, aka 36%",
+          "context": "Scott Alexander's illustration of how excessive epistemic humility leads to absurd conclusions",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "36%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C272",
+      "text": "Saar said he 'could have' argued that there was only a one-in-a-million chance COVID's furin cleavage site evolved naturally.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Saar said he 'could have' argued that there was only a one-in-a-million chance COVID's furin cleavage site evolved naturally",
+          "context": "Discussion of Saar's self-imposed restraint in assigning probabilities",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1-in-a-million",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C273",
+      "text": "Saar gave a Bayes factor of 1-in-20 for COVID's furin cleavage site not evolving naturally, in order to leave room for out-of-model error.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he gave a Bayes factor of 1-in-20, because he wanted to leave room for out-of-model error",
+          "context": "Explanation of Saar's adjusted probability for the furin cleavage site argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1-in-20",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C274",
+      "text": "The judges' probabilistic analysis took Peter's unadjusted 1-in-10,000 wet market claim seriously and Saar's fully-adjusted 1-in-20 furin cleavage site claim literally, compared them, and found Peter's evidence stronger.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the judges' probabilistic analysis took Peter's unadjusted 1-in-10,000 wet market claim seriously and Saar's fully-adjusted 1-in-20 furin cleavage site claim literally, compared them, found Peter's evidence stronger, and gave him the victory",
+          "context": "Saar's complaint about how the probabilistic analysis was applied asymmetrically",
+          "framing": "Framed as an unfair asymmetry that explains why Saar is upset"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C275",
+      "text": "Peter's multi-stage probabilistic slide produced a probability of 1 in 5×10^25 for lab leak.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "multiplying across twenty different stages to get a stupendously low probability of 1/5*10^25",
+          "context": "Scott Alexander's critique of Peter's extreme multi-stage probabilistic slide",
+          "framing": "Framed as 'just awful' and a 'risky gambit'"
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/5*10^25",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C276",
+      "text": "If Peter's multi-stage probability estimate is correct, it is more likely to win the lottery three times in a row than to learn that lab leak was true.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it's more likely that we win the lottery three times in a row than that we learn lab leak was true after all",
+          "context": "Scott Alexander illustrating the extreme implications of Peter's 1/5*10^25 estimate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C277",
+      "text": "Eliezer Yudkowsky identifies a reasoning error called the Multiple Stage Fallacy.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Eliezer Yudkowsky calls this the Multiple Stage Fallacy",
+          "context": "Scott Alexander invoking Yudkowsky's framework to critique Peter's multi-stage slide",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C278",
+      "text": "The Multiple Stage Fallacy involves failure to account for correlations between stages when multiplying probabilities.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it fails because people don't think enough about the correlations between stages",
+          "context": "Explanation of why the Multiple Stage Fallacy is an error",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C279",
+      "text": "Peter assigned a 1/10 probability that Wuhan scientists would choose the suboptimal RRAR furin cleavage site.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "maybe there's only 1/10 odds that the Wuhan scientists would choose the suboptimal RRAR furin cleavage site",
+          "context": "Illustration of the correlation problem in Peter's multi-stage probability argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/10",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C280",
+      "text": "Peter assigned a 1/20 probability that scientists would add a proline in front of the furin cleavage site to make it PRRAR.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "maybe there's only 1/20 odds that they would add a proline in front to make it PRRAR",
+          "context": "Illustration of the correlation problem in Peter's multi-stage probability argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1/20",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C281",
+      "text": "Scientists who do one unusual thing with a furin cleavage site may be more likely to do another, meaning the two probabilities should not be treated as independent.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "are these really two separate forms of weirdness, such that we can multiply them together and get 1/200? Or are scientists who do one weird thing with a furin cleavage site more likely to do another?",
+          "context": "Scott Alexander's critique of multiplying correlated probabilities in Peter's slide",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C282",
+      "text": "Yuri proposed that scientists wanting to understand how pandemic coronaviruses originate in nature might deliberately pick more natural-looking features over more designed-looking ones.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Yuri proposed that, because the scientists wanted to understand how pandemic coronaviruses originate in nature, they might deliberately pick more natural looking features over more designed-looking ones",
+          "context": "Alternative explanation for why lab-leaked virus might have natural-looking features",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C283",
+      "text": "Rootclaim's probabilistic framework can incorporate Yuri's hypothesis by giving it a complexity penalty without ruling it out, by computing X times the probability that scientists wanted to imitate nature.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "If the probability of a feature happening in nature is X, then the probability of it happening in this variant of lab leak scenario is X * [chance that the scientists wanted to imitate nature]. This gives it a (deserved) complexity penalty without ruling out this (non-zero and potentially important) possibility",
+          "context": "Description of how Rootclaim handled Yuri's hypothesis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C284",
+      "text": "Peter did not make his case hinge on the multi-stage probability slide.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter didn't care as much about probabilistic analysis as Saar, he didn't make his case hinge on this slide",
+          "context": "Scott Alexander contextualizing Peter's use of the extreme probability slide",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C285",
+      "text": "Peter may have used the multi-stage probability slide partly to troll Rootclaim.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he might have been kind of using it to troll Rootclaim (which definitely worked)",
+          "context": "Scott Alexander's speculation about Peter's intent with the extreme probability slide",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C286",
+      "text": "Anyone who took Peter's multi-stage probability slide seriously would end up dramatically miscalibrated.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "But anyone who took this slide seriously would end up dramatically miscalibrated",
+          "context": "Scott Alexander's verdict on the epistemic danger of Peter's multi-stage slide",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C287",
+      "text": "Peter appeared to have a photographic memory for every detail of every study he had read.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter seems to have a photographic memory for every detail of every study he's ever read",
+          "context": "Description of Peter's debating capabilities",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C288",
+      "text": "Peter had a detailed three-dimensional mental model of Wuhan, the wet market, and how its ventilation ducts and drains interacted.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "He has some kind of 3D model in his brain of Wuhan, the wet market, and how all of its ventilation ducts and drains interacted with each other",
+          "context": "Description of Peter's debating capabilities",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C289",
+      "text": "Whenever someone challenged one of Peter's points, he had a pre-made ten-slide PowerPoint presentation to address that specific challenge.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Whenever someone challenged one of his points, he had a ten-slide PowerPoint presentation already made up to address that particular challenge",
+          "context": "Description of Peter's extraordinary level of preparation in the debate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C290",
+      "text": "Saar conceded in his closing argument that Peter has much more knowledge on COVID origins than the judges, has invested more time, may be a more talented researcher, is more into the details, and probably knows the subject best in the world.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter, I think everyone can agree, has much more knowledge on [COVID] origins than we do. He's invested much more time. He may be a much more talented researcher. He's much more into the details. He probably knows the best in the world on origins at this point.",
+          "context": "Saar's closing argument, cited by Scott Alexander as damaging to Saar's own case",
+          "framing": "Framed as a rhetorical concession that undermines Saar's remaining case"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C291",
+      "text": "Saar argued that getting the overall inference right was more important than winning sub-debates about individual lines of evidence.",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he tried to make a point about how getting the inference right was more important than winning sub-sub-sub-debates about individual lines of evidence",
+          "context": "Description of Saar's big-picture strategy in the debate",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C292",
+      "text": "Although Peter won most specific points of contention, Saar believed that a focus on the big picture would show lab leak was more likely.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Although Peter won most specific points of contention, Saar thought that if the judges could just keep their mind on the big picture, they would realize a lab leak was more likely",
+          "context": "Summary of Saar's big-picture argumentative strategy",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C293",
+      "text": "Saar could not effectively communicate what his big picture argument was.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The problem was, Saar couldn't effectively communicate what his big picture was",
+          "context": "Scott Alexander's assessment of why Saar's big-picture strategy failed",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C294",
+      "text": "Peter's evidence hung together while Saar's evidence fell apart on cross-examination.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "The only difference was that Peter's evidence hung together, and Saar's evidence fell apart on cross-examination",
+          "context": "Scott Alexander's summary comparison of the two debaters' evidential performance",
+          "framing": "Framed as the decisive difference between the two debaters"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C295",
+      "text": "Scott Alexander infers that Saar believed the un-ignorable big picture evidence was the origin of COVID in a city with a coronavirus gain-of-function lab, and the twelve-nucleotide insertion in the furin cleavage site.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I think - not because Saar really explained it, but just reading between the lines - Saar thought the un-ignorable big picture evidence was the origin in a city with a coronavirus gain-of-function lab, and the twelve-nucleotide insertion in the furin cleavage site",
+          "context": "Scott Alexander reading between the lines of Saar's argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C296",
+      "text": "It is a weird coincidence that the COVID epidemic started so close to Asia's biggest coronavirus laboratory.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "it really is a weird coincidence that the epidemic started so close to Asia's biggest coronavirus laboratory",
+          "context": "Scott Alexander's assessment of the geographic proximity argument",
+          "framing": "Framed as a point where Peter 'unambiguously came out looking worse'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C297",
+      "text": "Peter argued that other BSL-3 and BSL-4 laboratories exist in Beijing, Shanghai, and Shenzhen, not only in Wuhan.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "he pointed out there were other BSL-3 and BSL-4 laboratories in Beijing, Shanghai, Shenzhen, etc.",
+          "context": "Peter's attempt to deflect the geographic proximity argument",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C298",
+      "text": "The other Chinese cities' laboratories had much less coronavirus-specific research than Wuhan's.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the other cities' labs had much less coronavirus-specific research",
+          "context": "Scott Alexander's assessment of why Peter's deflection failed on the lab proximity point",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C299",
+      "text": "Wuhan was unique among Chinese cities in terms of coronavirus research, aside from a coronavirus lab in North Carolina.",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Wuhan really was unique (aside from the other big coronavirus lab in North Carolina)",
+          "context": "Scott Alexander's conclusion about Wuhan's uniqueness after evaluating Peter's deflection",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C300",
+      "text": "There are a couple hundred million people in the South Asian areas where people eat weird animals exposed to virus-infected bats.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "there are a couple hundred million people in the South Asian areas where people eat weird animals exposed to virus-infected bats",
+          "context": "Peter's argument to reduce the significance of Wuhan as the origin point",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C301",
+      "text": "Wuhan has a population of approximately 12 million people.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Wuhan has a population of about 12 million",
+          "context": "Part of the calculation for the base-rate probability of a pandemic starting in Wuhan",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C302",
+      "text": "Based on population, approximately 1.5% of potential zoonotic pandemics should start in Wuhan.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "maybe 1.5% of potential zoonotic pandemics should start in Wuhan",
+          "context": "Peter's base-rate estimate for pandemic origin in Wuhan under zoonosis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "1.5%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C303",
+      "text": "Peter argued that because Wuhan is a local trade center, the probability of a pandemic starting there might be as high as 5–10%.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "Peter tried to argue that Wuhan was a local trade center, so maybe we should up that to 5 - 10%",
+          "context": "Peter's upward adjustment of the base-rate probability of pandemic origin in Wuhan",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "5-10%",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C304",
+      "text": "The furin cleavage site stands out on a genetic map of COVID.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "the furin cleavage site really does stand on a genetic map",
+          "context": "Scott Alexander's assessment of the furin cleavage site as notable evidence",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C305",
+      "text": "Scott Alexander felt that neither side did much math to quantify how unusual the furin cleavage site insertion was.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "I didn't feel like either side did much math to quantify how weird it was",
+          "context": "Scott Alexander's critique of how the furin cleavage site evidence was handled",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C306",
+      "text": "COVID has approximately 30,000 bases and only one insertion, located in the most interesting position.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "30,000 bases in COVID, only one insertion, it's in what's obviously the most interesting place",
+          "context": "Scott Alexander's naive probabilistic framing of the furin cleavage site insertion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C307",
+      "text": "A naive estimate of the furin cleavage site insertion being in the most interesting position would be 30,000-to-one odds against by chance.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "sounds like 30,000-to-one odds against",
+          "context": "Scott Alexander's naive probabilistic framing before applying selection effects",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "acx_writeup",
+          "value": "30,000-to-one",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C308",
+      "text": "A virus with a boring insertion would never have become a pandemic, so selection effects mean one must account for all the viral evolution happening in bat caves before computing the odds of an interesting insertion.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "acx_writeup",
+          "verbatim_span": "a virus with a boring insertion would never have become a pandemic, so maybe you need to multiply this by however much viral evolution is going on in weird caves in Laos, and then you would get the odds that at least one virus would have an insertion interesting enough to go global",
+          "context": "Scott Alexander's correction of the naive furin cleavage site probability using selection effects",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    }
+  ]
 }

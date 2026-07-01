@@ -1,0 +1,102 @@
+[
+  {
+    "claim_id": "C096",
+    "sensitivity": 0.427,
+    "score": 1.354,
+    "affects": "Although Lineage A is evolutionarily older, Lineage B started spreading in human",
+    "affects_id": "C095",
+    "affects_support_count": 8,
+    "rationale": "Carries 42% of the evidential support for conclusion C095, which is backed by 8 claims (~3.98 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C233",
+    "sensitivity": 0.41,
+    "score": 1.3,
+    "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
+    "affects_id": "C242",
+    "affects_support_count": 8,
+    "rationale": "Carries 41% of the evidential support for conclusion C242, which is backed by 8 claims (~3.71 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C243",
+    "sensitivity": 0.293,
+    "score": 0.929,
+    "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
+    "affects_id": "C242",
+    "affects_support_count": 8,
+    "rationale": "Carries 29% of the evidential support for conclusion C242, which is backed by 8 claims (~3.71 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C062",
+    "sensitivity": 0.229,
+    "score": 0.821,
+    "affects": "The lab leak scenario requiring the first infected worker to go straight to the ",
+    "affects_id": "C065",
+    "affects_support_count": 11,
+    "rationale": "Carries 22% of the evidential support for conclusion C065, which is backed by 11 claims (~7.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C274",
+    "sensitivity": 0.234,
+    "score": 0.81,
+    "affects": "Peter's evidence hung together while Saar's evidence fell apart on cross-examina",
+    "affects_id": "C294",
+    "affects_support_count": 10,
+    "rationale": "Carries 23% of the evidential support for conclusion C294, which is backed by 10 claims (~8.03 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C117",
+    "sensitivity": 0.382,
+    "score": 0.764,
+    "affects": "The scattered cases of 'intermediate' lineages were sequencing errors produced b",
+    "affects_id": "C114",
+    "affects_support_count": 3,
+    "rationale": "Carries 38% of the evidential support for conclusion C114, which is backed by 3 claims (~2.96 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C246",
+    "sensitivity": 0.216,
+    "score": 0.747,
+    "affects": "After the debate, the author is 90-10 in favor of zoonosis.",
+    "affects_id": "C253",
+    "affects_support_count": 10,
+    "rationale": "Carries 21% of the evidential support for conclusion C253, which is backed by 10 claims (~8.03 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C292",
+    "sensitivity": 0.255,
+    "score": 0.659,
+    "affects": "Saar could not effectively communicate what his big picture argument was.",
+    "affects_id": "C293",
+    "affects_support_count": 5,
+    "rationale": "Carries 25% of the evidential support for conclusion C293, which is backed by 5 claims (~4.62 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C115",
+    "sensitivity": 0.329,
+    "score": 0.658,
+    "affects": "The scattered cases of 'intermediate' lineages were sequencing errors produced b",
+    "affects_id": "C114",
+    "affects_support_count": 3,
+    "rationale": "Carries 32% of the evidential support for conclusion C114, which is backed by 3 claims (~2.96 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C279",
+    "sensitivity": 0.195,
+    "score": 0.648,
+    "affects": "Anyone who took Peter's multi-stage probability slide seriously would end up dra",
+    "affects_id": "C286",
+    "affects_support_count": 9,
+    "rationale": "Carries 19% of the evidential support for conclusion C286, which is backed by 9 claims (~6.37 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  }
+]

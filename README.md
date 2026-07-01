@@ -73,6 +73,29 @@ Outputs land in `cases/<case>/out/`:
 - `cruxes.json`        — ranked load-bearing claims
 - `graph.html`         — navigable viewer (open in a browser)
 
+## Why it generalizes (domain-agnostic by construction)
+
+The engine never looks at domain content. Every stage operates on one abstract ontology —
+**claim, edge (typed relation), conclusion, source** — and the assessment math (concentration,
+Herfindahl effective-independent-count, SCC circular-support detection) is pure graph arithmetic
+over that ontology. Nothing in `src/` knows what "furin cleavage site" or "dietary cholesterol"
+means. What differs per dispute lives entirely in the per-case `sources.json` and the extracted
+graph, not in code. That is why the identical pipeline runs a virology dispute (COVID), a physics
+dispute (LHC black holes), and a nutrition dispute (eggs): a new field adds sources, never code.
+
+## What resists being gamed (deterministic core)
+
+The load-bearing numbers are **computed, not generated**:
+- **Crux sensitivity** = a claim's share of a conclusion's evidential support (`src/assess.py`,
+  `src/concentration.py`) — reproducible graph arithmetic; the LLM only writes the narration.
+- **Effective-independent-count** (Herfindahl numbers-equivalent): piling correlated support on
+  one root pushes a conclusion *toward 1 effective look, not up*.
+- **Circular-support detection** (strongly-connected-component collapse): mutual-support loops
+  that ground in nothing are flagged as one look, loudly, not counted as corroboration.
+
+So an adversary flooding a side with restatements, shared-root reuse, or citation rings makes it
+look *less* independent, never more. See `tests/adversarial.md` for the full attack→defense table.
+
 ## Baseline comparison
 
 The competition bar is "meaningfully better than off-the-shelf deep research / Claude Code."

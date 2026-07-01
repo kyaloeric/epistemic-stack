@@ -85,8 +85,8 @@
           "from":   { "type": "string", "description": "Claim id." },
           "to":     { "type": "string", "description": "Claim id." },
           "type":   { "type": "string",
-                      "enum": ["supports", "contradicts", "is_evidence_for", "restates", "caveats", "depends_on"],
-                      "description": "Relationship. 'depends_on' marks load-bearing structure for crux detection." },
+                      "enum": ["supports", "contradicts", "is_evidence_for", "restates", "caveats", "depends_on", "context_mutation"],
+                      "description": "Relationship. 'depends_on' marks load-bearing structure for crux detection. 'context_mutation' marks where two sides accept the same facts but build competing causal narratives around them — a frame disagreement, NOT an evidential contradiction, and deliberately excluded from concentration weight." },
           "source_id": { "type": "string", "description": "Which source asserts this relationship (a relationship is itself a claim)." },
           "strength":  { "type": "string", "enum": ["asserted", "strong", "weak", "disputed"],
                          "description": "How strongly the relationship is held / how contested it is." }
