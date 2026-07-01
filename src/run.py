@@ -41,11 +41,13 @@ def main():
     ap.add_argument("--stage", default="all",
                     choices=["all", "ingest", "structure", "assess", "concentration", "viewer"])
     ap.add_argument("--root", default=".")
+    ap.add_argument("--limit-chunks", type=int, default=0,
+                    help="smoke test: ingest only the first N chunks per source (0 = all)")
     args = ap.parse_args()
 
     print(f"== Epistemic Stack :: case={args.case} stage={args.stage} ==")
     if args.stage in ("all", "ingest"):
-        print("[1/4] INGESTION"); ingest(args.case, args.root)
+        print("[1/4] INGESTION"); ingest(args.case, args.root, args.limit_chunks)
     if args.stage in ("all", "structure"):
         print("[2/4] STRUCTURE"); structure(args.case, args.root)
     if args.stage in ("all", "assess"):

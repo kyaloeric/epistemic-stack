@@ -121,8 +121,22 @@ def _call_openai_like(provider, model, system, user, max_tokens):
 def call_json(system: str, user: str, max_tokens: int = 8000):
     """Model call that must return JSON. Strips fences/preamble, parses, raises on failure."""
     raw = call(system, user, max_tokens)
-    cleaned = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.MULTILINE).strip()
-    match = re.search(r"(\[.*\]|\{.*\})", cleaned, re.DOTALL)
-    if not match:
-        raise ValueError(f"No JSON found in model output:\n{raw[:500]}")
-    return json.loads(match.group(1))
+    return _parse_json(raw)
+
+
+def _parse_json(raw: str):
+    """Robustly pull the first complete JSON value out of a model response.
+
+    Uses json.raw_decode from the first '[' or '{', which parses exactly one value and ignores
+    any trailing prose the model appended (the old greedy regex choked on that with 'Extra data').
+    Tries each candidate start so a stray bracket in preamble doesn't derail parsing."""
+    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw.strip(), flags=re.MULTILINE).strip()
+    decoder = json.JSONDecoder()
+    for i, ch in enumerate(cleaned):
+        if ch in "[{":
+            try:
+                value, _ = decoder.raw_decode(cleaned[i:])
+                return value
+            except json.JSONDecodeError:
+                continue
+    raise ValueError(f"No JSON found in model output:\n{raw[:500]}")

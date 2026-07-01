@@ -1,0 +1,3188 @@
+{
+  "case": "covid",
+  "method": "deterministic graph concentration (no LLM)",
+  "conclusions": [
+    {
+      "conclusion": "C010",
+      "conclusion_text": "Rootclaim concluded in favor of the lab leak hypothesis for COVID-19 origins.",
+      "concentration": 0.157,
+      "effective_independent_claims": 14.1,
+      "supporting_claim_count": 69,
+      "top_claim": "C112",
+      "top_claim_text": "WIV stated in 2018 that it was going to find viruses and add furin cleavage sites to them.",
+      "contributions": [
+        {
+          "claim_id": "C112",
+          "weight": 1.14,
+          "share": 0.157,
+          "text": "WIV stated in 2018 that it was going to find viruses and add furin cleavage site"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.758,
+          "share": 0.104,
+          "text": "The probability that the first known COVID case would be a wet market vendor by "
+        },
+        {
+          "claim_id": "C042",
+          "weight": 0.604,
+          "share": 0.083,
+          "text": "The Wuhan Institute of Virology was doing lots of gain of function research."
+        },
+        {
+          "claim_id": "C005",
+          "weight": 0.6,
+          "share": 0.082,
+          "text": "Rootclaim determined that a main suspect in a celebrity Israeli murder case was "
+        },
+        {
+          "claim_id": "C009",
+          "weight": 0.6,
+          "share": 0.082,
+          "text": "Saar Wilf issued a $100,000 monetary challenge to anyone who disagrees with any "
+        },
+        {
+          "claim_id": "C006",
+          "weight": 0.54,
+          "share": 0.074,
+          "text": "New DNA evidence appeared to support Rootclaim's conclusion in the Israeli murde"
+        },
+        {
+          "claim_id": "C027",
+          "weight": 0.387,
+          "share": 0.053,
+          "text": "A heat map of early COVID cases is centered on the wet market, not on the Wuhan "
+        },
+        {
+          "claim_id": "C035",
+          "weight": 0.3,
+          "share": 0.041,
+          "text": "It would be an even more surprising coincidence if a lab-leak coronavirus pandem"
+        },
+        {
+          "claim_id": "C032",
+          "weight": 0.209,
+          "share": 0.029,
+          "text": "Raccoon-dogs are generally teeming with weird coronaviruses and are a plausible "
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.209,
+          "share": 0.029,
+          "text": "The first reported COVID case, a wet market vendor on December 11, was very earl"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.186,
+          "share": 0.026,
+          "text": "The number of COVID hospitalizations and deaths in January 2020 were consistent "
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.164,
+          "share": 0.022,
+          "text": "Mr. Chen's December 16 COVID infection date is after the first officially detect"
+        },
+        {
+          "claim_id": "C028",
+          "weight": 0.162,
+          "share": 0.022,
+          "text": "The wet market and the Wuhan Institute of Virology are approximately 6 miles apa"
+        },
+        {
+          "claim_id": "C029",
+          "weight": 0.16,
+          "share": 0.022,
+          "text": "A map of positive COVID samples and cases at the wet market shows a pattern cent"
+        },
+        {
+          "claim_id": "C047",
+          "weight": 0.104,
+          "share": 0.014,
+          "text": "Mr. Chen stated in an interview that he was hospitalized for dental issues on De"
+        },
+        {
+          "claim_id": "C052",
+          "weight": 0.099,
+          "share": 0.014,
+          "text": "It is epidemiologically impossible for COVID to have been circulating much befor"
+        },
+        {
+          "claim_id": "C025",
+          "weight": 0.087,
+          "share": 0.012,
+          "text": "The next four officially confirmed COVID cases after the first also had wet mark"
+        },
+        {
+          "claim_id": "C026",
+          "weight": 0.087,
+          "share": 0.012,
+          "text": "Half of the next 40 officially confirmed COVID cases had wet market connections."
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.087,
+          "share": 0.012,
+          "text": "The first COVID case was most likely not the wet market vendor herself but proba"
+        },
+        {
+          "claim_id": "C046",
+          "weight": 0.065,
+          "share": 0.009,
+          "text": "The WHO's final investigation, which included testing samples from the 92 suspic"
+        },
+        {
+          "claim_id": "C078",
+          "weight": 0.049,
+          "share": 0.007,
+          "text": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some "
+        },
+        {
+          "claim_id": "C115",
+          "weight": 0.049,
+          "share": 0.007,
+          "text": "COVID spread in the wet market at exactly its normal spread rate, doubling appro"
+        },
+        {
+          "claim_id": "C031",
+          "weight": 0.047,
+          "share": 0.006,
+          "text": "There was a stall with raccoon-dogs in the southwest corner of the wet market."
+        },
+        {
+          "claim_id": "C041",
+          "weight": 0.047,
+          "share": 0.006,
+          "text": "The area of the wet market where positive COVID samples were concentrated was al"
+        },
+        {
+          "claim_id": "C034",
+          "weight": 0.046,
+          "share": 0.006,
+          "text": "Scientists confirmed the existence of the raccoon-dog shop through a photograph "
+        },
+        {
+          "claim_id": "C030",
+          "weight": 0.026,
+          "share": 0.004,
+          "text": "The southwest corner of the wet market is where most of the wildlife was being s"
+        },
+        {
+          "claim_id": "C058",
+          "weight": 0.026,
+          "share": 0.004,
+          "text": "The exact center of the map of positive COVID environmental samples in the wet m"
+        },
+        {
+          "claim_id": "C057",
+          "weight": 0.026,
+          "share": 0.004,
+          "text": "The earliest cases, including the 40 very earliest, were not biased toward wet m"
+        },
+        {
+          "claim_id": "C070",
+          "weight": 0.025,
+          "share": 0.003,
+          "text": "Jesse Bloom's investigation of wet market samples failed to find a clear connect"
+        },
+        {
+          "claim_id": "C071",
+          "weight": 0.024,
+          "share": 0.003,
+          "text": "In a formal statistical analysis of which animals' DNA was found near COVID samp"
+        },
+        {
+          "claim_id": "C036",
+          "weight": 0.024,
+          "share": 0.003,
+          "text": "A certain Mr. Chen, with no connection to the wet market, seems to have fallen s"
+        },
+        {
+          "claim_id": "C037",
+          "weight": 0.024,
+          "share": 0.003,
+          "text": "An SCMP article suggested there were 92 previously-undetected cases suspicious f"
+        },
+        {
+          "claim_id": "C068",
+          "weight": 0.023,
+          "share": 0.003,
+          "text": "If pre-discovery COVID had a slower doubling time than known COVID, it could hav"
+        },
+        {
+          "claim_id": "C069",
+          "weight": 0.021,
+          "share": 0.003,
+          "text": "Post-lockdown serology suggested case numbers that were larger than claimed at t"
+        },
+        {
+          "claim_id": "C065",
+          "weight": 0.02,
+          "share": 0.003,
+          "text": "Investigators were unable to find any wet market connections for Mr. Chen."
+        },
+        {
+          "claim_id": "C090",
+          "weight": 0.019,
+          "share": 0.003,
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "claim_id": "C067",
+          "weight": 0.018,
+          "share": 0.002,
+          "text": "Peter argued COVID could not have been circulating for more than a few weeks bef"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.014,
+          "share": 0.002,
+          "text": "Authorities decided COVID spread through a wet market and started deliberately l"
+        },
+        {
+          "claim_id": "C056",
+          "weight": 0.014,
+          "share": 0.002,
+          "text": "Among the 40 earliest COVID cases, half had wet market connections."
+        },
+        {
+          "claim_id": "C033",
+          "weight": 0.013,
+          "share": 0.002,
+          "text": "China said the rumor about a raccoon-dog stall was false and refused to release "
+        },
+        {
+          "claim_id": "C066",
+          "weight": 0.013,
+          "share": 0.002,
+          "text": "If Mr. Chen had no wet market connections and was infected by someone earlier th"
+        },
+        {
+          "claim_id": "C087",
+          "weight": 0.013,
+          "share": 0.002,
+          "text": "The wet market is unlikely to be the origin of the pandemic because the original"
+        },
+        {
+          "claim_id": "C040",
+          "weight": 0.011,
+          "share": 0.002,
+          "text": "One of the few non-market-connected COVID cases detected during the early period"
+        },
+        {
+          "claim_id": "C045",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "China suppressed evidence of WIV research, as was done in previous lab leak case"
+        },
+        {
+          "claim_id": "C083",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "All of the cases at the wet market, including the first detected case, were Line"
+        },
+        {
+          "claim_id": "C084",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Lineage A was not discovered until about a week after Lineage B was first found "
+        },
+        {
+          "claim_id": "C085",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "None of the Lineage A patients had been to the wet market."
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.009,
+          "share": 0.001,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "claim_id": "C093",
+          "weight": 0.008,
+          "share": 0.001,
+          "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.008,
+          "share": 0.001,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.008,
+          "share": 0.001,
+          "text": "The double wet market spillover hypothesis is the only story that explains the e"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.008,
+          "share": 0.001,
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        },
+        {
+          "claim_id": "C079",
+          "weight": 0.007,
+          "share": 0.001,
+          "text": "The coronavirus's first major split was between two sub-strains called Lineage A"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.007,
+          "share": 0.001,
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        },
+        {
+          "claim_id": "C086",
+          "weight": 0.007,
+          "share": 0.001,
+          "text": "The absence of Lineage A at the wet market and its later discovery is consistent"
+        },
+        {
+          "claim_id": "C094",
+          "weight": 0.007,
+          "share": 0.001,
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.006,
+          "share": 0.001,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C080",
+          "weight": 0.006,
+          "share": 0.001,
+          "text": "In the two mutations distinguishing Lineage A and Lineage B, Lineage A matches B"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.004,
+          "share": 0.001,
+          "text": "Lineage B differs from BANAL-52 in the two mutations that distinguish Lineage A "
+        },
+        {
+          "claim_id": "C097",
+          "weight": 0.004,
+          "share": 0.001,
+          "text": "If the pandemic originated from a lab leak, it would be a bizarre coincidence fo"
+        },
+        {
+          "claim_id": "C089",
+          "weight": 0.004,
+          "share": 0.001,
+          "text": "Throughout the early pandemic, until the D614G variant drove all other strains e"
+        },
+        {
+          "claim_id": "C095",
+          "weight": 0.002,
+          "share": 0.0,
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.001,
+          "share": 0.0,
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        },
+        {
+          "claim_id": "C102",
+          "weight": 0.001,
+          "share": 0.0,
+          "text": "Scattered intermediate cases between Lineage A and B do not make sense under the"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.001,
+          "share": 0.0,
+          "text": "There are scattered cases of genetic intermediates between Lineage A and Lineage"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.0,
+          "share": 0.0,
+          "text": "The presence of both (T/T) and (C/C) apparent intermediates in the data—when onl"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.0,
+          "share": 0.0,
+          "text": "The supposed intermediate lineage cases were all found by the same computer soft"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.0,
+          "share": 0.0,
+          "text": "Many of the apparent progenitor cases also carry later mutations that Lineage A "
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.0,
+          "share": 0.0,
+          "text": "The autofilling software could produce apparent intermediates by filling in diff"
+        }
+      ]
+    },
+    {
+      "conclusion": "C052",
+      "conclusion_text": "It is epidemiologically impossible for COVID to have been circulating much before the first cases were officially detected on December 11.",
+      "concentration": 0.385,
+      "effective_independent_claims": 4.97,
+      "supporting_claim_count": 12,
+      "top_claim": "C051",
+      "top_claim_text": "The number of COVID hospitalizations and deaths in January 2020 were consistent with a pandemic that started in early December, not with 256 times that many people.",
+      "contributions": [
+        {
+          "claim_id": "C051",
+          "weight": 2.369,
+          "share": 0.385,
+          "text": "The number of COVID hospitalizations and deaths in January 2020 were consistent "
+        },
+        {
+          "claim_id": "C046",
+          "weight": 0.827,
+          "share": 0.134,
+          "text": "The WHO's final investigation, which included testing samples from the 92 suspic"
+        },
+        {
+          "claim_id": "C047",
+          "weight": 0.705,
+          "share": 0.115,
+          "text": "Mr. Chen stated in an interview that he was hospitalized for dental issues on De"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.644,
+          "share": 0.105,
+          "text": "Mr. Chen's December 16 COVID infection date is after the first officially detect"
+        },
+        {
+          "claim_id": "C036",
+          "weight": 0.3,
+          "share": 0.049,
+          "text": "A certain Mr. Chen, with no connection to the wet market, seems to have fallen s"
+        },
+        {
+          "claim_id": "C037",
+          "weight": 0.3,
+          "share": 0.049,
+          "text": "An SCMP article suggested there were 92 previously-undetected cases suspicious f"
+        },
+        {
+          "claim_id": "C068",
+          "weight": 0.292,
+          "share": 0.047,
+          "text": "If pre-discovery COVID had a slower doubling time than known COVID, it could hav"
+        },
+        {
+          "claim_id": "C069",
+          "weight": 0.262,
+          "share": 0.043,
+          "text": "Post-lockdown serology suggested case numbers that were larger than claimed at t"
+        },
+        {
+          "claim_id": "C067",
+          "weight": 0.225,
+          "share": 0.036,
+          "text": "Peter argued COVID could not have been circulating for more than a few weeks bef"
+        },
+        {
+          "claim_id": "C040",
+          "weight": 0.146,
+          "share": 0.024,
+          "text": "One of the few non-market-connected COVID cases detected during the early period"
+        },
+        {
+          "claim_id": "C115",
+          "weight": 0.079,
+          "share": 0.013,
+          "text": "COVID spread in the wet market at exactly its normal spread rate, doubling appro"
+        },
+        {
+          "claim_id": "C065",
+          "weight": 0.006,
+          "share": 0.001,
+          "text": "Investigators were unable to find any wet market connections for Mr. Chen."
+        }
+      ]
+    },
+    {
+      "conclusion": "C053",
+      "conclusion_text": "The first reported COVID case, a wet market vendor on December 11, was very early in the pandemic.",
+      "concentration": 0.11,
+      "effective_independent_claims": 19.64,
+      "supporting_claim_count": 64,
+      "top_claim": "C209",
+      "top_claim_text": "The probability that the first known COVID case would be a wet market vendor by chance alone is approximately 1 in 10,000, since approximately 1 in 10,000 citizens of Wuhan was a wet market vendor.",
+      "contributions": [
+        {
+          "claim_id": "C209",
+          "weight": 1.554,
+          "share": 0.11,
+          "text": "The probability that the first known COVID case would be a wet market vendor by "
+        },
+        {
+          "claim_id": "C051",
+          "weight": 1.279,
+          "share": 0.091,
+          "text": "The number of COVID hospitalizations and deaths in January 2020 were consistent "
+        },
+        {
+          "claim_id": "C048",
+          "weight": 1.11,
+          "share": 0.079,
+          "text": "Mr. Chen's December 16 COVID infection date is after the first officially detect"
+        },
+        {
+          "claim_id": "C029",
+          "weight": 1.094,
+          "share": 0.078,
+          "text": "A map of positive COVID samples and cases at the wet market shows a pattern cent"
+        },
+        {
+          "claim_id": "C047",
+          "weight": 0.703,
+          "share": 0.05,
+          "text": "Mr. Chen stated in an interview that he was hospitalized for dental issues on De"
+        },
+        {
+          "claim_id": "C052",
+          "weight": 0.679,
+          "share": 0.048,
+          "text": "It is epidemiologically impossible for COVID to have been circulating much befor"
+        },
+        {
+          "claim_id": "C025",
+          "weight": 0.6,
+          "share": 0.043,
+          "text": "The next four officially confirmed COVID cases after the first also had wet mark"
+        },
+        {
+          "claim_id": "C026",
+          "weight": 0.6,
+          "share": 0.043,
+          "text": "Half of the next 40 officially confirmed COVID cases had wet market connections."
+        },
+        {
+          "claim_id": "C027",
+          "weight": 0.6,
+          "share": 0.043,
+          "text": "A heat map of early COVID cases is centered on the wet market, not on the Wuhan "
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.6,
+          "share": 0.043,
+          "text": "The first COVID case was most likely not the wet market vendor herself but proba"
+        },
+        {
+          "claim_id": "C046",
+          "weight": 0.446,
+          "share": 0.032,
+          "text": "The WHO's final investigation, which included testing samples from the 92 suspic"
+        },
+        {
+          "claim_id": "C115",
+          "weight": 0.334,
+          "share": 0.024,
+          "text": "COVID spread in the wet market at exactly its normal spread rate, doubling appro"
+        },
+        {
+          "claim_id": "C078",
+          "weight": 0.33,
+          "share": 0.023,
+          "text": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some "
+        },
+        {
+          "claim_id": "C028",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "The wet market and the Wuhan Institute of Virology are approximately 6 miles apa"
+        },
+        {
+          "claim_id": "C031",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "There was a stall with raccoon-dogs in the southwest corner of the wet market."
+        },
+        {
+          "claim_id": "C032",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "Raccoon-dogs are generally teeming with weird coronaviruses and are a plausible "
+        },
+        {
+          "claim_id": "C041",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "The area of the wet market where positive COVID samples were concentrated was al"
+        },
+        {
+          "claim_id": "C034",
+          "weight": 0.315,
+          "share": 0.022,
+          "text": "Scientists confirmed the existence of the raccoon-dog shop through a photograph "
+        },
+        {
+          "claim_id": "C030",
+          "weight": 0.175,
+          "share": 0.012,
+          "text": "The southwest corner of the wet market is where most of the wildlife was being s"
+        },
+        {
+          "claim_id": "C058",
+          "weight": 0.175,
+          "share": 0.012,
+          "text": "The exact center of the map of positive COVID environmental samples in the wet m"
+        },
+        {
+          "claim_id": "C070",
+          "weight": 0.165,
+          "share": 0.012,
+          "text": "Jesse Bloom's investigation of wet market samples failed to find a clear connect"
+        },
+        {
+          "claim_id": "C071",
+          "weight": 0.164,
+          "share": 0.012,
+          "text": "In a formal statistical analysis of which animals' DNA was found near COVID samp"
+        },
+        {
+          "claim_id": "C036",
+          "weight": 0.162,
+          "share": 0.011,
+          "text": "A certain Mr. Chen, with no connection to the wet market, seems to have fallen s"
+        },
+        {
+          "claim_id": "C037",
+          "weight": 0.162,
+          "share": 0.011,
+          "text": "An SCMP article suggested there were 92 previously-undetected cases suspicious f"
+        },
+        {
+          "claim_id": "C068",
+          "weight": 0.157,
+          "share": 0.011,
+          "text": "If pre-discovery COVID had a slower doubling time than known COVID, it could hav"
+        },
+        {
+          "claim_id": "C069",
+          "weight": 0.142,
+          "share": 0.01,
+          "text": "Post-lockdown serology suggested case numbers that were larger than claimed at t"
+        },
+        {
+          "claim_id": "C067",
+          "weight": 0.121,
+          "share": 0.009,
+          "text": "Peter argued COVID could not have been circulating for more than a few weeks bef"
+        },
+        {
+          "claim_id": "C065",
+          "weight": 0.11,
+          "share": 0.008,
+          "text": "Investigators were unable to find any wet market connections for Mr. Chen."
+        },
+        {
+          "claim_id": "C033",
+          "weight": 0.087,
+          "share": 0.006,
+          "text": "China said the rumor about a raccoon-dog stall was false and refused to release "
+        },
+        {
+          "claim_id": "C057",
+          "weight": 0.085,
+          "share": 0.006,
+          "text": "The earliest cases, including the 40 very earliest, were not biased toward wet m"
+        },
+        {
+          "claim_id": "C040",
+          "weight": 0.079,
+          "share": 0.006,
+          "text": "One of the few non-market-connected COVID cases detected during the early period"
+        },
+        {
+          "claim_id": "C090",
+          "weight": 0.065,
+          "share": 0.005,
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "claim_id": "C045",
+          "weight": 0.06,
+          "share": 0.004,
+          "text": "China suppressed evidence of WIV research, as was done in previous lab leak case"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.046,
+          "share": 0.003,
+          "text": "Authorities decided COVID spread through a wet market and started deliberately l"
+        },
+        {
+          "claim_id": "C056",
+          "weight": 0.046,
+          "share": 0.003,
+          "text": "Among the 40 earliest COVID cases, half had wet market connections."
+        },
+        {
+          "claim_id": "C066",
+          "weight": 0.043,
+          "share": 0.003,
+          "text": "If Mr. Chen had no wet market connections and was infected by someone earlier th"
+        },
+        {
+          "claim_id": "C087",
+          "weight": 0.043,
+          "share": 0.003,
+          "text": "The wet market is unlikely to be the origin of the pandemic because the original"
+        },
+        {
+          "claim_id": "C083",
+          "weight": 0.035,
+          "share": 0.003,
+          "text": "All of the cases at the wet market, including the first detected case, were Line"
+        },
+        {
+          "claim_id": "C084",
+          "weight": 0.035,
+          "share": 0.003,
+          "text": "Lineage A was not discovered until about a week after Lineage B was first found "
+        },
+        {
+          "claim_id": "C085",
+          "weight": 0.035,
+          "share": 0.003,
+          "text": "None of the Lineage A patients had been to the wet market."
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.029,
+          "share": 0.002,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "claim_id": "C093",
+          "weight": 0.027,
+          "share": 0.002,
+          "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.027,
+          "share": 0.002,
+          "text": "The double wet market spillover hypothesis is the only story that explains the e"
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.027,
+          "share": 0.002,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.027,
+          "share": 0.002,
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        },
+        {
+          "claim_id": "C079",
+          "weight": 0.025,
+          "share": 0.002,
+          "text": "The coronavirus's first major split was between two sub-strains called Lineage A"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.024,
+          "share": 0.002,
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        },
+        {
+          "claim_id": "C086",
+          "weight": 0.023,
+          "share": 0.002,
+          "text": "The absence of Lineage A at the wet market and its later discovery is consistent"
+        },
+        {
+          "claim_id": "C094",
+          "weight": 0.022,
+          "share": 0.002,
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.022,
+          "share": 0.002,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C080",
+          "weight": 0.021,
+          "share": 0.001,
+          "text": "In the two mutations distinguishing Lineage A and Lineage B, Lineage A matches B"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "Lineage B differs from BANAL-52 in the two mutations that distinguish Lineage A "
+        },
+        {
+          "claim_id": "C042",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "The Wuhan Institute of Virology was doing lots of gain of function research."
+        },
+        {
+          "claim_id": "C097",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "If the pandemic originated from a lab leak, it would be a bizarre coincidence fo"
+        },
+        {
+          "claim_id": "C089",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "Throughout the early pandemic, until the D614G variant drove all other strains e"
+        },
+        {
+          "claim_id": "C112",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "WIV stated in 2018 that it was going to find viruses and add furin cleavage site"
+        },
+        {
+          "claim_id": "C095",
+          "weight": 0.006,
+          "share": 0.0,
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.005,
+          "share": 0.0,
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        },
+        {
+          "claim_id": "C102",
+          "weight": 0.003,
+          "share": 0.0,
+          "text": "Scattered intermediate cases between Lineage A and B do not make sense under the"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.003,
+          "share": 0.0,
+          "text": "There are scattered cases of genetic intermediates between Lineage A and Lineage"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.001,
+          "share": 0.0,
+          "text": "The presence of both (T/T) and (C/C) apparent intermediates in the data—when onl"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.001,
+          "share": 0.0,
+          "text": "The supposed intermediate lineage cases were all found by the same computer soft"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.001,
+          "share": 0.0,
+          "text": "Many of the apparent progenitor cases also carry later mutations that Lineage A "
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.0,
+          "share": 0.0,
+          "text": "The autofilling software could produce apparent intermediates by filling in diff"
+        }
+      ]
+    },
+    {
+      "conclusion": "C063",
+      "conclusion_text": "Scott Alexander judges the lab-leak-via-wet-market scenario to be unparsimonious.",
+      "concentration": 0.259,
+      "effective_independent_claims": 6.5,
+      "supporting_claim_count": 9,
+      "top_claim": "C061",
+      "top_claim_text": "A slow-burn spread pattern at the wet market is hard to explain if a single visit from an infected lab worker introduced the virus there.",
+      "contributions": [
+        {
+          "claim_id": "C061",
+          "weight": 0.924,
+          "share": 0.259,
+          "text": "A slow-burn spread pattern at the wet market is hard to explain if a single visi"
+        },
+        {
+          "claim_id": "C062",
+          "weight": 0.6,
+          "share": 0.168,
+          "text": "For the lab leak hypothesis to be consistent with wet market evidence, the lab w"
+        },
+        {
+          "claim_id": "C097",
+          "weight": 0.6,
+          "share": 0.168,
+          "text": "If the pandemic originated from a lab leak, it would be a bizarre coincidence fo"
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.324,
+          "share": 0.091,
+          "text": "There was no single super-spreader event at the wet market; instead COVID spread"
+        },
+        {
+          "claim_id": "C042",
+          "weight": 0.324,
+          "share": 0.091,
+          "text": "The Wuhan Institute of Virology was doing lots of gain of function research."
+        },
+        {
+          "claim_id": "C112",
+          "weight": 0.292,
+          "share": 0.082,
+          "text": "WIV stated in 2018 that it was going to find viruses and add furin cleavage site"
+        },
+        {
+          "claim_id": "C077",
+          "weight": 0.175,
+          "share": 0.049,
+          "text": "Raccoon-dogs were sold in cages at various stalls, separated by air gaps large e"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.162,
+          "share": 0.045,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.162,
+          "share": 0.045,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        }
+      ]
+    },
+    {
+      "conclusion": "C087",
+      "conclusion_text": "The wet market is unlikely to be the origin of the pandemic because the original Lineage A strain was not found there.",
+      "concentration": 0.118,
+      "effective_independent_claims": 18.97,
+      "supporting_claim_count": 32,
+      "top_claim": "C090",
+      "top_claim_text": "Because both lineages spread at the same rate, the most likely explanation for Lineage B being twice as common is that Lineage B started spreading 3-4 days earlier than Lineage A.",
+      "contributions": [
+        {
+          "claim_id": "C090",
+          "weight": 1.686,
+          "share": 0.118,
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "claim_id": "C083",
+          "weight": 0.924,
+          "share": 0.065,
+          "text": "All of the cases at the wet market, including the first detected case, were Line"
+        },
+        {
+          "claim_id": "C084",
+          "weight": 0.924,
+          "share": 0.065,
+          "text": "Lineage A was not discovered until about a week after Lineage B was first found "
+        },
+        {
+          "claim_id": "C085",
+          "weight": 0.924,
+          "share": 0.065,
+          "text": "None of the Lineage A patients had been to the wet market."
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.768,
+          "share": 0.054,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "claim_id": "C093",
+          "weight": 0.718,
+          "share": 0.05,
+          "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.701,
+          "share": 0.049,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.701,
+          "share": 0.049,
+          "text": "The double wet market spillover hypothesis is the only story that explains the e"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.695,
+          "share": 0.049,
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        },
+        {
+          "claim_id": "C079",
+          "weight": 0.648,
+          "share": 0.045,
+          "text": "The coronavirus's first major split was between two sub-strains called Lineage A"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.616,
+          "share": 0.043,
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        },
+        {
+          "claim_id": "C086",
+          "weight": 0.6,
+          "share": 0.042,
+          "text": "The absence of Lineage A at the wet market and its later discovery is consistent"
+        },
+        {
+          "claim_id": "C094",
+          "weight": 0.58,
+          "share": 0.041,
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.563,
+          "share": 0.039,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C080",
+          "weight": 0.54,
+          "share": 0.038,
+          "text": "In the two mutations distinguishing Lineage A and Lineage B, Lineage A matches B"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "Lineage B differs from BANAL-52 in the two mutations that distinguish Lineage A "
+        },
+        {
+          "claim_id": "C042",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "The Wuhan Institute of Virology was doing lots of gain of function research."
+        },
+        {
+          "claim_id": "C045",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "China suppressed evidence of WIV research, as was done in previous lab leak case"
+        },
+        {
+          "claim_id": "C097",
+          "weight": 0.324,
+          "share": 0.023,
+          "text": "If the pandemic originated from a lab leak, it would be a bizarre coincidence fo"
+        },
+        {
+          "claim_id": "C089",
+          "weight": 0.322,
+          "share": 0.023,
+          "text": "Throughout the early pandemic, until the D614G variant drove all other strains e"
+        },
+        {
+          "claim_id": "C112",
+          "weight": 0.292,
+          "share": 0.02,
+          "text": "WIV stated in 2018 that it was going to find viruses and add furin cleavage site"
+        },
+        {
+          "claim_id": "C078",
+          "weight": 0.162,
+          "share": 0.011,
+          "text": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some "
+        },
+        {
+          "claim_id": "C095",
+          "weight": 0.158,
+          "share": 0.011,
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.12,
+          "share": 0.008,
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        },
+        {
+          "claim_id": "C070",
+          "weight": 0.081,
+          "share": 0.006,
+          "text": "Jesse Bloom's investigation of wet market samples failed to find a clear connect"
+        },
+        {
+          "claim_id": "C102",
+          "weight": 0.081,
+          "share": 0.006,
+          "text": "Scattered intermediate cases between Lineage A and B do not make sense under the"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.073,
+          "share": 0.005,
+          "text": "There are scattered cases of genetic intermediates between Lineage A and Lineage"
+        },
+        {
+          "claim_id": "C071",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "In a formal statistical analysis of which animals' DNA was found near COVID samp"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.026,
+          "share": 0.002,
+          "text": "The presence of both (T/T) and (C/C) apparent intermediates in the data—when onl"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.022,
+          "share": 0.002,
+          "text": "The supposed intermediate lineage cases were all found by the same computer soft"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.02,
+          "share": 0.001,
+          "text": "Many of the apparent progenitor cases also carry later mutations that Lineage A "
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "The autofilling software could produce apparent intermediates by filling in diff"
+        }
+      ]
+    },
+    {
+      "conclusion": "C088",
+      "conclusion_text": "Although Lineage A is evolutionarily older, Lineage B started spreading in humans first.",
+      "concentration": 0.258,
+      "effective_independent_claims": 8.11,
+      "supporting_claim_count": 18,
+      "top_claim": "C090",
+      "top_claim_text": "Because both lineages spread at the same rate, the most likely explanation for Lineage B being twice as common is that Lineage B started spreading 3-4 days earlier than Lineage A.",
+      "contributions": [
+        {
+          "claim_id": "C090",
+          "weight": 2.024,
+          "share": 0.258,
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "claim_id": "C089",
+          "weight": 1.324,
+          "share": 0.169,
+          "text": "Throughout the early pandemic, until the D614G variant drove all other strains e"
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.64,
+          "share": 0.082,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.54,
+          "share": 0.069,
+          "text": "The double wet market spillover hypothesis is the only story that explains the e"
+        },
+        {
+          "claim_id": "C093",
+          "weight": 0.486,
+          "share": 0.062,
+          "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.449,
+          "share": 0.057,
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        },
+        {
+          "claim_id": "C095",
+          "weight": 0.377,
+          "share": 0.048,
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "claim_id": "C094",
+          "weight": 0.338,
+          "share": 0.043,
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.308,
+          "share": 0.039,
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        },
+        {
+          "claim_id": "C080",
+          "weight": 0.27,
+          "share": 0.034,
+          "text": "In the two mutations distinguishing Lineage A and Lineage B, Lineage A matches B"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.242,
+          "share": 0.031,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C079",
+          "weight": 0.162,
+          "share": 0.021,
+          "text": "The coronavirus's first major split was between two sub-strains called Lineage A"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.162,
+          "share": 0.021,
+          "text": "Lineage B differs from BANAL-52 in the two mutations that distinguish Lineage A "
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.162,
+          "share": 0.021,
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        },
+        {
+          "claim_id": "C078",
+          "weight": 0.157,
+          "share": 0.02,
+          "text": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.085,
+          "share": 0.011,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        },
+        {
+          "claim_id": "C070",
+          "weight": 0.079,
+          "share": 0.01,
+          "text": "Jesse Bloom's investigation of wet market samples failed to find a clear connect"
+        },
+        {
+          "claim_id": "C071",
+          "weight": 0.043,
+          "share": 0.005,
+          "text": "In a formal statistical analysis of which animals' DNA was found near COVID samp"
+        }
+      ]
+    },
+    {
+      "conclusion": "C100",
+      "conclusion_text": "The double wet market spillover hypothesis is the only story that explains the evolutionary precedence of Lineage A, the greater spread and older molecular clock of Lineage B, and the fact that both strains were first found very close to the wet market.",
+      "concentration": 0.219,
+      "effective_independent_claims": 10.2,
+      "supporting_claim_count": 24,
+      "top_claim": "C090",
+      "top_claim_text": "Because both lineages spread at the same rate, the most likely explanation for Lineage B being twice as common is that Lineage B started spreading 3-4 days earlier than Lineage A.",
+      "contributions": [
+        {
+          "claim_id": "C090",
+          "weight": 2.821,
+          "share": 0.219,
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 1.38,
+          "share": 0.107,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 1.239,
+          "share": 0.096,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        },
+        {
+          "claim_id": "C089",
+          "weight": 1.192,
+          "share": 0.093,
+          "text": "Throughout the early pandemic, until the D614G variant drove all other strains e"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 1.004,
+          "share": 0.078,
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        },
+        {
+          "claim_id": "C094",
+          "weight": 0.904,
+          "share": 0.07,
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "claim_id": "C097",
+          "weight": 0.6,
+          "share": 0.047,
+          "text": "If the pandemic originated from a lab leak, it would be a bizarre coincidence fo"
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.576,
+          "share": 0.045,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.446,
+          "share": 0.035,
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        },
+        {
+          "claim_id": "C093",
+          "weight": 0.437,
+          "share": 0.034,
+          "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
+        },
+        {
+          "claim_id": "C095",
+          "weight": 0.339,
+          "share": 0.026,
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "claim_id": "C102",
+          "weight": 0.3,
+          "share": 0.023,
+          "text": "Scattered intermediate cases between Lineage A and B do not make sense under the"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.277,
+          "share": 0.022,
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.27,
+          "share": 0.021,
+          "text": "There are scattered cases of genetic intermediates between Lineage A and Lineage"
+        },
+        {
+          "claim_id": "C080",
+          "weight": 0.243,
+          "share": 0.019,
+          "text": "In the two mutations distinguishing Lineage A and Lineage B, Lineage A matches B"
+        },
+        {
+          "claim_id": "C079",
+          "weight": 0.146,
+          "share": 0.011,
+          "text": "The coronavirus's first major split was between two sub-strains called Lineage A"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.146,
+          "share": 0.011,
+          "text": "Lineage B differs from BANAL-52 in the two mutations that distinguish Lineage A "
+        },
+        {
+          "claim_id": "C078",
+          "weight": 0.142,
+          "share": 0.011,
+          "text": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some "
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.097,
+          "share": 0.008,
+          "text": "The presence of both (T/T) and (C/C) apparent intermediates in the data—when onl"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.081,
+          "share": 0.006,
+          "text": "The supposed intermediate lineage cases were all found by the same computer soft"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.073,
+          "share": 0.006,
+          "text": "Many of the apparent progenitor cases also carry later mutations that Lineage A "
+        },
+        {
+          "claim_id": "C070",
+          "weight": 0.071,
+          "share": 0.006,
+          "text": "Jesse Bloom's investigation of wet market samples failed to find a clear connect"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "The autofilling software could produce apparent intermediates by filling in diff"
+        },
+        {
+          "claim_id": "C071",
+          "weight": 0.038,
+          "share": 0.003,
+          "text": "In a formal statistical analysis of which animals' DNA was found near COVID samp"
+        }
+      ]
+    },
+    {
+      "conclusion": "C128",
+      "conclusion_text": "WIV found a close relative of BANAL-52 and added a furin cleavage site to it, encoding arginine as CGG because human engineers were most familiar with that encoding.",
+      "concentration": 0.082,
+      "effective_independent_claims": 25.37,
+      "supporting_claim_count": 48,
+      "top_claim": "C126",
+      "top_claim_text": "CGG is the way higher animals code for arginine, not the usual viral way.",
+      "contributions": [
+        {
+          "claim_id": "C126",
+          "weight": 1.54,
+          "share": 0.082,
+          "text": "CGG is the way higher animals code for arginine, not the usual viral way."
+        },
+        {
+          "claim_id": "C118",
+          "weight": 1.14,
+          "share": 0.061,
+          "text": "The addition of a furin cleavage site transformed bat coronaviruses from gastroi"
+        },
+        {
+          "claim_id": "C123",
+          "weight": 1.14,
+          "share": 0.061,
+          "text": "BANAL-52, COVID's closest ancestor, does not have anything resembling a furin cl"
+        },
+        {
+          "claim_id": "C122",
+          "weight": 1.0,
+          "share": 0.053,
+          "text": "None of the 1500 known sarbecoviruses except COVID have furin cleavage sites."
+        },
+        {
+          "claim_id": "C124",
+          "weight": 1.0,
+          "share": 0.053,
+          "text": "COVID has twelve completely new nucleotides in a row forming a fully-formed furi"
+        },
+        {
+          "claim_id": "C125",
+          "weight": 1.0,
+          "share": 0.053,
+          "text": "COVID's furin cleavage site uses the protein arginine twice, encoded both times "
+        },
+        {
+          "claim_id": "C121",
+          "weight": 0.9,
+          "share": 0.048,
+          "text": "There are 1500 sarbecoviruses, members of the family of viruses that includes SA"
+        },
+        {
+          "claim_id": "C090",
+          "weight": 0.762,
+          "share": 0.04,
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.701,
+          "share": 0.037,
+          "text": "The double wet market spillover hypothesis is the only story that explains the e"
+        },
+        {
+          "claim_id": "C136",
+          "weight": 0.687,
+          "share": 0.037,
+          "text": "WIV was doing coronavirus research in BSL-2 (medium security), and researchers w"
+        },
+        {
+          "claim_id": "C137",
+          "weight": 0.647,
+          "share": 0.034,
+          "text": "About 1 in 5 labs will leak any given pathogen they are working on."
+        },
+        {
+          "claim_id": "C120",
+          "weight": 0.6,
+          "share": 0.032,
+          "text": "COVID looks more or less like BANAL-52 plus a furin cleavage site."
+        },
+        {
+          "claim_id": "C133",
+          "weight": 0.6,
+          "share": 0.032,
+          "text": "COVID's constant mutation rate in humans suggests it was already adapted to huma"
+        },
+        {
+          "claim_id": "C111",
+          "weight": 0.6,
+          "share": 0.032,
+          "text": "Two years before COVID, scientists at the Wuhan Institute of Virology and collea"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.54,
+          "share": 0.029,
+          "text": "COVID's bat-virus ancestors were gastrointestinal viruses."
+        },
+        {
+          "claim_id": "C119",
+          "weight": 0.54,
+          "share": 0.029,
+          "text": "Two close relatives of COVID have been found: bat viruses called RATG-13 and BAN"
+        },
+        {
+          "claim_id": "C132",
+          "weight": 0.54,
+          "share": 0.029,
+          "text": "COVID had a pretty constant mutation rate in humans from the beginning to the en"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.373,
+          "share": 0.02,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.334,
+          "share": 0.018,
+          "text": "A positive Lineage A environmental sample was found at the wet market."
+        },
+        {
+          "claim_id": "C114",
+          "weight": 0.324,
+          "share": 0.017,
+          "text": "COVID uses the human respiratory enzyme furin to separate the two sections of it"
+        },
+        {
+          "claim_id": "C130",
+          "weight": 0.324,
+          "share": 0.017,
+          "text": "COVID seemed surprisingly optimized for infecting humans."
+        },
+        {
+          "claim_id": "C131",
+          "weight": 0.324,
+          "share": 0.017,
+          "text": "A virus entering a new species will usually show a burst of mutations as it adap"
+        },
+        {
+          "claim_id": "C134",
+          "weight": 0.324,
+          "share": 0.017,
+          "text": "COVID's apparent pre-adaptation to humans could be explained by lab screening fo"
+        },
+        {
+          "claim_id": "C135",
+          "weight": 0.324,
+          "share": 0.017,
+          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
+        },
+        {
+          "claim_id": "C089",
+          "weight": 0.322,
+          "share": 0.017,
+          "text": "Throughout the early pandemic, until the D614G variant drove all other strains e"
+        },
+        {
+          "claim_id": "C129",
+          "weight": 0.292,
+          "share": 0.016,
+          "text": "COVID was the best at infecting human cells out of fifty animals it was tested i"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.271,
+          "share": 0.014,
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        },
+        {
+          "claim_id": "C094",
+          "weight": 0.244,
+          "share": 0.013,
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "claim_id": "C174",
+          "weight": 0.162,
+          "share": 0.009,
+          "text": "If the adaptation methodology is corrected, COVID is better-adapted to many othe"
+        },
+        {
+          "claim_id": "C097",
+          "weight": 0.162,
+          "share": 0.009,
+          "text": "If the pandemic originated from a lab leak, it would be a bizarre coincidence fo"
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.156,
+          "share": 0.008,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.12,
+          "share": 0.006,
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        },
+        {
+          "claim_id": "C093",
+          "weight": 0.118,
+          "share": 0.006,
+          "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
+        },
+        {
+          "claim_id": "C095",
+          "weight": 0.092,
+          "share": 0.005,
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "claim_id": "C173",
+          "weight": 0.087,
+          "share": 0.005,
+          "text": "The paper claiming COVID is uniquely adapted to humans defined adaptation by mea"
+        },
+        {
+          "claim_id": "C102",
+          "weight": 0.081,
+          "share": 0.004,
+          "text": "Scattered intermediate cases between Lineage A and B do not make sense under the"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.075,
+          "share": 0.004,
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.073,
+          "share": 0.004,
+          "text": "There are scattered cases of genetic intermediates between Lineage A and Lineage"
+        },
+        {
+          "claim_id": "C080",
+          "weight": 0.066,
+          "share": 0.003,
+          "text": "In the two mutations distinguishing Lineage A and Lineage B, Lineage A matches B"
+        },
+        {
+          "claim_id": "C079",
+          "weight": 0.039,
+          "share": 0.002,
+          "text": "The coronavirus's first major split was between two sub-strains called Lineage A"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.039,
+          "share": 0.002,
+          "text": "Lineage B differs from BANAL-52 in the two mutations that distinguish Lineage A "
+        },
+        {
+          "claim_id": "C078",
+          "weight": 0.038,
+          "share": 0.002,
+          "text": "The raccoon dog shop and the drain leading out of the raccoon dog shop had some "
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.026,
+          "share": 0.001,
+          "text": "The presence of both (T/T) and (C/C) apparent intermediates in the data—when onl"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.022,
+          "share": 0.001,
+          "text": "The supposed intermediate lineage cases were all found by the same computer soft"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.02,
+          "share": 0.001,
+          "text": "Many of the apparent progenitor cases also carry later mutations that Lineage A "
+        },
+        {
+          "claim_id": "C070",
+          "weight": 0.019,
+          "share": 0.001,
+          "text": "Jesse Bloom's investigation of wet market samples failed to find a clear connect"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "The autofilling software could produce apparent intermediates by filling in diff"
+        },
+        {
+          "claim_id": "C071",
+          "weight": 0.01,
+          "share": 0.001,
+          "text": "In a formal statistical analysis of which animals' DNA was found near COVID samp"
+        }
+      ]
+    },
+    {
+      "conclusion": "C147",
+      "conclusion_text": "Claims that WIV's published virus lists showed weird discrepancies were due to inability to keep names consistent, not actual discrepancies in what viruses they held.",
+      "concentration": 0.5,
+      "effective_independent_claims": 2.0,
+      "supporting_claim_count": 2,
+      "top_claim": "C145",
+      "top_claim_text": "WIV's job was looking for new coronaviruses, and they published lists of which ones they had found regularly.",
+      "contributions": [
+        {
+          "claim_id": "C145",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "WIV's job was looking for new coronaviruses, and they published lists of which o"
+        },
+        {
+          "claim_id": "C146",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "WIV published their last virus list in mid-2019, just a few months before the pa"
+        }
+      ]
+    },
+    {
+      "conclusion": "C151",
+      "conclusion_text": "COVID's furin cleavage site is unusual in a way that looks natural rather than man-made.",
+      "concentration": 0.144,
+      "effective_independent_claims": 13.59,
+      "supporting_claim_count": 23,
+      "top_claim": "C162",
+      "top_claim_text": "COVID uses PRRAR as its furin cleavage site, which no human has ever used before and which virologists expected to work poorly.",
+      "contributions": [
+        {
+          "claim_id": "C162",
+          "weight": 2.715,
+          "share": 0.144,
+          "text": "COVID uses PRRAR as its furin cleavage site, which no human has ever used before"
+        },
+        {
+          "claim_id": "C164",
+          "weight": 1.938,
+          "share": 0.103,
+          "text": "Wuhan virologists supposedly doing gain-of-function research on COVID would not "
+        },
+        {
+          "claim_id": "C166",
+          "weight": 1.904,
+          "share": 0.101,
+          "text": "COVID's furin cleavage site was inserted via what appears to be a frameshift mut"
+        },
+        {
+          "claim_id": "C165",
+          "weight": 1.54,
+          "share": 0.082,
+          "text": "During the pandemic, COVID mutated away from its PRRAR furin cleavage site towar"
+        },
+        {
+          "claim_id": "C163",
+          "weight": 1.262,
+          "share": 0.067,
+          "text": "An adjacent part of COVID's genome twists the protein in an unusual way that all"
+        },
+        {
+          "claim_id": "C152",
+          "weight": 1.0,
+          "share": 0.053,
+          "text": "Labs typically add furin cleavage sites through mutation of existing sequences, "
+        },
+        {
+          "claim_id": "C153",
+          "weight": 1.0,
+          "share": 0.053,
+          "text": "Viruses can acquire insertions of 12 or more nucleotides in nature."
+        },
+        {
+          "claim_id": "C160",
+          "weight": 1.0,
+          "share": 0.053,
+          "text": "In one example Peter found of humans adding arginine to a virus, 0 out of 5 argi"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.9,
+          "share": 0.048,
+          "text": "HKU1 is another emergent Chinese coronavirus that caused a small outbreak of pne"
+        },
+        {
+          "claim_id": "C155",
+          "weight": 0.9,
+          "share": 0.048,
+          "text": "Later strains of COVID acquired further 12–15 nucleotide insertions."
+        },
+        {
+          "claim_id": "C156",
+          "weight": 0.9,
+          "share": 0.048,
+          "text": "Many flu strains have 12 to 15 nucleotide insertions compared to earlier flu str"
+        },
+        {
+          "claim_id": "C167",
+          "weight": 0.836,
+          "share": 0.044,
+          "text": "A frameshift insertion of a furin cleavage site would be a pointless and overly "
+        },
+        {
+          "claim_id": "C158",
+          "weight": 0.6,
+          "share": 0.032,
+          "text": "A virus splicing host RNA into itself would explain why the insertion used CGG f"
+        },
+        {
+          "claim_id": "C168",
+          "weight": 0.6,
+          "share": 0.032,
+          "text": "The frameshift insertion is the kind of weird thing that happens in the random c"
+        },
+        {
+          "claim_id": "C161",
+          "weight": 0.54,
+          "share": 0.029,
+          "text": "When humans insert furin cleavage sites into viruses for gain-of-function, the s"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.324,
+          "share": 0.017,
+          "text": "Sometimes viral insertions occur because a virus gets confused between its own R"
+        },
+        {
+          "claim_id": "C141",
+          "weight": 0.231,
+          "share": 0.012,
+          "text": "WIV had done a few very simple gain-of-function projects before but was not set "
+        },
+        {
+          "claim_id": "C138",
+          "weight": 0.22,
+          "share": 0.012,
+          "text": "The DEFUSE grant proposal was rejected."
+        },
+        {
+          "claim_id": "C139",
+          "weight": 0.199,
+          "share": 0.011,
+          "text": "The DEFUSE grant specified that WIV would be responsible for finding the viruses"
+        },
+        {
+          "claim_id": "C159",
+          "weight": 0.162,
+          "share": 0.009,
+          "text": "CGG is not that rare in viruses; COVID uses CGG for arginine about 3% of the tim"
+        },
+        {
+          "claim_id": "C186",
+          "weight": 0.031,
+          "share": 0.002,
+          "text": "The unusual furin cleavage site might have been inserted deliberately to make th"
+        },
+        {
+          "claim_id": "C187",
+          "weight": 0.031,
+          "share": 0.002,
+          "text": "Depending on the exact BANAL-52 relative used, a particular spelling of serine m"
+        },
+        {
+          "claim_id": "C140",
+          "weight": 0.013,
+          "share": 0.001,
+          "text": "UNC was actually good at gain-of-function research, while WIV mostly was not."
+        }
+      ]
+    },
+    {
+      "conclusion": "C208",
+      "conclusion_text": "COVID clusters concentrate in wet markets even when there is no animal spillover.",
+      "concentration": 0.203,
+      "effective_independent_claims": 5.77,
+      "supporting_claim_count": 6,
+      "top_claim": "C216",
+      "top_claim_text": "Wet markets start outbreaks because there are infected goods being sold there, and the virus then spreads at a completely normal rate.",
+      "contributions": [
+        {
+          "claim_id": "C216",
+          "weight": 1.14,
+          "share": 0.203,
+          "text": "Wet markets start outbreaks because there are infected goods being sold there, a"
+        },
+        {
+          "claim_id": "C204",
+          "weight": 1.0,
+          "share": 0.178,
+          "text": "During China's COVID Zero policy, most small outbreaks that authorities had to c"
+        },
+        {
+          "claim_id": "C205",
+          "weight": 1.0,
+          "share": 0.178,
+          "text": "The large COVID outbreak in Beijing during COVID Zero started at Xinfadi Market."
+        },
+        {
+          "claim_id": "C207",
+          "weight": 1.0,
+          "share": 0.178,
+          "text": "Wet markets account for about half of the total outbreaks in Zero COVID era Chin"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.924,
+          "share": 0.165,
+          "text": "The Beijing Xinfadi Market outbreak could not have been an animal spillover beca"
+        },
+        {
+          "claim_id": "C215",
+          "weight": 0.54,
+          "share": 0.096,
+          "text": "The Beijing Xinfadi Market outbreak during COVID Zero was caused by a seafood st"
+        }
+      ]
+    },
+    {
+      "conclusion": "C216",
+      "conclusion_text": "Wet markets start outbreaks because there are infected goods being sold there, and the virus then spreads at a completely normal rate.",
+      "concentration": 0.264,
+      "effective_independent_claims": 4.72,
+      "supporting_claim_count": 5,
+      "top_claim": "C206",
+      "top_claim_text": "The Beijing Xinfadi Market outbreak could not have been an animal spillover because there were no raccoon-dogs or other wildlife there.",
+      "contributions": [
+        {
+          "claim_id": "C206",
+          "weight": 1.14,
+          "share": 0.264,
+          "text": "The Beijing Xinfadi Market outbreak could not have been an animal spillover beca"
+        },
+        {
+          "claim_id": "C204",
+          "weight": 0.9,
+          "share": 0.208,
+          "text": "During China's COVID Zero policy, most small outbreaks that authorities had to c"
+        },
+        {
+          "claim_id": "C205",
+          "weight": 0.9,
+          "share": 0.208,
+          "text": "The large COVID outbreak in Beijing during COVID Zero started at Xinfadi Market."
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.9,
+          "share": 0.208,
+          "text": "Wet markets account for about half of the total outbreaks in Zero COVID era Chin"
+        },
+        {
+          "claim_id": "C215",
+          "weight": 0.486,
+          "share": 0.112,
+          "text": "The Beijing Xinfadi Market outbreak during COVID Zero was caused by a seafood st"
+        }
+      ]
+    },
+    {
+      "conclusion": "C220",
+      "conclusion_text": "The zoonosis hypothesis has not predicted or 'called' the wet market location in a way that should give it a high Bayes factor.",
+      "concentration": 0.128,
+      "effective_independent_claims": 18.5,
+      "supporting_claim_count": 40,
+      "top_claim": "C237",
+      "top_claim_text": "As debate videos were released, the prediction market shifted toward zoonosis.",
+      "contributions": [
+        {
+          "claim_id": "C237",
+          "weight": 1.14,
+          "share": 0.128,
+          "text": "As debate videos were released, the prediction market shifted toward zoonosis."
+        },
+        {
+          "claim_id": "C212",
+          "weight": 0.6,
+          "share": 0.067,
+          "text": "Weighted by busy-ness, there was less than a 1 in 1,600 chance that the first CO"
+        },
+        {
+          "claim_id": "C219",
+          "weight": 0.6,
+          "share": 0.067,
+          "text": "Wet markets were not a common spillover location in SARS-1."
+        },
+        {
+          "claim_id": "C235",
+          "weight": 0.6,
+          "share": 0.067,
+          "text": "Both judges decided in favor of Peter Miller and the zoonosis hypothesis."
+        },
+        {
+          "claim_id": "C238",
+          "weight": 0.6,
+          "share": 0.067,
+          "text": "The Good Judgment Project's superforecasters concluded 75-25 in favor of zoonosi"
+        },
+        {
+          "claim_id": "C239",
+          "weight": 0.54,
+          "share": 0.061,
+          "text": "The Rootclaim debate was one of ten sources the Good Judgment Project found espe"
+        },
+        {
+          "claim_id": "C263",
+          "weight": 0.368,
+          "share": 0.041,
+          "text": "The judges' probabilistic analysis compared Peter's unadjusted 1-in-10,000 wet m"
+        },
+        {
+          "claim_id": "C254",
+          "weight": 0.348,
+          "share": 0.039,
+          "text": "Peter argued that a zoonotic pandemic would obviously start at a site selling we"
+        },
+        {
+          "claim_id": "C211",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "According to Weibo check-in data, the wet market was the 1,600th most popular pl"
+        },
+        {
+          "claim_id": "C213",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Thousands of other places in Wuhan, such as schools, hospitals, workplaces, and "
+        },
+        {
+          "claim_id": "C244",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Judge Eric wrote approximately 30,000 words about which considerations moved him"
+        },
+        {
+          "claim_id": "C246",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Judge Will's decision ran to approximately 10,000 words."
+        },
+        {
+          "claim_id": "C247",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Judge Will independently tried both intuitive reasoning and Bayesian analysis an"
+        },
+        {
+          "claim_id": "C284",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Peter's evidence hung together while Saar's evidence fell apart on cross-examina"
+        },
+        {
+          "claim_id": "C236",
+          "weight": 0.292,
+          "share": 0.033,
+          "text": "The prediction market on the debate started 70-30 in favor of lab leak."
+        },
+        {
+          "claim_id": "C279",
+          "weight": 0.269,
+          "share": 0.03,
+          "text": "In his closing argument, Saar admitted that Peter had much more knowledge on COV"
+        },
+        {
+          "claim_id": "C276",
+          "weight": 0.175,
+          "share": 0.02,
+          "text": "Peter appeared to have a photographic memory for every detail of every study he "
+        },
+        {
+          "claim_id": "C277",
+          "weight": 0.175,
+          "share": 0.02,
+          "text": "Peter had a detailed mental model of Wuhan, the wet market, and how its ventilat"
+        },
+        {
+          "claim_id": "C278",
+          "weight": 0.175,
+          "share": 0.02,
+          "text": "Whenever a challenge was raised to one of Peter's points, he had a pre-made ten-"
+        },
+        {
+          "claim_id": "C282",
+          "weight": 0.175,
+          "share": 0.02,
+          "text": "Saar could not effectively communicate what his big picture argument was."
+        },
+        {
+          "claim_id": "C250",
+          "weight": 0.162,
+          "share": 0.018,
+          "text": "Saar's position was that the debate went wrong for his side because the judges u"
+        },
+        {
+          "claim_id": "C280",
+          "weight": 0.145,
+          "share": 0.016,
+          "text": "Saar argued throughout the debate that getting the inference right was more impo"
+        },
+        {
+          "claim_id": "C281",
+          "weight": 0.094,
+          "share": 0.011,
+          "text": "Although Peter won most specific points of contention, Saar thought the judges s"
+        },
+        {
+          "claim_id": "C217",
+          "weight": 0.087,
+          "share": 0.01,
+          "text": "Saar argued that the Weibo list of 1,600 places bigger than the wet market is li"
+        },
+        {
+          "claim_id": "C285",
+          "weight": 0.051,
+          "share": 0.006,
+          "text": "Scott infers, reading between the lines, that Saar thought the un-ignorable big "
+        },
+        {
+          "claim_id": "C287",
+          "weight": 0.046,
+          "share": 0.005,
+          "text": "It is a weird coincidence that the COVID-19 epidemic started close to Asia's big"
+        },
+        {
+          "claim_id": "C296",
+          "weight": 0.046,
+          "share": 0.005,
+          "text": "The furin cleavage site insertion stands out on a genetic map."
+        },
+        {
+          "claim_id": "C262",
+          "weight": 0.039,
+          "share": 0.004,
+          "text": "Saar said he 'could have' argued there was only a one-in-a-million chance COVID'"
+        },
+        {
+          "claim_id": "C290",
+          "weight": 0.038,
+          "share": 0.004,
+          "text": "Wuhan was unique as a coronavirus research hub, aside from the other big coronav"
+        },
+        {
+          "claim_id": "C295",
+          "weight": 0.036,
+          "share": 0.004,
+          "text": "Peter argued that Wuhan was a local trade center, which might raise the probabil"
+        },
+        {
+          "claim_id": "C289",
+          "weight": 0.028,
+          "share": 0.003,
+          "text": "The other cities' labs had much less coronavirus-specific research than Wuhan."
+        },
+        {
+          "claim_id": "C283",
+          "weight": 0.026,
+          "share": 0.003,
+          "text": "Neither debater deployed an amazingly elegant prior; both used the same kind of "
+        },
+        {
+          "claim_id": "C298",
+          "weight": 0.025,
+          "share": 0.003,
+          "text": "A naive calculation might suggest 30,000-to-one odds against the furin cleavage "
+        },
+        {
+          "claim_id": "C218",
+          "weight": 0.024,
+          "share": 0.003,
+          "text": "Huanan is the largest seafood market in central China."
+        },
+        {
+          "claim_id": "C288",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "Peter argued that other BSL-3 and BSL-4 laboratories existed in Beijing, Shangha"
+        },
+        {
+          "claim_id": "C292",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Peter argued that there are a couple hundred million people in the South Asian a"
+        },
+        {
+          "claim_id": "C293",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Wuhan has a population of about 12 million."
+        },
+        {
+          "claim_id": "C256",
+          "weight": 0.006,
+          "share": 0.001,
+          "text": "Saar argued that the real probability of the wet market appearing in a lab leak "
+        },
+        {
+          "claim_id": "C257",
+          "weight": 0.003,
+          "share": 0.0,
+          "text": "Saar used a DNA forensics example to illustrate that a claimed 1-in-a-billion ma"
+        },
+        {
+          "claim_id": "C258",
+          "weight": 0.002,
+          "share": 0.0,
+          "text": "Scott Alexander did not find Saar's specific examples against Peter's wet market"
+        }
+      ]
+    },
+    {
+      "conclusion": "C224",
+      "conclusion_text": "Peter Miller asserted that Connor Reed was lying about his COVID illness.",
+      "concentration": 0.237,
+      "effective_independent_claims": 5.99,
+      "supporting_claim_count": 7,
+      "top_claim": "C227",
+      "top_claim_text": "A cat dying of coronavirus is rare to impossible.",
+      "contributions": [
+        {
+          "claim_id": "C227",
+          "weight": 1.464,
+          "share": 0.237,
+          "text": "A cat dying of coronavirus is rare to impossible."
+        },
+        {
+          "claim_id": "C226",
+          "weight": 1.394,
+          "share": 0.225,
+          "text": "Connor Reed told The Daily Mail that his cat also died of coronavirus."
+        },
+        {
+          "claim_id": "C228",
+          "weight": 0.924,
+          "share": 0.149,
+          "text": "Almost no 25-year-olds go to the hospital for coronavirus."
+        },
+        {
+          "claim_id": "C225",
+          "weight": 0.6,
+          "share": 0.097,
+          "text": "Connor Reed's case was reported in the tabloid The Daily Mail, months after it s"
+        },
+        {
+          "claim_id": "C229",
+          "weight": 0.6,
+          "share": 0.097,
+          "text": "The hospital never informed anyone else of Connor Reed's supposedly positive COV"
+        },
+        {
+          "claim_id": "C230",
+          "weight": 0.6,
+          "share": 0.097,
+          "text": "Connor Reed died of a drug overdose shortly after giving his story to The Daily "
+        },
+        {
+          "claim_id": "C231",
+          "weight": 0.6,
+          "share": 0.097,
+          "text": "Connor Reed claimed he got his case at a market 'like in the media'."
+        }
+      ]
+    },
+    {
+      "conclusion": "C232",
+      "concentration": 0.0,
+      "top_claim": null,
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C243",
+      "conclusion_text": "Scott Alexander is now 90-10 in favor of zoonosis after the debate.",
+      "concentration": 0.074,
+      "effective_independent_claims": 19.52,
+      "supporting_claim_count": 37,
+      "top_claim": "C232",
+      "top_claim_text": "The claim of 90 pre-market cases arose because a lab leak proponent misinterpreted a paper that simply counted cases differently from other papers.",
+      "contributions": [
+        {
+          "claim_id": "C232",
+          "weight": 0.6,
+          "share": 0.074,
+          "text": "The claim of 90 pre-market cases arose because a lab leak proponent misinterpret"
+        },
+        {
+          "claim_id": "C235",
+          "weight": 0.6,
+          "share": 0.074,
+          "text": "Both judges decided in favor of Peter Miller and the zoonosis hypothesis."
+        },
+        {
+          "claim_id": "C238",
+          "weight": 0.6,
+          "share": 0.074,
+          "text": "The Good Judgment Project's superforecasters concluded 75-25 in favor of zoonosi"
+        },
+        {
+          "claim_id": "C241",
+          "weight": 0.6,
+          "share": 0.074,
+          "text": "The GCRI expert survey found results consistent with 75-25 in favor of zoonosis."
+        },
+        {
+          "claim_id": "C237",
+          "weight": 0.54,
+          "share": 0.067,
+          "text": "As debate videos were released, the prediction market shifted toward zoonosis."
+        },
+        {
+          "claim_id": "C239",
+          "weight": 0.54,
+          "share": 0.067,
+          "text": "The Rootclaim debate was one of ten sources the Good Judgment Project found espe"
+        },
+        {
+          "claim_id": "C240",
+          "weight": 0.54,
+          "share": 0.067,
+          "text": "The Global Catastrophic Risks Institute surveyed 168 virologists, infectious dis"
+        },
+        {
+          "claim_id": "C263",
+          "weight": 0.368,
+          "share": 0.046,
+          "text": "The judges' probabilistic analysis compared Peter's unadjusted 1-in-10,000 wet m"
+        },
+        {
+          "claim_id": "C254",
+          "weight": 0.348,
+          "share": 0.043,
+          "text": "Peter argued that a zoonotic pandemic would obviously start at a site selling we"
+        },
+        {
+          "claim_id": "C244",
+          "weight": 0.324,
+          "share": 0.04,
+          "text": "Judge Eric wrote approximately 30,000 words about which considerations moved him"
+        },
+        {
+          "claim_id": "C246",
+          "weight": 0.324,
+          "share": 0.04,
+          "text": "Judge Will's decision ran to approximately 10,000 words."
+        },
+        {
+          "claim_id": "C247",
+          "weight": 0.324,
+          "share": 0.04,
+          "text": "Judge Will independently tried both intuitive reasoning and Bayesian analysis an"
+        },
+        {
+          "claim_id": "C284",
+          "weight": 0.324,
+          "share": 0.04,
+          "text": "Peter's evidence hung together while Saar's evidence fell apart on cross-examina"
+        },
+        {
+          "claim_id": "C236",
+          "weight": 0.292,
+          "share": 0.036,
+          "text": "The prediction market on the debate started 70-30 in favor of lab leak."
+        },
+        {
+          "claim_id": "C279",
+          "weight": 0.269,
+          "share": 0.033,
+          "text": "In his closing argument, Saar admitted that Peter had much more knowledge on COV"
+        },
+        {
+          "claim_id": "C276",
+          "weight": 0.175,
+          "share": 0.022,
+          "text": "Peter appeared to have a photographic memory for every detail of every study he "
+        },
+        {
+          "claim_id": "C277",
+          "weight": 0.175,
+          "share": 0.022,
+          "text": "Peter had a detailed mental model of Wuhan, the wet market, and how its ventilat"
+        },
+        {
+          "claim_id": "C278",
+          "weight": 0.175,
+          "share": 0.022,
+          "text": "Whenever a challenge was raised to one of Peter's points, he had a pre-made ten-"
+        },
+        {
+          "claim_id": "C282",
+          "weight": 0.175,
+          "share": 0.022,
+          "text": "Saar could not effectively communicate what his big picture argument was."
+        },
+        {
+          "claim_id": "C250",
+          "weight": 0.162,
+          "share": 0.02,
+          "text": "Saar's position was that the debate went wrong for his side because the judges u"
+        },
+        {
+          "claim_id": "C280",
+          "weight": 0.145,
+          "share": 0.018,
+          "text": "Saar argued throughout the debate that getting the inference right was more impo"
+        },
+        {
+          "claim_id": "C281",
+          "weight": 0.094,
+          "share": 0.012,
+          "text": "Although Peter won most specific points of contention, Saar thought the judges s"
+        },
+        {
+          "claim_id": "C285",
+          "weight": 0.051,
+          "share": 0.006,
+          "text": "Scott infers, reading between the lines, that Saar thought the un-ignorable big "
+        },
+        {
+          "claim_id": "C287",
+          "weight": 0.046,
+          "share": 0.006,
+          "text": "It is a weird coincidence that the COVID-19 epidemic started close to Asia's big"
+        },
+        {
+          "claim_id": "C296",
+          "weight": 0.046,
+          "share": 0.006,
+          "text": "The furin cleavage site insertion stands out on a genetic map."
+        },
+        {
+          "claim_id": "C262",
+          "weight": 0.039,
+          "share": 0.005,
+          "text": "Saar said he 'could have' argued there was only a one-in-a-million chance COVID'"
+        },
+        {
+          "claim_id": "C290",
+          "weight": 0.038,
+          "share": 0.005,
+          "text": "Wuhan was unique as a coronavirus research hub, aside from the other big coronav"
+        },
+        {
+          "claim_id": "C295",
+          "weight": 0.036,
+          "share": 0.004,
+          "text": "Peter argued that Wuhan was a local trade center, which might raise the probabil"
+        },
+        {
+          "claim_id": "C289",
+          "weight": 0.028,
+          "share": 0.003,
+          "text": "The other cities' labs had much less coronavirus-specific research than Wuhan."
+        },
+        {
+          "claim_id": "C283",
+          "weight": 0.026,
+          "share": 0.003,
+          "text": "Neither debater deployed an amazingly elegant prior; both used the same kind of "
+        },
+        {
+          "claim_id": "C298",
+          "weight": 0.025,
+          "share": 0.003,
+          "text": "A naive calculation might suggest 30,000-to-one odds against the furin cleavage "
+        },
+        {
+          "claim_id": "C288",
+          "weight": 0.012,
+          "share": 0.002,
+          "text": "Peter argued that other BSL-3 and BSL-4 laboratories existed in Beijing, Shangha"
+        },
+        {
+          "claim_id": "C292",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Peter argued that there are a couple hundred million people in the South Asian a"
+        },
+        {
+          "claim_id": "C293",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Wuhan has a population of about 12 million."
+        },
+        {
+          "claim_id": "C256",
+          "weight": 0.006,
+          "share": 0.001,
+          "text": "Saar argued that the real probability of the wet market appearing in a lab leak "
+        },
+        {
+          "claim_id": "C257",
+          "weight": 0.003,
+          "share": 0.0,
+          "text": "Saar used a DNA forensics example to illustrate that a claimed 1-in-a-billion ma"
+        },
+        {
+          "claim_id": "C258",
+          "weight": 0.002,
+          "share": 0.0,
+          "text": "Scott Alexander did not find Saar's specific examples against Peter's wet market"
+        }
+      ]
+    },
+    {
+      "conclusion": "C275",
+      "conclusion_text": "Anyone who took Peter's multi-stage probability slide seriously would end up dramatically miscalibrated.",
+      "concentration": 0.304,
+      "effective_independent_claims": 5.18,
+      "supporting_claim_count": 6,
+      "top_claim": "C266",
+      "top_claim_text": "If Peter's multi-stage probability were believed, it would be more likely to win the lottery three times in a row than to discover lab leak was true.",
+      "contributions": [
+        {
+          "claim_id": "C266",
+          "weight": 1.14,
+          "share": 0.304,
+          "text": "If Peter's multi-stage probability were believed, it would be more likely to win"
+        },
+        {
+          "claim_id": "C265",
+          "weight": 0.6,
+          "share": 0.16,
+          "text": "Peter's multi-stage probabilistic slide arrived at a probability of 1/5*10^25 fo"
+        },
+        {
+          "claim_id": "C267",
+          "weight": 0.6,
+          "share": 0.16,
+          "text": "Eliezer Yudkowsky identifies the error of multiplying probabilities across many "
+        },
+        {
+          "claim_id": "C268",
+          "weight": 0.54,
+          "share": 0.144,
+          "text": "Peter assigned a 1/10 probability that Wuhan scientists would choose the subopti"
+        },
+        {
+          "claim_id": "C269",
+          "weight": 0.54,
+          "share": 0.144,
+          "text": "Peter assigned a 1/2 probability that Wuhan scientists would add a proline in fr"
+        },
+        {
+          "claim_id": "C270",
+          "weight": 0.324,
+          "share": 0.087,
+          "text": "Scientists who do one unusual thing with a furin cleavage site may be more likel"
+        }
+      ]
+    },
+    {
+      "conclusion": "C282",
+      "conclusion_text": "Saar could not effectively communicate what his big picture argument was.",
+      "concentration": 0.219,
+      "effective_independent_claims": 8.65,
+      "supporting_claim_count": 14,
+      "top_claim": "C280",
+      "top_claim_text": "Saar argued throughout the debate that getting the inference right was more important than winning sub-debates about individual lines of evidence.",
+      "contributions": [
+        {
+          "claim_id": "C280",
+          "weight": 0.924,
+          "share": 0.219,
+          "text": "Saar argued throughout the debate that getting the inference right was more impo"
+        },
+        {
+          "claim_id": "C279",
+          "weight": 0.6,
+          "share": 0.142,
+          "text": "In his closing argument, Saar admitted that Peter had much more knowledge on COV"
+        },
+        {
+          "claim_id": "C281",
+          "weight": 0.6,
+          "share": 0.142,
+          "text": "Although Peter won most specific points of contention, Saar thought the judges s"
+        },
+        {
+          "claim_id": "C285",
+          "weight": 0.324,
+          "share": 0.077,
+          "text": "Scott infers, reading between the lines, that Saar thought the un-ignorable big "
+        },
+        {
+          "claim_id": "C287",
+          "weight": 0.292,
+          "share": 0.069,
+          "text": "It is a weird coincidence that the COVID-19 epidemic started close to Asia's big"
+        },
+        {
+          "claim_id": "C296",
+          "weight": 0.292,
+          "share": 0.069,
+          "text": "The furin cleavage site insertion stands out on a genetic map."
+        },
+        {
+          "claim_id": "C290",
+          "weight": 0.242,
+          "share": 0.057,
+          "text": "Wuhan was unique as a coronavirus research hub, aside from the other big coronav"
+        },
+        {
+          "claim_id": "C295",
+          "weight": 0.228,
+          "share": 0.054,
+          "text": "Peter argued that Wuhan was a local trade center, which might raise the probabil"
+        },
+        {
+          "claim_id": "C289",
+          "weight": 0.179,
+          "share": 0.042,
+          "text": "The other cities' labs had much less coronavirus-specific research than Wuhan."
+        },
+        {
+          "claim_id": "C283",
+          "weight": 0.162,
+          "share": 0.038,
+          "text": "Neither debater deployed an amazingly elegant prior; both used the same kind of "
+        },
+        {
+          "claim_id": "C298",
+          "weight": 0.157,
+          "share": 0.037,
+          "text": "A naive calculation might suggest 30,000-to-one odds against the furin cleavage "
+        },
+        {
+          "claim_id": "C288",
+          "weight": 0.079,
+          "share": 0.019,
+          "text": "Peter argued that other BSL-3 and BSL-4 laboratories existed in Beijing, Shangha"
+        },
+        {
+          "claim_id": "C292",
+          "weight": 0.071,
+          "share": 0.017,
+          "text": "Peter argued that there are a couple hundred million people in the South Asian a"
+        },
+        {
+          "claim_id": "C293",
+          "weight": 0.071,
+          "share": 0.017,
+          "text": "Wuhan has a population of about 12 million."
+        }
+      ]
+    },
+    {
+      "conclusion": "C284",
+      "conclusion_text": "Peter's evidence hung together while Saar's evidence fell apart on cross-examination.",
+      "concentration": 0.175,
+      "effective_independent_claims": 9.99,
+      "supporting_claim_count": 18,
+      "top_claim": "C279",
+      "top_claim_text": "In his closing argument, Saar admitted that Peter had much more knowledge on COVID origins, had invested much more time, may be a more talented researcher, is more into the details, and probably knows the topic best in the world at that point.",
+      "contributions": [
+        {
+          "claim_id": "C279",
+          "weight": 0.924,
+          "share": 0.175,
+          "text": "In his closing argument, Saar admitted that Peter had much more knowledge on COV"
+        },
+        {
+          "claim_id": "C276",
+          "weight": 0.6,
+          "share": 0.114,
+          "text": "Peter appeared to have a photographic memory for every detail of every study he "
+        },
+        {
+          "claim_id": "C277",
+          "weight": 0.6,
+          "share": 0.114,
+          "text": "Peter had a detailed mental model of Wuhan, the wet market, and how its ventilat"
+        },
+        {
+          "claim_id": "C278",
+          "weight": 0.6,
+          "share": 0.114,
+          "text": "Whenever a challenge was raised to one of Peter's points, he had a pre-made ten-"
+        },
+        {
+          "claim_id": "C282",
+          "weight": 0.6,
+          "share": 0.114,
+          "text": "Saar could not effectively communicate what his big picture argument was."
+        },
+        {
+          "claim_id": "C280",
+          "weight": 0.499,
+          "share": 0.095,
+          "text": "Saar argued throughout the debate that getting the inference right was more impo"
+        },
+        {
+          "claim_id": "C281",
+          "weight": 0.324,
+          "share": 0.061,
+          "text": "Although Peter won most specific points of contention, Saar thought the judges s"
+        },
+        {
+          "claim_id": "C285",
+          "weight": 0.175,
+          "share": 0.033,
+          "text": "Scott infers, reading between the lines, that Saar thought the un-ignorable big "
+        },
+        {
+          "claim_id": "C287",
+          "weight": 0.157,
+          "share": 0.03,
+          "text": "It is a weird coincidence that the COVID-19 epidemic started close to Asia's big"
+        },
+        {
+          "claim_id": "C296",
+          "weight": 0.157,
+          "share": 0.03,
+          "text": "The furin cleavage site insertion stands out on a genetic map."
+        },
+        {
+          "claim_id": "C290",
+          "weight": 0.131,
+          "share": 0.025,
+          "text": "Wuhan was unique as a coronavirus research hub, aside from the other big coronav"
+        },
+        {
+          "claim_id": "C295",
+          "weight": 0.123,
+          "share": 0.023,
+          "text": "Peter argued that Wuhan was a local trade center, which might raise the probabil"
+        },
+        {
+          "claim_id": "C289",
+          "weight": 0.097,
+          "share": 0.018,
+          "text": "The other cities' labs had much less coronavirus-specific research than Wuhan."
+        },
+        {
+          "claim_id": "C283",
+          "weight": 0.087,
+          "share": 0.017,
+          "text": "Neither debater deployed an amazingly elegant prior; both used the same kind of "
+        },
+        {
+          "claim_id": "C298",
+          "weight": 0.085,
+          "share": 0.016,
+          "text": "A naive calculation might suggest 30,000-to-one odds against the furin cleavage "
+        },
+        {
+          "claim_id": "C288",
+          "weight": 0.043,
+          "share": 0.008,
+          "text": "Peter argued that other BSL-3 and BSL-4 laboratories existed in Beijing, Shangha"
+        },
+        {
+          "claim_id": "C292",
+          "weight": 0.038,
+          "share": 0.007,
+          "text": "Peter argued that there are a couple hundred million people in the South Asian a"
+        },
+        {
+          "claim_id": "C293",
+          "weight": 0.038,
+          "share": 0.007,
+          "text": "Wuhan has a population of about 12 million."
+        }
+      ]
+    },
+    {
+      "conclusion": "C291",
+      "conclusion_text": "The geographic proximity question was a rare point where Peter unambiguously came out looking worse.",
+      "concentration": 0.201,
+      "effective_independent_claims": 6.42,
+      "supporting_claim_count": 8,
+      "top_claim": "C286",
+      "top_claim_text": "Peter conceded some loss on the question of COVID-19 originating near Asia's biggest coronavirus laboratory.",
+      "contributions": [
+        {
+          "claim_id": "C286",
+          "weight": 0.6,
+          "share": 0.201,
+          "text": "Peter conceded some loss on the question of COVID-19 originating near Asia's big"
+        },
+        {
+          "claim_id": "C287",
+          "weight": 0.6,
+          "share": 0.201,
+          "text": "It is a weird coincidence that the COVID-19 epidemic started close to Asia's big"
+        },
+        {
+          "claim_id": "C290",
+          "weight": 0.499,
+          "share": 0.167,
+          "text": "Wuhan was unique as a coronavirus research hub, aside from the other big coronav"
+        },
+        {
+          "claim_id": "C295",
+          "weight": 0.47,
+          "share": 0.157,
+          "text": "Peter argued that Wuhan was a local trade center, which might raise the probabil"
+        },
+        {
+          "claim_id": "C289",
+          "weight": 0.368,
+          "share": 0.123,
+          "text": "The other cities' labs had much less coronavirus-specific research than Wuhan."
+        },
+        {
+          "claim_id": "C288",
+          "weight": 0.162,
+          "share": 0.054,
+          "text": "Peter argued that other BSL-3 and BSL-4 laboratories existed in Beijing, Shangha"
+        },
+        {
+          "claim_id": "C292",
+          "weight": 0.146,
+          "share": 0.049,
+          "text": "Peter argued that there are a couple hundred million people in the South Asian a"
+        },
+        {
+          "claim_id": "C293",
+          "weight": 0.146,
+          "share": 0.049,
+          "text": "Wuhan has a population of about 12 million."
+        }
+      ]
+    }
+  ],
+  "circular_support": [
+    {
+      "claim_ids": [
+        "C053",
+        "C054",
+        "C209"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C053",
+          "text": "The first reported COVID case, a wet market vendor on December 11, was very earl"
+        },
+        {
+          "id": "C054",
+          "text": "The first COVID case was most likely not the wet market vendor herself but proba"
+        },
+        {
+          "id": "C209",
+          "text": "The probability that the first known COVID case would be a wet market vendor by "
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C043",
+        "C050",
+        "C051",
+        "C052"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C043",
+          "text": "Under Saar's proposed scenario, COVID started spreading quietly weeks to months "
+        },
+        {
+          "id": "C050",
+          "text": "If the first COVID infection had occurred in November, approximately 256 times a"
+        },
+        {
+          "id": "C051",
+          "text": "The number of COVID hospitalizations and deaths in January 2020 were consistent "
+        },
+        {
+          "id": "C052",
+          "text": "It is epidemiologically impossible for COVID to have been circulating much befor"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C047",
+        "C048"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C047",
+          "text": "Mr. Chen stated in an interview that he was hospitalized for dental issues on De"
+        },
+        {
+          "id": "C048",
+          "text": "Mr. Chen's December 16 COVID infection date is after the first officially detect"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C088",
+        "C090",
+        "C116"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C088",
+          "text": "Although Lineage A is evolutionarily older, Lineage B started spreading in human"
+        },
+        {
+          "id": "C090",
+          "text": "Because both lineages spread at the same rate, the most likely explanation for L"
+        },
+        {
+          "id": "C116",
+          "text": "Lineage B could be more common and genetically diverse because it benefited from"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C094",
+        "C095",
+        "C099"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C094",
+          "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a rural far"
+        },
+        {
+          "id": "C095",
+          "text": "In Peter's proposed scenario, the raccoon-dog with Lineage B transmitted to huma"
+        },
+        {
+          "id": "C099",
+          "text": "The proposed double spillover explanation is that the Lineage B raccoon-dog spre"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C091",
+        "C092"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C091",
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
+        },
+        {
+          "id": "C092",
+          "text": "Greater genetic diversity in older viruses follows from the molecular clock prin"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C135",
+        "C136"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C135",
+          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
+        },
+        {
+          "id": "C136",
+          "text": "WIV was doing coronavirus research in BSL-2 (medium security), and researchers w"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C142",
+        "C144",
+        "C179"
+      ],
+      "grounded": false,
+      "severity": "pure-circular",
+      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 3.",
+      "members": [
+        {
+          "id": "C142",
+          "text": "WIV did not have BANAL-52; it was not discovered until after the COVID pandemic "
+        },
+        {
+          "id": "C144",
+          "text": "Creating COVID would require BANAL-52 or some as-yet-undiscovered extremely clos"
+        },
+        {
+          "id": "C179",
+          "text": "In Yuri's model, WIV would have skipped all SARS-like viruses and standard gain-"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C162",
+        "C164",
+        "C166",
+        "C167",
+        "C180"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C162",
+          "text": "COVID uses PRRAR as its furin cleavage site, which no human has ever used before"
+        },
+        {
+          "id": "C164",
+          "text": "Wuhan virologists supposedly doing gain-of-function research on COVID would not "
+        },
+        {
+          "id": "C166",
+          "text": "COVID's furin cleavage site was inserted via what appears to be a frameshift mut"
+        },
+        {
+          "id": "C167",
+          "text": "A frameshift insertion of a furin cleavage site would be a pointless and overly "
+        },
+        {
+          "id": "C180",
+          "text": "In Yuri's model, WIV would have had to eschew all usual gain-of-function practic"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C169",
+        "C171",
+        "C172",
+        "C181"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C169",
+          "text": "COVID is hard to culture; when cultured in most standard media or animals, it qu"
+        },
+        {
+          "id": "C171",
+          "text": "COVID can be cultured without developing characteristic mutations only in human "
+        },
+        {
+          "id": "C172",
+          "text": "Culturing COVID in human airway cells requires a donor, and WIV had never done t"
+        },
+        {
+          "id": "C181",
+          "text": "In Yuri's model, WIV would have had to culture the virus using a technique beyon"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C138",
+        "C139",
+        "C141",
+        "C178"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C138",
+          "text": "The DEFUSE grant proposal was rejected."
+        },
+        {
+          "id": "C139",
+          "text": "The DEFUSE grant specified that WIV would be responsible for finding the viruses"
+        },
+        {
+          "id": "C141",
+          "text": "WIV had done a few very simple gain-of-function projects before but was not set "
+        },
+        {
+          "id": "C178",
+          "text": "In Yuri's model, WIV would have picked up a rejected grant and done the gain-of-"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C208",
+        "C216"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C208",
+          "text": "COVID clusters concentrate in wet markets even when there is no animal spillover"
+        },
+        {
+          "id": "C216",
+          "text": "Wet markets start outbreaks because there are infected goods being sold there, a"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C226",
+        "C227"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C226",
+          "text": "Connor Reed told The Daily Mail that his cat also died of coronavirus."
+        },
+        {
+          "id": "C227",
+          "text": "A cat dying of coronavirus is rare to impossible."
+        }
+      ]
+    }
+  ]
+}

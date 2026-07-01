@@ -1,0 +1,83 @@
+[
+  {
+    "claim_id": "C145",
+    "sensitivity": 0.5,
+    "affects": "Claims that WIV's published virus lists showed weird discrepancies were due to i",
+    "affects_id": "C147",
+    "rationale": "Carries 50% of the evidential support for conclusion C147 (deterministic graph concentration; ~2.0 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C146",
+    "sensitivity": 0.5,
+    "affects": "Claims that WIV's published virus lists showed weird discrepancies were due to i",
+    "affects_id": "C147",
+    "rationale": "Carries 50% of the evidential support for conclusion C147 (deterministic graph concentration; ~2.0 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C051",
+    "sensitivity": 0.385,
+    "affects": "It is epidemiologically impossible for COVID to have been circulating much befor",
+    "affects_id": "C052",
+    "rationale": "Carries 38% of the evidential support for conclusion C052 (deterministic graph concentration; ~4.97 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C266",
+    "sensitivity": 0.304,
+    "affects": "Anyone who took Peter's multi-stage probability slide seriously would end up dra",
+    "affects_id": "C275",
+    "rationale": "Carries 30% of the evidential support for conclusion C275 (deterministic graph concentration; ~5.18 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C206",
+    "sensitivity": 0.264,
+    "affects": "Wet markets start outbreaks because there are infected goods being sold there, a",
+    "affects_id": "C216",
+    "rationale": "Carries 26% of the evidential support for conclusion C216 (deterministic graph concentration; ~4.72 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C061",
+    "sensitivity": 0.259,
+    "affects": "Scott Alexander judges the lab-leak-via-wet-market scenario to be unparsimonious",
+    "affects_id": "C063",
+    "rationale": "Carries 25% of the evidential support for conclusion C063 (deterministic graph concentration; ~6.5 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C090",
+    "sensitivity": 0.258,
+    "affects": "Although Lineage A is evolutionarily older, Lineage B started spreading in human",
+    "affects_id": "C088",
+    "rationale": "Carries 25% of the evidential support for conclusion C088 (deterministic graph concentration; ~8.11 effective independent claims back that conclusion in total).",
+    "method": "deterministic",
+    "model_rationale": "C090 (Lineage B started spreading 3-4 days earlier than Lineage A) is the direct support for C088 (Lineage B spread first) via C089→C090→C088. C088 depends_on(strong) C090 and C090 depends_on(strong) C082. C090 also supports C100 directly and underlies the double-spillover narrative. If C090 flips (i.e., Lineage B's greater prevalence is explained by super-spreader events rather than earlier start), C116 becomes the dominant explanation, C088 collapses, C100 loses its primary explanandum, and the wet-market double-spillover story fails. C116 explicitly contradicts C090 and C100. Because C088 depends_on(strong) C090, and C100 depends_on(strong) C088, a flip of C090 propagates through both strong-dependency edges to undermine both conclusions."
+  },
+  {
+    "claim_id": "C227",
+    "sensitivity": 0.237,
+    "affects": "Peter Miller asserted that Connor Reed was lying about his COVID illness.",
+    "affects_id": "C224",
+    "rationale": "Carries 23% of the evidential support for conclusion C224 (deterministic graph concentration; ~5.99 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C226",
+    "sensitivity": 0.225,
+    "affects": "Peter Miller asserted that Connor Reed was lying about his COVID illness.",
+    "affects_id": "C224",
+    "rationale": "Carries 22% of the evidential support for conclusion C224 (deterministic graph concentration; ~5.99 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C280",
+    "sensitivity": 0.219,
+    "affects": "Saar could not effectively communicate what his big picture argument was.",
+    "affects_id": "C282",
+    "rationale": "Carries 21% of the evidential support for conclusion C282 (deterministic graph concentration; ~8.65 effective independent claims back that conclusion in total).",
+    "method": "deterministic"
+  }
+]

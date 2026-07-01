@@ -25,7 +25,7 @@ def load_source_text(case_dir: str, source_id: str) -> str:
         return f.read()
 
 
-def ingest(case: str, root: str = ".") -> dict:
+def ingest(case: str, root: str = ".", limit_chunks: int = 0) -> dict:
     case_dir = os.path.join(root, "cases", case)
     with open(os.path.join(case_dir, "sources.json"), encoding="utf-8") as f:
         manifest = json.load(f)
@@ -39,13 +39,16 @@ def ingest(case: str, root: str = ".") -> dict:
         print(f"  ingesting {src['id']} ({len(content)} chars)...")
         # chunk long sources to stay within limits; simple paragraph chunking
         chunks = _chunk(content, 12000)
+        if limit_chunks and len(chunks) > limit_chunks:
+            print(f"    [smoke test] limiting to first {limit_chunks} of {len(chunks)} chunks")
+            chunks = chunks[:limit_chunks]
         for chunk in chunks:
             user = USER_TEMPLATE.format(
                 title=src["title"], author=src.get("author", "unknown"),
                 side=src.get("side", "n/a"), content=chunk,
             )
             try:
-                claims = call_json(SYSTEM, user)
+                claims = call_json(SYSTEM, user, max_tokens=16000)
             except Exception as e:
                 print(f"    [warn] extraction failed on a chunk: {e}")
                 continue
@@ -78,9 +81,20 @@ def ingest(case: str, root: str = ".") -> dict:
 
 
 def _chunk(text: str, size: int):
+    # Normalize line endings first: Windows files use \r\n, so paragraph breaks are
+    # \r\n\r\n which contain no "\n\n" — splitting on "\n\n" would yield one giant chunk.
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
     paras = text.split("\n\n")
     chunks, cur = [], ""
     for p in paras:
+        # Hard-split any single paragraph larger than `size` so a source with no blank
+        # lines (or one huge paragraph) still gets chunked instead of overflowing.
+        while len(p) > size:
+            if cur:
+                chunks.append(cur)
+                cur = ""
+            chunks.append(p[:size])
+            p = p[size:]
         if len(cur) + len(p) > size and cur:
             chunks.append(cur)
             cur = ""
