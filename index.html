@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Epistemic Stack — claim-level provenance & crux detection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Epistemic&nbsp;Stack</h1>
+  <select id="caseSelect" title="Choose a case"></select>
+  <div class="q" id="question"></div>
+  <div class="counts" id="counts"></div>
+</header>
+
+<div class="grid">
+  <!-- LEFT: searchable, filterable claim index -->
+  <div class="col left">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search claims, ids, sources…" autocomplete="off">
+      <div class="chips" id="sideChips"></div>
+      <div class="chips" id="kindChips" style="margin-top:6px"></div>
+    </div>
+    <div class="list" id="claimList"></div>
+  </div>
+
+  <!-- CENTER: the selected claim, its provenance, and its place in the graph -->
+  <div class="col center" id="detail">
+    <div class="empty">Select a claim, crux, or conclusion to trace its provenance and dependencies.</div>
+  </div>
+
+  <!-- RIGHT: deterministic assessment -->
+  <div class="col right">
+    <div class="tabs" id="tabs">
+      <button data-tab="cruxes" class="on">Cruxes</button>
+      <button data-tab="conclusions">Conclusions</button>
+      <button data-tab="integrity">Integrity</button>
+    </div>
+    <div class="panel" id="panel"></div>
+    <div class="method" id="method"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
