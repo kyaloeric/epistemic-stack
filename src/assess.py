@@ -9,6 +9,7 @@ change the ranking or the score. 'The graph proposes and computes; the model onl
 This is what makes the headline result reproducible and auditable rather than 'the model said so'.
 """
 import json
+import math
 import os
 import sys
 from collections import defaultdict
@@ -53,34 +54,50 @@ def assess(case: str, root: str = ".") -> dict:
     return graph
 
 
+# a conclusion resting on fewer than this many claims is an under-developed stub, not a real
+# node with a crux — its lone supporters are trivially "100% load-bearing" and must not dominate.
+MIN_CONCLUSION_SUPPORT = 3
+
+
 def _deterministic_cruxes(graph):
-    """A crux is a claim that carries a large share of some conclusion's evidential support.
-    Sensitivity = the largest support-share the claim holds over any conclusion (0-1): flip it
-    and roughly that fraction of that conclusion's grounding goes with it. Pure graph arithmetic,
-    reproducible by anyone who re-runs src.concentration."""
+    """A crux is a claim that carries a large share of a SUBSTANTIVELY supported conclusion.
+
+    `sensitivity` = the largest support-share the claim holds over any qualifying conclusion
+    (0-1): flip it and roughly that fraction of that conclusion's grounding goes with it. But
+    share alone rewards stubs (a 1-supporter conclusion is trivially 100% concentrated), so we
+    (1) skip conclusions below MIN_CONCLUSION_SUPPORT and (2) rank by `score = share *
+    log2(1+supporters)` — carrying 23% of a 104-claim conclusion beats carrying 100% of a
+    1-claim stub. Pure graph arithmetic, reproducible by re-running src.concentration."""
     conclusions = [c["id"] for c in graph["claims"] if c["kind"] == "conclusion"]
     conclusion_set = set(conclusions)
-    best = {}  # claim_id -> dict(sensitivity, affects, affects_id, rationale)
+    best = {}  # claim_id -> crux dict
     for cid in conclusions:
         r = concentration_for(graph, cid)
+        n_support = r.get("supporting_claim_count", len(r.get("contributions", [])))
+        if n_support < MIN_CONCLUSION_SUPPORT:
+            continue  # under-developed conclusion — no meaningful crux to surface
+        weight = math.log2(1 + n_support)
         for contrib in r["contributions"]:
             claim_id, share = contrib["claim_id"], contrib["share"]
             if claim_id in conclusion_set:
                 continue  # a conclusion is never a crux for another conclusion
-            if claim_id not in best or share > best[claim_id]["sensitivity"]:
+            score = share * weight
+            if claim_id not in best or score > best[claim_id]["score"]:
                 best[claim_id] = {
                     "claim_id": claim_id,
                     "sensitivity": round(share, 3),
+                    "score": round(score, 3),
                     "affects": r["conclusion_text"][:80] or cid,
                     "affects_id": cid,
+                    "affects_support_count": n_support,
                     "rationale": (
-                        f"Carries {int(share * 100)}% of the evidential support for "
-                        f"conclusion {cid} (deterministic graph concentration; "
-                        f"~{r['effective_independent_claims']} effective independent claims "
-                        f"back that conclusion in total)."),
+                        f"Carries {int(share * 100)}% of the evidential support for conclusion "
+                        f"{cid}, which is backed by {n_support} claims "
+                        f"(~{r['effective_independent_claims']} effective independent). "
+                        f"Ranked by share x log2(1+support) so stubs can't dominate."),
                     "method": "deterministic",
                 }
-    ranked = sorted(best.values(), key=lambda c: c["sensitivity"], reverse=True)
+    ranked = sorted(best.values(), key=lambda c: c["score"], reverse=True)
     return ranked[:10]
 
 

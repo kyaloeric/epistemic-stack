@@ -156,8 +156,11 @@ def concentration_for(graph, conclusion_id):
 
     total = sum(support.values())
     if total <= 0:
-        return {"conclusion": conclusion_id, "concentration": 0.0,
-                "top_claim": None, "contributions": [], "note": "no evidential support found"}
+        return {"conclusion": conclusion_id,
+                "conclusion_text": claims.get(conclusion_id, {}).get("text", ""),
+                "concentration": 0.0, "effective_independent_claims": 0.0,
+                "supporting_claim_count": 0, "top_claim": None, "top_claim_text": "",
+                "contributions": [], "note": "no evidential support found"}
 
     ranked = sorted(support.items(), key=lambda kv: kv[1], reverse=True)
     top_id, top_w = ranked[0]
