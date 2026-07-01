@@ -49,7 +49,9 @@ def structure(case: str, root: str = ".") -> dict:
     for e in edges:
         e["from"] = alias.get(e["from"], e["from"])
         e["to"] = alias.get(e["to"], e["to"])
-    print(f"  -> {len(edges)} edges")
+    before = len(edges)
+    edges = _normalize_edges(edges)
+    print(f"  -> {len(edges)} edges ({before - len(edges)} reciprocal/duplicate collapsed)")
 
     graph = {"case": case, "sources": data["sources"], "claims": merged, "edges": edges}
     with open(os.path.join(case_dir, "out", "graph.json"), "w", encoding="utf-8") as f:
@@ -114,6 +116,41 @@ def _edges_windowed(merged, window=60, overlap=15):
         if start + window >= len(merged):
             break
     return edges
+
+
+# relationship strength ordering: when a pair is labelled more than one way, the structurally
+# stronger/more-specific relation wins (depends_on > evidence > support > contradiction > framing).
+EDGE_PRECEDENCE = {"depends_on": 5, "is_evidence_for": 4, "supports": 3,
+                   "contradicts": 2, "restates": 1, "caveats": 1, "context_mutation": 1}
+
+
+def _normalize_edges(edges):
+    """Collapse reciprocal / duplicate edges so at most one edge survives per unordered pair.
+
+    The model frequently labels a single relationship in both directions (worsened by overlapping
+    windows seeing a pair twice), which manufactures spurious 2-cycles that then read as
+    'circular corroboration' and inflate support weights. Keep the higher-precedence direction;
+    drop the reverse. Genuine multi-node loops (A->B->C->A) are untouched — only reciprocal
+    pairs collapse."""
+    best = {}  # (from, to) -> strongest edge in that direction
+    for e in edges:
+        k = (e["from"], e["to"])
+        if k not in best or EDGE_PRECEDENCE.get(e["type"], 0) > EDGE_PRECEDENCE.get(best[k]["type"], 0):
+            best[k] = e
+    out, handled = [], set()
+    for (a, b), e in best.items():
+        if (a, b) in handled:
+            continue
+        rev = best.get((b, a))
+        if rev is not None:
+            chosen = e if EDGE_PRECEDENCE.get(e["type"], 0) >= EDGE_PRECEDENCE.get(rev["type"], 0) else rev
+            out.append(chosen)
+            handled.add((a, b))
+            handled.add((b, a))
+        else:
+            out.append(e)
+            handled.add((a, b))
+    return out
 
 
 def _apply_clusters(claims, clusters):

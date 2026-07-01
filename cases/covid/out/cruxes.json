@@ -1,32 +1,32 @@
 [
   {
-    "claim_id": "C233",
-    "sensitivity": 0.526,
-    "score": 1.667,
-    "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
-    "affects_id": "C242",
-    "affects_support_count": 8,
-    "rationale": "Carries 52% of the evidential support for conclusion C242, which is backed by 8 claims (~3.21 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-    "method": "deterministic"
-  },
-  {
-    "claim_id": "C275",
-    "sensitivity": 0.461,
-    "score": 1.531,
-    "affects": "Anyone who took Peter's multi-stage probability slide seriously would end up dra",
-    "affects_id": "C286",
-    "affects_support_count": 9,
-    "rationale": "Carries 46% of the evidential support for conclusion C286, which is backed by 9 claims (~3.61 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-    "method": "deterministic"
-  },
-  {
     "claim_id": "C096",
-    "sensitivity": 0.431,
-    "score": 1.366,
+    "sensitivity": 0.427,
+    "score": 1.354,
     "affects": "Although Lineage A is evolutionarily older, Lineage B started spreading in human",
     "affects_id": "C095",
     "affects_support_count": 8,
-    "rationale": "Carries 43% of the evidential support for conclusion C095, which is backed by 8 claims (~3.92 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "rationale": "Carries 42% of the evidential support for conclusion C095, which is backed by 8 claims (~3.98 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C233",
+    "sensitivity": 0.41,
+    "score": 1.3,
+    "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
+    "affects_id": "C242",
+    "affects_support_count": 8,
+    "rationale": "Carries 41% of the evidential support for conclusion C242, which is backed by 8 claims (~3.71 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C243",
+    "sensitivity": 0.293,
+    "score": 0.929,
+    "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
+    "affects_id": "C242",
+    "affects_support_count": 8,
+    "rationale": "Carries 29% of the evidential support for conclusion C242, which is backed by 8 claims (~3.71 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
     "method": "deterministic"
   },
   {
@@ -36,7 +36,7 @@
     "affects": "The lab leak scenario requiring the first infected worker to go straight to the ",
     "affects_id": "C065",
     "affects_support_count": 11,
-    "rationale": "Carries 22% of the evidential support for conclusion C065, which is backed by 11 claims (~6.99 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "rationale": "Carries 22% of the evidential support for conclusion C065, which is backed by 11 claims (~7.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
     "method": "deterministic"
   },
   {
@@ -90,13 +90,13 @@
     "method": "deterministic"
   },
   {
-    "claim_id": "C119",
-    "sensitivity": 0.278,
-    "score": 0.645,
-    "affects": "The scattered 'progenitor' cases closer to the ancestral bat virus than either L",
-    "affects_id": "C118",
-    "affects_support_count": 4,
-    "rationale": "Carries 27% of the evidential support for conclusion C118, which is backed by 4 claims (~3.86 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "claim_id": "C279",
+    "sensitivity": 0.195,
+    "score": 0.648,
+    "affects": "Anyone who took Peter's multi-stage probability slide seriously would end up dra",
+    "affects_id": "C286",
+    "affects_support_count": 9,
+    "rationale": "Carries 19% of the evidential support for conclusion C286, which is backed by 9 claims (~6.37 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
     "method": "deterministic"
   }
 ]

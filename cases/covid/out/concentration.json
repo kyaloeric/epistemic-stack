@@ -6,7 +6,7 @@
       "conclusion": "C065",
       "conclusion_text": "The lab leak scenario requiring the first infected worker to go straight to the wet market is unparsimonious.",
       "concentration": 0.229,
-      "effective_independent_claims": 6.99,
+      "effective_independent_claims": 7.0,
       "supporting_claim_count": 11,
       "top_claim": "C062",
       "top_claim_text": "There was no super-spreader event at the wet market; instead COVID spread there at a slow burn rate.",
@@ -61,8 +61,8 @@
         },
         {
           "claim_id": "C052",
-          "weight": 0.082,
-          "share": 0.024,
+          "weight": 0.083,
+          "share": 0.025,
           "text": "The numbers of hospitalizations and deaths in January were consistent with the p"
         },
         {
@@ -105,118 +105,124 @@
     {
       "conclusion": "C094",
       "conclusion_text": "The market is unlikely to be the origin of the pandemic because the original Lineage A strain was not found there.",
-      "concentration": 0.046,
-      "effective_independent_claims": 50.86,
+      "concentration": 0.052,
+      "effective_independent_claims": 48.94,
       "supporting_claim_count": 102,
-      "top_claim": "C090",
-      "top_claim_text": "All of the cases at the wet market, including the first detected case, were Lineage B.",
+      "top_claim": "C091",
+      "top_claim_text": "Lineage A was not discovered until about a week after Lineage B was first detected.",
       "contributions": [
         {
-          "claim_id": "C090",
-          "weight": 1.324,
-          "share": 0.046,
-          "text": "All of the cases at the wet market, including the first detected case, were Line"
-        },
-        {
           "claim_id": "C091",
-          "weight": 1.324,
-          "share": 0.046,
+          "weight": 1.54,
+          "share": 0.052,
           "text": "Lineage A was not discovered until about a week after Lineage B was first detect"
         },
         {
           "claim_id": "C092",
-          "weight": 1.324,
-          "share": 0.046,
+          "weight": 1.54,
+          "share": 0.052,
           "text": "None of the Lineage A patients had been to the wet market."
+        },
+        {
+          "claim_id": "C090",
+          "weight": 1.324,
+          "share": 0.045,
+          "text": "All of the cases at the wet market, including the first detected case, were Line"
         },
         {
           "claim_id": "C140",
           "weight": 1.14,
-          "share": 0.04,
+          "share": 0.039,
           "text": "WIV found a close relative of BANAL-52 and added a furin cleavage site to it"
         },
         {
           "claim_id": "C123",
           "weight": 0.832,
-          "share": 0.029,
+          "share": 0.028,
           "text": "Two years before COVID, scientists at the Wuhan Institute of Virology together w"
         },
         {
           "claim_id": "C139",
           "weight": 0.832,
-          "share": 0.029,
+          "share": 0.028,
           "text": "The Wuhan Institute of Virology stated in 2018 that it planned to find viruses a"
         },
         {
           "claim_id": "C137",
           "weight": 0.778,
-          "share": 0.027,
+          "share": 0.026,
           "text": "COVID's furin cleavage site uses the codon CGG to code for arginine both times a"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.746,
+          "share": 0.025,
+          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
         },
         {
           "claim_id": "C145",
           "weight": 0.682,
-          "share": 0.024,
+          "share": 0.023,
           "text": "COVID's constant mutation rate suggests it was already adapted to humans before "
         },
         {
           "claim_id": "C148",
           "weight": 0.648,
-          "share": 0.023,
+          "share": 0.022,
           "text": "COVID's pre-adaptation to humans could be explained by adaptation occurring duri"
         },
         {
           "claim_id": "C112",
           "weight": 0.616,
-          "share": 0.022,
+          "share": 0.021,
           "text": "Intermediate and ancestral lineage cases would make sense if the lineages separa"
         },
         {
           "claim_id": "C089",
           "weight": 0.6,
-          "share": 0.021,
+          "share": 0.02,
           "text": "Because COVID probably evolved from something like BANAL-52, Lineage A must have"
         },
         {
           "claim_id": "C093",
           "weight": 0.6,
-          "share": 0.021,
+          "share": 0.02,
           "text": "The lineage data matches the lab leak story in which the virus spread undetected"
         },
         {
           "claim_id": "C124",
           "weight": 0.54,
-          "share": 0.019,
+          "share": 0.018,
           "text": "The DEFUSE program involved going into bat caves, collecting new coronaviruses, "
         },
         {
           "claim_id": "C131",
           "weight": 0.54,
-          "share": 0.019,
+          "share": 0.018,
           "text": "COVID looks more or less like BANAL-52 plus a furin cleavage site"
         },
         {
           "claim_id": "C133",
           "weight": 0.54,
-          "share": 0.019,
+          "share": 0.018,
           "text": "None of the 1500 sarbecoviruses except COVID have furin cleavage sites"
         },
         {
           "claim_id": "C134",
           "weight": 0.54,
-          "share": 0.019,
+          "share": 0.018,
           "text": "BANAL-52, COVID's closest ancestor, does not have anything resembling a furin cl"
         },
         {
           "claim_id": "C135",
           "weight": 0.54,
-          "share": 0.019,
+          "share": 0.018,
           "text": "COVID has twelve completely new nucleotides in a row forming a fully-formed furi"
         },
         {
           "claim_id": "C136",
           "weight": 0.54,
-          "share": 0.019,
+          "share": 0.018,
           "text": "The furin cleavage site is the only place where COVID differs from BANAL-52 in a"
         },
         {
@@ -228,31 +234,25 @@
         {
           "claim_id": "C165",
           "weight": 0.454,
-          "share": 0.016,
+          "share": 0.015,
           "text": "WIV's published virus lists did not include BANAL-52 or any other suitable COVID"
         },
         {
           "claim_id": "C110",
           "weight": 0.449,
-          "share": 0.016,
+          "share": 0.015,
           "text": "There are scattered cases of intermediates between Lineage A and Lineage B, and "
         },
         {
-          "claim_id": "C104",
-          "weight": 0.446,
-          "share": 0.016,
-          "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
-        },
-        {
           "claim_id": "C095",
-          "weight": 0.361,
+          "weight": 0.369,
           "share": 0.013,
           "text": "Although Lineage A is evolutionarily older, Lineage B started spreading in human"
         },
         {
           "claim_id": "C096",
           "weight": 0.357,
-          "share": 0.013,
+          "share": 0.012,
           "text": "Lineage B is more common than Lineage A, constituting a consistent two-thirds of"
         },
         {
@@ -340,6 +340,12 @@
           "text": "There are 1500 sarbecoviruses in the family of viruses that includes SARS and CO"
         },
         {
+          "claim_id": "C149",
+          "weight": 0.292,
+          "share": 0.01,
+          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
+        },
+        {
           "claim_id": "C151",
           "weight": 0.292,
           "share": 0.01,
@@ -360,19 +366,19 @@
         {
           "claim_id": "C174",
           "weight": 0.249,
-          "share": 0.009,
+          "share": 0.008,
           "text": "RNA splicing from host to virus would explain why COVID's furin cleavage site us"
         },
         {
           "claim_id": "C176",
           "weight": 0.249,
-          "share": 0.009,
+          "share": 0.008,
           "text": "In one example Peter found of humans adding arginine to a virus, none of the fiv"
         },
         {
           "claim_id": "C182",
           "weight": 0.249,
-          "share": 0.009,
+          "share": 0.008,
           "text": "During the course of the pandemic, COVID mutated away from its PRRAR furin cleav"
         },
         {
@@ -406,22 +412,16 @@
           "text": "COVID's bat-virus ancestors were gastrointestinal viruses"
         },
         {
-          "claim_id": "C149",
-          "weight": 0.175,
+          "claim_id": "C105",
+          "weight": 0.162,
           "share": 0.006,
-          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
+          "text": "It would be a bizarre coincidence if a lab leak pandemic separated into two stra"
         },
         {
           "claim_id": "C098",
           "weight": 0.162,
           "share": 0.006,
           "text": "The best explanation for Lineage B being twice as common is that it started spre"
-        },
-        {
-          "claim_id": "C105",
-          "weight": 0.162,
-          "share": 0.006,
-          "text": "It would be a bizarre coincidence if a lab leak pandemic separated into two stra"
         },
         {
           "claim_id": "C164",
@@ -468,13 +468,13 @@
         {
           "claim_id": "C142",
           "weight": 0.157,
-          "share": 0.006,
+          "share": 0.005,
           "text": "COVID was best at infecting human cells out of fifty animals it was tested in, i"
         },
         {
           "claim_id": "C144",
           "weight": 0.157,
-          "share": 0.006,
+          "share": 0.005,
           "text": "COVID has had a pretty constant mutation rate in humans from the beginning of th"
         },
         {
@@ -641,7 +641,7 @@
         },
         {
           "claim_id": "C099",
-          "weight": 0.058,
+          "weight": 0.067,
           "share": 0.002,
           "text": "Lineage B has more internal genetic diversity than Lineage A."
         },
@@ -660,13 +660,13 @@
         {
           "claim_id": "C180",
           "weight": 0.044,
-          "share": 0.002,
+          "share": 0.001,
           "text": "An adjacent part of COVID's genome twists the protein in an unusual way that all"
         },
         {
           "claim_id": "C203",
           "weight": 0.044,
-          "share": 0.002,
+          "share": 0.001,
           "text": "WIV researchers might have used an unusual furin cleavage site on purpose to mak"
         },
         {
@@ -728,8 +728,8 @@
     {
       "conclusion": "C095",
       "conclusion_text": "Although Lineage A is evolutionarily older, Lineage B started spreading in humans first.",
-      "concentration": 0.431,
-      "effective_independent_claims": 3.92,
+      "concentration": 0.427,
+      "effective_independent_claims": 3.98,
       "supporting_claim_count": 8,
       "top_claim": "C096",
       "top_claim_text": "Lineage B is more common than Lineage A, constituting a consistent two-thirds of early cases compared to one-third for Lineage A.",
@@ -737,43 +737,43 @@
         {
           "claim_id": "C096",
           "weight": 1.324,
-          "share": 0.431,
+          "share": 0.427,
           "text": "Lineage B is more common than Lineage A, constituting a consistent two-thirds of"
         },
         {
           "claim_id": "C098",
           "weight": 0.6,
-          "share": 0.195,
+          "share": 0.193,
           "text": "The best explanation for Lineage B being twice as common is that it started spre"
         },
         {
           "claim_id": "C097",
           "weight": 0.324,
-          "share": 0.105,
+          "share": 0.104,
           "text": "Both Lineage A and Lineage B spread at the same rate."
         },
         {
           "claim_id": "C103",
           "weight": 0.324,
-          "share": 0.105,
+          "share": 0.104,
           "text": "The raccoon-dog with Lineage B passed its virus to humans first, and about 3-4 d"
         },
         {
           "claim_id": "C099",
-          "weight": 0.216,
-          "share": 0.07,
+          "weight": 0.247,
+          "share": 0.079,
           "text": "Lineage B has more internal genetic diversity than Lineage A."
         },
         {
           "claim_id": "C102",
           "weight": 0.175,
-          "share": 0.057,
+          "share": 0.056,
           "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a farm in t"
         },
         {
           "claim_id": "C101",
           "weight": 0.085,
-          "share": 0.028,
+          "share": 0.027,
           "text": "Pekar 2022 and Pipes 2021 analyses found 90%+ odds that Lineage B was the first "
         },
         {
@@ -787,82 +787,82 @@
     {
       "conclusion": "C108",
       "conclusion_text": "The double spillover hypothesis is the only story that explains the evolutionary precedence of Lineage A, the greater spread and older molecular clock of Lineage B, and the fact that both strains were first found very close to the wet market.",
-      "concentration": 0.051,
-      "effective_independent_claims": 47.3,
+      "concentration": 0.057,
+      "effective_independent_claims": 46.11,
       "supporting_claim_count": 104,
       "top_claim": "C104",
       "top_claim_text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than 97% of Wuhan's population.",
       "contributions": [
         {
           "claim_id": "C104",
-          "weight": 1.241,
-          "share": 0.051,
+          "weight": 1.403,
+          "share": 0.057,
           "text": "Lineage A was first found in a Wuhan neighborhood closer to the wet market than "
         },
         {
           "claim_id": "C106",
           "weight": 1.186,
-          "share": 0.049,
+          "share": 0.048,
           "text": "A positive Lineage A environmental sample was found at the wet market."
         },
         {
           "claim_id": "C095",
-          "weight": 0.884,
+          "weight": 0.9,
           "share": 0.037,
           "text": "Although Lineage A is evolutionarily older, Lineage B started spreading in human"
         },
         {
+          "claim_id": "C091",
+          "weight": 0.832,
+          "share": 0.034,
+          "text": "Lineage A was not discovered until about a week after Lineage B was first detect"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.832,
+          "share": 0.034,
+          "text": "None of the Lineage A patients had been to the wet market."
+        },
+        {
           "claim_id": "C103",
           "weight": 0.775,
-          "share": 0.032,
+          "share": 0.031,
           "text": "The raccoon-dog with Lineage B passed its virus to humans first, and about 3-4 d"
         },
         {
           "claim_id": "C096",
           "weight": 0.715,
-          "share": 0.03,
+          "share": 0.029,
           "text": "Lineage B is more common than Lineage A, constituting a consistent two-thirds of"
         },
         {
           "claim_id": "C090",
           "weight": 0.715,
-          "share": 0.03,
+          "share": 0.029,
           "text": "All of the cases at the wet market, including the first detected case, were Line"
-        },
-        {
-          "claim_id": "C091",
-          "weight": 0.715,
-          "share": 0.03,
-          "text": "Lineage A was not discovered until about a week after Lineage B was first detect"
-        },
-        {
-          "claim_id": "C092",
-          "weight": 0.715,
-          "share": 0.03,
-          "text": "None of the Lineage A patients had been to the wet market."
         },
         {
           "claim_id": "C102",
           "weight": 0.694,
-          "share": 0.029,
+          "share": 0.028,
           "text": "Peter proposed that the virus crossed from bats into raccoon-dogs on a farm in t"
         },
         {
           "claim_id": "C113",
           "weight": 0.643,
-          "share": 0.027,
+          "share": 0.026,
           "text": "Peter argued that COVID spread in the wet market at exactly its normal spread ra"
         },
         {
           "claim_id": "C114",
           "weight": 0.643,
-          "share": 0.027,
+          "share": 0.026,
           "text": "The scattered cases of 'intermediate' lineages were sequencing errors produced b"
         },
         {
           "claim_id": "C118",
           "weight": 0.643,
-          "share": 0.027,
+          "share": 0.026,
           "text": "The scattered 'progenitor' cases closer to the ancestral bat virus than either L"
         },
         {
@@ -874,31 +874,31 @@
         {
           "claim_id": "C140",
           "weight": 0.616,
-          "share": 0.026,
+          "share": 0.025,
           "text": "WIV found a close relative of BANAL-52 and added a furin cleavage site to it"
         },
         {
           "claim_id": "C094",
           "weight": 0.6,
-          "share": 0.025,
+          "share": 0.024,
           "text": "The market is unlikely to be the origin of the pandemic because the original Lin"
         },
         {
           "claim_id": "C107",
           "weight": 0.6,
-          "share": 0.025,
+          "share": 0.024,
           "text": "Most COVID cases in the wet market went undetected."
         },
         {
           "claim_id": "C123",
           "weight": 0.449,
-          "share": 0.019,
+          "share": 0.018,
           "text": "Two years before COVID, scientists at the Wuhan Institute of Virology together w"
         },
         {
           "claim_id": "C139",
           "weight": 0.449,
-          "share": 0.019,
+          "share": 0.018,
           "text": "The Wuhan Institute of Virology stated in 2018 that it planned to find viruses a"
         },
         {
@@ -1076,21 +1076,27 @@
           "text": "All viruses gathered by WIV from the Yunnan cave between 2010 and 2015 have long"
         },
         {
+          "claim_id": "C149",
+          "weight": 0.157,
+          "share": 0.006,
+          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
+        },
+        {
           "claim_id": "C151",
           "weight": 0.157,
-          "share": 0.007,
+          "share": 0.006,
           "text": "WIV researchers were not required to wear masks"
         },
         {
           "claim_id": "C132",
           "weight": 0.157,
-          "share": 0.007,
+          "share": 0.006,
           "text": "There are 1500 sarbecoviruses in the family of viruses that includes SARS and CO"
         },
         {
           "claim_id": "C161",
           "weight": 0.157,
-          "share": 0.007,
+          "share": 0.006,
           "text": "COVID cannot be created from RATG-13 because they are too different"
         },
         {
@@ -1102,32 +1108,32 @@
         {
           "claim_id": "C174",
           "weight": 0.135,
-          "share": 0.006,
+          "share": 0.005,
           "text": "RNA splicing from host to virus would explain why COVID's furin cleavage site us"
         },
         {
           "claim_id": "C176",
           "weight": 0.135,
-          "share": 0.006,
+          "share": 0.005,
           "text": "In one example Peter found of humans adding arginine to a virus, none of the fiv"
         },
         {
           "claim_id": "C182",
           "weight": 0.135,
-          "share": 0.006,
+          "share": 0.005,
           "text": "During the course of the pandemic, COVID mutated away from its PRRAR furin cleav"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.133,
+          "share": 0.005,
+          "text": "Lineage B has more internal genetic diversity than Lineage A."
         },
         {
           "claim_id": "C138",
           "weight": 0.12,
           "share": 0.005,
           "text": "CGG is the way higher animals code for arginine, not the usual way viruses code "
-        },
-        {
-          "claim_id": "C099",
-          "weight": 0.117,
-          "share": 0.005,
-          "text": "Lineage B has more internal genetic diversity than Lineage A."
         },
         {
           "claim_id": "C185",
@@ -1152,12 +1158,6 @@
           "weight": 0.094,
           "share": 0.004,
           "text": "COVID's bat-virus ancestors were gastrointestinal viruses"
-        },
-        {
-          "claim_id": "C149",
-          "weight": 0.094,
-          "share": 0.004,
-          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
         },
         {
           "claim_id": "C105",
@@ -1210,13 +1210,13 @@
         {
           "claim_id": "C142",
           "weight": 0.085,
-          "share": 0.004,
+          "share": 0.003,
           "text": "COVID was best at infecting human cells out of fifty animals it was tested in, i"
         },
         {
           "claim_id": "C144",
           "weight": 0.085,
-          "share": 0.004,
+          "share": 0.003,
           "text": "COVID has had a pretty constant mutation rate in humans from the beginning of th"
         },
         {
@@ -1252,13 +1252,13 @@
         {
           "claim_id": "C191",
           "weight": 0.061,
-          "share": 0.003,
+          "share": 0.002,
           "text": "The paper claiming COVID is uniquely adapted to humans defined adaptation by the"
         },
         {
           "claim_id": "C193",
           "weight": 0.061,
-          "share": 0.003,
+          "share": 0.002,
           "text": "It is not necessarily true that viruses see a burst of mutations when they enter"
         },
         {
@@ -1486,8 +1486,8 @@
     {
       "conclusion": "C140",
       "conclusion_text": "WIV found a close relative of BANAL-52 and added a furin cleavage site to it",
-      "concentration": 0.049,
-      "effective_independent_claims": 42.22,
+      "concentration": 0.048,
+      "effective_independent_claims": 42.47,
       "supporting_claim_count": 69,
       "top_claim": "C123",
       "top_claim_text": "Two years before COVID, scientists at the Wuhan Institute of Virology together with colleagues at the University of North Carolina sent in a grant proposal for the DEFUSE program.",
@@ -1495,19 +1495,19 @@
         {
           "claim_id": "C123",
           "weight": 1.54,
-          "share": 0.049,
+          "share": 0.048,
           "text": "Two years before COVID, scientists at the Wuhan Institute of Virology together w"
         },
         {
           "claim_id": "C139",
           "weight": 1.54,
-          "share": 0.049,
+          "share": 0.048,
           "text": "The Wuhan Institute of Virology stated in 2018 that it planned to find viruses a"
         },
         {
           "claim_id": "C137",
           "weight": 1.44,
-          "share": 0.046,
+          "share": 0.045,
           "text": "COVID's furin cleavage site uses the codon CGG to code for arginine both times a"
         },
         {
@@ -1519,49 +1519,49 @@
         {
           "claim_id": "C124",
           "weight": 1.0,
-          "share": 0.032,
+          "share": 0.031,
           "text": "The DEFUSE program involved going into bat caves, collecting new coronaviruses, "
         },
         {
           "claim_id": "C131",
           "weight": 1.0,
-          "share": 0.032,
+          "share": 0.031,
           "text": "COVID looks more or less like BANAL-52 plus a furin cleavage site"
         },
         {
           "claim_id": "C133",
           "weight": 1.0,
-          "share": 0.032,
+          "share": 0.031,
           "text": "None of the 1500 sarbecoviruses except COVID have furin cleavage sites"
         },
         {
           "claim_id": "C134",
           "weight": 1.0,
-          "share": 0.032,
+          "share": 0.031,
           "text": "BANAL-52, COVID's closest ancestor, does not have anything resembling a furin cl"
         },
         {
           "claim_id": "C135",
           "weight": 1.0,
-          "share": 0.032,
+          "share": 0.031,
           "text": "COVID has twelve completely new nucleotides in a row forming a fully-formed furi"
         },
         {
           "claim_id": "C136",
           "weight": 1.0,
-          "share": 0.032,
+          "share": 0.031,
           "text": "The furin cleavage site is the only place where COVID differs from BANAL-52 in a"
         },
         {
           "claim_id": "C130",
           "weight": 0.9,
-          "share": 0.029,
+          "share": 0.028,
           "text": "Two close relatives of COVID have been found: bat viruses called RATG-13 and BAN"
         },
         {
           "claim_id": "C165",
           "weight": 0.84,
-          "share": 0.027,
+          "share": 0.026,
           "text": "WIV's published virus lists did not include BANAL-52 or any other suitable COVID"
         },
         {
@@ -1631,6 +1631,12 @@
           "text": "There are 1500 sarbecoviruses in the family of viruses that includes SARS and CO"
         },
         {
+          "claim_id": "C149",
+          "weight": 0.54,
+          "share": 0.017,
+          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
+        },
+        {
           "claim_id": "C151",
           "weight": 0.54,
           "share": 0.017,
@@ -1697,51 +1703,45 @@
           "text": "COVID's bat-virus ancestors were gastrointestinal viruses"
         },
         {
-          "claim_id": "C149",
-          "weight": 0.324,
-          "share": 0.01,
-          "text": "Research with potentially dangerous coronaviruses is usually done in BSL-3 or BS"
-        },
-        {
           "claim_id": "C164",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "Claims that WIV's published virus lists showed weird discrepancies were due to a"
         },
         {
           "claim_id": "C166",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "Pre-pandemic, there was nothing about BANAL-52 that would have marked it as a po"
         },
         {
           "claim_id": "C167",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "Before the pandemic, gain-of-function research was not considered as unpopular a"
         },
         {
           "claim_id": "C178",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "COVID's furin cleavage site uses PRRAR, which no human has ever used before in g"
         },
         {
           "claim_id": "C179",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "Virologists expected COVID's PRRAR furin cleavage site to work poorly"
         },
         {
           "claim_id": "C181",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "The discovery that PRRAR is viable as a furin cleavage site required a lot of co"
         },
         {
           "claim_id": "C184",
           "weight": 0.3,
-          "share": 0.01,
+          "share": 0.009,
           "text": "There would be no reason for a human engineer to insert the furin cleavage site "
         },
         {
@@ -1911,77 +1911,65 @@
     {
       "conclusion": "C219",
       "conclusion_text": "COVID clusters concentrate in wet markets even when there is no animal spillover.",
-      "concentration": 0.105,
-      "effective_independent_claims": 10.75,
-      "supporting_claim_count": 11,
+      "concentration": 0.125,
+      "effective_independent_claims": 8.98,
+      "supporting_claim_count": 9,
       "top_claim": "C218",
       "top_claim_text": "The Beijing Xinfadi Market outbreak could not have been an animal spillover because there were no raccoon-dogs or other wild wildlife there.",
       "contributions": [
         {
           "claim_id": "C218",
           "weight": 1.14,
-          "share": 0.105,
+          "share": 0.125,
           "text": "The Beijing Xinfadi Market outbreak could not have been an animal spillover beca"
-        },
-        {
-          "claim_id": "C227",
-          "weight": 1.14,
-          "share": 0.105,
-          "text": "Wet markets start outbreaks because infected goods are being sold there, not bec"
         },
         {
           "claim_id": "C211",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "The Huanan Seafood Market had over 10,000 visitors per day."
         },
         {
           "claim_id": "C212",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "The Huanan Seafood Market had approximately 1,000 vendors who came back daily."
         },
         {
           "claim_id": "C213",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "The Huanan Seafood Market had poor ventilation, especially in the high-positivit"
         },
         {
           "claim_id": "C214",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "The Huanan Seafood Market had cold, wet surfaces on which the virus could surviv"
         },
         {
           "claim_id": "C215",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "The Huanan Seafood Market was indoors, which prevented UV light from killing the"
         },
         {
           "claim_id": "C216",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "During China's COVID Zero policy, most COVID outbreaks that authorities had to c"
         },
         {
           "claim_id": "C217",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "The large COVID outbreak in Beijing started at Xinfadi Market, Beijing's local s"
         },
         {
           "claim_id": "C220",
           "weight": 1.0,
-          "share": 0.092,
+          "share": 0.109,
           "text": "Wet market outbreaks in Zero COVID era China make up about half of total outbrea"
-        },
-        {
-          "claim_id": "C226",
-          "weight": 0.54,
-          "share": 0.05,
-          "text": "The Beijing Xinfadi Market outbreak was caused by a seafood stall receiving froz"
         }
       ]
     },
@@ -2059,8 +2047,8 @@
     {
       "conclusion": "C242",
       "conclusion_text": "The 90 pre-market cases came from a paper that merely counted cases differently than other papers, not from secret pre-pandemic cases.",
-      "concentration": 0.526,
-      "effective_independent_claims": 3.21,
+      "concentration": 0.41,
+      "effective_independent_claims": 3.71,
       "supporting_claim_count": 8,
       "top_claim": "C233",
       "top_claim_text": "There is evidence for isolated pre-market COVID cases, including a British expatriate named Connor Reed who says he got sick in November, three weeks before the first wet market case.",
@@ -2068,49 +2056,49 @@
         {
           "claim_id": "C233",
           "weight": 0.84,
-          "share": 0.526,
+          "share": 0.41,
           "text": "There is evidence for isolated pre-market COVID cases, including a British expat"
+        },
+        {
+          "claim_id": "C243",
+          "weight": 0.6,
+          "share": 0.293,
+          "text": "A lab leak proponent constructed a conspiracy theory that a paper's author was s"
         },
         {
           "claim_id": "C234",
           "weight": 0.162,
-          "share": 0.101,
+          "share": 0.079,
           "text": "A hospital later tested Connor Reed's samples and said it was COVID."
-        },
-        {
-          "claim_id": "C243",
-          "weight": 0.146,
-          "share": 0.091,
-          "text": "A lab leak proponent constructed a conspiracy theory that a paper's author was s"
         },
         {
           "claim_id": "C239",
           "weight": 0.125,
-          "share": 0.078,
+          "share": 0.061,
           "text": "The hospital that supposedly tested Connor Reed never informed anyone else of th"
         },
         {
           "claim_id": "C236",
           "weight": 0.081,
-          "share": 0.051,
+          "share": 0.039,
           "text": "Connor Reed's case was not reported in any peer-reviewed paper but was reported "
         },
         {
           "claim_id": "C237",
           "weight": 0.081,
-          "share": 0.051,
+          "share": 0.039,
           "text": "Connor Reed told the Daily Mail that his cat also died of coronavirus, which Pet"
         },
         {
           "claim_id": "C238",
           "weight": 0.081,
-          "share": 0.051,
+          "share": 0.039,
           "text": "Connor Reed was 25 years old, and almost no 25-year-olds go to the hospital for "
         },
         {
           "claim_id": "C241",
           "weight": 0.081,
-          "share": 0.051,
+          "share": 0.039,
           "text": "Connor Reed claimed he got his COVID case at a market 'like in the media'."
         }
       ]
@@ -2188,72 +2176,76 @@
     },
     {
       "conclusion": "C269",
+      "conclusion_text": "Scott Alexander did not find Saar's specific examples against Peter's wet market argument convincing.",
       "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
       "top_claim": null,
+      "top_claim_text": "",
       "contributions": [],
       "note": "no evidential support found"
     },
     {
       "conclusion": "C286",
       "conclusion_text": "Anyone who took Peter's multi-stage probability slide seriously would end up dramatically miscalibrated.",
-      "concentration": 0.461,
-      "effective_independent_claims": 3.61,
+      "concentration": 0.195,
+      "effective_independent_claims": 6.37,
       "supporting_claim_count": 9,
-      "top_claim": "C275",
-      "top_claim_text": "Peter's multi-stage probabilistic slide produced a probability of 1 in 5×10^25 for lab leak.",
+      "top_claim": "C279",
+      "top_claim_text": "Peter assigned a 1/10 probability that Wuhan scientists would choose the suboptimal RRAR furin cleavage site.",
       "contributions": [
         {
-          "claim_id": "C275",
-          "weight": 0.775,
-          "share": 0.461,
-          "text": "Peter's multi-stage probabilistic slide produced a probability of 1 in 5×10^25 f"
-        },
-        {
-          "claim_id": "C276",
-          "weight": 0.324,
-          "share": 0.193,
-          "text": "If Peter's multi-stage probability estimate is correct, it is more likely to win"
-        },
-        {
           "claim_id": "C279",
-          "weight": 0.18,
-          "share": 0.107,
+          "weight": 1.031,
+          "share": 0.195,
           "text": "Peter assigned a 1/10 probability that Wuhan scientists would choose the subopti"
         },
         {
           "claim_id": "C280",
-          "weight": 0.18,
-          "share": 0.107,
+          "weight": 1.031,
+          "share": 0.195,
           "text": "Peter assigned a 1/20 probability that scientists would add a proline in front o"
         },
         {
+          "claim_id": "C275",
+          "weight": 1.0,
+          "share": 0.189,
+          "text": "Peter's multi-stage probabilistic slide produced a probability of 1 in 5×10^25 f"
+        },
+        {
           "claim_id": "C278",
-          "weight": 0.073,
-          "share": 0.043,
+          "weight": 0.87,
+          "share": 0.164,
           "text": "The Multiple Stage Fallacy involves failure to account for correlations between "
         },
         {
+          "claim_id": "C276",
+          "weight": 0.54,
+          "share": 0.102,
+          "text": "If Peter's multi-stage probability estimate is correct, it is more likely to win"
+        },
+        {
           "claim_id": "C281",
-          "weight": 0.073,
-          "share": 0.043,
+          "weight": 0.416,
+          "share": 0.078,
           "text": "Scientists who do one unusual thing with a furin cleavage site may be more likel"
         },
         {
           "claim_id": "C283",
-          "weight": 0.033,
-          "share": 0.02,
+          "weight": 0.188,
+          "share": 0.036,
           "text": "Rootclaim's probabilistic framework can incorporate Yuri's hypothesis by giving "
         },
         {
           "claim_id": "C277",
-          "weight": 0.026,
-          "share": 0.015,
+          "weight": 0.146,
+          "share": 0.028,
           "text": "Eliezer Yudkowsky identifies a reasoning error called the Multiple Stage Fallacy"
         },
         {
           "claim_id": "C282",
-          "weight": 0.018,
-          "share": 0.011,
+          "weight": 0.079,
+          "share": 0.015,
           "text": "Yuri proposed that scientists wanting to understand how pandemic coronaviruses o"
         }
       ]
@@ -2391,78 +2383,6 @@
   "circular_support": [
     {
       "claim_ids": [
-        "C009",
-        "C010"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C009",
-          "text": "Saar Wilf issued a $100,000 monetary challenge to anyone who disagrees with any "
-        },
-        {
-          "id": "C010",
-          "text": "Rootclaim found in favor of the lab leak hypothesis for COVID origins."
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C025",
-        "C026",
-        "C053",
-        "C054"
-      ],
-      "grounded": true,
-      "severity": "redundant",
-      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-      "members": [
-        {
-          "id": "C025",
-          "text": "The first officially confirmed COVID case was a vendor at the Wuhan wet market."
-        },
-        {
-          "id": "C026",
-          "text": "The next four confirmed COVID cases after the first were also at the Wuhan wet m"
-        },
-        {
-          "id": "C053",
-          "text": "The first reported COVID case—a wet market vendor on December 11—was very early "
-        },
-        {
-          "id": "C054",
-          "text": "The most likely actual first COVID case was someone who worked at the raccoon-do"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C037",
-        "C051",
-        "C052"
-      ],
-      "grounded": true,
-      "severity": "redundant",
-      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-      "members": [
-        {
-          "id": "C037",
-          "text": "An SCMP article suggested there were 92 previously-undetected cases suspicious f"
-        },
-        {
-          "id": "C051",
-          "text": "If the first COVID infection had occurred on November 11, one would expect 256 t"
-        },
-        {
-          "id": "C052",
-          "text": "The numbers of hospitalizations and deaths in January were consistent with the p"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
         "C095",
         "C098",
         "C102",
@@ -2487,201 +2407,6 @@
         {
           "id": "C103",
           "text": "The raccoon-dog with Lineage B passed its virus to humans first, and about 3-4 d"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C219",
-        "C227"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C219",
-          "text": "COVID clusters concentrate in wet markets even when there is no animal spillover"
-        },
-        {
-          "id": "C227",
-          "text": "Wet markets start outbreaks because infected goods are being sold there, not bec"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C263",
-        "C264"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C263",
-          "text": "Peter assigned a 1/10,000 probability that a lab leak pandemic would first show "
-        },
-        {
-          "id": "C264",
-          "text": "Peter's argument was that a zoonotic pandemic would obviously start at a site se"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C235",
-        "C242"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C235",
-          "text": "A paper reports 90 COVID cases before the first wet market case."
-        },
-        {
-          "id": "C242",
-          "text": "The 90 pre-market cases came from a paper that merely counted cases differently "
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C252",
-        "C253"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C252",
-          "text": "The author was close to 50-50 on COVID origins before the debate."
-        },
-        {
-          "id": "C253",
-          "text": "After the debate, the author is 90-10 in favor of zoonosis."
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C254",
-        "C262"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C254",
-          "text": "Saar believed the debate went wrong for his side because the judges used Bayesia"
-        },
-        {
-          "id": "C262",
-          "text": "The judges in the Rootclaim debate said that numbers were only a supplement for "
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C266",
-        "C268"
-      ],
-      "grounded": true,
-      "severity": "redundant",
-      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-      "members": [
-        {
-          "id": "C266",
-          "text": "Saar argued that extreme odds like 1-in-10,000 should rarely appear outside well"
-        },
-        {
-          "id": "C268",
-          "text": "The real probability of p(wet market|lab leak) is not the 1/10,000 base-rate cha"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C275",
-        "C276",
-        "C286"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 3.",
-      "members": [
-        {
-          "id": "C275",
-          "text": "Peter's multi-stage probabilistic slide produced a probability of 1 in 5×10^25 f"
-        },
-        {
-          "id": "C276",
-          "text": "If Peter's multi-stage probability estimate is correct, it is more likely to win"
-        },
-        {
-          "id": "C286",
-          "text": "Anyone who took Peter's multi-stage probability slide seriously would end up dra"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C282",
-        "C283"
-      ],
-      "grounded": true,
-      "severity": "redundant",
-      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-      "members": [
-        {
-          "id": "C282",
-          "text": "Yuri proposed that scientists wanting to understand how pandemic coronaviruses o"
-        },
-        {
-          "id": "C283",
-          "text": "Rootclaim's probabilistic framework can incorporate Yuri's hypothesis by giving "
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C284",
-        "C285"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C284",
-          "text": "Peter did not make his case hinge on the multi-stage probability slide."
-        },
-        {
-          "id": "C285",
-          "text": "Peter may have used the multi-stage probability slide partly to troll Rootclaim."
-        }
-      ]
-    },
-    {
-      "claim_ids": [
-        "C295",
-        "C296"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-      "members": [
-        {
-          "id": "C295",
-          "text": "Scott Alexander infers that Saar believed the un-ignorable big picture evidence "
-        },
-        {
-          "id": "C296",
-          "text": "It is a weird coincidence that the COVID epidemic started so close to Asia's big"
         }
       ]
     }

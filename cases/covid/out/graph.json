@@ -4574,13 +4574,6 @@
       "strength": "asserted"
     },
     {
-      "from": "C010",
-      "to": "C009",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C011",
       "to": "C009",
       "type": "is_evidence_for",
@@ -4911,29 +4904,22 @@
     },
     {
       "from": "C051",
-      "to": "C037",
-      "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C051",
       "to": "C044",
       "type": "contradicts",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
     {
-      "from": "C052",
-      "to": "C051",
-      "type": "is_evidence_for",
+      "from": "C051",
+      "to": "C052",
+      "type": "depends_on",
       "source_id": "acx_writeup",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
-      "from": "C053",
-      "to": "C025",
-      "type": "supports",
+      "from": "C025",
+      "to": "C053",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -5008,13 +4994,6 @@
       "strength": "asserted"
     },
     {
-      "from": "C025",
-      "to": "C053",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C026",
       "to": "C053",
       "type": "is_evidence_for",
@@ -5071,20 +5050,6 @@
       "strength": "strong"
     },
     {
-      "from": "C050",
-      "to": "C051",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C051",
-      "to": "C052",
-      "type": "depends_on",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
       "from": "C051",
       "to": "C070",
       "type": "contradicts",
@@ -5137,13 +5102,6 @@
       "from": "C072",
       "to": "C065",
       "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "weak"
-    },
-    {
-      "from": "C053",
-      "to": "C054",
-      "type": "supports",
       "source_id": "acx_writeup",
       "strength": "weak"
     },
@@ -5367,23 +5325,23 @@
     {
       "from": "C091",
       "to": "C093",
-      "type": "supports",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "strong"
     },
     {
       "from": "C092",
       "to": "C093",
-      "type": "supports",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "strong"
     },
     {
-      "from": "C094",
-      "to": "C093",
-      "type": "restates",
+      "from": "C093",
+      "to": "C094",
+      "type": "supports",
       "source_id": "acx_writeup",
-      "strength": "weak"
+      "strength": "strong"
     },
     {
       "from": "C095",
@@ -5423,7 +5381,7 @@
     {
       "from": "C100",
       "to": "C099",
-      "type": "supports",
+      "type": "depends_on",
       "source_id": "acx_writeup",
       "strength": "strong"
     },
@@ -5465,9 +5423,9 @@
     {
       "from": "C104",
       "to": "C094",
-      "type": "contradicts",
+      "type": "supports",
       "source_id": "acx_writeup",
-      "strength": "weak"
+      "strength": "strong"
     },
     {
       "from": "C104",
@@ -5498,58 +5456,9 @@
       "strength": "weak"
     },
     {
-      "from": "C091",
-      "to": "C094",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C092",
-      "to": "C094",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C092",
-      "to": "C093",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C091",
-      "to": "C093",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C093",
-      "to": "C094",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
       "from": "C096",
       "to": "C095",
       "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C100",
-      "to": "C095",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C100",
-      "to": "C099",
-      "type": "depends_on",
       "source_id": "acx_writeup",
       "strength": "strong"
     },
@@ -5592,13 +5501,6 @@
       "from": "C103",
       "to": "C108",
       "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C104",
-      "to": "C105",
-      "type": "contradicts",
       "source_id": "acx_writeup",
       "strength": "strong"
     },
@@ -5948,9 +5850,9 @@
     {
       "from": "C149",
       "to": "C150",
-      "type": "supports",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
-      "strength": "strong"
+      "strength": "asserted"
     },
     {
       "from": "C150",
@@ -5961,13 +5863,6 @@
     },
     {
       "from": "C140",
-      "to": "C094",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C104",
       "to": "C094",
       "type": "supports",
       "source_id": "acx_writeup",
@@ -6002,13 +5897,6 @@
       "strength": "strong"
     },
     {
-      "from": "C136",
-      "to": "C140",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C137",
       "to": "C136",
       "type": "is_evidence_for",
@@ -6024,22 +5912,8 @@
     },
     {
       "from": "C139",
-      "to": "C140",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C139",
       "to": "C154",
       "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C142",
-      "to": "C145",
-      "type": "supports",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -6047,13 +5921,6 @@
       "from": "C148",
       "to": "C140",
       "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C149",
-      "to": "C150",
-      "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -6471,20 +6338,6 @@
       "strength": "asserted"
     },
     {
-      "from": "C183",
-      "to": "C185",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C184",
-      "to": "C183",
-      "type": "caveats",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C185",
       "to": "C184",
       "type": "contradicts",
@@ -6506,13 +6359,6 @@
       "strength": "asserted"
     },
     {
-      "from": "C186",
-      "to": "C187",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C187",
       "to": "C188",
       "type": "depends_on",
@@ -6530,20 +6376,6 @@
       "from": "C188",
       "to": "C190",
       "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C189",
-      "to": "C188",
-      "type": "caveats",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C190",
-      "to": "C188",
-      "type": "caveats",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -6576,22 +6408,8 @@
       "strength": "asserted"
     },
     {
-      "from": "C192",
-      "to": "C191",
-      "type": "restates",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C193",
       "to": "C192",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C196",
-      "to": "C197",
       "type": "supports",
       "source_id": "acx_writeup",
       "strength": "asserted"
@@ -6765,9 +6583,9 @@
       "strength": "asserted"
     },
     {
-      "from": "C227",
-      "to": "C219",
-      "type": "supports",
+      "from": "C219",
+      "to": "C227",
+      "type": "depends_on",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -6898,22 +6716,8 @@
       "strength": "asserted"
     },
     {
-      "from": "C242",
-      "to": "C235",
-      "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C235",
       "to": "C242",
-      "type": "depends_on",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C219",
-      "to": "C227",
       "type": "depends_on",
       "source_id": "acx_writeup",
       "strength": "asserted"
@@ -6961,13 +6765,6 @@
       "strength": "asserted"
     },
     {
-      "from": "C235",
-      "to": "C242",
-      "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "disputed"
-    },
-    {
       "from": "C243",
       "to": "C242",
       "type": "supports",
@@ -6977,13 +6774,6 @@
     {
       "from": "C244",
       "to": "C245",
-      "type": "caveats",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C245",
-      "to": "C244",
       "type": "caveats",
       "source_id": "acx_writeup",
       "strength": "asserted"
@@ -7101,11 +6891,11 @@
       "strength": "weak"
     },
     {
-      "from": "C263",
-      "to": "C264",
-      "type": "supports",
+      "from": "C264",
+      "to": "C263",
+      "type": "depends_on",
       "source_id": "acx_writeup",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
       "from": "C265",
@@ -7115,16 +6905,9 @@
       "strength": "asserted"
     },
     {
-      "from": "C264",
-      "to": "C263",
+      "from": "C268",
+      "to": "C266",
       "type": "depends_on",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C266",
-      "to": "C268",
-      "type": "supports",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -7139,13 +6922,6 @@
       "from": "C268",
       "to": "C263",
       "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C268",
-      "to": "C266",
-      "type": "depends_on",
       "source_id": "acx_writeup",
       "strength": "asserted"
     },
@@ -7192,11 +6968,11 @@
       "strength": "asserted"
     },
     {
-      "from": "C274",
-      "to": "C273",
-      "type": "caveats",
+      "from": "C273",
+      "to": "C274",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
       "from": "C274",
@@ -7208,9 +6984,9 @@
     {
       "from": "C275",
       "to": "C286",
-      "type": "supports",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
       "from": "C276",
@@ -7262,18 +7038,18 @@
       "strength": "asserted"
     },
     {
-      "from": "C281",
-      "to": "C279",
-      "type": "caveats",
+      "from": "C279",
+      "to": "C281",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
-      "from": "C281",
-      "to": "C280",
-      "type": "caveats",
+      "from": "C280",
+      "to": "C281",
+      "type": "is_evidence_for",
       "source_id": "acx_writeup",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
       "from": "C282",
@@ -7304,25 +7080,11 @@
       "strength": "weak"
     },
     {
-      "from": "C286",
-      "to": "C275",
-      "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
       "from": "C287",
       "to": "C284",
       "type": "supports",
       "source_id": "acx_writeup",
       "strength": "weak"
-    },
-    {
-      "from": "C262",
-      "to": "C254",
-      "type": "contradicts",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
     },
     {
       "from": "C251",
@@ -7332,50 +7094,8 @@
       "strength": "weak"
     },
     {
-      "from": "C253",
-      "to": "C252",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "asserted"
-    },
-    {
-      "from": "C273",
-      "to": "C274",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
       "from": "C274",
       "to": "C294",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C275",
-      "to": "C276",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C275",
-      "to": "C286",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C279",
-      "to": "C281",
-      "type": "is_evidence_for",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C280",
-      "to": "C281",
       "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "strong"
@@ -7388,22 +7108,8 @@
       "strength": "strong"
     },
     {
-      "from": "C282",
-      "to": "C283",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
       "from": "C283",
       "to": "C278",
-      "type": "supports",
-      "source_id": "acx_writeup",
-      "strength": "weak"
-    },
-    {
-      "from": "C284",
-      "to": "C285",
       "type": "supports",
       "source_id": "acx_writeup",
       "strength": "weak"
@@ -7475,13 +7181,6 @@
       "from": "C295",
       "to": "C296",
       "type": "depends_on",
-      "source_id": "acx_writeup",
-      "strength": "strong"
-    },
-    {
-      "from": "C296",
-      "to": "C295",
-      "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "strong"
     },
@@ -7596,45 +7295,38 @@
       "type": "is_evidence_for",
       "source_id": "acx_writeup",
       "strength": "strong"
-    },
-    {
-      "from": "C273",
-      "to": "C274",
-      "type": "caveats",
-      "source_id": "acx_writeup",
-      "strength": "strong"
     }
   ],
   "assessment": {
     "cruxes": [
       {
-        "claim_id": "C233",
-        "sensitivity": 0.526,
-        "score": 1.667,
-        "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
-        "affects_id": "C242",
-        "affects_support_count": 8,
-        "rationale": "Carries 52% of the evidential support for conclusion C242, which is backed by 8 claims (~3.21 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
-        "claim_id": "C275",
-        "sensitivity": 0.461,
-        "score": 1.531,
-        "affects": "Anyone who took Peter's multi-stage probability slide seriously would end up dra",
-        "affects_id": "C286",
-        "affects_support_count": 9,
-        "rationale": "Carries 46% of the evidential support for conclusion C286, which is backed by 9 claims (~3.61 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
         "claim_id": "C096",
-        "sensitivity": 0.431,
-        "score": 1.366,
+        "sensitivity": 0.427,
+        "score": 1.354,
         "affects": "Although Lineage A is evolutionarily older, Lineage B started spreading in human",
         "affects_id": "C095",
         "affects_support_count": 8,
-        "rationale": "Carries 43% of the evidential support for conclusion C095, which is backed by 8 claims (~3.92 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "rationale": "Carries 42% of the evidential support for conclusion C095, which is backed by 8 claims (~3.98 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C233",
+        "sensitivity": 0.41,
+        "score": 1.3,
+        "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
+        "affects_id": "C242",
+        "affects_support_count": 8,
+        "rationale": "Carries 41% of the evidential support for conclusion C242, which is backed by 8 claims (~3.71 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C243",
+        "sensitivity": 0.293,
+        "score": 0.929,
+        "affects": "The 90 pre-market cases came from a paper that merely counted cases differently ",
+        "affects_id": "C242",
+        "affects_support_count": 8,
+        "rationale": "Carries 29% of the evidential support for conclusion C242, which is backed by 8 claims (~3.71 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       },
       {
@@ -7644,7 +7336,7 @@
         "affects": "The lab leak scenario requiring the first infected worker to go straight to the ",
         "affects_id": "C065",
         "affects_support_count": 11,
-        "rationale": "Carries 22% of the evidential support for conclusion C065, which is backed by 11 claims (~6.99 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "rationale": "Carries 22% of the evidential support for conclusion C065, which is backed by 11 claims (~7.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       },
       {
@@ -7698,89 +7390,17 @@
         "method": "deterministic"
       },
       {
-        "claim_id": "C119",
-        "sensitivity": 0.278,
-        "score": 0.645,
-        "affects": "The scattered 'progenitor' cases closer to the ancestral bat virus than either L",
-        "affects_id": "C118",
-        "affects_support_count": 4,
-        "rationale": "Carries 27% of the evidential support for conclusion C118, which is backed by 4 claims (~3.86 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "claim_id": "C279",
+        "sensitivity": 0.195,
+        "score": 0.648,
+        "affects": "Anyone who took Peter's multi-stage probability slide seriously would end up dra",
+        "affects_id": "C286",
+        "affects_support_count": 9,
+        "rationale": "Carries 19% of the evidential support for conclusion C286, which is backed by 9 claims (~6.37 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       }
     ],
     "correlated_evidence_flags": [
-      {
-        "claim_ids": [
-          "C009",
-          "C010"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C009",
-            "text": "Saar Wilf issued a $100,000 monetary challenge to anyone who disagrees with any "
-          },
-          {
-            "id": "C010",
-            "text": "Rootclaim found in favor of the lab leak hypothesis for COVID origins."
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C025",
-          "C026",
-          "C053",
-          "C054"
-        ],
-        "grounded": true,
-        "severity": "redundant",
-        "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-        "members": [
-          {
-            "id": "C025",
-            "text": "The first officially confirmed COVID case was a vendor at the Wuhan wet market."
-          },
-          {
-            "id": "C026",
-            "text": "The next four confirmed COVID cases after the first were also at the Wuhan wet m"
-          },
-          {
-            "id": "C053",
-            "text": "The first reported COVID case—a wet market vendor on December 11—was very early "
-          },
-          {
-            "id": "C054",
-            "text": "The most likely actual first COVID case was someone who worked at the raccoon-do"
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C037",
-          "C051",
-          "C052"
-        ],
-        "grounded": true,
-        "severity": "redundant",
-        "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-        "members": [
-          {
-            "id": "C037",
-            "text": "An SCMP article suggested there were 92 previously-undetected cases suspicious f"
-          },
-          {
-            "id": "C051",
-            "text": "If the first COVID infection had occurred on November 11, one would expect 256 t"
-          },
-          {
-            "id": "C052",
-            "text": "The numbers of hospitalizations and deaths in January were consistent with the p"
-          }
-        ]
-      },
       {
         "claim_ids": [
           "C095",
@@ -7807,201 +7427,6 @@
           {
             "id": "C103",
             "text": "The raccoon-dog with Lineage B passed its virus to humans first, and about 3-4 d"
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C219",
-          "C227"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C219",
-            "text": "COVID clusters concentrate in wet markets even when there is no animal spillover"
-          },
-          {
-            "id": "C227",
-            "text": "Wet markets start outbreaks because infected goods are being sold there, not bec"
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C263",
-          "C264"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C263",
-            "text": "Peter assigned a 1/10,000 probability that a lab leak pandemic would first show "
-          },
-          {
-            "id": "C264",
-            "text": "Peter's argument was that a zoonotic pandemic would obviously start at a site se"
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C235",
-          "C242"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C235",
-            "text": "A paper reports 90 COVID cases before the first wet market case."
-          },
-          {
-            "id": "C242",
-            "text": "The 90 pre-market cases came from a paper that merely counted cases differently "
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C252",
-          "C253"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C252",
-            "text": "The author was close to 50-50 on COVID origins before the debate."
-          },
-          {
-            "id": "C253",
-            "text": "After the debate, the author is 90-10 in favor of zoonosis."
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C254",
-          "C262"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C254",
-            "text": "Saar believed the debate went wrong for his side because the judges used Bayesia"
-          },
-          {
-            "id": "C262",
-            "text": "The judges in the Rootclaim debate said that numbers were only a supplement for "
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C266",
-          "C268"
-        ],
-        "grounded": true,
-        "severity": "redundant",
-        "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-        "members": [
-          {
-            "id": "C266",
-            "text": "Saar argued that extreme odds like 1-in-10,000 should rarely appear outside well"
-          },
-          {
-            "id": "C268",
-            "text": "The real probability of p(wet market|lab leak) is not the 1/10,000 base-rate cha"
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C275",
-          "C276",
-          "C286"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 3.",
-        "members": [
-          {
-            "id": "C275",
-            "text": "Peter's multi-stage probabilistic slide produced a probability of 1 in 5×10^25 f"
-          },
-          {
-            "id": "C276",
-            "text": "If Peter's multi-stage probability estimate is correct, it is more likely to win"
-          },
-          {
-            "id": "C286",
-            "text": "Anyone who took Peter's multi-stage probability slide seriously would end up dra"
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C282",
-          "C283"
-        ],
-        "grounded": true,
-        "severity": "redundant",
-        "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
-        "members": [
-          {
-            "id": "C282",
-            "text": "Yuri proposed that scientists wanting to understand how pandemic coronaviruses o"
-          },
-          {
-            "id": "C283",
-            "text": "Rootclaim's probabilistic framework can incorporate Yuri's hypothesis by giving "
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C284",
-          "C285"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C284",
-            "text": "Peter did not make his case hinge on the multi-stage probability slide."
-          },
-          {
-            "id": "C285",
-            "text": "Peter may have used the multi-stage probability slide partly to troll Rootclaim."
-          }
-        ]
-      },
-      {
-        "claim_ids": [
-          "C295",
-          "C296"
-        ],
-        "grounded": false,
-        "severity": "pure-circular",
-        "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 2.",
-        "members": [
-          {
-            "id": "C295",
-            "text": "Scott Alexander infers that Saar believed the un-ignorable big picture evidence "
-          },
-          {
-            "id": "C296",
-            "text": "It is a weird coincidence that the COVID epidemic started so close to Asia's big"
           }
         ]
       }
