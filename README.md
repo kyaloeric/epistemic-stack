@@ -21,12 +21,14 @@ cd web && python -m http.server 8000
   **Conclusions** (concentration % + effective-independent-claim count + top contributions), and
   **Integrity** (circular-support loops with severity, correlated-evidence flags).
 
-## Deploy (static host)
-The site is pure static files. Fastest options:
+## Deploy
+Served by `server.py` (repo root) — a dependency-free Python static server that binds `$PORT`.
+Same command locally and in production:
 
-- **Netlify** — drag the `web/` folder onto <https://app.netlify.com/drop> for an instant URL,
-  or connect the GitHub repo (root `netlify.toml` sets `publish = web/`, no build step).
-- **Vercel / Cloudflare Pages** — new project → set the output/root directory to `web`.
+```bash
+python web/build_data.py && python server.py     # local: http://localhost:8000
+```
 
-To refresh the deployed data after a pipeline run: `python web/build_data.py`, commit `web/data/`,
-and the host redeploys.
+The root `Procfile` (`web: python server.py`) deploys as-is on **Railway / Render / Fly** — point
+the platform at the repo, no build config needed (the data under `web/data/` is committed). To
+refresh after a pipeline run: `python web/build_data.py`, commit `web/data/`, redeploy.
