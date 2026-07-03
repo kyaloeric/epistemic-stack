@@ -11,8 +11,11 @@ const $ = (id) => document.getElementById(id);
 const esc = (s) => (s == null ? "" : String(s).replace(/[&<>"]/g,
   (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])));
 
-const SIDE_CLASS = { zoonosis: "zoo", lab_leak: "lab" };
-const SUPPORT_TYPES = new Set(["supports", "is_evidence_for", "depends_on"]);
+// Side colours are assigned per case from whatever sides the data actually contains — no
+// hardcoded dispute. First distinct side gets the first palette colour, etc.
+const SIDE_PALETTE = ["#1d6f5c", "#9c3b2e", "#2d5a8c", "#8a6510", "#6b4c8a", "#586069"];
+let SIDE_COLOR = {};
+const sideColor = (s) => SIDE_COLOR[s] || "#586069";
 
 // ---------- boot ----------
 init();
@@ -53,6 +56,11 @@ async function loadCase(name) {
   const concById = {};
   (D.concentration || []).forEach((r) => (concById[r.conclusion] = r));
   IDX = { claimById, outE, inE, srcById, cruxByClaim, concById };
+
+  // assign a colour to each distinct side present in this case's data
+  SIDE_COLOR = {};
+  [...new Set((D.sources || []).map((s) => s.side).filter(Boolean))].sort()
+    .forEach((s, i) => (SIDE_COLOR[s] = SIDE_PALETTE[i % SIDE_PALETTE.length]));
 
   $("question").textContent = D.question || "";
   $("counts").innerHTML =
@@ -104,10 +112,9 @@ function renderList() {
   const box = $("claimList");
   const rows = D.claims.filter(passesFilter);
   box.innerHTML = rows.map((c) => {
-    const side = SIDE_CLASS[sideOf(c)] || "";
     const crux = IDX.cruxByClaim[c.id];
     return `<div class="row ${c.id === sel ? "sel" : ""}" data-id="${c.id}">
-      <span class="dot ${side}"></span>
+      <span class="dot" style="background:${sideColor(sideOf(c))}"></span>
       <span class="rtext">${esc(c.text.slice(0, 120))}
         <span class="rid">${c.id} · ${esc(c.kind)}</span></span>
       ${crux ? '<span class="star">★</span>' : ""}</div>`;
@@ -124,7 +131,7 @@ function select(id) {
   const row = $("claimList").querySelector(`.row[data-id="${id}"]`);
   if (row) row.scrollIntoView({ block: "nearest" });
 
-  const side = sideOf(c), sc = SIDE_CLASS[side] || "";
+  const side = sideOf(c);
   const crux = IDX.cruxByClaim[id];
   const atts = (c.attestations || []).map((a) => {
     const s = IDX.srcById[a.source_id] || {};
@@ -142,7 +149,7 @@ function select(id) {
 
   $("detail").innerHTML = `<div class="detail">
     <div class="pills">
-      <span class="pill ${sc}">${esc(side)}</span>
+      <span class="pill" style="color:${sideColor(side)};border-color:${sideColor(side)}">${esc(side)}</span>
       <span class="pill kind">${esc(c.kind)}</span>
       ${crux ? `<span class="pill crux">CRUX · score ${crux.score ?? "?"} · sens ${crux.sensitivity ?? "?"}</span>` : ""}
       <code>${c.id}</code>

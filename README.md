@@ -71,7 +71,12 @@ Outputs land in `cases/<case>/out/`:
 - `claims.json`        — extracted claims with provenance
 - `graph.json`         — the typed claim graph
 - `cruxes.json`        — ranked load-bearing claims
-- `graph.html`         — navigable viewer (open in a browser)
+- `concentration.json` — per-conclusion concentration + effective-independent count + circular flags
+
+Then view them in the interrogable web app:
+```bash
+python web/build_data.py && python server.py   # -> http://localhost:8000
+```
 
 ## Why it generalizes (domain-agnostic by construction)
 

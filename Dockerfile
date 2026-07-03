@@ -6,7 +6,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Default: build the demo graph (offline, no API key needed) and serve the viewer.
-# Judges hit http://localhost:8000/cases/covid/out/graph.html
+# Serve the interrogable web app over the pre-built case data (no API key needed).
+# Judges hit http://localhost:8000
 EXPOSE 8000
-CMD ["sh", "-c", "python -m src.demo && python -m http.server 8000"]
+CMD ["sh", "-c", "python web/build_data.py && python server.py"]
