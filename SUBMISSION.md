@@ -3,8 +3,8 @@
 **Eric Kyalo · solo · Nairobi, Kenya**
 Early-feedback (June 21) submission; full build by July 19.
 
-This repo is the executable half of the submission. The written core (≤10 pages) lives in
-the Primary Document. Use the reading-budget map below.
+This repo is the executable half of the submission. The written core (≤10 pages) is
+[`PRIMARY.md`](PRIMARY.md). Use the reading-budget map below.
 
 ## Reading-budget map (≤10 pages of attention)
 
