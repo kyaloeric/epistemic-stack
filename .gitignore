@@ -8,3 +8,4 @@ cases/*/raw/*.txt
 # Playwright / UI QA artifacts
 .playwright-mcp/
 qa-*.png
+.mcp.json
