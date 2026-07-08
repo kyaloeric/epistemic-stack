@@ -39,11 +39,109 @@ async function init() {
       document.querySelectorAll("#tabs button").forEach((x) => x.classList.toggle("on", x === b));
       renderPanel(); };
   });
+  initBYO();
+}
+
+// ---------- bring your own: run the warrant audit on a user-supplied graph ----------
+const BYO_PROMPT = `You are an epistemic analyst. I will give you one or more sources arguing about a
+contested question. Convert them into a claim graph as JSON. Do NOT decide who is right — only
+extract the structure faithfully.
+
+Output ONE JSON object, no markdown fences and no preamble, with exactly these keys:
+
+{
+  "question": "<the contested question, one line>",
+  "sources": [
+    {"id": "<short_id>", "title": "<title>", "author": "<author>", "side": "<the position it argues>", "url": "<url if any>"}
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "text": "<one neutral proposition>",
+      "kind": "evidence | inference | assumption | conclusion | methodological",
+      "attestations": [
+        {"source_id": "<a sources[].id>", "verbatim_span": "<exact quote from the source>", "framing": "<how this source framed it, if loaded; else empty>"}
+      ]
+    }
+  ],
+  "edges": [
+    {"from": "C002", "to": "C001", "type": "supports | contradicts | is_evidence_for | restates | caveats | depends_on", "source_id": "<who asserts the link>", "strength": "asserted | strong | weak | disputed"}
+  ]
+}
+
+Rules:
+1. Atomic claims — one proposition each; split compound statements.
+2. verbatim_span must be copied EXACTLY from the source, never paraphrased (it is the audit trail).
+3. Give every claim a unique id (C001, C002, ...).
+4. Mark each side's bottom line as kind "conclusion" — the tool computes concentration per conclusion, so this is REQUIRED or there is nothing to audit.
+5. Use depends_on when B's truth materially rests on A (the crux layer measures these). Use is_evidence_for / supports for empirical or argumentative backing.
+6. Only assert edges the sources actually make. Do not add your own view of what supports what.
+
+The source(s) follow below:
+`;
+
+function initBYO() {
+  $("byoPrompt").value = BYO_PROMPT;
+  const modal = $("byo");
+  const open = () => { modal.classList.remove("hidden"); msg(""); };
+  const close = () => modal.classList.add("hidden");
+  const msg = (t, cls) => { const m = $("byoMsg"); m.textContent = t; m.className = "byomsg " + (cls || ""); };
+
+  $("byoBtn").onclick = open;
+  $("byoClose").onclick = close;
+  modal.onclick = (e) => { if (e.target === modal) close(); };
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+
+  $("byoCopy").onclick = async () => {
+    try { await navigator.clipboard.writeText(BYO_PROMPT); msg("Prompt copied.", "ok"); }
+    catch { $("byoPrompt").select(); msg("Select-all + Ctrl-C to copy.", ""); }
+  };
+  $("byoFile").onchange = (e) => {
+    const f = e.target.files[0];
+    if (!f) return;
+    const r = new FileReader();
+    r.onload = () => { $("byoPaste").value = r.result; msg(`Loaded ${f.name}.`, "ok"); };
+    r.readAsText(f);
+  };
+  $("byoRun").onclick = () => runAudit(msg, close);
+}
+
+async function runAudit(msg, close) {
+  const raw = $("byoPaste").value.trim();
+  if (!raw) { msg("Paste a JSON graph, or upload a file, first.", "err"); return; }
+  let parsed;
+  try { parsed = JSON.parse(raw); }
+  catch (e) { msg("That isn't valid JSON: " + e.message, "err"); return; }
+
+  const btn = $("byoRun");
+  btn.disabled = true; msg("Auditing…", "");
+  try {
+    const res = await fetch("/api/assess", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(parsed),
+    });
+    const data = await res.json();
+    if (!res.ok) { msg(data.error || `Server error (${res.status}).`, "err"); return; }
+    data.case = data.case || "your source";
+    render(data);
+    $("question").textContent = data.question || "Your uploaded source";
+    msg("", "");
+    close();
+  } catch (e) {
+    msg("Could not reach the audit endpoint: " + e.message, "err");
+  } finally {
+    btn.disabled = false;
+  }
 }
 
 // ---------- load a case ----------
 async function loadCase(name) {
-  D = await fetch(`data/${name}.json`).then((r) => r.json());
+  render(await fetch(`data/${name}.json`).then((r) => r.json()));
+}
+
+// render any bundle — a pre-built case OR a live /api/assess result for a user's own graph
+function render(bundle) {
+  D = bundle;
   sel = null;
   const claimById = {}, outE = {}, inE = {}, srcById = {};
   (D.sources || []).forEach((s) => (srcById[s.id] = s));
@@ -70,7 +168,11 @@ async function loadCase(name) {
   buildFilters();
   renderList();
   renderPanel();
-  $("detail").innerHTML =
+  const warn = (D.warnings || []).length
+    ? `<div class="warnbanner"><b>${D.warnings.length} note(s) on your graph:</b>
+        <ul>${D.warnings.slice(0, 8).map((w) => `<li>${esc(w)}</li>`).join("")}</ul></div>`
+    : "";
+  $("detail").innerHTML = warn +
     '<div class="empty">Select a claim, crux, or conclusion to trace its provenance and dependencies.</div>';
 }
 
