@@ -19,11 +19,14 @@ For each chosen sub-question, we capture three things:
 
 These are chosen because they expose the pipeline's strengths and are checkable:
 
-1. **"How much of the zoonosis conclusion rests on the Huanan market cluster?"**
-   - Expected pipeline edge: it identifies the market-cluster claim as the top crux from
-     the dependency structure, shows which conclusions depend on it, and links every
-     attestation to a verbatim span. A narrative baseline tends to *mention* the market
-     evidence without quantifying how load-bearing it is.
+1. **"Does the evidence for each origin conclusion hold up — independent, concentrated, or circular?"**
+   (see `market_cluster_subq/delta.md`)
+   - Pipeline edge: a deterministic warrant audit — per-conclusion concentration, effective-
+     independent-claim count (Herfindahl), and circular-support detection — that a one-prompt
+     baseline (which sums per-claim support with no independence model) structurally cannot do.
+   - Honest finding: run on real ingested data, the market cluster does **not** dominate (support
+     is diffuse, nEff ≈ 48); the tool declines to confabulate the load-bearing crux the original
+     hypothesis assumed. That refusal is the uplift.
 2. **"Where do the six Bayesian analyses actually diverge?"**
    - Expected pipeline edge: probability estimates are attached to specific claims, so the
      23-orders-of-magnitude spread becomes a per-claim divergence map, not prose.

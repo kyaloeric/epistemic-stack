@@ -4,3 +4,8 @@ __pycache__/
 cases/*/raw/*.txt
 !cases/*/raw/README.txt
 .DS_Store
+
+# Playwright / UI QA artifacts
+.playwright-mcp/
+qa-*.png
+.mcp.json

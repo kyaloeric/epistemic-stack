@@ -3,26 +3,28 @@
 **Eric Kyalo · solo · Nairobi, Kenya**
 Early-feedback (June 21) submission; full build by July 19.
 
-This repo is the executable half of the submission. The written core (≤10 pages) lives in
-the Primary Document. Use the reading-budget map below.
+This repo is the executable half of the submission. The written core (≤10 pages) is
+[`PRIMARY.md`](PRIMARY.md). Use the reading-budget map below.
 
 ## Reading-budget map (≤10 pages of attention)
 
-1. **Open `cases/covid/out/graph.html`** (or `docker compose up` → http://localhost:8000/cases/covid/out/graph.html)
-   — the artifact: provenanced claims by side + crux ranking.
+1. **Open the interrogable web app** (`docker compose up` → http://localhost:8000, or `python server.py`)
+   — the artifact: click any claim to trace its verbatim provenance and dependencies; deterministic
+   crux ranking, per-conclusion concentration + effective-independent count, and circular-support checks.
 2. **`prompts/ingest.py`, `prompts/structure_assess.py`** — the method (the prompts are the product).
 3. **`baseline/market_cluster_subq/delta.md`** — the head-to-head vs deep research.
-4. **`src/assess.py`** — crux detection (graph-native Analysis of Competing Hypotheses) + deterministic fallback.
-5. **`tests/adversarial.md`** — named failure modes + injected-misleading-source test.
+4. **`src/assess.py` + `src/concentration.py`** — deterministic crux detection (graph concentration,
+   Herfindahl effective-count, Tarjan-SCC circular-support). The numbers are computed, not model-generated.
+5. **`tests/adversarial.md`** — attack→defense table + named failure modes.
 
 ## Run it
 
-**Offline demo (no API key, ~1 min):**
+**View the artifact (no API key, ~1 min):**
 ```bash
-docker compose up        # then open http://localhost:8000/cases/covid/out/graph.html
+docker compose up                       # then open http://localhost:8000
 # or, without Docker:
 pip install -r requirements.txt --break-system-packages
-python -m src.demo && python -m http.server 8000
+python web/build_data.py && python server.py   # serves the interrogable app on :8000
 ```
 
 **Live pipeline (needs key + source texts):**

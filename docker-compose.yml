@@ -4,5 +4,5 @@ services:
     ports:
       - "8000:8000"
     environment:
-      # Optional: set to run the live pipeline instead of the offline demo.
+      # Optional: only needed if you run the live pipeline (python -m src.run) inside the container.
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
