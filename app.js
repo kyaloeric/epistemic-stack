@@ -5,15 +5,13 @@ let D = null;                 // current case bundle
 let IDX = {};                 // derived indexes for the current case
 let sel = null;               // selected claim id
 let tab = "cruxes";
-let viewMode = "detail";      // center panel: "detail" (default) | "tree" — additive toggle
+let viewMode = "detail";      // "detail" | "tree"
 const filt = { side: "all", kind: "all", q: "" };
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => (s == null ? "" : String(s).replace(/[&<>"]/g,
   (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])));
 
-// Side colours are assigned per case from whatever sides the data actually contains — no
-// hardcoded dispute. First distinct side gets the first palette colour, etc.
 const SIDE_PALETTE = ["#1d6f5c", "#9c3b2e", "#2d5a8c", "#8a6510", "#6b4c8a", "#586069"];
 let SIDE_COLOR = {};
 const sideColor = (s) => SIDE_COLOR[s] || "#586069";
@@ -58,7 +56,6 @@ async function loadCase(name) {
   (D.concentration || []).forEach((r) => (concById[r.conclusion] = r));
   IDX = { claimById, outE, inE, srcById, cruxByClaim, concById };
 
-  // assign a colour to each distinct side present in this case's data
   SIDE_COLOR = {};
   [...new Set((D.sources || []).map((s) => s.side).filter(Boolean))].sort()
     .forEach((s, i) => (SIDE_COLOR[s] = SIDE_PALETTE[i % SIDE_PALETTE.length]));
@@ -123,7 +120,7 @@ function renderList() {
   box.querySelectorAll(".row").forEach((r) => (r.onclick = () => select(r.dataset.id)));
 }
 
-// ---------- center: claim detail (default) + optional support-tree ----------
+// ---------- center: claim detail + support tree ----------
 function select(id) {
   const c = IDX.claimById[id];
   if (!c) return;
@@ -176,9 +173,7 @@ function detailHTML(id) {
   </div>`;
 }
 
-// Support tree: a conclusion at the apex, its top contributing claims below, node size = share of
-// this conclusion's support. Concentrated conclusions show one dominant node; diffuse ones show
-// many even nodes. Circular-loop members are ringed red. This *is* the concentration thesis, drawn.
+// Conclusion at the apex, top contributing claims below; node size = share of its support.
 function supportTreeSVG(id) {
   const rec = IDX.concById[id];
   if (!rec || !rec.top_claim) {
