@@ -1,0 +1,288 @@
+{
+  "case": "carlo_audit",
+  "question": "COVID-19 origins: does the assembled baseline evidence independently support its 72% natural / 28% lab conclusion, or does the support collapse under an independence audit?",
+  "shape": "audit of an aggregated evidence corpus (another entrant's output as input)",
+  "sources": [
+    {
+      "id": "2018-state-dept-cables-biosafety-warnings",
+      "title": "2018 State Dept Cables Biosafety Warnings",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/2018-state-dept-cables-biosafety-warnings.md"
+    },
+    {
+      "id": "absence-of-non-market-early-clustering",
+      "title": "Absence Of Non Market Early Clustering",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/absence-of-non-market-early-clustering.md"
+    },
+    {
+      "id": "banal-laos-bat-sarbecoviruses-ace2",
+      "title": "Banal Laos Bat Sarbecoviruses Ace2",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/banal-laos-bat-sarbecoviruses-ace2.md"
+    },
+    {
+      "id": "cgg-cgg-arginine-codon-argument",
+      "title": "Cgg Cgg Arginine Codon Argument",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/cgg-cgg-arginine-codon-argument.md"
+    },
+    {
+      "id": "china-data-withholding-transparency",
+      "title": "China Data Withholding Transparency",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "neutral",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/china-data-withholding-transparency.md"
+    },
+    {
+      "id": "data-deletion-and-restricted-access",
+      "title": "Data Deletion And Restricted Access",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/data-deletion-and-restricted-access.md"
+    },
+    {
+      "id": "defuse-2018-furin-cleavage-proposal",
+      "title": "Defuse 2018 Furin Cleavage Proposal",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/defuse-2018-furin-cleavage-proposal.md"
+    },
+    {
+      "id": "defuse-furin-preexisting-blueprint",
+      "title": "Defuse Furin Preexisting Blueprint",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/defuse-furin-preexisting-blueprint.md"
+    },
+    {
+      "id": "defuse-grant-proposal-blueprint",
+      "title": "Defuse Grant Proposal Blueprint",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/defuse-grant-proposal-blueprint.md"
+    },
+    {
+      "id": "early-cases-without-market-link",
+      "title": "Early Cases Without Market Link",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/early-cases-without-market-link.md"
+    },
+    {
+      "id": "environmental-samples-wildlife-stall-positivity",
+      "title": "Environmental Samples Wildlife Stall Positivity",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/environmental-samples-wildlife-stall-positivity.md"
+    },
+    {
+      "id": "fbi-doe-cia-lab-leaning-assessments",
+      "title": "Fbi Doe Cia Lab Leaning Assessments",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/fbi-doe-cia-lab-leaning-assessments.md"
+    },
+    {
+      "id": "furin-cleavage-site-prra-insertion",
+      "title": "Furin Cleavage Site Prra Insertion",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/furin-cleavage-site-prra-insertion.md"
+    },
+    {
+      "id": "house-covid-select-final-report-lab-leak",
+      "title": "House Covid Select Final Report Lab Leak",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/house-covid-select-final-report-lab-leak.md"
+    },
+    {
+      "id": "huanan-market-spatial-clustering-early-cases",
+      "title": "Huanan Market Spatial Clustering Early Cases",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/huanan-market-spatial-clustering-early-cases.md"
+    },
+    {
+      "id": "huanan-market-spatial-clustering-two-lineages",
+      "title": "Huanan Market Spatial Clustering Two Lineages",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/huanan-market-spatial-clustering-two-lineages.md"
+    },
+    {
+      "id": "live-susceptible-mammals-on-sale-wuhan-markets",
+      "title": "Live Susceptible Mammals On Sale Wuhan Markets",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/live-susceptible-mammals-on-sale-wuhan-markets.md"
+    },
+    {
+      "id": "menachery-baric-2015-shc014-chimera",
+      "title": "Menachery Baric 2015 Shc014 Chimera",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/menachery-baric-2015-shc014-chimera.md"
+    },
+    {
+      "id": "mojiang-mine-ratg13-provenance",
+      "title": "Mojiang Mine Ratg13 Provenance",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "neutral",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/mojiang-mine-ratg13-provenance.md"
+    },
+    {
+      "id": "molecular-clock-tmrca-nov-2019",
+      "title": "Molecular Clock Tmrca Nov 2019",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/molecular-clock-tmrca-nov-2019.md"
+    },
+    {
+      "id": "natural-recombination-sarbecoviruses",
+      "title": "Natural Recombination Sarbecoviruses",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/natural-recombination-sarbecoviruses.md"
+    },
+    {
+      "id": "no-close-progenitor-or-intermediate-host",
+      "title": "No Close Progenitor Or Intermediate Host",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/no-close-progenitor-or-intermediate-host.md"
+    },
+    {
+      "id": "no-source-animal-ever-found",
+      "title": "No Source Animal Ever Found",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/no-source-animal-ever-found.md"
+    },
+    {
+      "id": "odni-ic-split-assessment-2021-2023",
+      "title": "Odni Ic Split Assessment 2021 2023",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "neutral",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/odni-ic-split-assessment-2021-2023.md"
+    },
+    {
+      "id": "pangolin-cov-rbd-five-contact-residues",
+      "title": "Pangolin Cov Rbd Five Contact Residues",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/pangolin-cov-rbd-five-contact-residues.md"
+    },
+    {
+      "id": "proximal-origin-private-doubts-controversy",
+      "title": "Proximal Origin Private Doubts Controversy",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/proximal-origin-private-doubts-controversy.md"
+    },
+    {
+      "id": "raccoon-dog-susceptible-species-genetic-tracing",
+      "title": "Raccoon Dog Susceptible Species Genetic Tracing",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/raccoon-dog-susceptible-species-genetic-tracing.md"
+    },
+    {
+      "id": "ratg13-banal-genetic-distance",
+      "title": "Ratg13 Banal Genetic Distance",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "neutral",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/ratg13-banal-genetic-distance.md"
+    },
+    {
+      "id": "ratg13-mojiang-provenance-secrecy",
+      "title": "Ratg13 Mojiang Provenance Secrecy",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/ratg13-mojiang-provenance-secrecy.md"
+    },
+    {
+      "id": "rbd-not-optimal-for-human-ace2",
+      "title": "Rbd Not Optimal For Human Ace2",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/rbd-not-optimal-for-human-ace2.md"
+    },
+    {
+      "id": "sars-cov-1-market-precedent",
+      "title": "Sars Cov 1 Market Precedent",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/sars-cov-1-market-precedent.md"
+    },
+    {
+      "id": "sars1-mers-zoonotic-precedent",
+      "title": "Sars1 Mers Zoonotic Precedent",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/sars1-mers-zoonotic-precedent.md"
+    },
+    {
+      "id": "serial-passage-cell-culture-adaptation",
+      "title": "Serial Passage Cell Culture Adaptation",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/serial-passage-cell-culture-adaptation.md"
+    },
+    {
+      "id": "three-wiv-researchers-sick-nov-2019",
+      "title": "Three Wiv Researchers Sick Nov 2019",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/three-wiv-researchers-sick-nov-2019.md"
+    },
+    {
+      "id": "two-lineages-a-b-multiple-introductions",
+      "title": "Two Lineages A B Multiple Introductions",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/two-lineages-a-b-multiple-introductions.md"
+    },
+    {
+      "id": "two-zoonotic-introductions-lineages-A-B",
+      "title": "Two Zoonotic Introductions Lineages A B",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "natural_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/two-zoonotic-introductions-lineages-A-B.md"
+    },
+    {
+      "id": "who-china-2021-extremely-unlikely-walkback",
+      "title": "Who China 2021 Extremely Unlikely Walkback",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "neutral",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/who-china-2021-extremely-unlikely-walkback.md"
+    },
+    {
+      "id": "wiv-bsl2-handling-sars-like-cov",
+      "title": "Wiv Bsl2 Handling Sars Like Cov",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/wiv-bsl2-handling-sars-like-cov.md"
+    },
+    {
+      "id": "wiv-database-offline-sept-2019",
+      "title": "Wiv Database Offline Sept 2019",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/wiv-database-offline-sept-2019.md"
+    },
+    {
+      "id": "wuhan-lab-geographic-coincidence",
+      "title": "Wuhan Lab Geographic Coincidence",
+      "author": "Carlo Martinucci baseline (generated evidence brief)",
+      "side": "lab_origin",
+      "url": "https://raw.githubusercontent.com/carlomartinucci/flf-epistack-contest/main/evidence/wuhan-lab-geographic-coincidence.md"
+    }
+  ],
+  "note": "Sources are the 40 generated evidence briefs from Carlo Martinucci's public FLF entry (github.com/carlomartinucci/flf-epistack-contest). We ingest his output to audit its evidential independence — not to re-derive the origin question. Raw texts are fetched, not redistributed (gitignored); re-fetch with the URLs here or `python -m src.fetch --case carlo_audit`."
+}
