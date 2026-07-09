@@ -1,0 +1,102 @@
+[
+  {
+    "claim_id": "C807",
+    "sensitivity": 0.323,
+    "score": 1.292,
+    "affects": "The missing furin site in all known relatives of SARS-CoV-2 is the one feature b",
+    "affects_id": "C814",
+    "affects_support_count": 15,
+    "rationale": "Carries 32% of the evidential support for conclusion C814, which is backed by 15 claims (~5.44 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C071",
+    "sensitivity": 0.289,
+    "score": 1.205,
+    "affects": "The pro-lab-leak case rests largely on an off-the-cuff, later-retracted remark b",
+    "affects_id": "C085",
+    "affects_support_count": 17,
+    "rationale": "Carries 28% of the evidential support for conclusion C085, which is backed by 17 claims (~7.19 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C138",
+    "sensitivity": 0.503,
+    "score": 1.168,
+    "affects": "The claim that DEFUSE proposed introducing human-specific/furin-type cleavage si",
+    "affects_id": "C157",
+    "affects_support_count": 4,
+    "rationale": "Carries 50% of the evidential support for conclusion C157, which is backed by 4 claims (~2.94 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C472",
+    "sensitivity": 0.495,
+    "score": 1.149,
+    "affects": "RaTG13 is too genetically distant to be a direct or proximal ancestor of SARS-Co",
+    "affects_id": "C475",
+    "affects_support_count": 4,
+    "rationale": "Carries 49% of the evidential support for conclusion C475, which is backed by 4 claims (~3.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C827",
+    "sensitivity": 0.377,
+    "score": 1.131,
+    "affects": "The Mojiang provenance and disclosure timeline are well-established facts that l",
+    "affects_id": "C855",
+    "affects_support_count": 7,
+    "rationale": "Carries 37% of the evidential support for conclusion C855, which is backed by 7 claims (~4.73 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C686",
+    "sensitivity": 0.481,
+    "score": 1.117,
+    "affects": "Pangolin CoVs are not the proximate source of SARS-CoV-2 because they differ els",
+    "affects_id": "C685",
+    "affects_support_count": 4,
+    "rationale": "Carries 48% of the evidential support for conclusion C685, which is backed by 4 claims (~2.84 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C668",
+    "sensitivity": 0.394,
+    "score": 1.106,
+    "affects": "The pangolin RBD evidence demonstrates feasibility of a natural ACE2-binding int",
+    "affects_id": "C701",
+    "affects_support_count": 6,
+    "rationale": "Carries 39% of the evidential support for conclusion C701, which is backed by 6 claims (~3.93 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C566",
+    "sensitivity": 0.526,
+    "score": 1.052,
+    "affects": "The FCS gap in explaining SARS-CoV-2's natural origin is narrowing but not close",
+    "affects_id": "C570",
+    "affects_support_count": 3,
+    "rationale": "Carries 52% of the evidential support for conclusion C570, which is backed by 3 claims (~2.49 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C797",
+    "sensitivity": 0.5,
+    "score": 1.0,
+    "affects": "The qualitative conclusion that divergence is on the order of decades rather tha",
+    "affects_id": "C801",
+    "affects_support_count": 3,
+    "rationale": "Carries 50% of the evidential support for conclusion C801, which is backed by 3 claims (~2.59 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C1031",
+    "sensitivity": 0.331,
+    "score": 0.993,
+    "affects": "After the erratum and McCowan's critique, the quantitative case for two distinct",
+    "affects_id": "C1037",
+    "affects_support_count": 7,
+    "rationale": "Carries 33% of the evidential support for conclusion C1037, which is backed by 7 claims (~5.41 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "case": "carlo_audit",
+  "method": "shared-citation heuristic (Author-YEAR + named artifacts); coarse cross-document independence lens",
+  "brief_count": 39,
+  "shared_sources": [
+    {
+      "source": "RaTG13 sequence",
+      "brief_count": 8,
+      "briefs": [
+        "furin-cleavage-site-prra-insertion",
+        "mojiang-mine-ratg13-provenance",
+        "natural-recombination-sarbecoviruses",
+        "no-close-progenitor-or-intermediate-host",
+        "pangolin-cov-rbd-five-contact-residues",
+        "ratg13-banal-genetic-distance",
+        "ratg13-mojiang-provenance-secrecy",
+        "wuhan-lab-geographic-coincidence"
+      ]
+    },
+    {
+      "source": "Pekar",
+      "brief_count": 8,
+      "briefs": [
+        "absence-of-non-market-early-clustering",
+        "house-covid-select-final-report-lab-leak",
+        "huanan-market-spatial-clustering-two-lineages",
+        "molecular-clock-tmrca-nov-2019",
+        "no-close-progenitor-or-intermediate-host",
+        "two-lineages-a-b-multiple-introductions",
+        "two-zoonotic-introductions-lineages-A-B",
+        "wuhan-lab-geographic-coincidence"
+      ]
+    },
+    {
+      "source": "Worobey",
+      "brief_count": 6,
+      "briefs": [
+        "absence-of-non-market-early-clustering",
+        "house-covid-select-final-report-lab-leak",
+        "huanan-market-spatial-clustering-early-cases",
+        "huanan-market-spatial-clustering-two-lineages",
+        "two-zoonotic-introductions-lineages-A-B",
+        "wuhan-lab-geographic-coincidence"
+      ]
+    },
+    {
+      "source": "Débarre",
+      "brief_count": 5,
+      "briefs": [
+        "absence-of-non-market-early-clustering",
+        "data-deletion-and-restricted-access",
+        "huanan-market-spatial-clustering-early-cases",
+        "no-close-progenitor-or-intermediate-host",
+        "raccoon-dog-susceptible-species-genetic-tracing"
+      ]
+    },
+    {
+      "source": "DEFUSE proposal",
+      "brief_count": 4,
+      "briefs": [
+        "defuse-2018-furin-cleavage-proposal",
+        "defuse-furin-preexisting-blueprint",
+        "defuse-grant-proposal-blueprint",
+        "furin-cleavage-site-prra-insertion"
+      ]
+    },
+    {
+      "source": "Proximal Origin",
+      "brief_count": 4,
+      "briefs": [
+        "defuse-grant-proposal-blueprint",
+        "pangolin-cov-rbd-five-contact-residues",
+        "proximal-origin-private-doubts-controversy",
+        "rbd-not-optimal-for-human-ace2"
+      ]
+    },
+    {
+      "source": "Crits-Christoph",
+      "brief_count": 4,
+      "briefs": [
+        "huanan-market-spatial-clustering-two-lineages",
+        "no-close-progenitor-or-intermediate-host",
+        "no-source-animal-ever-found",
+        "raccoon-dog-susceptible-species-genetic-tracing"
+      ]
+    },
+    {
+      "source": "Liu",
+      "brief_count": 4,
+      "briefs": [
+        "absence-of-non-market-early-clustering",
+        "no-close-progenitor-or-intermediate-host",
+        "no-source-animal-ever-found",
+        "two-lineages-a-b-multiple-introductions"
+      ]
+    },
+    {
+      "source": "Garry",
+      "brief_count": 3,
+      "briefs": [
+        "defuse-furin-preexisting-blueprint",
+        "defuse-grant-proposal-blueprint",
+        "furin-cleavage-site-prra-insertion"
+      ]
+    },
+    {
+      "source": "Andersen",
+      "brief_count": 3,
+      "briefs": [
+        "furin-cleavage-site-prra-insertion",
+        "pangolin-cov-rbd-five-contact-residues",
+        "rbd-not-optimal-for-human-ace2"
+      ]
+    },
+    {
+      "source": "Xiao",
+      "brief_count": 3,
+      "briefs": [
+        "live-susceptible-mammals-on-sale-wuhan-markets",
+        "pangolin-cov-rbd-five-contact-residues",
+        "rbd-not-optimal-for-human-ace2"
+      ]
+    },
+    {
+      "source": "Temmam",
+      "brief_count": 3,
+      "briefs": [
+        "no-close-progenitor-or-intermediate-host",
+        "ratg13-banal-genetic-distance",
+        "wuhan-lab-geographic-coincidence"
+      ]
+    },
+    {
+      "source": "Guan",
+      "brief_count": 3,
+      "briefs": [
+        "no-close-progenitor-or-intermediate-host",
+        "sars-cov-1-market-precedent",
+        "sars1-mers-zoonotic-precedent"
+      ]
+    },
+    {
+      "source": "Chan",
+      "brief_count": 2,
+      "briefs": [
+        "cgg-cgg-arginine-codon-argument",
+        "furin-cleavage-site-prra-insertion"
+      ]
+    },
+    {
+      "source": "Zhou",
+      "brief_count": 2,
+      "briefs": [
+        "furin-cleavage-site-prra-insertion",
+        "ratg13-banal-genetic-distance"
+      ]
+    },
+    {
+      "source": "Stoyan",
+      "brief_count": 2,
+      "briefs": [
+        "absence-of-non-market-early-clustering",
+        "huanan-market-spatial-clustering-early-cases"
+      ]
+    },
+    {
+      "source": "Lam",
+      "brief_count": 2,
+      "briefs": [
+        "pangolin-cov-rbd-five-contact-residues",
+        "rbd-not-optimal-for-human-ace2"
+      ]
+    },
+    {
+      "source": "Boni",
+      "brief_count": 2,
+      "briefs": [
+        "natural-recombination-sarbecoviruses",
+        "ratg13-banal-genetic-distance"
+      ]
+    },
+    {
+      "source": "Bloom",
+      "brief_count": 2,
+      "briefs": [
+        "data-deletion-and-restricted-access",
+        "raccoon-dog-susceptible-species-genetic-tracing"
+      ]
+    }
+  ]
+}
