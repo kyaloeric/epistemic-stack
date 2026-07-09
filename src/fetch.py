@@ -21,6 +21,14 @@ import urllib.request
 import urllib.error
 
 UA = "Mozilla/5.0 (compatible; epistemic-stack/1.0; research)"
+# Some sites reject requests that omit Accept headers (urllib sends none by default), even
+# when the User-Agent is fine — so we send the same headers a browser/curl would. Not spoofing
+# a browser (UA stays honest); just not tripping bot-filters that key on missing Accept.
+_HEADERS = {
+    "User-Agent": UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
 def _strip_html(html: str) -> str:
@@ -46,10 +54,14 @@ def _strip_html(html: str) -> str:
 
 
 def _fetch(url: str, timeout: int = 30) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(url, headers=_HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read()
+        if resp.headers.get("Content-Encoding") == "gzip":
+            import gzip
+            raw = gzip.decompress(raw)
         charset = resp.headers.get_content_charset() or "utf-8"
-        return resp.read().decode(charset, errors="replace")
+        return raw.decode(charset, errors="replace")
 
 
 def fetch_case(case: str, only: str = None, root: str = "."):

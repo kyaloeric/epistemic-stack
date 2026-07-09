@@ -1,25 +1,65 @@
 {
   "case": "blackholes",
   "question": "Could the Large Hadron Collider create a black hole that destroys the Earth?",
-  "shape": "confident/settled answer resting on a large body of interacting physics knowledge",
+  "shape": "confident/settled answer resting on a large body of interacting physics knowledge — a lopsided debate where the tool should show the safety case grounds out and the fear case does not",
   "sources": [
     {
-      "id": "cern_faq",
-      "title": "CERN — Will CERN generate a black hole?",
-      "url": "https://home.cern/resources/faqs/safety-lhc",
-      "author": "CERN",
+      "id": "physorg_ruleout",
+      "title": "Physicists Rule Out the Production of Dangerous Black Holes at the LHC",
+      "author": "Phys.org (reporting Giddings & Mangano)",
       "side": "no_risk",
-      "role": "the institutional answer and its stated grounds"
+      "url": "https://phys.org/news/2008-09-physicists-production-dangerous-black-holes.html",
+      "role": "the core safety argument: any micro black hole evaporates; cosmic rays already test it"
     },
     {
-      "id": "lsag_report",
-      "title": "LHC Safety Assessment Group report",
-      "url": "https://home.cern/science/accelerators/large-hadron-collider/safety-lhc",
-      "author": "LSAG",
+      "id": "fourgravitons_reassured",
+      "title": "LHC Black Holes for the Terminally Un-Reassured",
+      "author": "4 gravitons (working physicist blog)",
       "side": "no_risk",
-      "role": "the formal safety argument with its dependencies"
+      "url": "https://4gravitons.com/2023/01/27/lhc-black-holes-for-the-terminally-un-reassured/",
+      "role": "a physicist walking a skeptic through why the safety case holds, assumption by assumption"
+    },
+    {
+      "id": "arxiv_lhc_safety_review",
+      "title": "Review of the Safety of LHC Collisions (abstract)",
+      "author": "Ellis, Giddings, Mangano, Tkachev, Wiedemann (LSAG, 2008)",
+      "side": "no_risk",
+      "url": "https://arxiv.org/abs/0806.3414",
+      "role": "the formal peer-reviewed safety review — the authoritative no-risk conclusion"
+    },
+    {
+      "id": "physorg_lawyer_view",
+      "title": "A Lawyer's View of the Risk of Black Hole Catastrophe at the LHC",
+      "author": "Phys.org (reporting Eric E. Johnson)",
+      "side": "risk",
+      "url": "https://phys.org/news/2010-01-lawyer-view-black-hole-catastrophe.html",
+      "role": "the critical view: questions whether the safety assurances are as airtight as claimed"
+    },
+    {
+      "id": "lifeboat_rossler_hawking",
+      "title": "Rossler-Cook versus Hawking and the CERN Detectors",
+      "author": "Lifeboat Foundation blog",
+      "side": "risk",
+      "url": "https://lifeboat.com/blog/2012/05/rossler-cook-versus-hawking-and-the-cern-detectors",
+      "role": "the fear case in its own words (Rössler's growth argument) — later judged a misunderstanding of GR"
+    },
+    {
+      "id": "wikipedia_collider_safety",
+      "title": "Safety of high-energy particle collision experiments",
+      "author": "Wikipedia",
+      "side": "depends",
+      "url": "https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments",
+      "role": "overview mapping every hypothesized risk (black holes, strangelets, vacuum decay) and its rebuttal"
+    },
+    {
+      "id": "nbc_lawsuit_closed",
+      "title": "Collider court case finally closed",
+      "author": "NBC News",
+      "side": "depends",
+      "url": "https://www.nbcnews.com/sciencemain/collider-court-case-finally-closed-6c10403768",
+      "role": "narrative of the Wagner/Sancho lawsuit — how the fear played out legally and was dismissed"
     }
   ],
-  "challenge": "Probe a confident argument for its dependencies and key considerations; surface the weakest or most speculative links (e.g. cosmic-ray analogy, Hawking radiation assumptions) in an accessible way.",
-  "note": "Add the cosmic-ray safety-argument sources and any critical commentary to test whether the structure surfaces the real load-bearing assumptions."
+  "known_crux_hint": "whether Hawking-radiation evaporation of micro black holes is assured, and whether the cosmic-ray argument (nature runs higher-energy collisions on Earth and dense stars without catastrophe) closes the case — the two load-bearing safety assumptions the fear case must break",
+  "note": "Lopsided-but-real debate: safety consensus (Phys.org/Giddings-Mangano, a physicist blog, the LSAG arXiv review) vs the fear side (a lawyer's critique, Rössler), plus overview + lawsuit narrative. Provenance-diverse. Raw texts fetched not redistributed. Fetch with `python -m src.fetch --case blackholes`, then run `python -m src.run --case blackholes`."
 }
