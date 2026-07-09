@@ -1,17 +1,57 @@
 {
   "case": "eggs",
   "question": "Are eggs good or bad to eat, and what does the answer depend on?",
-  "shape": "mundane-but-contested everyday question where framing the right sub-questions is half the work",
+  "shape": "mundane-but-contested everyday question where framing the right sub-questions (whom, alongside what, which outcome) is half the work",
   "sources": [
     {
-      "id": "examine_eggs",
-      "title": "Examine.com — eggs and cholesterol evidence summary",
-      "url": "https://examine.com/",
-      "author": "Examine.com",
-      "side": "neutral",
-      "role": "disciplined claim-by-claim evidence grading (a model for the method itself)"
+      "id": "harvard_nutrition_eggs",
+      "title": "The Nutrition Source: Eggs",
+      "author": "Harvard T.H. Chan School of Public Health",
+      "side": "no_risk",
+      "url": "https://nutritionsource.hsph.harvard.edu/food-features/eggs/",
+      "role": "mainstream academic synthesis: an egg a day is fine for most; dietary cholesterol matters less than saturated/trans fat"
+    },
+    {
+      "id": "tctmd_drouin_2020",
+      "title": "One Egg a Day? No Link to Risk of CVD, Mega-Meta-analysis Says",
+      "author": "TCTMD (reporting Drouin-Chartier et al., BMJ 2020)",
+      "side": "no_risk",
+      "url": "https://www.tctmd.com/news/one-egg-day-no-link-risk-cvd-mega-meta-analysis-says",
+      "role": "primary-study reporting: no appreciable association between moderate egg intake and CVD"
+    },
+    {
+      "id": "sciencedaily_zhong_2019",
+      "title": "Higher egg and cholesterol consumption hikes heart disease and early death risk",
+      "author": "ScienceDaily (reporting Zhong et al., JAMA 2019)",
+      "side": "risk",
+      "url": "https://www.sciencedaily.com/releases/2019/03/190315110858.htm",
+      "role": "primary study: each additional half-egg/day associated with higher CVD and mortality risk"
+    },
+    {
+      "id": "cleveland_tmao_choline",
+      "title": "Dietary Choline and Gut Bacteria Byproduct (TMAO) Linked with Increased Blood Clotting Risk",
+      "author": "Cleveland Clinic (Hazen lab)",
+      "side": "risk",
+      "url": "https://newsroom.clevelandclinic.org/2017/04/25/cleveland-clinic-researchers-first-show-dietary-choline-gut-bacteria-byproduct-linked-increased-blood-clotting-risk-heart-disease",
+      "role": "mechanism: egg choline -> gut TMAO -> platelet aggregation; a proposed causal pathway for risk"
+    },
+    {
+      "id": "egg_board_heart",
+      "title": "Eggs and Heart Health: A Review of the Latest Research and Reports",
+      "author": "American Egg Board",
+      "side": "no_risk",
+      "url": "https://www.incredibleegg.org/nutrition/articles/eggs-and-heart-health-a-review-of-the-latest-research-and-reports/",
+      "role": "industry/advocacy source arguing eggs are heart-healthy — included so the tool must handle motivated framing"
+    },
+    {
+      "id": "harvard_health_evolving",
+      "title": "The ever-evolving message about eggs and heart health",
+      "author": "Harvard Health Publishing",
+      "side": "depends",
+      "url": "https://www.health.harvard.edu/heart-health/the-ever-evolving-message-about-eggs-and-heart-health",
+      "role": "nuance: the answer depends on the whole diet and on subgroups (e.g. diabetes)"
     }
   ],
-  "challenge": "Much of the difficulty is resolving WHICH sub-questions matter (dietary cholesterol vs serum cholesterol vs CVD outcomes; whole-population vs subgroup like hyper-responders) and what the appropriate ways of knowing are. The structure layer should make the sub-question decomposition explicit.",
-  "note": "Add a few representative meta-analyses and a contrarian source to show the structure captures genuine subgroup-dependent disagreement rather than flattening it."
+  "known_crux_hint": "whether dietary cholesterol meaningfully raises blood cholesterol/CVD risk for the general population vs. only specific subgroups (e.g. diabetics/hyper-responders), and whether egg-CVD associations survive adjustment for the foods eaten alongside eggs",
+  "note": "Multi-sided, provenance-diverse source set (academic synthesis, two primary studies, a mechanism source, industry advocacy, and a history). Raw texts are fetched, not redistributed. Fetch with `python -m src.fetch --case eggs`, then run `python -m src.run --case eggs`."
 }
