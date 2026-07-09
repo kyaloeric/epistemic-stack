@@ -9,31 +9,31 @@
       "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
       "author": "Scott Alexander",
       "side": "zoonosis",
-      "role": "core case material — the central synthesis of the debate"
+      "role": "core case material — the central synthesis of the debate; leans zoonosis"
     },
     {
-      "id": "judge_will",
-      "title": "Judge Will Van Treuren's decision",
-      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
-      "author": "Will Van Treuren (microbiologist, PhD Stanford)",
+      "id": "stansifer_bayesian",
+      "title": "A Bayesian analysis of the COVID origins debate",
+      "url": "https://ermsta.com/posts/20240218",
+      "author": "Eric Stansifer (debate judge; applied mathematician, PhD MIT)",
       "side": "zoonosis",
-      "role": "expert judge ruling"
+      "role": "a debate judge's own written Bayesian reasoning toward zoonosis (his decision itself is video/PDF-only)"
     },
     {
-      "id": "judge_eric",
-      "title": "Judge Eric Stansifer's decision",
-      "url": "https://www.astralcodexten.com/p/practically-a-book-review-rootclaim",
-      "author": "Eric Stansifer (applied mathematician)",
+      "id": "stansifer_response_weissman",
+      "title": "Response to Michael Weissman re. covid origins debate",
+      "url": "https://ermsta.com/posts/20240301",
+      "author": "Eric Stansifer (debate judge)",
       "side": "zoonosis",
-      "role": "expert judge ruling"
+      "role": "direct rebuttal of Weissman's lab-leak Bayesian analysis — a genuine cross-source contradiction"
     },
     {
-      "id": "weissman_bayes",
-      "title": "Michael Weissman's Bayesian analysis of COVID origins",
-      "url": "https://michaelweissman.substack.com/",
-      "author": "Michael Weissman",
+      "id": "weissman_inconvenient",
+      "title": "An Inconvenient Probability (Bayesian analysis of COVID origins)",
+      "url": "https://michaelweissman.substack.com/p/an-inconvenient-probability",
+      "author": "Michael Weissman (physicist, UIUC)",
       "side": "lab_leak",
-      "role": "rigorous independent Bayesian analysis (example of a more formal method)"
+      "role": "rigorous independent Bayesian analysis reaching ~300:1 for lab leak — the opposite pole to Stansifer"
     },
     {
       "id": "rootclaim_response",
@@ -52,6 +52,6 @@
       "role": "post-debate position statement"
     }
   ],
-  "known_crux_hint": "Multiple sources indicate the zoonosis conclusion leans heavily on one claim: that the early case cluster at the Huanan Seafood Market is strong evidence for zoonosis. Removing/weakening it reportedly flips the overall conclusion. A successful crux-detection layer should surface this automatically from the graph — NOT be hand-coded to find it.",
-  "note": "Debate video transcripts (Sessions 1-3) can be added as sources once transcribed; URLs in the competition brief."
+  "known_crux_hint": "Multiple sources indicate the zoonosis conclusion leans heavily on one claim: that the early case cluster at the Huanan Seafood Market is strong evidence for zoonosis. Removing/weakening it reportedly flips the overall conclusion. A successful crux-detection layer should surface this automatically from the multi-source graph — NOT be hand-coded to find it.",
+  "note": "Genuinely multi-source and two-sided: 3 zoonosis (Scott Alexander synthesis + judge Eric Stansifer's Bayesian analysis and his rebuttal of Weissman) vs 3 lab_leak (Weissman's ~300:1 Bayesian + Rootclaim's response and results). Two opposing formal Bayesian analyses (Weissman vs Stansifer) instantiate the brief's 'independent analyses spanning orders of magnitude'. Judge Will Van Treuren's decision is video-only and not cleanly ingestible as text; Judge Eric's written reasoning stands in for the judge voice. Raw texts fetched not redistributed."
 }
