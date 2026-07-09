@@ -7,6 +7,15 @@
     "has_data": false
   },
   {
+    "case": "carlo_audit",
+    "question": "COVID-19 origins: does the assembled baseline evidence independently support its 72% natural / 28% lab conclusion, or does the support collapse under an independence audit?",
+    "shape": "audit of an aggregated evidence corpus (another entrant's output as input)",
+    "source_count": 40,
+    "has_data": true,
+    "claim_count": 984,
+    "edge_count": 1595
+  },
+  {
     "case": "covid",
     "question": "What is the origin of COVID-19 — zoonotic spillover or research-related lab leak?",
     "shape": "contested debate with multiple analysts reaching opposite conclusions from shared evidence",
