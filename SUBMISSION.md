@@ -43,9 +43,15 @@ python -m src.run --case eggs
 - [x] Deterministic crux fallback (tested) + offline demo graph for COVID
 - [x] Three case manifests (COVID deep; black holes; eggs) for the generalization claim
 - [x] Baseline-comparison and adversarial-test templates
-- [ ] Live LLM extraction over the real sources (needs your key)
-- [ ] Completed baseline delta + adversarial results (after live run)
-- [ ] Written ≤10-page core finalized in the Primary Document
+- [x] Live extraction over the real sources — **eggs** end-to-end and fully automated (202 claims, 220
+      edges, 35 cross-source); **COVID** run at scale (1,590 claims, 1,435 edges, 190 cross-source)
+- [x] Additive edge-merge tool (`src/merge_edges.py`) — import an external edge set with no API key
+- [x] Written ≤10-page core finalized in `PRIMARY.md`
+- [ ] **Black holes not ingested** — curated and fetched only (manifest + raw texts present)
+- [ ] **Semantic candidate selection for edge extraction** — the named scaling gap (PRIMARY §5/§6).
+      COVID's cross-source edges came from a hand-run semantic pass over the conclusion layer, not from
+      the automated windowed pass, which returns only 14 of 1,258 at that corpus size
+- [ ] Baseline delta and adversarial results are written up from the eggs run; not re-run against COVID
 
 ## Layout
 

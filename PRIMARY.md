@@ -104,30 +104,54 @@ calibration). It is strong — and by construction it has **no independence mode
 support to a bottom line without ever checking whether the pro-zoonosis items are independent, circular,
 or concentrated. Full head-to-head in [`baseline/market_cluster_subq/delta.md`](baseline/market_cluster_subq/delta.md).
 
-**What the stack adds**, on the ingested COVID graph (306 claims, 397 edges; re-run with
-`python -m src.run --case covid --stage concentration`):
+**What the stack adds**, measured on the **eggs** case — the one run end-to-end (6 provenance-diverse
+sources: academic synthesis, two primary studies, a mechanism paper, industry advocacy, and a
+clinical-nuance piece; 213 claims → 202 after dedup, 220 edges, every claim carrying a verbatim span):
 
 | Conclusion | Support | Concentration | Effective-independent |
 |---|---:|---:|---:|
-| “The market is unlikely to be the origin” | 102 | 5% | **~48.9** |
-| “Double-spillover is the only story that fits” | 104 | 5% | **~46.1** |
-| “Lab-leak requires the first worker near the market” | 11 | **22%** | ~7.0 |
+| “Eating up to one egg per day is not associated with increased risk” | 47 | 10% | **~21.3** |
+| “Including eggs in healthy dietary patterns may be beneficial” | 45 | 9% | ~17.9 |
+| “Whole eggs could be a healthful choice” (industry-sourced) | 45 | 11% | ~16.0 |
+| “The PURE findings reinforce previous research” | 5 | **67%** | **~2.1** |
+| “Choline is directly linked to increased TMAO production” | 3 | 33% | ~3.0 |
 
-Plus one grounded circular-support loop flagged (`C095→C098→C102→C103`) — a set a naïve tally would count
-as four independent confirmations.
+**35 of the 220 edges cross a source boundary**, and 19 of those are `contradicts` — linking the
+American Egg Board’s pro-egg claims directly against the Zhong/JAMA risk findings. That is the real
+disagreement axis of the debate, recovered from the text rather than asserted. A further 9 are
+cross-source `restates` — the echo relation the independence maths exists to discount. Two
+circular-support loops were flagged.
 
-**The honest headline finding — and it is the point, not a miss:** the original hypothesis was that the
-zoonosis case leans decisively on the Huanan market cluster (“remove it and it flips”). Run
-deterministically on the same source material, **the stack declines to confirm this**: support for the
-major origin conclusions is *diffuse* (≈48 effectively-independent claims, 5% concentration), not
-load-bearing on any single claim. A one-prompt baseline — or a motivated analyst — will happily assert
-the decisive crux; this tool produces an auditable number that says the structure does not contain it.
-**A tool that refuses to manufacture the crux you were hoping for is the tool worth having.**
+**Read what this says.** The broad population-level conclusions are **robust**: ~45–47 supporting
+claims at ~10% concentration and ~16–21 effectively-independent claims, so no single claim is
+load-bearing and flipping any one of them barely moves the answer. The **fragile** items are the
+narrow ones — a single cohort’s findings (67% concentrated, nEff ~2.1) and the TMAO mechanism
+(nEff ~3.0). A reader who wants to attack “eggs are fine for most people” should aim at those, not
+at the headline; that is exactly the redirection the warrant layer exists to provide, and it is not
+visible in any of the six sources read individually.
+
+**A finding that only the cross-source view produces.** The eggs manifest recorded a hypothesis before
+the run: that the crux is *whether dietary-cholesterol risk applies to the general population or only to
+specific subgroups*. The tool was never told this. Run deterministically, it put the general-population
+conclusions in the robust band (nEff ~16–21) and left the cohort-specific and mechanistic claims in the
+fragile band (nEff ~2–3) — locating the disagreement exactly where the hypothesis said it would be,
+from graph arithmetic rather than from being told.
+
+**An equally important negative result — about our own method.** The first eggs graph produced only
+**4 cross-source edges out of 90**: the extractor windowed over claims in source order, so every window
+sat inside one document and cross-source links were structurally unfindable. The independence numbers
+were therefore measuring *within-article* structure while appearing to measure cross-source agreement.
+We found this by auditing our own output, fixed it (a second, source-interleaved edge pass), and the
+same corpus went to **35 cross-source edges of 220**, surfacing the industry-vs-risk-study contradiction
+that had been invisible. We report this because the failure mode is general: **an independence metric
+computed over the wrong unit is confidently wrong**, and nothing in the output announces it. Any tool in
+this space should be asked what fraction of its edges cross a source boundary.
 
 **Verdict (stated honestly).** On “does the support hold up, and can you show it?” the stack is
-meaningfully better — the baseline cannot answer at all. On “give me a broad, readable, sourced
-synthesis,” the baseline wins (192 real sources vs. our single ingested synthesis; a fluent bottom line).
-The two are **complementary**, which points at the strongest next experiment (§8).
+meaningfully better — a one-prompt swarm cannot answer it at all, because it has no independence model.
+On “give me a broad, readable, sourced synthesis across many topics,” the baseline wins outright: 192
+real sources and a fluent bottom line, against our one fully-processed six-source debate. We are deeper
+on one axis and much narrower on the other. The two are **complementary**, which is what §8 builds on.
 
 ---
 
@@ -140,22 +164,60 @@ case-specific logic. Per-case content lives entirely in **data** (`cases/<case>/
 texts), never in code. A new dispute is a new folder, not a new codebase. Manifests for the black-hole
 and egg cases are included to make this claim checkable; they share the identical engine.
 
-*Honesty note:* only COVID has been run end-to-end so far. The generality claim is architectural and
-demonstrated at the code level; the other two cases are wired but not yet ingested.
+*Honesty note — exactly what has and has not been run, and by what method.* **Eggs is complete
+end-to-end and fully automated** (6 sources → 202 claims → 220 edges → warrant metrics; the numbers in
+§4). **COVID is complete but the edge set is mixed-provenance**, and the distinction is load-bearing:
+1,590 claims across all six sources, every one carrying a verbatim span, then 1,435 edges of which
+**1,258 came from the automated windowed pass and 177 from a separate semantic pass over the 212
+conclusion-kind claims** ([`cases/covid/manual_edges.json`](cases/covid/manual_edges.json), merged by
+[`src/merge_edges.py`](src/merge_edges.py), which is additive and validates every endpoint against
+existing claims). **Black holes is curated and fetched but not ingested.**
+
+The second pass exists because of a scaling limit we hit and measured — a sharper version of the §4
+negative result. The source-interleaved fix that took *eggs* from 4 to 35 cross-source edges is
+**positional**: it interleaves claims by source and windows over them. At 202 claims a 60-claim window
+samples ~30% of each source, so interleaved neighbours are usually about the same thing. At 1,590 claims
+it samples ~3.8%, so interleaved neighbours are topically unrelated and there is no edge to find. COVID's
+automated pass therefore returned **14 cross-source edges of 1,258 — and zero crossing the
+zoonosis/lab-leak divide**, which would have made every independence number on that case a within-article
+measurement wearing cross-source clothing.
+
+The fix is to select candidate pairs **semantically rather than positionally**. As a stand-in for the
+embedding-clustered pass we have not built, we ran that selection over the conclusion layer by hand:
+group the 212 conclusions by topic, then extract relations within each topic. That moved COVID to **190
+cross-source edges of 1,435 (13.2%), 154 of them cross-side** — comparable to the 15.9% eggs reaches
+automatically. It also let the known crux surface on its own: `C998`, *"Scott's analysis would flip to
+94% lab-leak if HSM evidence were removed"*, appears in the deterministic top-10 without being hand-coded.
+
+We flag this rather than bury it because it bears directly on the scalability claim in §6: **the current
+positional edge extractor does not scale past roughly a few hundred claims**, and semantic candidate
+selection is the named next step, not a solved feature. The generality claim is *architecture, plus one
+fully-automated demonstration (eggs), plus one larger case that required a documented manual assist* — we
+would rather say that than imply three clean runs.
 
 ---
 
 ## 6. Scalability (dimension #4)
 
-- **No single hand-designed human step is load-bearing.** Every semantic stage is an automated LLM pass;
-  a human curates and steers but is not in the critical path.
+- **No single hand-designed human step is load-bearing — with one measured exception.** Every semantic
+  stage is an automated LLM pass; a human curates and steers but is not in the critical path. The
+  exception is edge extraction at scale: as §5 documents, positional windowing degrades as the corpus
+  grows, and COVID needed a hand-run semantic pass to recover cross-source structure. That is a real
+  limit on this claim today, and it is why the item below is stated as a gap rather than a feature.
 - **It improves as base models improve.** Because extraction and structuring are model passes, better
   models yield better graphs with zero code change — the opposite of a rules-based approach, which would
   cap quality and forfeit this property.
-- **It benefits from more compute honestly.** Structure runs in overlapping windows, so it scales to a
-  full corpus rather than a snippet. Cost scales down cleanly: ingestion is mechanical extraction and
-  runs well on a cheap model (Haiku-tier), reserving stronger models for structure/assessment; the
-  extraction pass is batch-friendly (50% via the Batches API). The warrant layer is free (no model).
+- **Cost scales down cleanly.** Ingestion is mechanical extraction and runs well on a cheap model
+  (Haiku-tier), reserving stronger models for structure/assessment; the extraction pass is batch-friendly
+  (50% via the Batches API). The warrant layer is free — pure graph arithmetic, no model at all, which is
+  why re-auditing a graph costs nothing.
+- **The named scaling gap: candidate selection.** Edge extraction is O(n²) in principle, so it must
+  sample pairs. Sampling them *positionally* — the current implementation — works to a few hundred claims
+  and then quietly stops finding cross-source links (COVID: 14 of 1,258). The fix is to sample them
+  *semantically*: embed claims, cluster by topic, extract edges within clusters, so every window contains
+  the same subject argued by different sources. This is the single highest-value item of remaining work,
+  it needs no new architecture, and until it ships the honest ceiling on a fully-automated run is a few
+  hundred claims per case.
 
 ---
 
@@ -191,11 +253,19 @@ ideas fall out of it:
 2. **The refusal-to-confabulate as a feature.** The most useful output here was a *negative* one — the
    tool declining to certify a crux the author expected. That is the behavior an epistemic tool must
    have and a fluent summarizer structurally lacks.
-3. **The strongest next experiment audits another entrant’s output.** Carlo’s 40 evidence documents are
-   an ideal *input* to this pipeline: running them through `ingest → structure → assess` would produce an
-   **independence audit of the baseline itself** — which “independent” items collapse to a shared
-   dataset, whether 72/28 survives a Herfindahl correction. This both earns dimension #1 and demonstrates
-   dimension #3 (interoperability) by building on, rather than competing with, another submission.
+3. **We tried auditing another entrant’s output, and the attempt is the lesson.** Carlo’s 40 evidence
+   documents are an ideal *input* to this pipeline, so we ran them through it. The claim-graph layer
+   could not do the job: its edge windows never spanned two documents, so the cross-document collapse we
+   were looking for was unfindable, and the only “finding” we could produce came from a citation-string
+   heuristic we had tuned after seeing the answer. We **removed it rather than report it** — a
+   post-hoc-tuned instrument is precisely the kind of receipt this competition should distrust. What the
+   failure bought was the diagnosis, and the fix now in `src/structure.py` (§4): source-interleaved edge
+   extraction, which took the eggs corpus from 4 to 35 cross-source edges. That capability is what a
+   real baseline audit needs. It exists at Carlo's corpus size and, as §5 records, degrades past a few
+   hundred claims until semantic candidate selection lands — so the experiment is now *possible at that
+   scale* rather than merely proposed, which is a narrower claim than we could have made and the one the
+   evidence supports. Interoperability is also live in the tool itself: `POST /api/assess` runs the full
+   deterministic warrant audit on **any** claim graph, from any producer, with no API key.
 
 *What this stack does not yet reach:* the deepest layer named by the sharper contest critiques —
 *mechanism* validity (which lab had which reverse-genetics capability; whether a statistical model is
@@ -213,6 +283,9 @@ python web/build_data.py && python server.py        # -> http://localhost:8000
 # or reproduce the pipeline on a case (needs ANTHROPIC_API_KEY + source texts in cases/<case>/raw/):
 python -m src.run --case covid
 python -m src.run --case covid --stage concentration # the warrant metrics, deterministic
+
+# merge an externally-produced edge set (additive; validates every endpoint; no API key):
+python -m src.merge_edges --case covid --edges cases/covid/manual_edges.json --dry-run
 ```
 
 MIT-licensed, so pieces can interoperate and compound — per the competition’s goals. The knowledge base

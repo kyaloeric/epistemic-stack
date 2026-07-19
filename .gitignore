@@ -9,3 +9,6 @@ cases/*/raw/*.txt
 .playwright-mcp/
 qa-*.png
 .mcp.json
+
+# local pre-merge backups
+cases/*/out/*.pre-merge.json

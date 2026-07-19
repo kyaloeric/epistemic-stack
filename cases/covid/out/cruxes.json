@@ -1,0 +1,102 @@
+[
+  {
+    "claim_id": "C1113",
+    "sensitivity": 0.653,
+    "score": 2.169,
+    "affects": "The raccoon dog photo and identification of wildlife in HSM do not meet the stan",
+    "affects_id": "C1100",
+    "affects_support_count": 9,
+    "rationale": "Carries 65% of the evidential support for conclusion C1100, which is backed by 9 claims (~2.24 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C1251",
+    "sensitivity": 0.575,
+    "score": 1.614,
+    "affects": "Peter's evidence did not survive deeper scrutiny despite his impressive memory o",
+    "affects_id": "C1250",
+    "affects_support_count": 6,
+    "rationale": "Carries 57% of the evidential support for conclusion C1250, which is backed by 6 claims (~2.34 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C1239",
+    "sensitivity": 0.315,
+    "score": 1.575,
+    "affects": "The overall probability of the FCS coincidence is approximately 1 in 30,000,000",
+    "affects_id": "C1236",
+    "affects_support_count": 31,
+    "rationale": "Carries 31% of the evidential support for conclusion C1236, which is backed by 31 claims (~4.68 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C1240",
+    "sensitivity": 0.315,
+    "score": 1.575,
+    "affects": "The overall probability of the FCS coincidence is approximately 1 in 30,000,000",
+    "affects_id": "C1236",
+    "affects_support_count": 31,
+    "rationale": "Carries 31% of the evidential support for conclusion C1236, which is backed by 31 claims (~4.68 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C1272",
+    "sensitivity": 0.442,
+    "score": 1.468,
+    "affects": "Zoonosis has exactly zero pieces of evidence with the same quality (easy to unde",
+    "affects_id": "C1275",
+    "affects_support_count": 9,
+    "rationale": "Carries 44% of the evidential support for conclusion C1275, which is backed by 9 claims (~3.91 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C301",
+    "sensitivity": 0.618,
+    "score": 1.435,
+    "affects": "The only difference between Peter and Saar was that Peter's evidence hung togeth",
+    "affects_id": "C300",
+    "affects_support_count": 4,
+    "rationale": "Carries 61% of the evidential support for conclusion C300, which is backed by 4 claims (~2.02 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C963",
+    "sensitivity": 0.373,
+    "score": 1.38,
+    "affects": "The author believes the ~100/1 odds estimate is conservative due to conservative",
+    "affects_id": "C964",
+    "affects_support_count": 12,
+    "rationale": "Carries 37% of the evidential support for conclusion C964, which is backed by 12 claims (~4.15 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C970",
+    "sensitivity": 0.307,
+    "score": 1.327,
+    "affects": "Lab leak looks a lot more probable than zoonosis, with room for argument about e",
+    "affects_id": "C971",
+    "affects_support_count": 19,
+    "rationale": "Carries 30% of the evidential support for conclusion C971, which is backed by 19 claims (~6.63 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C1139",
+    "sensitivity": 0.364,
+    "score": 1.305,
+    "affects": "The probabilistic inference mistakes in the judges' reports were obvious to Root",
+    "affects_id": "C1141",
+    "affects_support_count": 11,
+    "rationale": "Carries 36% of the evidential support for conclusion C1141, which is backed by 11 claims (~3.73 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C998",
+    "sensitivity": 0.224,
+    "score": 1.289,
+    "affects": "Those who make the effort to understand this analysis will be able to reach high",
+    "affects_id": "C999",
+    "affects_support_count": 53,
+    "rationale": "Carries 22% of the evidential support for conclusion C999, which is backed by 53 claims (~12.41 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  }
+]

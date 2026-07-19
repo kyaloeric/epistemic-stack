@@ -1,0 +1,212 @@
+C1005 [lab_leak|rootclaim_response] This reasoning collapses the 'extreme coincidence' claim and makes lab-leak the leading hypothesis
+C1019 [lab_leak|rootclaim_response] What was claimed as 10,000x evidence for zoonosis actually turns out to be less than 5x
+C1021 [lab_leak|rootclaim_response] The HSM early cluster is negligible as evidence, assigned a factor of 2x by Rootclaim's analysis
+C1052 [lab_leak|rootclaim_response] The Worobey et al. analysis was based on several false assumptions
+C1056 [lab_leak|rootclaim_response] After applying the elimination factors, at most 100 locations should remain, giving a final probability of over 1%
+C1075 [lab_leak|rootclaim_response] There is enough leeway to confidently claim the conditional probability is above 1%, allowing for differences between HSM and these markets
+C1077 [lab_leak|rootclaim_response] Rules-of-thumb thinking about coincidences is bound to result in wrong conclusions, and there is no alternative to rigorous probabilistic analysis avoiding human bias
+C1081 [lab_leak|rootclaim_response] Even if Wuhan is given no weight as evidence, lab-leak would still be highly likely, with Rootclaim's conclusion only dropping from 94% to 92%
+C1084 [lab_leak|rootclaim_response] Both judges made the mistake of not considering the CDC-move alternative hypothesis when rejecting methods 1 and 2
+C1089 [lab_leak|rootclaim_response] This makes the supposed 1/10,000 coincidence a 1/100, supporting the 1% conditional probability estimate
+C1096 [lab_leak|rootclaim_response] It is not possible to reliably achieve over 99% confidence in this kind of claim
+C1100 [lab_leak|rootclaim_response] The raccoon dog photo and identification of wildlife in HSM do not meet the standard for a reliably supported high probability because they result from hindsight bias
+C1101 [lab_leak|rootclaim_response] The raccoon dog photo does not represent a premonition of spillover risk
+C1120 [lab_leak|rootclaim_response] The original 10% estimate for HSM spillover share was too high
+C1123 [lab_leak|rootclaim_response] Even if SARS2 originated zoonotically, it is unlikely the spillover itself happened at HSM
+C1141 [lab_leak|rootclaim_response] The probabilistic inference mistakes in the judges' reports were obvious to Rootclaim
+C1143 [lab_leak|rootclaim_response] Rootclaim fully integrated all new information and feedback from the debate into their new analysis, and this strengthened rather than weakened the lab-leak probability
+C1146 [lab_leak|rootclaim_response] The apparent spatial pattern favoring the southwest corner primarily reflects increased sampling in the wildlife-selling area rather than true infection concentration
+C1157 [lab_leak|rootclaim_response] It is impossible to draw high-confidence conclusions from the early case data due to great uncertainty
+C1173 [lab_leak|rootclaim_response] Peter had a good point about the C/C sequences but could not provide a good explanation for the T/T sequences
+C1175 [lab_leak|rootclaim_response] The existence of real T/T intermediates alone makes an HSM spillover unlikely
+C1179 [lab_leak|rootclaim_response] SARS2 is not based on BANAL-52 itself but on a relative of it, making the rarity argument a mistake
+C1201 [lab_leak|rootclaim_response] All attempts to portray Reed as unstable or delusional were unsuccessful
+C1202 [lab_leak|rootclaim_response] Reed's timing and location of infection matches the lab leak hypothesis and is impossible for the HSM claim
+C1203 [lab_leak|rootclaim_response] Reed's case was badly misrepresented by Peter
+C1212 [lab_leak|rootclaim_response] The claim that the FCS is not that unnatural is highly inaccurate, since no one has produced anything remotely similar to SARS2's clean 12nt insertion despite years of focus
+C1213 [lab_leak|rootclaim_response] The claim that the HKU1 insertion looks just as engineered as SARS2's is ridiculous, as shown by comparing alignments
+C1218 [lab_leak|rootclaim_response] This probabilistic inference mistake alone was enough to cause the judges to reach a wrong conclusion
+C1221 [lab_leak|rootclaim_response] Such extreme numbers are not appropriate in the origins debate because this is not currently a well-understood domain
+C1236 [lab_leak|rootclaim_response] The overall probability of the FCS coincidence is approximately 1 in 30,000,000
+C1247 [lab_leak|rootclaim_response] When examining only the written material without time pressure, all zoonosis claims collapse while all core lab leak claims survive
+C1250 [lab_leak|rootclaim_response] Peter's evidence did not survive deeper scrutiny despite his impressive memory of details
+C1264 [lab_leak|rootclaim_response] The pattern of UFO evidence does not support the UFO visits hypothesis despite its apparent abundance
+C1265 [lab_leak|rootclaim_response] Zoonosis evidence is similar to UFO evidence in that it is based on complex models using unreliable data with many single points of failure
+C1273 [lab_leak|rootclaim_response] Unlike zoonosis, lab leak has good evidence including an unexplained Wuhan outbreak, a rare mutation FCS, an unknown foreign source sequence, no animal host found, and no other global spillovers
+C1274 [lab_leak|rootclaim_response] These lab leak evidence claims are easy to understand, statistically quantifiable, and have few points of failure, which is why no one was able to refute them
+C1275 [lab_leak|rootclaim_response] Zoonosis has exactly zero pieces of evidence with the same quality (easy to understand, quantifiable, few points of failure)
+C1280 [lab_leak|rootclaim_response] Anyone claiming zoonosis is more likely without addressing the weakness of HSM evidence can be dismissed
+C1287 [lab_leak|rootclaim_response] The generic complaint about wide variance in estimates does not apply to Rootclaim's methodology
+C1292 [lab_leak|rootclaim_response] None of the claims Peter addressed were actually debunked
+C1293 [lab_leak|rootclaim_response] Peter failed to weaken any of Rootclaim's core evidence
+C1294 [lab_leak|rootclaim_response] Peter's only evidence, the HSM early cluster, is of negligible weight when using proper inference methods
+C1304 [lab_leak|rootclaim_response] The claim that China covered up zoonosis evidence from the start is untrue
+C1319 [lab_leak|rootclaim_response] The zoonosis side is full of pseudoscientific claims, similar to all sides of hypotheses Rootclaim has analyzed
+C1320 [lab_leak|rootclaim_response] There is basically no evidence for zoonosis other than results from a process using unreliable, biased, manipulated data
+C1334 [lab_leak|rootclaim_response] Of the objections to the lab leak scenario, only two have not been completely refuted: the engineer's motivation for the FCS sequence and whether WIV found a relevant virus in collection trips
+C1345 [lab_leak|rootclaim_response] Rootclaim's estimate of 3-5% for market-based spillover is more reliable and well-sourced than Scott's
+C1349 [lab_leak|rootclaim_response] Rootclaim's 1% estimate for HSM-specific factors is superior because it uses three independent methods based on actual data
+C1350 [lab_leak|rootclaim_response] Scott's additional 5x factor for steelmanning Saar's position is not the best approach
+C1353 [lab_leak|rootclaim_response] Scott's final 500x number is based on highly biased estimates which cannot be justified
+C1354 [lab_leak|rootclaim_response] Once corrected, Scott's conclusion changes from 94% zoonosis to 94% lab-leak
+C1367 [lab_leak|rootclaim_response] Fixing these calculation mistakes would turn Scott's 17x zoonosis odds into support for lab-leak
+C1368 [lab_leak|rootclaim_response] No one has provided justification for Scott's assumptions, so lab leak should be considered far likelier
+C1376 [lab_leak|rootclaim_response] Rootclaim did not claim no one warned against markets, only that they were relatively low priority
+C1388 [lab_leak|rootclaim_response] It is quite likely WIV would have a virus good enough to start a pandemic after adding an FCS and potentially passaging
+C1389 [lab_leak|rootclaim_response] This BANAL-52/rare virus argument has negligible weight overall
+C1405 [lab_leak|rootclaim_response] This calculated timeline matches evidence under lab leak hypothesis, including Reed, Chen, and market lineages
+C1412 [lab_leak|rootclaim_response] Scott's claim that the first two known Lineage A cases were very close to the market is untrue.
+C1418 [lab_leak|rootclaim_response] The finding that the case resided closer to the market than expected is merely an artifact of HSM being located in one of Wuhan's densest areas.
+C1419 [lab_leak|rootclaim_response] The original finding was already only borderline statistically significant at p=0.034, and after correcting the density mistake there is safely nothing significant remaining.
+C1431 [lab_leak|rootclaim_response] Because the HKU1 example is the best case zoonotic supporters have found and addresses only one of four rare coincidences, this strengthens the conclusion that natural evolution is very unlikely to explain the SARS2 FCS.
+C1432 [lab_leak|rootclaim_response] Scott's attempts in his post to discredit Connor Reed's account were all unsuccessful.
+C1446 [lab_leak|rootclaim_response] Scott's claims against Reed's reliability are weak and unconvincing.
+C1447 [lab_leak|rootclaim_response] Reed's account has proven reliable, and all attempts to find inconsistencies in his story have failed.
+C1449 [lab_leak|rootclaim_response] Reed's story serves as a useful litmus test for identifying motivated reasoning.
+C1450 [lab_leak|rootclaim_response] The likelihood of the lab leak hypothesis is already high, according to Rootclaim's analysis.
+C994 [lab_leak|rootclaim_response] Zoonosis is not better supported by the evidence than lab leak
+C996 [lab_leak|rootclaim_response] The main mistake in Scott's analyses is treating the early HSM case cluster as strong evidence for zoonosis
+C999 [lab_leak|rootclaim_response] Those who make the effort to understand this analysis will be able to reach high confidence that Covid originated from a lab
+C1453 [lab_leak|rootclaim_results] Peter's victory was earned within the debate's parameters
+C1454 [lab_leak|rootclaim_results] Rootclaim failed to structure an effective debate
+C1455 [lab_leak|rootclaim_results] Rootclaim maintains that lab leak is still the most likely explanation for COVID-19's origin
+C1456 [lab_leak|rootclaim_results] Rootclaim's updated analysis shows the likelihood of lab leak increased after deeper analysis done for the debate
+C1466 [lab_leak|rootclaim_results] A second mistake made Deigin's good efforts irrelevant
+C1470 [lab_leak|rootclaim_results] Rootclaim failed to incorporate a process of ongoing feedback from the judges
+C1471 [lab_leak|rootclaim_results] Rootclaim spent most of its time on issues that had little impact on the final decision
+C1472 [lab_leak|rootclaim_results] The judges' ruling contained major mistakes in understanding Rootclaim's analysis
+C1478 [lab_leak|rootclaim_results] Errors in the judges' probabilistic inference resulted in unrealistic numbers assigned to the evidence
+C1479 [lab_leak|rootclaim_results] The mistakes in the judges' analysis were heavily skewed toward favoring zoonosis
+C1481 [lab_leak|rootclaim_results] Miller used figures heavily biased toward zoonosis, in some cases using extreme estimates impossible to reach in a robust probabilistic analysis
+C1503 [lab_leak|rootclaim_results] The steelmanning approach meant that when Rootclaim's hypothesis explanation was favored, its effect on final likelihood was smaller than when Miller's explanation was favored
+C1504 [lab_leak|rootclaim_results] When judges lacked tools to conclude between sides, their result averaged the two positions, which favored zoonosis given Miller's extreme numbers
+C1510 [lab_leak|rootclaim_results] The debate shows significant disagreement on HSM's role as evidence, questioning how much this coincidence favors zoonosis
+C1514 [lab_leak|rootclaim_results] Stansifer's probability estimate (0.02) for at least one WIV researcher undertaking a project WIV expressed clear interest in was a severe underestimate
+C1517 [lab_leak|rootclaim_results] Stansifer's probability estimate (0.02) for a researcher working on a SARS2-like virus for weeks or months under BSL-2 getting infected was a severe underestimate and highly overconfident
+C1524 [lab_leak|rootclaim_results] Treuren added a redundant 0.01 factor requiring WIV to have an unpublished backbone with 98% nucleotide similarity to SARS2
+C1536 [lab_leak|rootclaim_results] If this requirement is placed on both hypotheses, the effect cancels out
+C1537 [lab_leak|rootclaim_results] The judges used a low estimate for the likelihood of the Furin Cleavage Site (FCS) occurring naturally
+C1539 [lab_leak|rootclaim_results] Had Rootclaim submitted the strawmanned calculation, they could have won the debate
+C1547 [lab_leak|rootclaim_results] Rootclaim fully recognizes the importance of facts and evidence
+C1551 [lab_leak|rootclaim_results] The lab leak hypothesis presented by Rootclaim was built to be highly robust to evidential mistakes
+C1552 [lab_leak|rootclaim_results] The zoonosis side made at least as many factual mistakes during the debate as the lab-leak (Rootclaim) side did
+C1554 [lab_leak|rootclaim_results] The judges clearly made mistakes in probabilistic inference, regardless of factual errors or which hypothesis is true
+C1555 [lab_leak|rootclaim_results] It is incorrect to claim an HSM worker is as likely as any random Wuhan resident to be the index case under the lab leak hypothesis
+C1556 [lab_leak|rootclaim_results] It is wrong to claim the prior probability for a gain-of-function pandemic is only once in thousands of years
+C1558 [lab_leak|rootclaim_results] Correcting these two judge mistakes changes the outcome to lab leak being the more likely hypothesis
+C1570 [lab_leak|rootclaim_results] The probability of a lab leak directly infecting the market via randomized pedestrian/transit behavior is approximately the same as for the general population, reducing to the basal rate for that location
+C1572 [lab_leak|rootclaim_results] Rootclaim lost the debate because they relied on numerical manipulation without properly grounding it in examinable reality
+C1578 [lab_leak|rootclaim_results] It is virtually impossible to make meaningful statements about the semi-randomized behavior of an unknown patient zero that would inevitably lead to that particular market being infected over any other location
+C1579 [lab_leak|rootclaim_results] The evidence indicates the meat market was the source of the pandemic
+C1584 [lab_leak|rootclaim_results] This reasoning does not fully discount the lab leak hypothesis
+C1586 [lab_leak|rootclaim_results] It is much more likely that the origin is zoonotic
+C1592 [lab_leak|rootclaim_results] Rootclaim's methodology fails due to the 'garbage in, garbage out' principle when built on incorrect evidence
+C1595 [lab_leak|rootclaim_results] Lab-leak is also superior in terms of raw evidence, not just inference method
+C1596 [lab_leak|rootclaim_results] None of the zoonosis evidence holds up to scrutiny
+C1605 [lab_leak|rootclaim_results] The few factual mistakes Rootclaim made were not essential to their model
+C1607 [lab_leak|rootclaim_results] The judges did not make any significant mistakes favoring lab-leak (Rootclaim's side) that need to be corrected
+C1612 [lab_leak|rootclaim_results] This asymmetry in evidence weighting, once corrected, makes lab-leak the more likely hypothesis
+C742 [lab_leak|weissman_inconvenient] After incorporating the location and FCS updates, P(LL) becomes much larger than P(ZW), even starting from a generous prior favoring ZW.
+C743 [lab_leak|weissman_inconvenient] Additional updates, including some claimed to favor ZW, will further swing the odds toward LL.
+C744 [lab_leak|weissman_inconvenient] P(ZW) will shrink to about 1%, limited from shrinking further only by allowance for uncertainties.
+C747 [lab_leak|weissman_inconvenient] Although large uncertainties sometimes render such calculations useless, this is not one of those cases.
+C770 [lab_leak|weissman_inconvenient] For at least the last decade the prior probability of escape of a modified pathogen has not been negligible
+C800 [lab_leak|weissman_inconvenient] The odds for an outbreak in Wuhan (natural vs lab) were roughly even, e-to-one
+C807 [lab_leak|weissman_inconvenient] The comparison of leak rate and zoonotic spillover rate yields roughly even odds for lab origin versus natural origin of a pandemic starting in Wuhan
+C816 [lab_leak|weissman_inconvenient] Neither of the two assumptions underlying Proximal Origins' lab-leak-implausibility argument made sense
+C819 [lab_leak|weissman_inconvenient] Proximal Origins contains nothing that would update the odds in either direction
+C834 [lab_leak|weissman_inconvenient] The sequence data indicate lineage A was quite unlikely to have originated at HSM
+C839 [lab_leak|weissman_inconvenient] The phylogeny data seem inconsistent with HSM being the only spillover site
+C840 [lab_leak|weissman_inconvenient] The phylogenetic data strongly disfavor the particular version of zoonotic origin in which spillover occurred exclusively at HSM, though other-location zoonotic spillovers remain possible
+C869 [lab_leak|weissman_inconvenient] The internal SC2 RNA data make it unlikely that wildlife had any direct connection with SC2 spread in HSM.
+C881 [lab_leak|weissman_inconvenient] Based on the absence of intermediate host samples, the odds should be updated by a likelihood ratio of approximately 4.
+C882 [lab_leak|weissman_inconvenient] The logit update value from the intermediate host analysis is 1.4 with uncertainty of ±0.6.
+C887 [lab_leak|weissman_inconvenient] Although some have cited the Sangon observation as strong evidence for LL, it does not allow confident updating of the odds.
+C895 [lab_leak|weissman_inconvenient] The specific internal contents of the FCS site do provide strong evidence.
+C923 [lab_leak|weissman_inconvenient] The logit update value from the FCS codon analysis is 5.6 with uncertainty of ±1.1.
+C940 [lab_leak|weissman_inconvenient] These adaptation features should shift the probability odds further toward lab leak
+C950 [lab_leak|weissman_inconvenient] The combined data are less compatible with zoonosis than would be calculated from a simple product of separate adaptation and host factors
+C964 [lab_leak|weissman_inconvenient] The author believes the ~100/1 odds estimate is conservative due to conservative factor choices and omitted LL-supporting factors
+C971 [lab_leak|weissman_inconvenient] Lab leak looks a lot more probable than zoonosis, with room for argument about exactly how much more probable
+C978 [lab_leak|weissman_inconvenient] After evidence-based updating, the odds strongly favor a lab leak origin despite prior probabilities favoring zoonosis
+C979 [lab_leak|weissman_inconvenient] Blaming China is the most counterproductive possible reaction
+C981 [lab_leak|weissman_inconvenient] Pathogen research needs to be regulated to avoid the most dangerous work while expanding vaccine and therapy development
+C983 [lab_leak|weissman_inconvenient] Attention to lab risks should not be used as an excuse to ignore ongoing zoonotic risks
+C987 [lab_leak|weissman_inconvenient] When scientists are not candid about what is known, they undermine necessary public trust
+C044 [zoonosis|acx_writeup] The first reported case, a wet market vendor on December 11, was likely very early in the pandemic though not literally the first case
+C048 [zoonosis|acx_writeup] The claim that the first case and half of the first 40 cases had wet market connections is real and convincing evidence
+C051 [zoonosis|acx_writeup] There was no real super-spreader event at the wet market
+C055 [zoonosis|acx_writeup] This specific lab leak scenario is unparsimonious
+C062 [zoonosis|acx_writeup] The infection could have been circulating for weeks rather than requiring the first lab worker to go straight to the market
+C081 [zoonosis|acx_writeup] The market is unlikely to be the origin of the pandemic because the original Lineage A strain wasn't found there
+C096 [zoonosis|acx_writeup] The double-spillover story is the only one that explains the evolutionary precedence of Lineage A, the greater spread and older molecular clock of Lineage B, and the fact that both strains were first found close to the wet market
+C105 [zoonosis|acx_writeup] Both apparent intermediate forms can be dismissed because they were both caused by the same software bug
+C135 [zoonosis|acx_writeup] The most likely explanation is that WIV conducted the gain-of-function research they had proposed
+C137 [zoonosis|acx_writeup] The virus leaked, spread in the general Wuhan population, and eventually reached the wet market
+C142 [zoonosis|acx_writeup] Even if WIV had attempted to create COVID, they lacked the necessary materials to do so
+C152 [zoonosis|acx_writeup] WIV could not have kept discovery of BANAL-52 secret
+C155 [zoonosis|acx_writeup] COVID's furin cleavage site, while unusual, has characteristics consistent with natural rather than engineered origin
+C176 [zoonosis|acx_writeup] The claim that COVID is uniquely adapted to humans is false
+C179 [zoonosis|acx_writeup] It is not necessarily true that viruses show a mutation burst upon entering a new host species
+C203 [zoonosis|acx_writeup] It is not necessarily improbable for a lab leak pandemic to first show up at a wet market
+C204 [zoonosis|acx_writeup] The Huanan Seafood Market had factors making it a likely location for a superspreader event
+C214 [zoonosis|acx_writeup] Wet markets are natural places for superspreader events as a general property
+C216 [zoonosis|acx_writeup] Since COVID clusters concentrate in wet markets even without animal spillover, this should be treated as a property of the virus rather than significant for Wuhan specifically
+C221 [zoonosis|acx_writeup] Thousands of other Wuhan locations besides the wet market share similar features (indoor, ventilation, repeat visitors)
+C223 [zoonosis|acx_writeup] The wet market spread COVID at exactly the normal rate, contradicting the superspreader argument
+C227 [zoonosis|acx_writeup] Wet markets start outbreaks because infected goods are sold there, then the virus spreads at a normal rate — the opposite conclusion from Saar's argument
+C236 [zoonosis|acx_writeup] Connor Reed was lying about his case
+C242 [zoonosis|acx_writeup] Reed probably was lying
+C246 [zoonosis|acx_writeup] The 90 cases reported before market cases are also fabricated/misrepresented
+C248 [zoonosis|acx_writeup] The paper actually just counted cases differently, referring to normal cases after the pandemic officially started
+C252 [zoonosis|acx_writeup] The debate outcome was a decisive victory for zoonosis
+C259 [zoonosis|acx_writeup] The author's own probability estimate shifted from about 50-50 before the debate to 90-10 in favor of zoonosis after
+C293 [zoonosis|acx_writeup] Anyone who took Peter's extreme-odds slide seriously would end up dramatically miscalibrated
+C300 [zoonosis|acx_writeup] The only difference between Peter and Saar was that Peter's evidence hung together while Saar's evidence fell apart under cross-examination
+C303 [zoonosis|acx_writeup] It is a weird coincidence that the epidemic started so close to Asia's biggest coronavirus laboratory
+C305 [zoonosis|acx_writeup] This was a rare question where Peter unambiguously came out looking worse, because the other cities' labs had much less coronavirus-specific research than Wuhan's
+C339 [zoonosis|acx_writeup] The lab leak hypothesis is almost certainly false
+C362 [zoonosis|acx_writeup] The conditional probabilities of HSM under both lab leak and zoonosis hypotheses are fairly similar
+C368 [zoonosis|acx_writeup] Scott is sympathetic to Saar's proposed format changes but does not think they would have changed the outcome of the debate
+C370 [zoonosis|acx_writeup] The reason nobody else attempts Rootclaim's direct-application-of-Bayes approach is because it doesn't work
+C379 [zoonosis|acx_writeup] 23 orders of magnitude difference between estimates is fatal to the credibility of the analysis regardless of interpretation
+C382 [zoonosis|acx_writeup] This charitable framing is still faint praise for a method that hoped to resolve disagreements
+C388 [zoonosis|acx_writeup] Such a demonstration would constitute compelling evidence for Rootclaim's methodology
+C404 [zoonosis|acx_writeup] The zoonosis side has things to feel bad about, such as the conspiracies, but pseudoscience is probably not the right descriptor for it
+C430 [zoonosis|acx_writeup] The fact that the anti-debate strategists are losing the public opinion battle 16%-66% suggests their strategy of suppressing discussion may not be wise
+C432 [zoonosis|acx_writeup] The author disagrees with setting a social norm against responding to others' honest, well-organized challenges
+C434 [zoonosis|acx_writeup] The debate worked out well primarily because the judges were two very smart scientists with relevant expertise
+C440 [zoonosis|acx_writeup] The author would update on the conclusion of other Rootclaim debates with similarly caliber participants
+C441 [zoonosis|acx_writeup] The author would not update on debate conclusions from Steve Kirsch, the Institute of Historical Review, or similar $100,000 challenge offers
+C450 [zoonosis|acx_writeup] The author now considers himself a member of 'team zoonosis'
+C467 [zoonosis|acx_writeup] The author accepts Saar's point about outside-of-model error as valid but counters that strong evidence is common
+C473 [zoonosis|acx_writeup] The author's final analysis produced 95% zoonosis, close to his genuinely held probability of about 90% zoonosis
+C482 [zoonosis|stansifer_bayesian] Treating Bayesian reasoning as simply better than hypothesis testing is a category error
+C494 [zoonosis|stansifer_bayesian] The failure of monadic laws for 'probably-X' is what makes naive chained probabilistic inference useless
+C501 [zoonosis|stansifer_bayesian] This probabilistic-implication formula is exactly the logical structure used in hypothesis testing
+C509 [zoonosis|stansifer_bayesian] The choice of D in the height example is not a great one because it has no relation to the underlying claim being tested
+C526 [zoonosis|stansifer_bayesian] Bayesian reasoning can be applied to any situation and always yields an answer, regardless of whether the technique is appropriate for that application
+C532 [zoonosis|stansifer_bayesian] When the prior and likelihood data are inaccessible or inaccurate, it can be more useful to report a p-value directly rather than attempt to compute a posterior probability
+C538 [zoonosis|stansifer_bayesian] Even when posterior probability could be computed, reporting raw p-values is frequently more useful
+C554 [zoonosis|stansifer_bayesian] One can feel confident rejecting the null hypothesis that the coin is fair given a p-value of 0.00003
+C565 [zoonosis|stansifer_bayesian] The 5% confidence threshold is arbitrary and no great importance should be assigned to whether results fall above or below that line
+C571 [zoonosis|stansifer_bayesian] "Probably-" is not a monad because the monadic join law would require that probably-probably-X implies probably-X, which is false
+C572 [zoonosis|stansifer_bayesian] The failure of the monadic laws is what makes this kind of probabilistic inference (treating probably- as compositional) useless
+C588 [zoonosis|stansifer_response_weissman] The mahjong room, HSM bathrooms, and Bloom's negative correlation in HSM samples are not credible even if the underlying evidence were true
+C593 [zoonosis|stansifer_response_weissman] The author does not stand by his Bayesian analysis but considers it not totally without merit
+C598 [zoonosis|stansifer_response_weissman] Weissman's argument about Worobey's ascertainment bias is a fair argument
+C605 [zoonosis|stansifer_response_weissman] In the absence of the WHO December case data, Weissman's argument is quite plausible
+C615 [zoonosis|stansifer_response_weissman] The author feels fairly okay with his prior choices
+C617 [zoonosis|stansifer_response_weissman] Weissman's critique that the author gave a flawed description of how p-values and Bayesian likelihoods are connected is a valid catch
+C619 [zoonosis|stansifer_response_weissman] It would be more correct to say a certain quantity corresponds to a p-value, as another paper on the relationship does
+C624 [zoonosis|stansifer_response_weissman] The factor-of-2 issue discussed is not relevant to the critique of Rootclaim's Bayesian analysis
+C627 [zoonosis|stansifer_response_weissman] The root of the disagreement was that Weissman misunderstood the author's definition of a term, and with that resolved there is no longer disagreement
+C637 [zoonosis|stansifer_response_weissman] It is fair to modestly reduce the 1 in 5000 estimate to account for uncertainty, and the author already gave it a modest reduction
+C638 [zoonosis|stansifer_response_weissman] Even if the market location had not been mooted by Saar, the evidence pointing towards HSM was quite strong
+C650 [zoonosis|stansifer_response_weissman] The probability of the 'China made up the data' theory is under 1%
+C656 [zoonosis|stansifer_response_weissman] This selective-hiding theory is not consistent with the data in the WHO report and elsewhere
+C659 [zoonosis|stansifer_response_weissman] If the WHO data is distorted, it appears to be distorted away from HSM rather than toward it
+C665 [zoonosis|stansifer_response_weissman] 1/5 is a reasonable probability estimate for WIV performing DEFUSE-like work
+C685 [zoonosis|stansifer_response_weissman] The prior probability for WIV engineering SARS-CoV-2 does not go much above the background level of any virology lab doing so
+C686 [zoonosis|stansifer_response_weissman] The Project DEFUSE proposal is mainly relevant as showing the kinds of research the virology community is interested in, rather than as a specific blueprint for WIV creating SARS-CoV-2
+C690 [zoonosis|stansifer_response_weissman] There is a large gap between what is scientifically known and what has been implemented in policy
