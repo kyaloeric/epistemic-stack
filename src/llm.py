@@ -34,6 +34,8 @@ def _detect_provider():
     forced = os.environ.get("EPISTEMIC_PROVIDER", "").strip().lower()
     if forced:
         return forced
+    if os.environ.get("EPISTEMIC_RELAY_DIR"):
+        return "relay"
     if os.environ.get("ANTHROPIC_API_KEY"):
         return "anthropic"
     if os.environ.get("OPENAI_API_KEY"):
@@ -50,6 +52,8 @@ def provider_info():
     p = _detect_provider()
     if not p:
         return (None, None)
+    if p == "relay":
+        return (p, os.environ.get("EPISTEMIC_RELAY_MODEL", "relay:unspecified-operator"))
     model_env = {
         "anthropic": "ANTHROPIC_MODEL", "openai": "OPENAI_MODEL",
         "deepseek": "DEEPSEEK_MODEL", "openai_compat": "OPENAI_COMPAT_MODEL",
@@ -85,6 +89,8 @@ def call(system: str, user: str, max_tokens: int = 8000) -> str:
     provider, model = provider_info()
     if not provider:
         _no_key_exit()
+    if provider == "relay":
+        return _call_relay(system, user)
     for attempt in range(_MAX_ATTEMPTS):
         try:
             if provider == "anthropic":
@@ -97,6 +103,71 @@ def call(system: str, user: str, max_tokens: int = 8000) -> str:
             print(f"    [retry {attempt + 1}/{_MAX_ATTEMPTS - 1}] transient error; "
                   f"waiting {delay:.0f}s then retrying...")
             time.sleep(delay)
+
+
+# --- relay: run the pipeline against a model that has no API endpoint --------------------
+#
+# Not every capable model is reachable by key: a chat subscription, an air-gapped local model,
+# or a human expert can all answer a prompt, but none of them can be called from Python. Relay
+# mode decouples "which prompts does the pipeline need answered" from "who answers them", so a
+# run costs nothing but is otherwise identical — same windows, same prompts, same parser.
+#
+# Two phases, driven by cache presence, so it is resumable and order-independent:
+#   emit    — no cached answer, so write the prompt to pending/ and return "[]". The stage
+#             completes harmlessly and every prompt it needs is now on disk.
+#   consume — an operator writes responses/<key>.txt for each pending prompt; re-run the same
+#             command and every call hits cache, returning the real answer.
+#
+# The key is a hash of (system, user), so an unchanged prompt always finds its answer and a
+# changed prompt correctly misses. Nothing here trusts the operator: responses go through the
+# same _parse_json and the same downstream validation as any API reply.
+
+_RELAY_STATS = {"hit": 0, "emitted": 0}
+
+
+def _relay_dir():
+    d = os.environ["EPISTEMIC_RELAY_DIR"]
+    for sub in ("pending", "responses"):
+        os.makedirs(os.path.join(d, sub), exist_ok=True)
+    return d
+
+
+def _call_relay(system, user):
+    import hashlib
+    d = _relay_dir()
+    key = hashlib.sha256((system + "\x00" + user).encode("utf-8")).hexdigest()[:16]
+    resp_path = os.path.join(d, "responses", key + ".txt")
+    if os.path.exists(resp_path):
+        with open(resp_path, encoding="utf-8") as f:
+            _RELAY_STATS["hit"] += 1
+            return f.read()
+    pend_path = os.path.join(d, "pending", key + ".txt")
+    if not os.path.exists(pend_path):
+        with open(pend_path, "w", encoding="utf-8") as f:
+            f.write("=== SYSTEM ===\n" + system + "\n\n=== USER ===\n" + user + "\n")
+        _RELAY_STATS["emitted"] += 1
+    return "[]"
+
+
+def relay_report():
+    """Print what the relay run needs next. Returns True if answers are outstanding."""
+    if _detect_provider() != "relay":
+        return False
+    d = os.environ["EPISTEMIC_RELAY_DIR"]
+    pend = os.path.join(d, "pending")
+    outstanding = []
+    if os.path.isdir(pend):
+        done = {n for n in os.listdir(os.path.join(d, "responses"))} if \
+            os.path.isdir(os.path.join(d, "responses")) else set()
+        outstanding = sorted(n for n in os.listdir(pend) if n not in done)
+    print("\n  [relay] %d cached answer(s) used, %d prompt(s) newly emitted"
+          % (_RELAY_STATS["hit"], _RELAY_STATS["emitted"]))
+    if outstanding:
+        print("  [relay] %d prompt(s) awaiting an answer in %s/pending/" % (len(outstanding), d))
+        print("  [relay] write each answer to %s/responses/<same-filename>, then re-run." % d)
+    else:
+        print("  [relay] all prompts answered — this run used real model output.")
+    return bool(outstanding)
 
 
 def _call_anthropic(model, system, user, max_tokens):
