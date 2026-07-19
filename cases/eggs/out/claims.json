@@ -1,0 +1,3097 @@
+{
+  "case": "eggs",
+  "sources": [
+    {
+      "id": "harvard_nutrition_eggs",
+      "title": "The Nutrition Source: Eggs",
+      "author": "Harvard T.H. Chan School of Public Health",
+      "side": "no_risk",
+      "url": "https://nutritionsource.hsph.harvard.edu/food-features/eggs/",
+      "role": "mainstream academic synthesis: an egg a day is fine for most; dietary cholesterol matters less than saturated/trans fat"
+    },
+    {
+      "id": "tctmd_drouin_2020",
+      "title": "One Egg a Day? No Link to Risk of CVD, Mega-Meta-analysis Says",
+      "author": "TCTMD (reporting Drouin-Chartier et al., BMJ 2020)",
+      "side": "no_risk",
+      "url": "https://www.tctmd.com/news/one-egg-day-no-link-risk-cvd-mega-meta-analysis-says",
+      "role": "primary-study reporting: no appreciable association between moderate egg intake and CVD"
+    },
+    {
+      "id": "sciencedaily_zhong_2019",
+      "title": "Higher egg and cholesterol consumption hikes heart disease and early death risk",
+      "author": "ScienceDaily (reporting Zhong et al., JAMA 2019)",
+      "side": "risk",
+      "url": "https://www.sciencedaily.com/releases/2019/03/190315110858.htm",
+      "role": "primary study: each additional half-egg/day associated with higher CVD and mortality risk"
+    },
+    {
+      "id": "cleveland_tmao_choline",
+      "title": "Dietary Choline and Gut Bacteria Byproduct (TMAO) Linked with Increased Blood Clotting Risk",
+      "author": "Cleveland Clinic (Hazen lab)",
+      "side": "risk",
+      "url": "https://newsroom.clevelandclinic.org/2017/04/25/cleveland-clinic-researchers-first-show-dietary-choline-gut-bacteria-byproduct-linked-increased-blood-clotting-risk-heart-disease",
+      "role": "mechanism: egg choline -> gut TMAO -> platelet aggregation; a proposed causal pathway for risk"
+    },
+    {
+      "id": "egg_board_heart",
+      "title": "Eggs and Heart Health: A Review of the Latest Research and Reports",
+      "author": "American Egg Board",
+      "side": "no_risk",
+      "url": "https://www.incredibleegg.org/nutrition/articles/eggs-and-heart-health-a-review-of-the-latest-research-and-reports/",
+      "role": "industry/advocacy source arguing eggs are heart-healthy — included so the tool must handle motivated framing"
+    },
+    {
+      "id": "harvard_health_evolving",
+      "title": "The ever-evolving message about eggs and heart health",
+      "author": "Harvard Health Publishing",
+      "side": "depends",
+      "url": "https://www.health.harvard.edu/heart-health/the-ever-evolving-message-about-eggs-and-heart-health",
+      "role": "nuance: the answer depends on the whole diet and on subgroups (e.g. diabetes)"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "text": "One large egg yolk contains 200 mg of cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "just one large egg yolk has 200 mg of cholesterol",
+          "context": "Discussion of egg cholesterol content",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C002",
+      "text": "Eggs are one of the richest sources of dietary cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "making it one of the richest sources of dietary cholesterol",
+          "context": "Discussion of egg cholesterol content",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C003",
+      "text": "Eggs contain additional nutrients that may help lower risk for heart disease",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "eggs also contain additional nutrients that may help lower the risk for heart disease",
+          "context": "Discussion of egg nutrient content",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C004",
+      "text": "An egg contains about 5 grams of fat",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "the moderate amount of fat in an egg, about 5 grams",
+          "context": "Discussion of egg fat content",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C005",
+      "text": "Most of the fat in an egg is monounsaturated and polyunsaturated fat",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "is mostly monounsaturated and polyunsaturated fat",
+          "context": "Discussion of egg fat content",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C006",
+      "text": "Dietary cholesterol and blood cholesterol are only weakly related",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "It’s also crucial to distinguish between dietary cholesterol and cholesterol in the blood , which are only weakly related",
+          "context": "Discussion of cholesterol distinctions",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C007",
+      "text": "Scientific focus shifted from dietary cholesterol alone to the influence of saturated and trans fat on blood cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "The focus on dietary cholesterol alone was de-emphasized as more attention was placed on the influence of saturated and trans fat on blood cholesterol",
+          "context": "Discussion of shifting scientific consensus",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C008",
+      "text": "The Dietary Guidelines for Americans 2015 removed the prior recommendation to limit dietary cholesterol to 300 mg per day",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "the Dietary Guidelines for Americans 2015 removed the prior recommendation to limit consumption of dietary cholesterol to 300 mg per day",
+          "context": "Discussion of guideline changes",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C009",
+      "text": "Two large prospective cohort studies of nearly 40,000 men and over 80,000 women found that up to one egg per day is not associated with increased heart disease risk in healthy individuals",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Research on moderate egg consumption in two large prospective cohort studies (nearly 40,000 men and over 80,000 women) found that up to one egg per day is not associated with increased heart disease risk in healthy individuals",
+          "context": "Eggs and Health section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C010",
+      "text": "Eggs were previously associated with heart disease risk due to their high cholesterol content",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Eggs were previously associated with heart disease risk as a result of their high cholesterol content",
+          "context": "Eggs and Health section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C011",
+      "text": "For most people, dietary cholesterol has a smaller effect on blood total cholesterol and LDL cholesterol than the mix of dietary fats",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "a solid body of research shows that for most people, cholesterol in food has a smaller effect on blood levels of total cholesterol and harmful LDL cholesterol than does the mix of fats in the diet",
+          "context": "Eggs and Health section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C012",
+      "text": "This research does not support eating three-egg omelets daily",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "this research doesn’t give a green light to daily three-egg omelets",
+          "context": "Eggs and Health section, caveat",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C013",
+      "text": "A 2008 Physicians' Health Study report supports that eating an egg a day is generally safe for the heart",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "a 2008 report from the Physicians’ Health Study supports the idea that eating an egg a day is generally safe for the heart",
+          "context": "Eggs and Health section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C014",
+      "text": "Eating much more than one egg a day may increase risk of heart failure later in life",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "it also suggests that going much beyond that could increase the risk for heart failure later in life",
+          "context": "Eggs and Health section, referencing 2008 study",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C015",
+      "text": "The foods accompanying eggs (trimmings) matter for cardiovascular impact",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "You also need to pay attention to the “trimmings” that come with your eggs.",
+          "context": "Eggs and Health section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C016",
+      "text": "People who have difficulty controlling total and LDL cholesterol may want to be cautious about egg yolks and choose egg whites instead",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "People who have difficulty controlling their total and LDL cholesterol may also want to be cautious about eating egg yolks and instead choose foods made with egg whites",
+          "context": "Eggs and Health section, risk group discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C017",
+      "text": "The same caution about egg yolks applies to people with diabetes",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "The same is true for people with diabetes.",
+          "context": "Eggs and Health section, risk group discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C018",
+      "text": "In the Nurses' Health Study and Health Professionals Follow-up Study, heart disease risk was increased among men and women with diabetes who ate one or more eggs a day",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "heart disease risk was increased among men and women with diabetes who ate one or more eggs a day",
+          "context": "Eggs and Health section, citing studies",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C019",
+      "text": "For people with diabetes and heart disease, it may be best to limit egg consumption to no more than three yolks per week",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "For people who have diabetes and heart disease, it may be best to limit egg consumption to no more than three yolks per week",
+          "context": "Eggs and Health section, risk group recommendation",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C020",
+      "text": "Eggs may be a much better choice than sugary, refined grain-based breakfast options like sweetened cereals, pancakes with syrup, muffins, or bagels",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "eggs may be a much better choice than sugary, refined grain-based options like sweetened breakfast cereals, pancakes with syrup, muffins, or bagels",
+          "context": "Substitution analysis discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C021",
+      "text": "Eggs may fall short of other breakfast options for heart health",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "they may fall short of other options",
+          "context": "Substitution analysis discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C022",
+      "text": "A bowl of steel-cut oats with nuts and berries is a much better choice for heart health than an egg-centric breakfast",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "A bowl of steel-cut oats with nuts and berries, for example, will be a much better choice for heart health than an egg-centric breakfast",
+          "context": "Substitution analysis discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C023",
+      "text": "Consumption of whole grains and fruit predicts lower risk of heart disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Consumption of whole grains and fruit predict lower risk of heart disease",
+          "context": "Substitution analysis discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C024",
+      "text": "Plant protein sources like nuts and seeds are related to lower cardiovascular and overall mortality compared to red meat or eggs",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "plant sources like nuts and seeds are related to lower cardiovascular and overall mortality, especially when compared to red meat or eggs",
+          "context": "Substitution analysis discussion, citing study",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C025",
+      "text": "Eggs are neither the optimal nor the worst breakfast choice, falling in the middle of the spectrum for heart disease risk",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "While eggs may not be the optimal breakfast choice, they are certainly not the worst, falling somewhere in the middle on the spectrum of food choice and heart disease risk",
+          "context": "Bottom line summary",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C026",
+      "text": "For a healthy diet, most people should keep egg intake moderate to low and emphasize plant-based protein when possible",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "For those looking to eat a healthy diet, keeping intake of eggs moderate to low will be best for most, emphasizing plant-based protein options when possible",
+          "context": "Bottom line summary",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C027",
+      "text": "A recent study's findings may be rekindling debate about dietary cholesterol and egg consumption in cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Findings from a recent study may be rekindling the debate about the role of dietary cholesterol and egg consumption in cardiovascular disease",
+          "context": "Eggs in the news section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C028",
+      "text": "The results of the recent study should be viewed in context of existing research",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "but the results should be viewed in the context of existing research",
+          "context": "Eggs in the news section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C029",
+      "text": "A contaminated hen can transmit Salmonella inside the egg if the shell has not completely formed",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "A contaminated hen can transmit Salmonella inside the egg if the shell has not completely formed",
+          "context": "Storage and Food Safety section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C030",
+      "text": "Salmonella can penetrate egg shells because they have tiny open pores",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Salmonella can also penetrate egg shells, which have tiny open pores",
+          "context": "Storage and Food Safety section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C031",
+      "text": "Eggs will generally last four to six weeks after the sell-by date",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "eggs will generally last for four to six weeks after this date",
+          "context": "Storage and Food Safety section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C032",
+      "text": "Cracked eggs can increase risk of bacterial contamination",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Avoid packages with cracked eggs, which can increase risk of bacterial contamination",
+          "context": "Storage and Food Safety section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C033",
+      "text": "Many commercial farms raise chickens in battery cages believed to be efficient for egg production",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Many commercial farms raise chickens in battery cages that restrict most if not complete movement, as they are believed to be efficient for egg production",
+          "context": "Egg carton labels section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C034",
+      "text": "Egg carton welfare-related terms such as free-range and farm-fresh are not regulated",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "these terms are not regulated, so the amount of time and type of outdoor setting can vary depending on the farm",
+          "context": "Egg carton labels section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C035",
+      "text": "The term 'organic' on egg cartons is regulated by the USDA's National Organic Program",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "This term is regulated by the USDA’s National Organic Program",
+          "context": "Egg carton labels section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C036",
+      "text": "There is no evidence that a vegetarian diet produces more nutritious eggs than standard feed",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "There is also no evidence that a vegetarian diet produces more nutritious eggs than using a standard feed",
+          "context": "Egg carton labels section, vegetarian-fed discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C037",
+      "text": "Vegetarian-fed chickens can develop nutrient deficiencies if the feed is not fortified with missing nutrients",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Vegetarian-fed chickens can develop nutrient deficiencies if the feed is not fortified with the missing nutrients",
+          "context": "Egg carton labels section, vegetarian-fed discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C038",
+      "text": "Brown eggs are not more nutritious than white eggs",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "Brown eggs are not more nutritious than white",
+          "context": "Did You Know section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C039",
+      "text": "Egg color and size are determined by the breed of hen",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "The color and size of an egg are determined by the breed of hen",
+          "context": "Did You Know section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C040",
+      "text": "The color of the yolk is not reflective of nutritional value but of the type of poultry feed",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_nutrition_eggs",
+          "verbatim_span": "The color of the yolk is also not reflective of nutritional value but the type of poultry feed",
+          "context": "Did You Know section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C041",
+      "text": "Eating one egg per day is not associated with increased risk of cardiovascular disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "eating one egg per day is not going to spike anybody’s risk of cardiovascular disease",
+          "context": "Opening summary of the meta-analysis findings",
+          "framing": "Framed with colloquial phrase 'spike anybody's risk' suggesting reassurance"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C042",
+      "text": "The BMJ paper includes an updated meta-analysis, a systematic review, and a prospective analysis of US cohort studies",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "the paper includes a systemic review and a large, prospective analysis of several US cohort studies",
+          "context": "Description of study components",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C043",
+      "text": "The prospective analysis included more than 215,000 men and women in NHS, NHS II, and HPFS tracked for up to 30 years",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "which included more than 215,000 men and women in the Nurses’ Health Study (NHS), NHS II, and Health Professionals Follow-up Study (HPFS) tracked for up to 30 years",
+          "context": "Description of cohort study size and duration",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C044",
+      "text": "Eating an egg a day was not associated with an increased risk of incident CVD after adjusting for lifestyle and dietary factors",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "eating an egg a day was not associated with an increased risk of incident CVD after adjusting for lifestyle and dietary factors",
+          "context": "Findings from the prospective cohort analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C045",
+      "text": "The updated meta-analysis of prospective cohort studies involved 1,720,108 participants",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "the updated meta-analysis of prospective cohort studies that involved 1,720,108 participants",
+          "context": "Description of meta-analysis sample size",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C046",
+      "text": "Moderate egg consumption was not associated with increased risk of CVD, coronary heart disease, or stroke",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "moderate egg consumption was not associated with an increased risk of CVD, coronary heart disease, or stroke",
+          "context": "Meta-analysis findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C047",
+      "text": "Eating up to one egg per day is not associated with an increased risk of cardiovascular disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "The main message is that eating up to one egg per day is not associated with an increased risk of cardiovascular disease",
+          "context": "Quote from lead investigator Drouin-Chartier summarizing findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C048",
+      "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NHS and HPFS data showing moderate egg consumption was not associated with increased CVD risk",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Back in 1999, Frank Hu, MD, PhD (Harvard TH Chan School of Public Health/Brigham and Women’s Hospital), published the first large-scale epidemiological study using data from the NHS and HPFS showing that moderate egg consumption was not associated with an increased risk of CVD",
+          "context": "Historical background on egg-CVD research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C049",
+      "text": "Prospective cohort studies in recent years have shown mixed results regarding eggs and CVD risk",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Prospective cohort studies in recent years have shown mixed results, with some showing an association between eating eggs and CVD, some showing no risk whatsoever, and others suggesting that eating eggs might even be protective",
+          "context": "Background on conflicting prior research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C050",
+      "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Project included nearly 30,000 participants",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "That study, which included nearly 30,000 participants",
+          "context": "Reference to competing prior study (risk-supporting)",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C051",
+      "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each additional half egg per day was associated with increased risk of incident CVD and all-cause mortality",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "showed that each additional 300 mg of dietary cholesterol consumed and each additional half an egg eaten per day was associated with an increased risk of incident CVD and all-cause mortality",
+          "context": "Reference to competing prior study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C052",
+      "text": "The researchers updated Frank Hu's analysis by including 10 more years of follow-up and more than 10 times the number of CVD cases",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "it motivated us to first update Frank Hu’s analysis by including 10 more years of follow-up, which included more than 10 times the number of [CVD] cases in the analysis",
+          "context": "Quote from Drouin-Chartier on study rationale",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C053",
+      "text": "The researchers added the younger cohort from the Nurses' Health Study II",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "also by adding the younger cohort from the Nurses’ Health Study II",
+          "context": "Quote from Drouin-Chartier on study methodology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C054",
+      "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, and 42,055 men from HPFS free of CVD, type 2 diabetes, and cancer at baseline",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "the cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, and 42,055 men from HPFS free of CVD, type 2 diabetes, and cancer at baseline",
+          "context": "Description of study population",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C055",
+      "text": "Over 32 years of follow-up, 14,806 subjects developed CVD",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Over 32 years of follow-up, 14,806 subjects developed CVD",
+          "context": "Study outcome data",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C056",
+      "text": "Egg consumption in the study was low, assessed using food frequency questionnaires",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Egg consumption, assessed using food frequency questionnaires, was low in the study",
+          "context": "Description of exposure measurement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C057",
+      "text": "Mean baseline egg intake was 0.42 eggs/day in NHS, 0.18 eggs/day in NHS II, and 0.34 eggs/day in HPFS",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "At baseline, mean intake was 0.42 eggs per day in the NHS, 0.18 eggs in NHS II, and 0.34 eggs in HPFS",
+          "context": "Baseline consumption data",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C058",
+      "text": "Egg consumption decreased between 1980 and 1994 then remained stable",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Consumption decreased between 1980 and 1994 but then remained stable",
+          "context": "Trend data on egg consumption over time",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C059",
+      "text": "In 1998-1999, only 1.24% of subjects ate at least one full egg per day and 0.20% ate at least two eggs daily",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "In 1998-1999, just 1.24% of subjects ate at least one full egg per day and only 0.20% ate at least two eggs daily",
+          "context": "Data on consumption distribution",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C060",
+      "text": "Compared with those eating less than one egg per month, those eating at least one egg per day did not have increased risk of incident CVD",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Compared with individuals who ate less than one egg per month, those who ate at least one egg per day did not have an increased risk of incident CVD",
+          "context": "Primary study result",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "value": "HR 0.93; 95% CI 0.82-1.05",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C061",
+      "text": "There was no increased risk of coronary heart disease among those eating at least one egg per day compared with less than one egg per month",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "there was no increased risk of coronary heart disease (HR 0.90; 95% CI 0.77-1.05)",
+          "context": "Secondary study result for CHD",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "value": "HR 0.90; 95% CI 0.77-1.05",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C062",
+      "text": "There was no increased risk of stroke among those eating at least one egg per day compared with less than one egg per month",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "or stroke (HR 0.99; 95% CI 0.81-1.22)",
+          "context": "Secondary study result for stroke",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "value": "HR 0.99; 95% CI 0.81-1.22",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C063",
+      "text": "There was no increased risk of CVD among those who ate at least two eggs per day",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "There was also no increased risk of CVD among those who ate at least two eggs per day",
+          "context": "Additional dose analysis result",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C064",
+      "text": "The updated meta-analysis and systematic review included 28 studies",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "In the updated meta-analysis and systematic review, which included 28 studies",
+          "context": "Meta-analysis description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C065",
+      "text": "The pooled relative risk for CVD among those eating one egg daily was not statistically significant",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "the pooled relative risk for CVD among men and women who ate one egg daily was not statistically significant",
+          "context": "Meta-analysis pooled result",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "value": "RR 0.98; 95% CI 0.93-1.03",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C066",
+      "text": "Those in the highest category of egg consumption were not at increased risk of incident CVD, coronary heart disease, or stroke compared with those in the lowest category",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "those in the highest category of egg consumption were not at an increased risk of incident CVD, coronary heart disease, or stroke compared with those in the lowest category",
+          "context": "Meta-analysis comparison result",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C067",
+      "text": "Results were similar in patients with type 2 diabetes and in US and European cohorts",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Results were similar in patients with type 2 diabetes and in US and European cohorts",
+          "context": "Subgroup consistency finding",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C068",
+      "text": "In Asian cohorts, egg consumption was associated with a lower risk of CVD",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "In Asian cohorts, there was a hint that egg consumption was associated with a lower risk of CVD",
+          "context": "Subgroup finding differing from main result",
+          "framing": "Described as a 'hint' suggesting tentative/weak signal"
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "value": "RR 0.92; 95% CI 0.85-0.99",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C069",
+      "text": "This study is not likely to be the final word on eggs and CVD",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "Drouin-Chartier suspects this isn’t the final word on eggs and CVD",
+          "context": "Author's hedge about the study's finality",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C070",
+      "text": "The systematic review and meta-analysis provided a comprehensive look at studies published to date and future studies will need to be placed within its context",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "their systematic review and meta-analysis provided a comprehensive look at studies published to date, and any future studies will need to be placed within the context of their large analysis",
+          "context": "Assessment of the study's significance",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C071",
+      "text": "Limiting the analysis to only the three Harvard cohorts would have added confusion rather than resolving uncertainty",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "If we limited ourselves to the cohort analysis of the three Harvard cohorts, it would have been just another publication saying that eggs are not associated with cardiovascular disease and creating more confusion",
+          "context": "Quote explaining rationale for broader meta-analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C072",
+      "text": "In 2015, US dietary guidelines dropped the recommendation to limit dietary cholesterol intake to 300 mg per day for CVD prevention",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "In 2015, the US dietary guidelines dropped the previous recommendation to limit dietary intake of cholesterol to 300 mg per day for the prevention of CVD",
+          "context": "Background on dietary guideline changes",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C073",
+      "text": "The guideline change was made given the weak association between dietary and blood cholesterol",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "given the weak association between dietary and blood cholesterol",
+          "context": "Rationale for 2015 guideline change",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C074",
+      "text": "Dietary cholesterol was not considered a nutrient of concern for overconsumption",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "It wasn’t considered a nutrient of concern for overconsumption",
+          "context": "Quote from Drouin-Chartier on dietary cholesterol guidelines",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C075",
+      "text": "Media attention to these findings will either frame it as the latest volley in a debate between two camps, or condemn it due to study design",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "will either frame it as the latest volley in an epic tennis match between two camps, or condemn it due to the study design",
+          "context": "Odegaard editorial commentary on likely media reception",
+          "framing": "Framed metaphorically as an 'epic tennis match'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C076",
+      "text": "The results are convincingly null except for a few subgroups",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "the results are convincingly null save for a few subgroups",
+          "context": "Odegaard editorial assessment of findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C077",
+      "text": "This observational evidence alone should not be the sole basis for formal dietary guidance given challenges of nutritional research",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "we shouldn’t put all our eggs in this observational basket” for formal guidance given the challenges of nutritional research",
+          "context": "Odegaard editorial argument urging caution",
+          "framing": "Framed via idiomatic pun 'all our eggs in this observational basket'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C078",
+      "text": "These results should be combined with evidence from different study designs and populations to provide the best evidence about eggs or diet and disease",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "The results should be included with evidence from different study designs and populations to provide the best evidence about eggs, or diet in general, and disease",
+          "context": "Odegaard editorial recommendation",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C079",
+      "text": "If frequent egg consumption occurs within a cardioprotective overall dietary pattern, or eggs are consumed for essential nutritional needs, it is probably not a concern",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "If frequent egg consumption is occurring in the context of an overall dietary pattern known to be cardioprotective, or eggs are being consumed for essential nutritional needs, then it is probably nothing to worry about",
+          "context": "Odegaard editorial conditional guidance",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "value": "probably nothing to worry about",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C080",
+      "text": "If frequent egg consumption occurs within a typical Western dietary pattern, the best evidence supports shifting to a DASH or Mediterranean diet for cardioprotection",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "If frequent egg consumption is occurring in the context of a typical Western dietary pattern (high levels of refined grains, added sugars, red and processed meats, and ultraprocessed foods), the best evidence for cardioprotection supports shifting one’s overall dietary pattern to a Dietary Approaches to Stop Hypertension (DASH) or Mediterranean diet",
+          "context": "Odegaard editorial conditional guidance",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C081",
+      "text": "Egg consumption should be part of a balanced diet involving plants, whole grains, low-fat dairy, and fruit",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "he also believes that egg consumption should be part of a balanced diet that involves plants, whole grains, low-fat dairy, and fruit",
+          "context": "Drouin-Chartier's closing recommendation",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C082",
+      "text": "One egg per day in a healthy diet is totally fine",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "One egg per day in a healthy diet is totally fine",
+          "context": "Closing quote from Drouin-Chartier",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C083",
+      "text": "A large meta-analysis found no association between egg consumption (up to one egg per day) and risk of cardiovascular disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "tctmd_drouin_2020",
+          "verbatim_span": "One Egg a Day? No Link to Risk of CVD, Mega-Meta-analysis Says",
+          "context": "Article title",
+          "framing": "Framed as a definitive headline finding ('No Link') derived from a 'Mega-Meta-analysis', emphasizing the scale and certainty of the null result"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C084",
+      "text": "Adults who ate more eggs and dietary cholesterol had a significantly higher risk of cardiovascular disease and death from any cause",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "adults who ate more eggs and dietary cholesterol had a significantly higher risk of cardiovascular disease and death from any cause",
+          "context": "Summary and main finding statement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C085",
+      "text": "People need to consume lower amounts of cholesterol to have a lower risk of heart disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "People need to consume lower amounts of cholesterol to have a lower risk of heart disease, the study authors said.",
+          "context": "Summary",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C086",
+      "text": "The 2015-2020 Dietary Guidelines for Americans no longer limit dietary cholesterol or egg intake",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "the 2015-2020 Dietary Guidelines for Americans no longer limited how much dietary cholesterol or how many eggs they could eat",
+          "context": "Introduction",
+          "framing": "Framed as concerning news ('sobering news for egg lovers')"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C087",
+      "text": "The take-home message of the study is about cholesterol, which is high in eggs and specifically yolks",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "\"The take-home message is really about cholesterol, which happens to be high in eggs and specifically yolks,\"",
+          "context": "Quote from Norrina Allen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C088",
+      "text": "As part of a healthy diet, people need to consume lower amounts of cholesterol",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "\"As part of a healthy diet, people need to consume lower amounts of cholesterol.",
+          "context": "Quote from Norrina Allen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C089",
+      "text": "People who consume less cholesterol have a lower risk of heart disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "People who consume less cholesterol have a lower risk of heart disease.\"",
+          "context": "Quote from Norrina Allen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C090",
+      "text": "Egg yolks are one of the richest sources of dietary cholesterol among commonly consumed foods",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Egg yolks are one of the richest sources of dietary cholesterol among all commonly consumed foods.",
+          "context": "Background on eggs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C091",
+      "text": "One large egg has 186 milligrams of dietary cholesterol in the yolk",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "One large egg has 186 milligrams of dietary cholesterol in the yolk.",
+          "context": "Background on eggs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C092",
+      "text": "Other animal products such as red meat, processed meat, and high-fat dairy also have high cholesterol content",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Other animal products such as red meat, processed meat and high-fat dairy products (butter or whipped cream) also have high cholesterol content",
+          "context": "Quote from Wenze Zhong",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C093",
+      "text": "Whether eating dietary cholesterol or eggs is linked to cardiovascular disease and death has been debated for decades",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Whether eating dietary cholesterol or eggs is linked to cardiovascular disease and death has been debated for decades.",
+          "context": "The great debate section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C094",
+      "text": "Eating less than 300 milligrams of dietary cholesterol per day was the guideline recommendation before 2015",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Eating less than 300 milligrams of dietary cholesterol per day was the guideline recommendation before 2015.",
+          "context": "The great debate section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C095",
+      "text": "The most recent dietary guidelines omitted a daily limit for dietary cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "the most recent dietary guidelines omitted a daily limit for dietary cholesterol.",
+          "context": "The great debate section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C096",
+      "text": "The current dietary guidelines include weekly egg consumption as part of a healthy diet",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "The guidelines also include weekly egg consumption as part of a healthy diet.",
+          "context": "The great debate section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C097",
+      "text": "An adult in the U.S. gets an average of 300 milligrams per day of cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "An adult in the U.S. gets an average of 300 milligrams per day of cholesterol",
+          "context": "Background statistics",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C098",
+      "text": "An adult in the U.S. eats about three or four eggs per week",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "eats about three or four eggs per week.",
+          "context": "Background statistics",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C099",
+      "text": "The study findings suggest current U.S. dietary guideline recommendations for dietary cholesterol and eggs may need to be re-evaluated",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "The study findings mean the current U.S. dietary guideline recommendations for dietary cholesterol and eggs may need to be re-evaluated, the authors said.",
+          "context": "Discussion of implications",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C100",
+      "text": "Previous studies found eating eggs did not raise the risk of cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Previous studies found eating eggs did not raise the risk of cardiovascular disease.",
+          "context": "Discussion of prior mixed evidence",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C101",
+      "text": "Those prior studies generally had a less diverse sample, shorter follow-up time, and limited ability to adjust for other parts of the diet",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "But those studies generally had a less diverse sample, shorter follow-up time and limited ability to adjust for other parts of the diet, Allen said.",
+          "context": "Critique of prior studies by Allen",
+          "framing": "Framed to discredit contrary prior findings by attributing them to methodological weaknesses"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C102",
+      "text": "If two people had the exact same diet except for egg consumption, the effect of egg consumption on heart disease could be directly measured",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "\"Our study showed if two people had exact same diet and the only difference in diet was eggs, then you could directly measure the effect of the egg consumption on heart disease,\"",
+          "context": "Quote from Allen explaining methodology rationale",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C103",
+      "text": "Cholesterol, regardless of source, was associated with an increased risk of heart disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "\"We found cholesterol, regardless of the source, was associated with an increased risk of heart disease.\"",
+          "context": "Quote from Allen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C104",
+      "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn't change the association between dietary cholesterol and cardiovascular disease/death risk",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Exercise, overall diet quality and the amount and type of fat in the diet didn't change the association between the dietary cholesterol and cardiovascular disease and death risk.",
+          "context": "Findings on confounders",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C105",
+      "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse adults from six prospective cohort studies for up to 31 years of follow-up",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "The new study looked at pooled data on 29,615 U.S. racially and ethnically diverse adults from six prospective cohort studies for up to 31 years of follow up.",
+          "context": "Study description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C106",
+      "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent higher risk of incident cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Eating 300 mg of dietary cholesterol per day was associated with 17 percent higher risk of incident cardiovascular disease",
+          "context": "Study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "value": "17 percent higher risk",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C107",
+      "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent higher risk of all-cause deaths",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "and 18 percent higher risk of all-cause deaths.",
+          "context": "Study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "value": "18 percent higher risk",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C108",
+      "text": "Cholesterol was the driving factor independent of saturated fat consumption and other dietary fat",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "The cholesterol was the driving factor independent of saturated fat consumption and other dietary fat.",
+          "context": "Study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C109",
+      "text": "Eating three to four eggs per week was associated with a 6 percent higher risk of cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Eating three to four eggs per week was associated with 6 percent higher risk of cardiovascular disease",
+          "context": "Study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "value": "6 percent higher risk",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C110",
+      "text": "Eating three to four eggs per week was associated with an 8 percent higher risk of death from any cause",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "and 8 percent higher risk of any cause of death.",
+          "context": "Study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "value": "8 percent higher risk",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C111",
+      "text": "Based on the study, people should keep dietary cholesterol intake low by reducing cholesterol-rich foods such as eggs and red meat",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Based on the study, people should keep dietary cholesterol intake low by reducing cholesterol-rich foods such as eggs and red meat in their diet.",
+          "context": "Recommendations section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C112",
+      "text": "Eggs and red meat are good sources of important nutrients such as essential amino acids, iron, and choline",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "eggs and red meat are good sources of important nutrients such as essential amino acids, iron and choline",
+          "context": "Quote context from Zhong",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C113",
+      "text": "People should choose egg whites instead of whole eggs or eat whole eggs in moderation",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Instead, choose egg whites instead of whole eggs or eat whole eggs in moderation.",
+          "context": "Recommendation from Zhong",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C114",
+      "text": "Cholesterol in eggs, specifically yolks, has a harmful effect",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "\"We want to remind people there is cholesterol in eggs, specifically yolks, and this has a harmful effect,\"",
+          "context": "Quote from Allen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C115",
+      "text": "Diet data were collected using food frequency questionnaires or by taking a diet history",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Diet data were collected using food frequency questionnaires or by taking a diet history.",
+          "context": "Methods description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C116",
+      "text": "Each participant was asked a long list of what they'd eaten for the previous year or month, with data collected during a single visit",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "Each participant was asked a long list of what they'd eaten for the previous year or month. The data were collected during a single visit.",
+          "context": "Methods description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C117",
+      "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during which 5,400 cardiovascular events and 6,132 all-cause deaths were diagnosed",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "The study had up to 31 years of follow up (median: 17.5 years), during which 5,400 cardiovascular events and 6,132 all-cause deaths were diagnosed.",
+          "context": "Methods description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C118",
+      "text": "A major limitation of the study is that participants' long-term eating patterns weren't assessed",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "A major limitation of the study is participants' long-term eating patterns weren't assessed.",
+          "context": "Limitations section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C119",
+      "text": "The single dietary snapshot is believed to represent an estimate of a person's dietary intake, though diet changes over time cannot be accounted for",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "sciencedaily_zhong_2019",
+          "verbatim_span": "\"We have one snapshot of what their eating pattern looked like,\" Allen said. \"But we think they represent an estimate of a person's dietary intake. Still, people may have changed their diet, and we can't account for that.\"",
+          "context": "Quote from Allen on limitations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C120",
+      "text": "Choline is directly linked to increased production of a gut bacteria byproduct that increases the risk of blood-clotting events like heart attack and stroke",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "choline – a nutrient typically found in egg yolks, red meat and processed meats, but dispensed via supplements in the study – is directly linked to increased production of a gut bacteria byproduct that increases the risk of blood-clotting events like heart attack and stroke",
+          "context": "Opening summary paragraph of press release",
+          "framing": "Framed as first-time demonstration 'in humans' by Cleveland Clinic researchers, emphasizing novelty and certainty of causal link"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C121",
+      "text": "This is the first study in humans to show this choline-TMAO link",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "Cleveland Clinic researchers have shown, for the first time in humans, that choline",
+          "context": "Opening summary paragraph",
+          "framing": "Emphasizes primacy/novelty of the finding"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C122",
+      "text": "Adding a low dose of aspirin may reduce the choline/TMAO-related clotting risk",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "the research also showed that adding a low dose of aspirin may reduce that risk",
+          "context": "Opening summary paragraph",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C123",
+      "text": "Oral choline supplements were given to healthy vegans/vegetarians (n=8) and omnivores (n=10) in an interventional study",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "In a small interventional study, the researchers provided oral choline supplements to groups of healthy vegans/vegetarians (eight patients) and omnivores (10 patients).",
+          "context": "Study design description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C124",
+      "text": "Both groups showed at least a 10-fold increase in plasma TMAO levels after choline supplementation",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "Both groups showed at least a 10-fold increase in plasma levels of trimethylamine N-oxide (TMAO) – a metabolite generated by gut microbes ­– after choline supplementation",
+          "context": "Study results description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C125",
+      "text": "Both groups showed an increase in platelet responsiveness after choline supplementation",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "as well as an increase in platelet responsiveness, a risk factor for thrombotic events (blood clotting) like heart attack and stroke",
+          "context": "Study results description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C126",
+      "text": "Increased platelet responsiveness is a risk factor for thrombotic events such as heart attack and stroke",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "an increase in platelet responsiveness, a risk factor for thrombotic events (blood clotting) like heart attack and stroke",
+          "context": "Study results description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C127",
+      "text": "Omnivores not taking supplements had platelet function tested at baseline and after a daily regimen of low-dose aspirin for at least a month",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "In a separate study, omnivores not taking supplements initially had platelet function tested at baseline, and then after taking a daily regimen of low-dose aspirin for at least a month.",
+          "context": "Second study design description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C128",
+      "text": "Participants were followed for two additional months while continuing aspirin and a daily choline supplement",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "They then were followed for another two months while continuing to take aspirin and a daily supplement of choline.",
+          "context": "Second study design description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C129",
+      "text": "Elevated TMAO levels and enhanced susceptibility for platelet activation still occurred despite aspirin, but TMAO levels were attenuated by aspirin",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "The researchers found that while elevated TMAO levels and enhanced susceptibility for platelet activation still occurred, the TMAO levels were attenuated by aspirin.",
+          "context": "Second study results description",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C130",
+      "text": "A low dose of aspirin may partially counter the pro-thrombotic effects of a high TMAO plasma level associated with a Western diet rich in choline",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "a low dose of aspirin may partially counter the pro-thrombotic effects of a high TMAO plasma level associated with a Western diet rich in choline, commonly found in egg yolk and meats",
+          "context": "Interpretation of second study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C131",
+      "text": "A high TMAO level can partially overcome the beneficial anti-platelet effects of taking low dose aspirin",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "a high TMAO level can partially overcome the beneficial anti-platelet effects of taking low dose aspirin",
+          "context": "Interpretation of second study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C132",
+      "text": "This is the first study in humans to directly demonstrate that dietary choline substantially elevates TMAO production by gut bacteria, impacting platelet function",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "“This is the first study in humans to directly demonstrate that dietary choline substantially elevates TMAO production by gut bacteria, impacting platelet function.",
+          "context": "Direct quote from Dr. Hazen",
+          "framing": "Attributed quote emphasizing primacy and directness of demonstrated causal mechanism"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C133",
+      "text": "The study provides direct evidence of a mechanistic link between TMAO levels and risk for blood clotting events like heart attack and stroke",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "It provides direct evidence of a mechanistic link between TMAO levels and risk for blood clotting events like heart attack and stroke, the major culprit for the development of cardiovascular events,” Dr. Hazen said.",
+          "context": "Direct quote from Dr. Hazen",
+          "framing": "Uses strong causal/mechanistic language ('direct evidence', 'mechanistic link')"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C134",
+      "text": "Blood clotting is the major culprit for the development of cardiovascular events",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "the major culprit for the development of cardiovascular events",
+          "context": "Direct quote from Dr. Hazen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C135",
+      "text": "Further research is necessary to confirm these findings",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "“Further research is necessary to confirm these findings, but these studies suggest patients without known cardiovascular disease but with elevated TMAO levels may benefit from aspirin and diet modification in preventing blood clotting, which can lead to heart attack and stroke.",
+          "context": "Direct quote from Dr. Hazen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C136",
+      "text": "Patients without known cardiovascular disease but with elevated TMAO levels may benefit from aspirin and diet modification in preventing blood clotting",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "these studies suggest patients without known cardiovascular disease but with elevated TMAO levels may benefit from aspirin and diet modification in preventing blood clotting, which can lead to heart attack and stroke",
+          "context": "Direct quote from Dr. Hazen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C137",
+      "text": "A high TMAO level in a patient with known cardiovascular disease should be considered for more aggressive anti-platelet therapy",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "They also suggest that a high TMAO level in a patient with known cardiovascular disease should be considered for more aggressive anti-platelet therapy.”",
+          "context": "Direct quote from Dr. Hazen",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C138",
+      "text": "Dr. Hazen has previously linked TMAO to an increased risk of cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "Dr. Hazen, who also holds the Jan Bleeksma Chair in Vascular Cell Biology and Atherosclerosis, has previously linked TMAO to an increased risk of cardiovascular disease",
+          "context": "Background on Dr. Hazen's prior research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C139",
+      "text": "Dr. Hazen has shown TMAO can be a powerful tool for predicting future heart attacks, stroke and death in multiple patient populations",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "has shown it can be a powerful tool for predicting future heart attacks, stroke and death in multiple patient populations",
+          "context": "Background on Dr. Hazen's prior research",
+          "framing": "Uses strong evaluative language 'powerful tool'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C140",
+      "text": "Dr. Hazen is an inventor of a TMAO test licensed to Cleveland HeartLab, Inc.",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "Dr. Hazen is an inventor of a test for TMAO that was licensed to Cleveland HeartLab, Inc., a Cleveland Clinic spin-off company.",
+          "context": "Conflict of interest disclosure",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C141",
+      "text": "Dr. Hazen and Cleveland Clinic would benefit financially from sales of the TMAO test",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "Dr. Hazen and Cleveland Clinic would benefit financially from sales of the test.",
+          "context": "Conflict of interest disclosure",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C142",
+      "text": "TMAO is a byproduct of bacterial digestion of choline, lecithin and carnitine",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "TMAO is a byproduct of bacterial digestion of choline, lecithin and carnitine, nutrients that are especially abundant in animal products such as red meat, processed meats and liver.",
+          "context": "Background explanation",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C143",
+      "text": "In 2016 Hazen's team discovered in animal models that gut microbes alter platelet function and thrombosis risks",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "In 2016, his team discovered in animal models that gut microbes alter platelet function and thrombosis risks",
+          "context": "Background on prior research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C144",
+      "text": "Microbial transplantation studies demonstrated the TMAO pathway plays a role in thrombosis potential in a stroke model in mice",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "microbial transplantation studies could be used to demonstrate the TMAO pathway plays a role in thrombosis potential in a stroke model in mice",
+          "context": "Background on prior research",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C145",
+      "text": "Dietary choline in humans raises TMAO levels, which may directly alter platelet function, increasing thrombosis potential",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "Findings from this new study shows that dietary choline in humans raises TMAO levels, which may directly alter platelet function, increasing thrombosis (blood clot) potential.",
+          "context": "Summary of new study's implications",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C146",
+      "text": "These studies help explain the strong association between plasma TMAO levels and heart attack and stroke risk observed in a study of over 4000 patients",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "cleveland_tmao_choline",
+          "verbatim_span": "These studies help explain the strong association between plasma TMAO levels and heart attack and stroke risk observed in a study of over 4000 patients.",
+          "context": "Concluding contextual statement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C147",
+      "text": "The 2015 Dietary Guidelines Advisory Committee removed dietary cholesterol from the list of nutrients of public health concern",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "In 2015, the Dietary Guidelines Advisory Committee (DGAC) removed dietary cholesterol from the list of nutrients of public health concern",
+          "context": "Introduction, describing regulatory history",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C148",
+      "text": "There had historically been a 300 milligram per day limit for dietary cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "there had historically been a limit of 300 milligrams per day for dietary cholesterol",
+          "context": "Introduction, describing regulatory history",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C149",
+      "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in previous guidelines",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "eggs were listed as a nutrient-rich food and part of healthy dietary patterns in previous guidelines",
+          "context": "Introduction, describing regulatory history",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C150",
+      "text": "A 2013 systematic review examined egg consumption and cardiovascular disease across almost 350,000 participants in 16 studies",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "a 2013 systematic review that examined the relationship between egg consumption and cardiovascular disease in almost 350,000 participants across 16 studies",
+          "context": "Describing basis for 2015 DGAC decision",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C151",
+      "text": "The 2013 review and meta-analysis found no relationship between egg intake and cardiovascular disease, ischemic heart disease, or stroke",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The review and meta-analysis found no relationship between egg intake and cardiovascular disease, ischemic heart disease, or stroke.",
+          "context": "Describing 2013 systematic review findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C152",
+      "text": "It is important to view nutrition research in totality rather than focus on any single study",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Rather than getting caught with nutrition science whiplash, it is important to not focus too much on any one study, but rather view the research in totality.",
+          "context": "Methodological framing before presenting conflicting studies",
+          "framing": "Frames conflicting evidence as 'whiplash' to be resolved by favoring totality-of-evidence view"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C153",
+      "text": "A 2019 observational study of U.S. cohorts found a small but statistically significant increase in cardiovascular risk with egg consumption",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "one observational study of U.S. cohorts published early in 2019 found a small but statistically significant increase in cardiovascular risk with egg consumption",
+          "context": "Discussing competing 2019 studies",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C154",
+      "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 years found a small but statistically significant decrease in risk for ischemic heart disease with egg intake",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "another observational study published just a few weeks later and analyzing data from over 400,000 men and women in Europe for over an average of 12 years, found a small but statistically significant decrease in risk for ischemic heart disease with egg intake",
+          "context": "Discussing competing 2019 studies",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C155",
+      "text": "The PURE study assessed egg consumption in 146,011 individuals from 21 countries",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "In one cohort, the Prospective Urban Rural Epidemiology (PURE) study, egg consumption was assessed in 146,011 individuals from 21 countries.",
+          "context": "Describing PURE cohort study design",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C156",
+      "text": "Researchers studied 31,544 patients with vascular disease in the ONTARGET and TRANSCEND multinational studies",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The researchers also studied 31,544 patients with vascular disease in 2 multinational studies: ONTARGET and TRANSCEND, both of which were originally designed to test treatments for hypertension.",
+          "context": "Describing study design",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C157",
+      "text": "The PURE cohort found no link between egg consumption and cardiovascular disease outcomes",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The findings from the PURE cohort found no link between egg consumption and cardiovascular disease outcomes",
+          "context": "Reporting PURE cohort results",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C158",
+      "text": "In the PURE cohort, higher egg intake was associated with a lower risk of myocardial infarction",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "in the PURE cohort, researchers found that higher egg intake was associated with a lower risk of myocardial infarction",
+          "context": "Reporting PURE cohort results",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C159",
+      "text": "The PURE finding of lower myocardial infarction risk is consistent with other recent studies of cohorts outside the U.S.",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "a finding that is consistent with other recent studies of cohorts outside the U.S.",
+          "context": "Reporting PURE cohort results",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C160",
+      "text": "In the ONTARGET and TRANSCEND cohorts of individuals with vascular disease, researchers reported no link between egg consumption and cardiovascular events",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "In the ONTARGET and TRANSCEND cohorts of individuals with vascular disease, the researchers also reported no link between egg consumption and cardiovascular events.",
+          "context": "Reporting ONTARGET/TRANSCEND results",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C161",
+      "text": "The PURE investigator findings reinforce previous research in healthy individuals and advance understanding in individuals with vascular disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "these findings from the PURE investigators reinforce previous research regarding egg consumption in otherwise healthy individuals, but took a big step forward in our understanding of this relationship in individuals with vascular disease",
+          "context": "Concluding remarks on PURE study section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C162",
+      "text": "The original 1999 Hu et al. study reported no relationship between egg intake and coronary heart disease or stroke in the NHS and HPFS cohorts",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The original study, led by Hu and colleagues from the Harvard School of Public Health, reported no relationship between egg intake and coronary heart disease or stroke in women from the Nurses’ Health Study (NHS) cohort and men from the Health Professionals Follow-Up Study (HPFS) cohort",
+          "context": "Describing 1999 landmark study",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C163",
+      "text": "Researchers concluded that an egg a day did not impact heart disease or stroke risk",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "At that time the researchers concluded that an egg a day did not impact heart disease or stroke risk .",
+          "context": "Describing 1999 study conclusion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C164",
+      "text": "The updated 2020 analysis included up to 32 years of follow-up and extended analysis to NHS II",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The current study, an updated analysis of the study published in 1999, includes up to 32 years of follow-up and extends the analysis to the younger cohort of Nurses’ Health Study II",
+          "context": "Describing updated 2020 study design",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C165",
+      "text": "The 2020 updated analysis included 83,349 women from NHS, 90,214 women from NHS II, and 42,055 men from HPFS",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "this latest analysis included 83,349 women from NHS; 90,214 women from NHS II; and 42,055 men from HPFS",
+          "context": "Describing updated study sample size",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C166",
+      "text": "Researchers performed a systematic review and meta-analysis of 27 other published studies from the U.S., Europe, and Asia",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "the researchers performed a systematic review and meta-analysis of 27 other published studies from the U.S., Europe, and Asia",
+          "context": "Describing methodology of updated study",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C167",
+      "text": "Egg consumption of one egg per day on average is not associated with cardiovascular disease risk overall",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Egg consumption of one egg per day on average is not associated with cardiovascular disease risk overall",
+          "context": "Listed results from updated NHS/HPFS analysis and meta-analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C168",
+      "text": "Results were similar for coronary heart disease and stroke",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Results were similar for coronary heart disease and stroke",
+          "context": "Listed results from updated NHS/HPFS analysis and meta-analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C169",
+      "text": "Egg consumption seems to be associated with a slightly lower cardiovascular disease risk among Asian cohorts",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Egg consumption seems to be associated with a slightly lower cardiovascular disease risk among Asian cohorts",
+          "context": "Listed results from updated NHS/HPFS analysis and meta-analysis",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C170",
+      "text": "Using repeated dietary assessments over decades is a strength compared to single dietary measures at enrollment",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "An important strength of this study is the use of repeated dietary assessments over the course of several decades in contrast to some observational cohorts which utilize only a single dietary measure at enrollment.",
+          "context": "Discussing study methodology strengths",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C171",
+      "text": "It is desirable to have repeated dietary assessments over time to account for variation in dietary intake and other factors contributing to atherosclerosis",
+      "kind": "assumption",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "it is desirable to have repeated dietary assessments over time to account for variation of dietary intake and other factors that contribute to atherosclerosis",
+          "context": "Attributed to study authors",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C172",
+      "text": "The PURE cohort and Harvard studies make significant contributions to the scientific literature on egg intake and cardiovascular health",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The studies from the PURE cohort and Harvard School of Public Health make significant contributions to the scientific literature on egg intake and cardiovascular health.",
+          "context": "Summary of two major study sections",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C173",
+      "text": "These results are consistent with the 2015 Dietary Guidelines recommendation that cholesterol is not a nutrient of public health concern",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "These results are also consistent with the 2015 Dietary Guidelines recommendation that cholesterol is not a nutrient of public health concern.",
+          "context": "Summary linking studies to guidelines",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C174",
+      "text": "A common theme from recent authoritative recommendations is that eggs can be part of heart-healthy diet patterns, and in some cases should be emphasized due to their nutrient package",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "A common theme from these authoritative recommendations is that eggs can be a part of heart-healthy diet patterns, and in some cases nutrient dense eggs should be emphasized in diet patterns due to their unique nutrient package.",
+          "context": "Introducing section on health authority recommendations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C175",
+      "text": "The elimination of specific dietary cholesterol targets in recent guidelines has raised questions about its role in cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "the elimination of specific dietary cholesterol target recommendations in recent guidelines has raised questions about its role with respect to cardiovascular disease",
+          "context": "Quoting AHA science advisory authors",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C176",
+      "text": "Guidance focused on dietary patterns is more likely to improve diet quality and promote cardiovascular health than a specific cholesterol target",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "a recommendation that gives a specific dietary cholesterol target within the context of food-based advice is challenging for clinicians and consumers to implement; hence, guidance focused on dietary patterns is more likely to improve diet quality and to promote cardiovascular health",
+          "context": "Quoting AHA science advisory conclusion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C177",
+      "text": "Healthy individuals can include up to a whole egg daily in heart-healthy dietary patterns per AHA advisory",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Healthy individuals can include up to a whole egg daily in heart-healthy dietary patterns.",
+          "context": "AHA science advisory recommendations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C178",
+      "text": "For older healthy individuals, consumption of up to 2 eggs per day is acceptable within a heart-healthy dietary pattern per AHA advisory",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "For older healthy individuals, given the nutritional benefits and convenience of eggs, consumption of up to 2 eggs per day is acceptable within the context of a heart-healthy dietary pattern.",
+          "context": "AHA science advisory recommendations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C179",
+      "text": "Vegetarians who do not consume meat-based cholesterol-containing foods may include more eggs in their diets in moderation per AHA advisory",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Vegetarians who do not consume meat-based cholesterol-containing foods may include more eggs in their diets within the context of moderation.",
+          "context": "AHA science advisory recommendations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C180",
+      "text": "The Australian Heart Foundation concluded there is no evidence to suggest any limit on egg consumption for normal, healthy individuals",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The AHF summary of evidence concluded there is no evidence to suggest any limit on egg consumption for normal, healthy individuals",
+          "context": "Describing AHF position statement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C181",
+      "text": "The AHF review suggests a limit of fewer than 7 eggs per week for those with type 2 diabetes or cardiovascular disease requiring LDL-lowering interventions",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The review does suggest a limit to fewer than 7 eggs per week for those with type 2 diabetes or cardiovascular disease that require LDL cholesterol- lowering interventions.",
+          "context": "Describing AHF position statement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C182",
+      "text": "Both the AHA and AHF guidelines were a step forward, building on the knowledge that dietary cholesterol is not a nutrient of concern in healthy individuals",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Both the AHA and AHF guidelines were clearly a step forward, building on the knowledge that dietary cholesterol is not a nutrient of concern in healthy individuals.",
+          "context": "Author's summary framing of AHA/AHF guidelines",
+          "framing": "Frames the guideline changes positively as 'a step forward'"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C183",
+      "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed as part of healthy dietary patterns for those at risk for cardiovascular disease",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed as part of healthy dietary patterns for those at risk for cardiovascular disease.",
+          "context": "Transition to discussing at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C184",
+      "text": "The AHA continues to place caution on eating food higher in cholesterol for those with abnormal blood cholesterol, particularly those with diabetes mellitus or at risk for heart failure",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "the AHA continues to place caution on eating food higher in cholesterol for those with abnormal blood cholesterol, “…particularly those with diabetes mellitus or at risk for heart failure…",
+          "context": "Noting caveat to AHA guidance",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C185",
+      "text": "A growing body of evidence supports eggs as an important addition to the diet even for those at risk for cardiovascular disease",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "a growing body of evidence supports eggs as an important addition to the diet even for those at risk for cardiovascular disease",
+          "context": "Author's summary statement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C186",
+      "text": "Eating two eggs daily improved HDL function and did not impact total, HDL, or LDL cholesterol in overweight postmenopausal women",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Eating two eggs daily improved the function of HDL (good) cholesterol and did not impact total cholesterol, HDL cholesterol, or LDL cholesterol in postmenopausal women who were overweight",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C187",
+      "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not increase LDL cholesterol",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Adding three eggs per day to the diet of people who have metabolic syndrome did not increase LDL (bad) cholesterol.",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C188",
+      "text": "Whole eggs could be considered a healthful food choice for people with metabolic syndrome",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "whole eggs could be considered a healthful food choice for people with metabolic syndrome",
+          "context": "Quoting study authors on metabolic syndrome findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C189",
+      "text": "There was no link between egg consumption and cardiovascular events in 31,544 patients with vascular disease in the ONTARGET and TRANSCEND studies",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "There was no link between egg consumption and cardiovascular events in 31,544 patients with vascular disease in two multinational studies (ONTARGET and TRANSCEND)",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C190",
+      "text": "Consumption of cholesterol from eggs is linked to lower mortality among people with high blood pressure, while cholesterol from other foods is linked to higher mortality",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Consumption of cholesterol from eggs is linked to lower mortality among people with high blood pressure, while consumption of cholesterol from other foods is linked to higher mortality.",
+          "context": "Listed study findings from Chinese hypertensive sample",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C191",
+      "text": "Total cholesterol is not related to mortality among a sample of people with high blood pressure who live in China",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "total cholesterol is not related to mortality among a sample of people with high blood pressure who live in China",
+          "context": "Listed study findings from Chinese hypertensive sample",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C192",
+      "text": "Eating two eggs daily as part of a plant-based diet did not adversely affect markers of heart health in adults at risk for type 2 diabetes",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Eating two eggs daily, as part of a plant-based diet, did not adversely affect markers of heart health in adults at risk for type 2 diabetes.",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C193",
+      "text": "Eating eggs improved self-reported intake of selenium and choline in adults at risk for type 2 diabetes",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "eating eggs improved self-reported intake of selenium and choline",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C194",
+      "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet improved body weight and HDL-cholesterol in people with metabolic syndrome",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Adding two eggs + spinach to breakfast, as part of a plant-based healthy diet, improved body weight and HDL-cholesterol in people with metabolic syndrome.",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C195",
+      "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glucose, insulin, or blood pressure between intervention and control groups in the egg+spinach study",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glucose, insulin, or blood pressure between the intervention and control group",
+          "context": "Listed study findings for at-risk populations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C196",
+      "text": "Including eggs as part of healthy dietary patterns may be beneficial even for people at risk of cardiovascular disease",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "these findings support that including eggs, as part of healthy dietary patterns, may be beneficial even for people at risk of CVD",
+          "context": "Summary of at-risk population findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C197",
+      "text": "The science on dietary cholesterol and eggs demonstrates that eggs are an important part of healthy dietary patterns across the lifespan",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The science on dietary cholesterol and eggs continues to grow and demonstrates that eggs are an important part of healthy dietary patterns across the lifespan",
+          "context": "Summary section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C198",
+      "text": "These data support the value of eggs as a nutrient dense food within healthy dietary patterns",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Overall, these data support the value of eggs as a nutrient dense food within healthy dietary patterns.",
+          "context": "Summary section",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C199",
+      "text": "Eggs are a good or excellent source of eight essential nutrients including choline and high-quality protein",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "Eggs are a good or excellent source of eight essential nutrients including choline and high-quality protein",
+          "context": "Closing summary statement",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C200",
+      "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "plus 252 mcg of the carotenoids lutein and zeaxanthin",
+          "context": "Introductory nutrient description of eggs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C201",
+      "text": "An egg is approximately 70 calories",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "The 70-calorie egg",
+          "context": "Introductory nutrient description of eggs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C202",
+      "text": "The egg is a nutrient-rich food choice",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "is an exceptionally nutrient-rich choice",
+          "context": "Introductory nutrient description of eggs",
+          "framing": "Described with strong positive language ('exceptionally nutrient-rich') rather than neutral nutrient comparison"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C203",
+      "text": "Eggs can help improve dietary intake",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "that can help improve dietary intake",
+          "context": "Introductory nutrient description of eggs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C204",
+      "text": "Eggs can help optimize health",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "egg_board_heart",
+          "verbatim_span": "and optimize health",
+          "context": "Introductory nutrient description of eggs",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C205",
+      "text": "Whether an egg a day is okay for heart health is questioned by a new study",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "Is an egg a day really okay for heart health? Maybe not, according to the latest study to look at this question, published April 1, 2022, in Circulation .",
+          "context": "Opening statement of the article",
+          "framing": "Framed as a rhetorical question with a hedged negative answer ('Maybe not')"
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C206",
+      "text": "The study was published April 1, 2022 in the journal Circulation",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "published April 1, 2022, in Circulation",
+          "context": "Description of study publication details",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C207",
+      "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men from a long-running cancer study",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "For part of the study, researchers looked at egg and cholesterol consumption in more than 27,000 men who were part of a long-running cancer study that followed participants for up to 31 years.",
+          "context": "Description of study methodology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C208",
+      "text": "The cancer study followed participants for up to 31 years",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "that followed participants for up to 31 years",
+          "context": "Description of study methodology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C209",
+      "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary cholesterol intake, and blood cholesterol levels",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "They also pooled and reviewed data from 41 similar studies on eggs, dietary cholesterol intake, and blood cholesterol levels.",
+          "context": "Description of study methodology",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C210",
+      "text": "Egg consumption of about one a day, along with greater dietary cholesterol, was linked to a slightly higher risk of dying from cardiovascular disease",
+      "kind": "evidence",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "Over all, they found that egg consumption — about one a day — and greater dietary cholesterol was linked to a slightly higher risk of dying from cardiovascular disease.",
+          "context": "Reporting of study findings",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C211",
+      "text": "Observational research of this type cannot prove cause and effect",
+      "kind": "methodological",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "The usual caveat applies, however: observational research like this can't prove cause and effect.",
+          "context": "Caveat about study limitations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C212",
+      "text": "The findings support existing recommendations from many preventive cardiologists for people who have or are at risk of heart disease",
+      "kind": "inference",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "Still, the findings support what many preventive cardiologists recommend for people who have heart disease or are at risk for it",
+          "context": "Interpretation of study findings in relation to clinical recommendations",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    },
+    {
+      "id": "C213",
+      "text": "People who like eggs should limit consumption to a few per week and pair them with other healthy foods",
+      "kind": "conclusion",
+      "attestations": [
+        {
+          "source_id": "harvard_health_evolving",
+          "verbatim_span": "if you like eggs, limit your consumption to a few per week, and have them with other healthy foods, such as a scrambled egg with vegetables and whole-grain toast",
+          "context": "Practical recommendation following the study discussion",
+          "framing": ""
+        }
+      ],
+      "probability_estimates": []
+    }
+  ]
+}

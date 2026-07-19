@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import time
 
 DEFAULTS = {
     "anthropic": "claude-sonnet-4-6",
@@ -64,14 +65,38 @@ def _no_key_exit():
     )
 
 
+# Free/shared endpoints rate-limit aggressively. Without retry a 429 loses that chunk's
+# claims silently, which is worse than waiting — so back off and retry transient failures.
+_MAX_ATTEMPTS = 5
+_BASE_DELAY = 5.0
+
+
+def _is_transient(err: str) -> bool:
+    e = err.lower()
+    return ("429" in e or "rate" in e or "overloaded" in e or "timeout" in e
+            or "timed out" in e or "502" in e or "503" in e or "529" in e)
+
+
 def call(system: str, user: str, max_tokens: int = 8000) -> str:
-    """Single model call across whichever provider is configured. Returns raw text."""
+    """Single model call across whichever provider is configured. Returns raw text.
+
+    Retries rate-limit/transient errors with exponential backoff; a permanent error
+    (bad key, no credit, bad model) raises immediately so the run fails loudly."""
     provider, model = provider_info()
     if not provider:
         _no_key_exit()
-    if provider == "anthropic":
-        return _call_anthropic(model, system, user, max_tokens)
-    return _call_openai_like(provider, model, system, user, max_tokens)
+    for attempt in range(_MAX_ATTEMPTS):
+        try:
+            if provider == "anthropic":
+                return _call_anthropic(model, system, user, max_tokens)
+            return _call_openai_like(provider, model, system, user, max_tokens)
+        except Exception as e:
+            if not _is_transient(str(e)) or attempt == _MAX_ATTEMPTS - 1:
+                raise
+            delay = _BASE_DELAY * (2 ** attempt)
+            print(f"    [retry {attempt + 1}/{_MAX_ATTEMPTS - 1}] transient error; "
+                  f"waiting {delay:.0f}s then retrying...")
+            time.sleep(delay)
 
 
 def _call_anthropic(model, system, user, max_tokens):

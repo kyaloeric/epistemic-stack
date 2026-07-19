@@ -1,0 +1,3064 @@
+{
+  "case": "eggs",
+  "method": "deterministic graph concentration (no LLM)",
+  "conclusions": [
+    {
+      "conclusion": "C041",
+      "conclusion_text": "Eating up to one egg per day is not associated with an increased risk of cardiovascular disease",
+      "concentration": 0.108,
+      "effective_independent_claims": 21.3,
+      "supporting_claim_count": 47,
+      "top_claim": "C213",
+      "top_claim_text": "People who like eggs should limit consumption to a few per week and pair them with other healthy foods",
+      "contributions": [
+        {
+          "claim_id": "C213",
+          "weight": 1.556,
+          "share": 0.108,
+          "text": "People who like eggs should limit consumption to a few per week and pair them wi"
+        },
+        {
+          "claim_id": "C043",
+          "weight": 1.239,
+          "share": 0.086,
+          "text": "The prospective analysis included more than 215,000 men and women in NHS, NHS II"
+        },
+        {
+          "claim_id": "C009",
+          "weight": 1.0,
+          "share": 0.07,
+          "text": "Two large prospective cohort studies of nearly 40,000 men and over 80,000 women "
+        },
+        {
+          "claim_id": "C045",
+          "weight": 0.935,
+          "share": 0.065,
+          "text": "The updated meta-analysis of prospective cohort studies involved 1,720,108 parti"
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.606,
+          "share": 0.042,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C003",
+          "weight": 0.6,
+          "share": 0.042,
+          "text": "Eggs contain additional nutrients that may help lower risk for heart disease"
+        },
+        {
+          "claim_id": "C042",
+          "weight": 0.6,
+          "share": 0.042,
+          "text": "The BMJ paper includes an updated meta-analysis, a systematic review, and a pros"
+        },
+        {
+          "claim_id": "C044",
+          "weight": 0.6,
+          "share": 0.042,
+          "text": "Eating an egg a day was not associated with an increased risk of incident CVD af"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.57,
+          "share": 0.04,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C013",
+          "weight": 0.54,
+          "share": 0.038,
+          "text": "A 2008 Physicians' Health Study report supports that eating an egg a day is gene"
+        },
+        {
+          "claim_id": "C016",
+          "weight": 0.54,
+          "share": 0.038,
+          "text": "People who have difficulty controlling total and LDL cholesterol may want to be "
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.513,
+          "share": 0.036,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.513,
+          "share": 0.036,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.416,
+          "share": 0.029,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.416,
+          "share": 0.029,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C010",
+          "weight": 0.27,
+          "share": 0.019,
+          "text": "Eggs were previously associated with heart disease risk due to their high choles"
+        },
+        {
+          "claim_id": "C046",
+          "weight": 0.262,
+          "share": 0.018,
+          "text": "Moderate egg consumption was not associated with increased risk of CVD, coronary"
+        },
+        {
+          "claim_id": "C002",
+          "weight": 0.243,
+          "share": 0.017,
+          "text": "Egg yolks are one of the richest sources of dietary cholesterol among commonly c"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.233,
+          "share": 0.016,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.22,
+          "share": 0.015,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.219,
+          "share": 0.015,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.197,
+          "share": 0.014,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.197,
+          "share": 0.014,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.166,
+          "share": 0.012,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.166,
+          "share": 0.012,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.162,
+          "share": 0.011,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C001",
+          "weight": 0.131,
+          "share": 0.009,
+          "text": "One large egg yolk contains 200 mg of cholesterol"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.118,
+          "share": 0.008,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.107,
+          "share": 0.007,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.096,
+          "share": 0.007,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.09,
+          "share": 0.006,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.087,
+          "share": 0.006,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C006",
+          "weight": 0.073,
+          "share": 0.005,
+          "text": "Dietary cholesterol and blood cholesterol are only weakly related"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.073,
+          "share": 0.005,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.071,
+          "share": 0.005,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C008",
+          "weight": 0.066,
+          "share": 0.005,
+          "text": "The Dietary Guidelines for Americans 2015 removed the prior recommendation to li"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.064,
+          "share": 0.004,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C088",
+          "weight": 0.057,
+          "share": 0.004,
+          "text": "As part of a healthy diet, people need to consume lower amounts of cholesterol"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.047,
+          "share": 0.003,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.045,
+          "share": 0.003,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.043,
+          "share": 0.003,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C007",
+          "weight": 0.039,
+          "share": 0.003,
+          "text": "Scientific focus shifted from dietary cholesterol alone to the influence of satu"
+        },
+        {
+          "claim_id": "C085",
+          "weight": 0.031,
+          "share": 0.002,
+          "text": "People who consume less cholesterol have a lower risk of heart disease"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.028,
+          "share": 0.002,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.024,
+          "share": 0.002,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        }
+      ]
+    },
+    {
+      "conclusion": "C085",
+      "conclusion_text": "People who consume less cholesterol have a lower risk of heart disease",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C016",
+      "conclusion_text": "People who have difficulty controlling total and LDL cholesterol may want to be cautious about egg yolks and choose egg whites instead",
+      "concentration": 0.265,
+      "effective_independent_claims": 7.75,
+      "supporting_claim_count": 13,
+      "top_claim": "C105",
+      "top_claim_text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse adults from six prospective cohort studies for up to 31 years of follow-up",
+      "contributions": [
+        {
+          "claim_id": "C105",
+          "weight": 0.68,
+          "share": 0.265,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.27,
+          "share": 0.105,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.243,
+          "share": 0.095,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.243,
+          "share": 0.095,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.225,
+          "share": 0.088,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.219,
+          "share": 0.085,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.183,
+          "share": 0.071,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.146,
+          "share": 0.057,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.139,
+          "share": 0.054,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.131,
+          "share": 0.051,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.073,
+          "share": 0.028,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.011,
+          "share": 0.004,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.003,
+          "share": 0.001,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        }
+      ]
+    },
+    {
+      "conclusion": "C017",
+      "conclusion_text": "The same caution about egg yolks applies to people with diabetes",
+      "concentration": 1.0,
+      "effective_independent_claims": 1.0,
+      "supporting_claim_count": 1,
+      "top_claim": "C018",
+      "top_claim_text": "In the Nurses' Health Study and Health Professionals Follow-up Study, heart disease risk was increased among men and women with diabetes who ate one or more eggs a day",
+      "contributions": [
+        {
+          "claim_id": "C018",
+          "weight": 0.6,
+          "share": 1.0,
+          "text": "In the Nurses' Health Study and Health Professionals Follow-up Study, heart dise"
+        }
+      ]
+    },
+    {
+      "conclusion": "C019",
+      "conclusion_text": "For people with diabetes and heart disease, it may be best to limit egg consumption to no more than three yolks per week",
+      "concentration": 0.606,
+      "effective_independent_claims": 1.91,
+      "supporting_claim_count": 2,
+      "top_claim": "C018",
+      "top_claim_text": "In the Nurses' Health Study and Health Professionals Follow-up Study, heart disease risk was increased among men and women with diabetes who ate one or more eggs a day",
+      "contributions": [
+        {
+          "claim_id": "C018",
+          "weight": 0.924,
+          "share": 0.606,
+          "text": "In the Nurses' Health Study and Health Professionals Follow-up Study, heart dise"
+        },
+        {
+          "claim_id": "C017",
+          "weight": 0.6,
+          "share": 0.394,
+          "text": "The same caution about egg yolks applies to people with diabetes"
+        }
+      ]
+    },
+    {
+      "conclusion": "C020",
+      "conclusion_text": "Eggs may be a much better choice than sugary, refined grain-based breakfast options like sweetened cereals, pancakes with syrup, muffins, or bagels",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C021",
+      "conclusion_text": "Eggs may fall short of other breakfast options for heart health",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C022",
+      "conclusion_text": "A bowl of steel-cut oats with nuts and berries is a much better choice for heart health than an egg-centric breakfast",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C025",
+      "conclusion_text": "Eggs are neither the optimal nor the worst breakfast choice, falling in the middle of the spectrum for heart disease risk",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C026",
+      "conclusion_text": "For a healthy diet, most people should keep egg intake moderate to low and emphasize plant-based protein when possible",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C070",
+      "conclusion_text": "The systematic review and meta-analysis provided a comprehensive look at studies published to date and future studies will need to be placed within its context",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C076",
+      "conclusion_text": "The results are convincingly null except for a few subgroups",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C081",
+      "conclusion_text": "Egg consumption should be part of a balanced diet involving plants, whole grains, low-fat dairy, and fruit",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C082",
+      "conclusion_text": "One egg per day in a healthy diet is totally fine",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C084",
+      "conclusion_text": "Adults who ate more eggs and dietary cholesterol had a significantly higher risk of cardiovascular disease and death from any cause",
+      "concentration": 0.293,
+      "effective_independent_claims": 6.03,
+      "supporting_claim_count": 8,
+      "top_claim": "C085",
+      "top_claim_text": "People who consume less cholesterol have a lower risk of heart disease",
+      "contributions": [
+        {
+          "claim_id": "C085",
+          "weight": 0.6,
+          "share": 0.293,
+          "text": "People who consume less cholesterol have a lower risk of heart disease"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.308,
+          "share": 0.15,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.3,
+          "share": 0.146,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.245,
+          "share": 0.119,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.168,
+          "share": 0.082,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.162,
+          "share": 0.079,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.162,
+          "share": 0.079,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.105,
+          "share": 0.051,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C088",
+      "conclusion_text": "As part of a healthy diet, people need to consume lower amounts of cholesterol",
+      "concentration": 0.201,
+      "effective_independent_claims": 7.33,
+      "supporting_claim_count": 10,
+      "top_claim": "C087",
+      "top_claim_text": "The take-home message of the study is about cholesterol, which is high in eggs and specifically yolks",
+      "contributions": [
+        {
+          "claim_id": "C087",
+          "weight": 0.6,
+          "share": 0.201,
+          "text": "The take-home message of the study is about cholesterol, which is high in eggs a"
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.54,
+          "share": 0.181,
+          "text": "One large egg has 186 milligrams of dietary cholesterol in the yolk"
+        },
+        {
+          "claim_id": "C085",
+          "weight": 0.54,
+          "share": 0.181,
+          "text": "People who consume less cholesterol have a lower risk of heart disease"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.277,
+          "share": 0.093,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.27,
+          "share": 0.09,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.22,
+          "share": 0.074,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.152,
+          "share": 0.051,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.146,
+          "share": 0.049,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.146,
+          "share": 0.049,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.094,
+          "share": 0.032,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C103",
+      "conclusion_text": "Cholesterol, regardless of source, was associated with an increased risk of heart disease",
+      "concentration": 0.297,
+      "effective_independent_claims": 6.79,
+      "supporting_claim_count": 12,
+      "top_claim": "C105",
+      "top_claim_text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse adults from six prospective cohort studies for up to 31 years of follow-up",
+      "contributions": [
+        {
+          "claim_id": "C105",
+          "weight": 2.8,
+          "share": 0.297,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 1.0,
+          "share": 0.106,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 1.0,
+          "share": 0.106,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.924,
+          "share": 0.098,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.9,
+          "share": 0.095,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.754,
+          "share": 0.08,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.6,
+          "share": 0.064,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.57,
+          "share": 0.06,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.54,
+          "share": 0.057,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.3,
+          "share": 0.032,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.044,
+          "share": 0.005,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        }
+      ]
+    },
+    {
+      "conclusion": "C111",
+      "conclusion_text": "Based on the study, people should keep dietary cholesterol intake low by reducing cholesterol-rich foods such as eggs and red meat",
+      "concentration": 0.17,
+      "effective_independent_claims": 10.77,
+      "supporting_claim_count": 16,
+      "top_claim": "C105",
+      "top_claim_text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse adults from six prospective cohort studies for up to 31 years of follow-up",
+      "contributions": [
+        {
+          "claim_id": "C105",
+          "weight": 1.512,
+          "share": 0.17,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 1.14,
+          "share": 0.128,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 1.14,
+          "share": 0.128,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C109",
+          "weight": 0.6,
+          "share": 0.068,
+          "text": "Eating three to four eggs per week was associated with a 6 percent higher risk o"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.6,
+          "share": 0.068,
+          "text": "Eating three to four eggs per week was associated with an 8 percent higher risk "
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.6,
+          "share": 0.068,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.569,
+          "share": 0.064,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.499,
+          "share": 0.056,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.486,
+          "share": 0.055,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.47,
+          "share": 0.053,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.3,
+          "share": 0.034,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.292,
+          "share": 0.033,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.168,
+          "share": 0.019,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.162,
+          "share": 0.018,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.024,
+          "share": 0.003,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C113",
+      "conclusion_text": "People should choose egg whites instead of whole eggs or eat whole eggs in moderation",
+      "concentration": 0.11,
+      "effective_independent_claims": 13.02,
+      "supporting_claim_count": 18,
+      "top_claim": "C109",
+      "top_claim_text": "Eating three to four eggs per week was associated with a 6 percent higher risk of cardiovascular disease",
+      "contributions": [
+        {
+          "claim_id": "C109",
+          "weight": 0.864,
+          "share": 0.11,
+          "text": "Eating three to four eggs per week was associated with a 6 percent higher risk o"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 0.864,
+          "share": 0.11,
+          "text": "Eating three to four eggs per week was associated with an 8 percent higher risk "
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.816,
+          "share": 0.104,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.648,
+          "share": 0.082,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.616,
+          "share": 0.078,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.616,
+          "share": 0.078,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C111",
+          "weight": 0.6,
+          "share": 0.076,
+          "text": "Based on the study, people should keep dietary cholesterol intake low by reducin"
+        },
+        {
+          "claim_id": "C114",
+          "weight": 0.6,
+          "share": 0.076,
+          "text": "Cholesterol in eggs, specifically yolks, has a harmful effect"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.462,
+          "share": 0.059,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.416,
+          "share": 0.053,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.307,
+          "share": 0.039,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.269,
+          "share": 0.034,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.262,
+          "share": 0.033,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.175,
+          "share": 0.022,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.157,
+          "share": 0.02,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.091,
+          "share": 0.012,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.087,
+          "share": 0.011,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.013,
+          "share": 0.002,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C114",
+      "conclusion_text": "Cholesterol in eggs, specifically yolks, has a harmful effect",
+      "concentration": 0.166,
+      "effective_independent_claims": 10.78,
+      "supporting_claim_count": 15,
+      "top_claim": "C105",
+      "top_claim_text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse adults from six prospective cohort studies for up to 31 years of follow-up",
+      "contributions": [
+        {
+          "claim_id": "C105",
+          "weight": 1.512,
+          "share": 0.166,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C109",
+          "weight": 1.0,
+          "share": 0.11,
+          "text": "Eating three to four eggs per week was associated with a 6 percent higher risk o"
+        },
+        {
+          "claim_id": "C110",
+          "weight": 1.0,
+          "share": 0.11,
+          "text": "Eating three to four eggs per week was associated with an 8 percent higher risk "
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.975,
+          "share": 0.107,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.84,
+          "share": 0.092,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.6,
+          "share": 0.066,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.54,
+          "share": 0.059,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.54,
+          "share": 0.059,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.499,
+          "share": 0.055,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.486,
+          "share": 0.053,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.324,
+          "share": 0.036,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.292,
+          "share": 0.032,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.281,
+          "share": 0.031,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.162,
+          "share": 0.018,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.039,
+          "share": 0.004,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C120",
+      "conclusion_text": "Choline is directly linked to increased production of a gut bacteria byproduct that increases the risk of blood-clotting events like heart attack and stroke",
+      "concentration": 0.333,
+      "effective_independent_claims": 3.0,
+      "supporting_claim_count": 3,
+      "top_claim": "C142",
+      "top_claim_text": "TMAO is a byproduct of bacterial digestion of choline, lecithin and carnitine",
+      "contributions": [
+        {
+          "claim_id": "C142",
+          "weight": 0.6,
+          "share": 0.333,
+          "text": "TMAO is a byproduct of bacterial digestion of choline, lecithin and carnitine"
+        },
+        {
+          "claim_id": "C138",
+          "weight": 0.6,
+          "share": 0.333,
+          "text": "Dr. Hazen has previously linked TMAO to an increased risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C121",
+          "weight": 0.6,
+          "share": 0.333,
+          "text": "This is the first study in humans to directly demonstrate that dietary choline s"
+        }
+      ]
+    },
+    {
+      "conclusion": "C133",
+      "conclusion_text": "The study provides direct evidence of a mechanistic link between TMAO levels and risk for blood clotting events like heart attack and stroke",
+      "concentration": 0.381,
+      "effective_independent_claims": 3.81,
+      "supporting_claim_count": 7,
+      "top_claim": "C125",
+      "top_claim_text": "Both groups showed an increase in platelet responsiveness after choline supplementation",
+      "contributions": [
+        {
+          "claim_id": "C125",
+          "weight": 6.5,
+          "share": 0.381,
+          "text": "Both groups showed an increase in platelet responsiveness after choline suppleme"
+        },
+        {
+          "claim_id": "C124",
+          "weight": 4.6,
+          "share": 0.27,
+          "text": "Both groups showed at least a 10-fold increase in plasma TMAO levels after choli"
+        },
+        {
+          "claim_id": "C129",
+          "weight": 3.286,
+          "share": 0.193,
+          "text": "Elevated TMAO levels and enhanced susceptibility for platelet activation still o"
+        },
+        {
+          "claim_id": "C138",
+          "weight": 1.086,
+          "share": 0.064,
+          "text": "Dr. Hazen has previously linked TMAO to an increased risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C139",
+          "weight": 0.6,
+          "share": 0.035,
+          "text": "Dr. Hazen has shown TMAO can be a powerful tool for predicting future heart atta"
+        },
+        {
+          "claim_id": "C142",
+          "weight": 0.486,
+          "share": 0.029,
+          "text": "TMAO is a byproduct of bacterial digestion of choline, lecithin and carnitine"
+        },
+        {
+          "claim_id": "C121",
+          "weight": 0.486,
+          "share": 0.029,
+          "text": "This is the first study in humans to directly demonstrate that dietary choline s"
+        }
+      ]
+    },
+    {
+      "conclusion": "C161",
+      "conclusion_text": "The PURE investigator findings reinforce previous research in healthy individuals and advance understanding in individuals with vascular disease",
+      "concentration": 0.671,
+      "effective_independent_claims": 2.07,
+      "supporting_claim_count": 5,
+      "top_claim": "C157",
+      "top_claim_text": "The PURE cohort found no link between egg consumption and cardiovascular disease outcomes",
+      "contributions": [
+        {
+          "claim_id": "C157",
+          "weight": 2.972,
+          "share": 0.671,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C159",
+          "weight": 0.6,
+          "share": 0.136,
+          "text": "The PURE finding of lower myocardial infarction risk is consistent with other re"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.368,
+          "share": 0.083,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C158",
+          "weight": 0.324,
+          "share": 0.073,
+          "text": "In the PURE cohort, higher egg intake was associated with a lower risk of myocar"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.162,
+          "share": 0.037,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C163",
+      "conclusion_text": "Researchers concluded that an egg a day did not impact heart disease or stroke risk",
+      "concentration": 0.5,
+      "effective_independent_claims": 2.0,
+      "supporting_claim_count": 2,
+      "top_claim": "C162",
+      "top_claim_text": "The original 1999 Hu et al. study reported no relationship between egg intake and coronary heart disease or stroke in the NHS and HPFS cohorts",
+      "contributions": [
+        {
+          "claim_id": "C162",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "The original 1999 Hu et al. study reported no relationship between egg intake an"
+        },
+        {
+          "claim_id": "C164",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "The updated 2020 analysis included up to 32 years of follow-up and extended anal"
+        }
+      ]
+    },
+    {
+      "conclusion": "C172",
+      "conclusion_text": "The PURE cohort and Harvard studies make significant contributions to the scientific literature on egg intake and cardiovascular health",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C174",
+      "conclusion_text": "A common theme from recent authoritative recommendations is that eggs can be part of heart-healthy diet patterns, and in some cases should be emphasized due to their nutrient package",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C176",
+      "conclusion_text": "Guidance focused on dietary patterns is more likely to improve diet quality and promote cardiovascular health than a specific cholesterol target",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C177",
+      "conclusion_text": "Healthy individuals can include up to a whole egg daily in heart-healthy dietary patterns per AHA advisory",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C178",
+      "conclusion_text": "For older healthy individuals, consumption of up to 2 eggs per day is acceptable within a heart-healthy dietary pattern per AHA advisory",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C179",
+      "conclusion_text": "Vegetarians who do not consume meat-based cholesterol-containing foods may include more eggs in their diets in moderation per AHA advisory",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C180",
+      "conclusion_text": "The Australian Heart Foundation concluded there is no evidence to suggest any limit on egg consumption for normal, healthy individuals",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C182",
+      "conclusion_text": "Both the AHA and AHF guidelines were a step forward, building on the knowledge that dietary cholesterol is not a nutrient of concern in healthy individuals",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C188",
+      "conclusion_text": "Whole eggs could be considered a healthful food choice for people with metabolic syndrome",
+      "concentration": 0.112,
+      "effective_independent_claims": 16.01,
+      "supporting_claim_count": 45,
+      "top_claim": "C187",
+      "top_claim_text": "Adding three eggs per day to the diet of people with metabolic syndrome did not increase LDL cholesterol",
+      "contributions": [
+        {
+          "claim_id": "C187",
+          "weight": 2.539,
+          "share": 0.112,
+          "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not "
+        },
+        {
+          "claim_id": "C193",
+          "weight": 1.826,
+          "share": 0.08,
+          "text": "Eating eggs improved self-reported intake of selenium and choline in adults at r"
+        },
+        {
+          "claim_id": "C194",
+          "weight": 1.665,
+          "share": 0.073,
+          "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet "
+        },
+        {
+          "claim_id": "C195",
+          "weight": 1.665,
+          "share": 0.073,
+          "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glu"
+        },
+        {
+          "claim_id": "C192",
+          "weight": 1.539,
+          "share": 0.068,
+          "text": "Eating two eggs daily as part of a plant-based diet did not adversely affect mar"
+        },
+        {
+          "claim_id": "C186",
+          "weight": 1.539,
+          "share": 0.068,
+          "text": "Eating two eggs daily improved HDL function and did not impact total, HDL, or LD"
+        },
+        {
+          "claim_id": "C190",
+          "weight": 1.539,
+          "share": 0.068,
+          "text": "Consumption of cholesterol from eggs is linked to lower mortality among people w"
+        },
+        {
+          "claim_id": "C191",
+          "weight": 1.539,
+          "share": 0.068,
+          "text": "Total cholesterol is not related to mortality among a sample of people with high"
+        },
+        {
+          "claim_id": "C196",
+          "weight": 1.48,
+          "share": 0.065,
+          "text": "Including eggs as part of healthy dietary patterns may be beneficial even for pe"
+        },
+        {
+          "claim_id": "C199",
+          "weight": 1.279,
+          "share": 0.056,
+          "text": "Eggs are a good or excellent source of eight essential nutrients including choli"
+        },
+        {
+          "claim_id": "C200",
+          "weight": 1.095,
+          "share": 0.048,
+          "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin"
+        },
+        {
+          "claim_id": "C201",
+          "weight": 1.095,
+          "share": 0.048,
+          "text": "An egg is approximately 70 calories"
+        },
+        {
+          "claim_id": "C213",
+          "weight": 0.908,
+          "share": 0.04,
+          "text": "People who like eggs should limit consumption to a few per week and pair them wi"
+        },
+        {
+          "claim_id": "C202",
+          "weight": 0.319,
+          "share": 0.014,
+          "text": "The egg is a nutrient-rich food choice"
+        },
+        {
+          "claim_id": "C184",
+          "weight": 0.3,
+          "share": 0.013,
+          "text": "The AHA continues to place caution on eating food higher in cholesterol for thos"
+        },
+        {
+          "claim_id": "C203",
+          "weight": 0.287,
+          "share": 0.013,
+          "text": "Eggs can help improve dietary intake"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.177,
+          "share": 0.008,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.161,
+          "share": 0.007,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.159,
+          "share": 0.007,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.143,
+          "share": 0.006,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.143,
+          "share": 0.006,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.121,
+          "share": 0.005,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.121,
+          "share": 0.005,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.118,
+          "share": 0.005,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.107,
+          "share": 0.005,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.107,
+          "share": 0.005,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.087,
+          "share": 0.004,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.087,
+          "share": 0.004,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.086,
+          "share": 0.004,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.064,
+          "share": 0.003,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.064,
+          "share": 0.003,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.053,
+          "share": 0.002,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.052,
+          "share": 0.002,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.048,
+          "share": 0.002,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.046,
+          "share": 0.002,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.035,
+          "share": 0.002,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.034,
+          "share": 0.002,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.031,
+          "share": 0.001,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.031,
+          "share": 0.001,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.017,
+          "share": 0.001,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.017,
+          "share": 0.001,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.01,
+          "share": 0.0,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.009,
+          "share": 0.0,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.009,
+          "share": 0.0,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.006,
+          "share": 0.0,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C196",
+      "conclusion_text": "Including eggs as part of healthy dietary patterns may be beneficial even for people at risk of cardiovascular disease",
+      "concentration": 0.091,
+      "effective_independent_claims": 17.86,
+      "supporting_claim_count": 45,
+      "top_claim": "C199",
+      "top_claim_text": "Eggs are a good or excellent source of eight essential nutrients including choline and high-quality protein",
+      "contributions": [
+        {
+          "claim_id": "C199",
+          "weight": 1.58,
+          "share": 0.091,
+          "text": "Eggs are a good or excellent source of eight essential nutrients including choli"
+        },
+        {
+          "claim_id": "C200",
+          "weight": 1.352,
+          "share": 0.078,
+          "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin"
+        },
+        {
+          "claim_id": "C201",
+          "weight": 1.352,
+          "share": 0.078,
+          "text": "An egg is approximately 70 calories"
+        },
+        {
+          "claim_id": "C193",
+          "weight": 1.283,
+          "share": 0.074,
+          "text": "Eating eggs improved self-reported intake of selenium and choline in adults at r"
+        },
+        {
+          "claim_id": "C213",
+          "weight": 1.121,
+          "share": 0.065,
+          "text": "People who like eggs should limit consumption to a few per week and pair them wi"
+        },
+        {
+          "claim_id": "C187",
+          "weight": 1.084,
+          "share": 0.063,
+          "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not "
+        },
+        {
+          "claim_id": "C194",
+          "weight": 1.084,
+          "share": 0.063,
+          "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet "
+        },
+        {
+          "claim_id": "C195",
+          "weight": 1.084,
+          "share": 0.063,
+          "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glu"
+        },
+        {
+          "claim_id": "C192",
+          "weight": 0.929,
+          "share": 0.054,
+          "text": "Eating two eggs daily as part of a plant-based diet did not adversely affect mar"
+        },
+        {
+          "claim_id": "C186",
+          "weight": 0.929,
+          "share": 0.054,
+          "text": "Eating two eggs daily improved HDL function and did not impact total, HDL, or LD"
+        },
+        {
+          "claim_id": "C190",
+          "weight": 0.929,
+          "share": 0.054,
+          "text": "Consumption of cholesterol from eggs is linked to lower mortality among people w"
+        },
+        {
+          "claim_id": "C191",
+          "weight": 0.929,
+          "share": 0.054,
+          "text": "Total cholesterol is not related to mortality among a sample of people with high"
+        },
+        {
+          "claim_id": "C202",
+          "weight": 0.394,
+          "share": 0.023,
+          "text": "The egg is a nutrient-rich food choice"
+        },
+        {
+          "claim_id": "C203",
+          "weight": 0.354,
+          "share": 0.021,
+          "text": "Eggs can help improve dietary intake"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.219,
+          "share": 0.013,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.198,
+          "share": 0.011,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.197,
+          "share": 0.011,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.177,
+          "share": 0.01,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.177,
+          "share": 0.01,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C188",
+          "weight": 0.172,
+          "share": 0.01,
+          "text": "Whole eggs could be considered a healthful food choice for people with metabolic"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.15,
+          "share": 0.009,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.15,
+          "share": 0.009,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.146,
+          "share": 0.008,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.132,
+          "share": 0.008,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.132,
+          "share": 0.008,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.107,
+          "share": 0.006,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.107,
+          "share": 0.006,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.106,
+          "share": 0.006,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.079,
+          "share": 0.005,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.079,
+          "share": 0.005,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.065,
+          "share": 0.004,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.064,
+          "share": 0.004,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.059,
+          "share": 0.003,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.057,
+          "share": 0.003,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C184",
+          "weight": 0.046,
+          "share": 0.003,
+          "text": "The AHA continues to place caution on eating food higher in cholesterol for thos"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.043,
+          "share": 0.002,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.043,
+          "share": 0.002,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.038,
+          "share": 0.002,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.038,
+          "share": 0.002,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.021,
+          "share": 0.001,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.021,
+          "share": 0.001,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.007,
+          "share": 0.0,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C197",
+      "conclusion_text": "The science on dietary cholesterol and eggs demonstrates that eggs are an important part of healthy dietary patterns across the lifespan",
+      "concentration": 0.098,
+      "effective_independent_claims": 15.78,
+      "supporting_claim_count": 46,
+      "top_claim": "C199",
+      "top_claim_text": "Eggs are a good or excellent source of eight essential nutrients including choline and high-quality protein",
+      "contributions": [
+        {
+          "claim_id": "C199",
+          "weight": 1.755,
+          "share": 0.098,
+          "text": "Eggs are a good or excellent source of eight essential nutrients including choli"
+        },
+        {
+          "claim_id": "C200",
+          "weight": 1.502,
+          "share": 0.083,
+          "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin"
+        },
+        {
+          "claim_id": "C201",
+          "weight": 1.502,
+          "share": 0.083,
+          "text": "An egg is approximately 70 calories"
+        },
+        {
+          "claim_id": "C193",
+          "weight": 1.425,
+          "share": 0.079,
+          "text": "Eating eggs improved self-reported intake of selenium and choline in adults at r"
+        },
+        {
+          "claim_id": "C196",
+          "weight": 1.238,
+          "share": 0.069,
+          "text": "Including eggs as part of healthy dietary patterns may be beneficial even for pe"
+        },
+        {
+          "claim_id": "C187",
+          "weight": 1.204,
+          "share": 0.067,
+          "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not "
+        },
+        {
+          "claim_id": "C194",
+          "weight": 1.204,
+          "share": 0.067,
+          "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet "
+        },
+        {
+          "claim_id": "C195",
+          "weight": 1.204,
+          "share": 0.067,
+          "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glu"
+        },
+        {
+          "claim_id": "C192",
+          "weight": 1.032,
+          "share": 0.057,
+          "text": "Eating two eggs daily as part of a plant-based diet did not adversely affect mar"
+        },
+        {
+          "claim_id": "C186",
+          "weight": 1.032,
+          "share": 0.057,
+          "text": "Eating two eggs daily improved HDL function and did not impact total, HDL, or LD"
+        },
+        {
+          "claim_id": "C190",
+          "weight": 1.032,
+          "share": 0.057,
+          "text": "Consumption of cholesterol from eggs is linked to lower mortality among people w"
+        },
+        {
+          "claim_id": "C191",
+          "weight": 1.032,
+          "share": 0.057,
+          "text": "Total cholesterol is not related to mortality among a sample of people with high"
+        },
+        {
+          "claim_id": "C213",
+          "weight": 0.534,
+          "share": 0.03,
+          "text": "People who like eggs should limit consumption to a few per week and pair them wi"
+        },
+        {
+          "claim_id": "C202",
+          "weight": 0.437,
+          "share": 0.024,
+          "text": "The egg is a nutrient-rich food choice"
+        },
+        {
+          "claim_id": "C203",
+          "weight": 0.394,
+          "share": 0.022,
+          "text": "Eggs can help improve dietary intake"
+        },
+        {
+          "claim_id": "C188",
+          "weight": 0.191,
+          "share": 0.011,
+          "text": "Whole eggs could be considered a healthful food choice for people with metabolic"
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.132,
+          "share": 0.007,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.132,
+          "share": 0.007,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.107,
+          "share": 0.006,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.107,
+          "share": 0.006,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.07,
+          "share": 0.004,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.063,
+          "share": 0.004,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.063,
+          "share": 0.003,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.056,
+          "share": 0.003,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.056,
+          "share": 0.003,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C184",
+          "weight": 0.052,
+          "share": 0.003,
+          "text": "The AHA continues to place caution on eating food higher in cholesterol for thos"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.048,
+          "share": 0.003,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.048,
+          "share": 0.003,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.046,
+          "share": 0.003,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.034,
+          "share": 0.002,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.025,
+          "share": 0.001,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.025,
+          "share": 0.001,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.024,
+          "share": 0.001,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.021,
+          "share": 0.001,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.021,
+          "share": 0.001,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.02,
+          "share": 0.001,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.019,
+          "share": 0.001,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.018,
+          "share": 0.001,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.017,
+          "share": 0.001,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.014,
+          "share": 0.001,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.007,
+          "share": 0.0,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.007,
+          "share": 0.0,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C198",
+      "conclusion_text": "These data support the value of eggs as a nutrient dense food within healthy dietary patterns",
+      "concentration": 0.093,
+      "effective_independent_claims": 15.81,
+      "supporting_claim_count": 46,
+      "top_claim": "C199",
+      "top_claim_text": "Eggs are a good or excellent source of eight essential nutrients including choline and high-quality protein",
+      "contributions": [
+        {
+          "claim_id": "C199",
+          "weight": 2.81,
+          "share": 0.093,
+          "text": "Eggs are a good or excellent source of eight essential nutrients including choli"
+        },
+        {
+          "claim_id": "C193",
+          "weight": 2.64,
+          "share": 0.087,
+          "text": "Eating eggs improved self-reported intake of selenium and choline in adults at r"
+        },
+        {
+          "claim_id": "C187",
+          "weight": 2.23,
+          "share": 0.074,
+          "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not "
+        },
+        {
+          "claim_id": "C194",
+          "weight": 2.23,
+          "share": 0.074,
+          "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet "
+        },
+        {
+          "claim_id": "C195",
+          "weight": 2.23,
+          "share": 0.074,
+          "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glu"
+        },
+        {
+          "claim_id": "C200",
+          "weight": 2.097,
+          "share": 0.069,
+          "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin"
+        },
+        {
+          "claim_id": "C201",
+          "weight": 2.097,
+          "share": 0.069,
+          "text": "An egg is approximately 70 calories"
+        },
+        {
+          "claim_id": "C192",
+          "weight": 1.911,
+          "share": 0.063,
+          "text": "Eating two eggs daily as part of a plant-based diet did not adversely affect mar"
+        },
+        {
+          "claim_id": "C186",
+          "weight": 1.911,
+          "share": 0.063,
+          "text": "Eating two eggs daily improved HDL function and did not impact total, HDL, or LD"
+        },
+        {
+          "claim_id": "C190",
+          "weight": 1.911,
+          "share": 0.063,
+          "text": "Consumption of cholesterol from eggs is linked to lower mortality among people w"
+        },
+        {
+          "claim_id": "C191",
+          "weight": 1.911,
+          "share": 0.063,
+          "text": "Total cholesterol is not related to mortality among a sample of people with high"
+        },
+        {
+          "claim_id": "C196",
+          "weight": 1.5,
+          "share": 0.05,
+          "text": "Including eggs as part of healthy dietary patterns may be beneficial even for pe"
+        },
+        {
+          "claim_id": "C213",
+          "weight": 0.865,
+          "share": 0.029,
+          "text": "People who like eggs should limit consumption to a few per week and pair them wi"
+        },
+        {
+          "claim_id": "C202",
+          "weight": 0.81,
+          "share": 0.027,
+          "text": "The egg is a nutrient-rich food choice"
+        },
+        {
+          "claim_id": "C203",
+          "weight": 0.729,
+          "share": 0.024,
+          "text": "Eggs can help improve dietary intake"
+        },
+        {
+          "claim_id": "C188",
+          "weight": 0.354,
+          "share": 0.012,
+          "text": "Whole eggs could be considered a healthful food choice for people with metabolic"
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.147,
+          "share": 0.005,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.147,
+          "share": 0.005,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.129,
+          "share": 0.004,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.119,
+          "share": 0.004,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.119,
+          "share": 0.004,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.117,
+          "share": 0.004,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.116,
+          "share": 0.004,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.105,
+          "share": 0.003,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.105,
+          "share": 0.003,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C184",
+          "weight": 0.096,
+          "share": 0.003,
+          "text": "The AHA continues to place caution on eating food higher in cholesterol for thos"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.088,
+          "share": 0.003,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.088,
+          "share": 0.003,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.086,
+          "share": 0.003,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.063,
+          "share": 0.002,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.046,
+          "share": 0.002,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.046,
+          "share": 0.002,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.039,
+          "share": 0.001,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.038,
+          "share": 0.001,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.036,
+          "share": 0.001,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.035,
+          "share": 0.001,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.034,
+          "share": 0.001,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.032,
+          "share": 0.001,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.025,
+          "share": 0.001,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.023,
+          "share": 0.001,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.023,
+          "share": 0.001,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.013,
+          "share": 0.0,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.013,
+          "share": 0.0,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.013,
+          "share": 0.0,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.013,
+          "share": 0.0,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.008,
+          "share": 0.0,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C202",
+      "conclusion_text": "The egg is a nutrient-rich food choice",
+      "concentration": 0.099,
+      "effective_independent_claims": 15.33,
+      "supporting_claim_count": 45,
+      "top_claim": "C193",
+      "top_claim_text": "Eating eggs improved self-reported intake of selenium and choline in adults at risk for type 2 diabetes",
+      "contributions": [
+        {
+          "claim_id": "C193",
+          "weight": 3.259,
+          "share": 0.099,
+          "text": "Eating eggs improved self-reported intake of selenium and choline in adults at r"
+        },
+        {
+          "claim_id": "C187",
+          "weight": 2.753,
+          "share": 0.083,
+          "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not "
+        },
+        {
+          "claim_id": "C194",
+          "weight": 2.753,
+          "share": 0.083,
+          "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet "
+        },
+        {
+          "claim_id": "C195",
+          "weight": 2.753,
+          "share": 0.083,
+          "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glu"
+        },
+        {
+          "claim_id": "C192",
+          "weight": 2.359,
+          "share": 0.071,
+          "text": "Eating two eggs daily as part of a plant-based diet did not adversely affect mar"
+        },
+        {
+          "claim_id": "C186",
+          "weight": 2.359,
+          "share": 0.071,
+          "text": "Eating two eggs daily improved HDL function and did not impact total, HDL, or LD"
+        },
+        {
+          "claim_id": "C190",
+          "weight": 2.359,
+          "share": 0.071,
+          "text": "Consumption of cholesterol from eggs is linked to lower mortality among people w"
+        },
+        {
+          "claim_id": "C191",
+          "weight": 2.359,
+          "share": 0.071,
+          "text": "Total cholesterol is not related to mortality among a sample of people with high"
+        },
+        {
+          "claim_id": "C196",
+          "weight": 1.852,
+          "share": 0.056,
+          "text": "Including eggs as part of healthy dietary patterns may be beneficial even for pe"
+        },
+        {
+          "claim_id": "C199",
+          "weight": 1.797,
+          "share": 0.054,
+          "text": "Eggs are a good or excellent source of eight essential nutrients including choli"
+        },
+        {
+          "claim_id": "C200",
+          "weight": 1.797,
+          "share": 0.054,
+          "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin"
+        },
+        {
+          "claim_id": "C201",
+          "weight": 1.797,
+          "share": 0.054,
+          "text": "An egg is approximately 70 calories"
+        },
+        {
+          "claim_id": "C213",
+          "weight": 1.067,
+          "share": 0.032,
+          "text": "People who like eggs should limit consumption to a few per week and pair them wi"
+        },
+        {
+          "claim_id": "C203",
+          "weight": 0.9,
+          "share": 0.027,
+          "text": "Eggs can help improve dietary intake"
+        },
+        {
+          "claim_id": "C188",
+          "weight": 0.437,
+          "share": 0.013,
+          "text": "Whole eggs could be considered a healthful food choice for people with metabolic"
+        },
+        {
+          "claim_id": "C207",
+          "weight": 0.182,
+          "share": 0.006,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 0.182,
+          "share": 0.006,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.159,
+          "share": 0.005,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.147,
+          "share": 0.004,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.147,
+          "share": 0.004,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.145,
+          "share": 0.004,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.143,
+          "share": 0.004,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.129,
+          "share": 0.004,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.129,
+          "share": 0.004,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C184",
+          "weight": 0.118,
+          "share": 0.004,
+          "text": "The AHA continues to place caution on eating food higher in cholesterol for thos"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.109,
+          "share": 0.003,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.109,
+          "share": 0.003,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.106,
+          "share": 0.003,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.077,
+          "share": 0.002,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.057,
+          "share": 0.002,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.057,
+          "share": 0.002,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.048,
+          "share": 0.001,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.046,
+          "share": 0.001,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.045,
+          "share": 0.001,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.043,
+          "share": 0.001,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.042,
+          "share": 0.001,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.039,
+          "share": 0.001,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.031,
+          "share": 0.001,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.029,
+          "share": 0.001,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.028,
+          "share": 0.001,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.016,
+          "share": 0.0,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.015,
+          "share": 0.0,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.015,
+          "share": 0.0,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.015,
+          "share": 0.0,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.01,
+          "share": 0.0,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    },
+    {
+      "conclusion": "C205",
+      "conclusion_text": "Whether an egg a day is okay for heart health is questioned by a new study",
+      "concentration": 0.318,
+      "effective_independent_claims": 3.72,
+      "supporting_claim_count": 4,
+      "top_claim": "C207",
+      "top_claim_text": "Researchers examined egg and cholesterol consumption in more than 27,000 men from a long-running cancer study",
+      "contributions": [
+        {
+          "claim_id": "C207",
+          "weight": 1.0,
+          "share": 0.318,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 1.0,
+          "share": 0.318,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 0.6,
+          "share": 0.191,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 0.54,
+          "share": 0.172,
+          "text": "The cancer study followed participants for up to 31 years"
+        }
+      ]
+    },
+    {
+      "conclusion": "C213",
+      "conclusion_text": "People who like eggs should limit consumption to a few per week and pair them with other healthy foods",
+      "concentration": 0.108,
+      "effective_independent_claims": 16.74,
+      "supporting_claim_count": 29,
+      "top_claim": "C207",
+      "top_claim_text": "Researchers examined egg and cholesterol consumption in more than 27,000 men from a long-running cancer study",
+      "contributions": [
+        {
+          "claim_id": "C207",
+          "weight": 1.71,
+          "share": 0.108,
+          "text": "Researchers examined egg and cholesterol consumption in more than 27,000 men fro"
+        },
+        {
+          "claim_id": "C209",
+          "weight": 1.71,
+          "share": 0.108,
+          "text": "Researchers pooled and reviewed data from 41 similar studies on eggs, dietary ch"
+        },
+        {
+          "claim_id": "C206",
+          "weight": 1.386,
+          "share": 0.087,
+          "text": "The study was published April 1, 2022 in the journal Circulation"
+        },
+        {
+          "claim_id": "C208",
+          "weight": 1.386,
+          "share": 0.087,
+          "text": "The cancer study followed participants for up to 31 years"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.9,
+          "share": 0.057,
+          "text": "The JAMA study found each additional 300 mg of dietary cholesterol and each addi"
+        },
+        {
+          "claim_id": "C105",
+          "weight": 0.816,
+          "share": 0.052,
+          "text": "The study looked at pooled data on 29,615 U.S. racially and ethnically diverse a"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.81,
+          "share": 0.051,
+          "text": "A 2019 JAMA analysis of six cohort studies from the Lifetime Risk Pooling Projec"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.729,
+          "share": 0.046,
+          "text": "The cohort analyses included 83,349 women from NHS, 90,214 women from NHS II, an"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.729,
+          "share": 0.046,
+          "text": "Over 32 years of follow-up, 14,806 subjects developed CVD"
+        },
+        {
+          "claim_id": "C106",
+          "weight": 0.616,
+          "share": 0.039,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with a 17 percent hi"
+        },
+        {
+          "claim_id": "C107",
+          "weight": 0.616,
+          "share": 0.039,
+          "text": "Eating 300 mg of dietary cholesterol per day was associated with an 18 percent h"
+        },
+        {
+          "claim_id": "C099",
+          "weight": 0.6,
+          "share": 0.038,
+          "text": "The study findings suggest current U.S. dietary guideline recommendations for di"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.437,
+          "share": 0.028,
+          "text": "In 1999, Frank Hu published the first large-scale epidemiological study using NH"
+        },
+        {
+          "claim_id": "C103",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "Cholesterol, regardless of source, was associated with an increased risk of hear"
+        },
+        {
+          "claim_id": "C101",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "Those prior studies generally had a less diverse sample, shorter follow-up time,"
+        },
+        {
+          "claim_id": "C151",
+          "weight": 0.312,
+          "share": 0.02,
+          "text": "The 2013 review and meta-analysis found no relationship between egg intake and c"
+        },
+        {
+          "claim_id": "C183",
+          "weight": 0.27,
+          "share": 0.017,
+          "text": "A growing body of evidence indicates that nutrient-rich eggs can also be enjoyed"
+        },
+        {
+          "claim_id": "C104",
+          "weight": 0.269,
+          "share": 0.017,
+          "text": "Exercise, overall diet quality, and the amount and type of fat in the diet didn'"
+        },
+        {
+          "claim_id": "C118",
+          "weight": 0.262,
+          "share": 0.017,
+          "text": "A major limitation of the study is that participants' long-term eating patterns "
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.243,
+          "share": 0.015,
+          "text": "Compared with those eating less than one egg per month, those eating at least on"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.236,
+          "share": 0.015,
+          "text": "The researchers added the younger cohort from the Nurses' Health Study II"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.22,
+          "share": 0.014,
+          "text": "The PURE cohort found no link between egg consumption and cardiovascular disease"
+        },
+        {
+          "claim_id": "C108",
+          "weight": 0.175,
+          "share": 0.011,
+          "text": "Cholesterol was the driving factor independent of saturated fat consumption and "
+        },
+        {
+          "claim_id": "C117",
+          "weight": 0.157,
+          "share": 0.01,
+          "text": "The study had up to 31 years of follow-up with a median of 17.5 years, during wh"
+        },
+        {
+          "claim_id": "C154",
+          "weight": 0.149,
+          "share": 0.009,
+          "text": "A study analyzing over 400,000 men and women in Europe over an average of 12 yea"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.146,
+          "share": 0.009,
+          "text": "Eggs were listed as a nutrient-rich food and part of healthy dietary patterns in"
+        },
+        {
+          "claim_id": "C160",
+          "weight": 0.146,
+          "share": 0.009,
+          "text": "There was no link between egg consumption and cardiovascular events in 31,544 pa"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.087,
+          "share": 0.006,
+          "text": "Previous studies found eating eggs did not raise the risk of cardiovascular dise"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.086,
+          "share": 0.005,
+          "text": "A 2019 observational study of U.S. cohorts found a small but statistically signi"
+        }
+      ]
+    }
+  ],
+  "circular_support": [
+    {
+      "claim_ids": [
+        "C041",
+        "C043",
+        "C044",
+        "C045",
+        "C046"
+      ],
+      "grounded": false,
+      "severity": "pure-circular",
+      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 5.",
+      "members": [
+        {
+          "id": "C041",
+          "text": "Eating up to one egg per day is not associated with an increased risk of cardiov"
+        },
+        {
+          "id": "C043",
+          "text": "The prospective analysis included more than 215,000 men and women in NHS, NHS II"
+        },
+        {
+          "id": "C044",
+          "text": "Eating an egg a day was not associated with an increased risk of incident CVD af"
+        },
+        {
+          "id": "C045",
+          "text": "The updated meta-analysis of prospective cohort studies involved 1,720,108 parti"
+        },
+        {
+          "id": "C046",
+          "text": "Moderate egg consumption was not associated with increased risk of CVD, coronary"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C187",
+        "C188",
+        "C193",
+        "C194",
+        "C195",
+        "C196",
+        "C197",
+        "C198",
+        "C199",
+        "C200",
+        "C201",
+        "C202",
+        "C203",
+        "C204"
+      ],
+      "grounded": true,
+      "severity": "redundant",
+      "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+      "members": [
+        {
+          "id": "C187",
+          "text": "Adding three eggs per day to the diet of people with metabolic syndrome did not "
+        },
+        {
+          "id": "C188",
+          "text": "Whole eggs could be considered a healthful food choice for people with metabolic"
+        },
+        {
+          "id": "C193",
+          "text": "Eating eggs improved self-reported intake of selenium and choline in adults at r"
+        },
+        {
+          "id": "C194",
+          "text": "Adding two eggs plus spinach to breakfast as part of a plant-based healthy diet "
+        },
+        {
+          "id": "C195",
+          "text": "There were no differences observed in plasma LDL-cholesterol, triglycerides, glu"
+        },
+        {
+          "id": "C196",
+          "text": "Including eggs as part of healthy dietary patterns may be beneficial even for pe"
+        },
+        {
+          "id": "C197",
+          "text": "The science on dietary cholesterol and eggs demonstrates that eggs are an import"
+        },
+        {
+          "id": "C198",
+          "text": "These data support the value of eggs as a nutrient dense food within healthy die"
+        },
+        {
+          "id": "C199",
+          "text": "Eggs are a good or excellent source of eight essential nutrients including choli"
+        },
+        {
+          "id": "C200",
+          "text": "An egg contains 252 mcg of the carotenoids lutein and zeaxanthin"
+        },
+        {
+          "id": "C201",
+          "text": "An egg is approximately 70 calories"
+        },
+        {
+          "id": "C202",
+          "text": "The egg is a nutrient-rich food choice"
+        },
+        {
+          "id": "C203",
+          "text": "Eggs can help improve dietary intake"
+        },
+        {
+          "id": "C204",
+          "text": "Eggs can help optimize health"
+        }
+      ]
+    }
+  ]
+}
