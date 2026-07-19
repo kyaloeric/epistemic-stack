@@ -116,3 +116,7 @@ baseline itself**: which of the 40 "independent" items collapse to a shared data
 72/28 weighting survives a Herfindahl correction, and where the real fragility sits. That is the
 demonstration that most directly earns rubric #1 and #3 — and it reuses another entrant's artifact
 rather than competing with it.
+
+*Note: this requires a cross-document unification pass (dedup/shared-root edges across, not just
+within, source-ordered windows) that the current structure stage does not yet do — so it is
+correctly listed as future work, not a completed result.*

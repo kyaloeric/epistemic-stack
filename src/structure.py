@@ -60,6 +60,22 @@ def structure(case: str, root: str = ".") -> dict:
     return graph
 
 
+def _as_list(obj, keys):
+    """Normalize an LLM JSON reply to a list. The prompts ask for a bare array, but a model may
+    validly wrap it in an object ({"edges": [...]}). Without this, a wrapped reply silently
+    became [] — producing a graph with no edges and a meaningless audit."""
+    if isinstance(obj, list):
+        return obj
+    if isinstance(obj, dict):
+        for k in keys:
+            if isinstance(obj.get(k), list):
+                return obj[k]
+        for v in obj.values():
+            if isinstance(v, list):
+                return v
+    return []
+
+
 def _dedup_windowed(claims, window=120, overlap=20):
     """Deduplicate in overlapping windows so a big corpus never overflows one call.
     Each claim lands in at most one cluster (a global `claimed` set enforces this), so the
@@ -79,7 +95,9 @@ def _dedup_windowed(claims, window=120, overlap=20):
         except Exception as e:
             print(f"    [warn] dedup batch at {start} failed ({e}); leaving those claims distinct.")
             batch_clusters = []
-        for cl in batch_clusters if isinstance(batch_clusters, list) else []:
+        for cl in _as_list(batch_clusters, ("clusters", "merges", "groups")):
+            if not isinstance(cl, dict):
+                continue
             mids = [m for m in cl.get("member_ids", []) if m not in claimed]
             if len(mids) >= 2:
                 clusters.append({"canonical_text": cl.get("canonical_text", ""), "member_ids": mids})
@@ -105,7 +123,9 @@ def _edges_windowed(merged, window=60, overlap=15):
         except Exception as e:
             print(f"    [warn] edge batch at {start} failed ({e}); skipping that batch.")
             batch_edges = []
-        for ed in batch_edges if isinstance(batch_edges, list) else []:
+        for ed in _as_list(batch_edges, ("edges", "relations", "relationships")):
+            if not isinstance(ed, dict):
+                continue
             frm, to, typ = ed.get("from"), ed.get("to"), ed.get("type")
             if not frm or not to:
                 continue

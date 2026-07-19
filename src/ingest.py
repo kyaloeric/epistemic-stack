@@ -36,6 +36,17 @@ def ingest(case: str, root: str = ".", limit_chunks: int = 0) -> dict:
         content = load_source_text(case_dir, src["id"])
         if not content:
             continue
+        # Drop the fetcher's leading "# ..." metadata/caution header before extraction:
+        # title/author/side are passed to the model separately via USER_TEMPLATE, so the
+        # header is pure scaffolding. Only the leading block is stripped; a '#' that appears
+        # inside the article body is left intact.
+        _lines = content.splitlines()
+        _i = 0
+        while _i < len(_lines) and (_lines[_i].startswith("#") or not _lines[_i].strip()):
+            _i += 1
+        content = "\n".join(_lines[_i:]).strip()
+        if not content:
+            continue
         print(f"  ingesting {src['id']} ({len(content)} chars)...")
         # chunk long sources to stay within limits; simple paragraph chunking
         chunks = _chunk(content, 12000)
@@ -48,11 +59,13 @@ def ingest(case: str, root: str = ".", limit_chunks: int = 0) -> dict:
                 side=src.get("side", "n/a"), content=chunk,
             )
             try:
-                claims = call_json(SYSTEM, user, max_tokens=16000)
+                claims = _as_claim_list(call_json(SYSTEM, user, max_tokens=16000))
             except Exception as e:
                 print(f"    [warn] extraction failed on a chunk: {e}")
                 continue
             for c in claims:
+                if not isinstance(c, dict):
+                    continue  # skip stray non-object entries the model may emit
                 c_id = f"C{counter:03d}"
                 counter += 1
                 all_claims.append({
@@ -78,6 +91,24 @@ def ingest(case: str, root: str = ".", limit_chunks: int = 0) -> dict:
         json.dump(out, f, indent=2, ensure_ascii=False)
     print(f"  -> {len(all_claims)} claims written to {out_dir}/claims.json")
     return out
+
+
+def _as_claim_list(obj):
+    """The extraction prompt asks for a bare JSON array, but a model may validly wrap it in an
+    object ({"claims": [...]}) or return a single claim. Normalize all of these to a list of
+    claim dicts so one phrasing choice can't crash the run."""
+    if isinstance(obj, list):
+        return obj
+    if isinstance(obj, dict):
+        for key in ("claims", "items", "results", "data", "atomic_claims"):
+            if isinstance(obj.get(key), list):
+                return obj[key]
+        if obj.get("text") or obj.get("verbatim_span"):
+            return [obj]  # a single claim object
+        for v in obj.values():  # fall back to the first list-valued field
+            if isinstance(v, list):
+                return v
+    return []
 
 
 def _chunk(text: str, size: int):

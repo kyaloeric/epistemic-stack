@@ -118,3 +118,46 @@ header select { font:inherit; padding:5px 8px; border:1px solid var(--line); bor
 .tchips button { text-align:left; border:1px solid var(--line); background:#fff; padding:8px 11px;
   border-radius:7px; font-size:12.5px; cursor:pointer; }
 .tchips button:hover { background:var(--chip); }
+
+/* ---- bring-your-own: header button + modal ---- */
+.byobtn { border:1px solid var(--crux); color:var(--crux); background:#fff; padding:5px 11px;
+  border-radius:7px; font-size:12.5px; font-weight:600; }
+.byobtn:hover { background:#fbf7ec; }
+.modal { position:fixed; inset:0; background:rgba(26,26,26,.42); display:flex;
+  align-items:flex-start; justify-content:center; padding:40px 16px; z-index:50; overflow:auto; }
+.modal.hidden { display:none; }
+.modalcard { background:var(--card); border-radius:12px; width:100%; max-width:720px;
+  box-shadow:0 14px 50px rgba(0,0,0,.25); }
+.modalhead { display:flex; align-items:center; justify-content:space-between;
+  padding:16px 20px; border-bottom:1px solid var(--line); }
+.modalhead b { font-size:15px; }
+.modalhead .x { border:none; background:none; font-size:22px; line-height:1; color:var(--muted); }
+.modalhead .x:hover { color:var(--ink); }
+.modalbody { padding:18px 20px 20px; }
+.modalbody p { margin:0 0 12px; font-size:13px; }
+.steps { margin:0 0 14px; padding-left:20px; font-size:12.5px; color:#4a4a4a; }
+.steps li { margin:3px 0; }
+.promptbox { position:relative; margin-bottom:16px; }
+.promptbox textarea { width:100%; height:150px; font:11.5px/1.5 ui-monospace,Consolas,monospace;
+  border:1px solid var(--line); border-radius:8px; padding:10px 12px; background:#fbfbf9;
+  color:#333; resize:vertical; }
+.copybtn { position:absolute; top:8px; right:8px; border:1px solid var(--line); background:#fff;
+  padding:3px 9px; border-radius:6px; font-size:11px; color:var(--muted); z-index:1; }
+.copybtn:hover { background:var(--chip); color:var(--ink); }
+.drop { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+.filelbl { border:1px solid var(--accent); color:var(--accent); background:#fff; padding:6px 12px;
+  border-radius:7px; font-size:12.5px; font-weight:600; cursor:pointer; }
+.filelbl:hover { background:#eef3f9; }
+#byoPaste { width:100%; height:120px; font:11.5px/1.5 ui-monospace,Consolas,monospace;
+  border:1px solid var(--line); border-radius:8px; padding:10px 12px; resize:vertical; }
+.modalfoot { display:flex; align-items:center; gap:14px; margin-top:14px; }
+.runbtn { background:var(--crux); color:#fff; border:none; padding:9px 18px; border-radius:8px;
+  font-size:13px; font-weight:600; }
+.runbtn:hover { background:#9c7209; }
+.runbtn:disabled { opacity:.55; cursor:default; }
+.byomsg { font-size:12.5px; }
+.byomsg.err { color:var(--warn); }
+.byomsg.ok { color:var(--zoo); }
+.warnbanner { background:#fdf6e3; border:1px solid #efe0a8; color:#7a5c0a; border-radius:8px;
+  padding:9px 12px; font-size:12px; margin-bottom:14px; }
+.warnbanner ul { margin:6px 0 0; padding-left:18px; }

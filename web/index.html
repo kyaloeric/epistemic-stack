@@ -11,6 +11,7 @@
 <header>
   <h1>Epistemic&nbsp;Stack</h1>
   <select id="caseSelect" title="Choose a case"></select>
+  <button id="byoBtn" class="byobtn" title="Audit a claim graph you built from your own sources">+ Analyze your own source</button>
   <div class="q" id="question"></div>
   <div class="counts" id="counts"></div>
 </header>
@@ -40,6 +41,44 @@
     </div>
     <div class="panel" id="panel"></div>
     <div class="method" id="method"></div>
+  </div>
+</div>
+
+<!-- BRING YOUR OWN: audit a claim graph the user built from any source, no API key -->
+<div id="byo" class="modal hidden">
+  <div class="modalcard">
+    <div class="modalhead">
+      <b>Analyze your own source</b>
+      <button id="byoClose" class="x" title="Close">×</button>
+    </div>
+    <div class="modalbody">
+      <p class="muted">
+        The warrant audit (concentration, effective-independent count, circular-support) is pure
+        graph arithmetic — <b>no API key, nothing sent to us</b>. You supply the claim graph; this
+        tool computes the numbers, deterministically. Turning your article into that graph is the
+        one step that needs a model, so you run it in <b>your own Claude</b>:
+      </p>
+      <ol class="steps">
+        <li>Copy the prompt below into Claude (or Claude Code), then paste your article(s) after it.</li>
+        <li>Claude returns one JSON object (claims + typed edges). Save or copy it.</li>
+        <li>Drop that JSON here → get an instant, reproducible warrant audit.</li>
+      </ol>
+      <div class="promptbox">
+        <button id="byoCopy" class="copybtn">Copy prompt</button>
+        <textarea id="byoPrompt" readonly spellcheck="false"></textarea>
+      </div>
+      <div class="drop">
+        <label class="filelbl">Upload JSON file
+          <input id="byoFile" type="file" accept="application/json,.json" hidden></label>
+        <span class="muted">or paste the JSON below</span>
+      </div>
+      <textarea id="byoPaste" placeholder='{ "question": "...", "claims": [...], "edges": [...] }'
+        spellcheck="false"></textarea>
+      <div class="modalfoot">
+        <button id="byoRun" class="runbtn">Run warrant audit</button>
+        <span id="byoMsg" class="byomsg"></span>
+      </div>
+    </div>
   </div>
 </div>
 
