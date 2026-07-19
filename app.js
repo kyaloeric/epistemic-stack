@@ -106,6 +106,10 @@ function initBYO() {
   $("byoRun").onclick = () => runAudit(msg, close);
 }
 
+const NO_BACKEND_MSG =
+  "The live audit needs the Python server — run `python server.py` after cloning the repo. " +
+  "This hosted demo serves the pre-computed cases only (the warrant maths is identical).";
+
 async function runAudit(msg, close) {
   const raw = $("byoPaste").value.trim();
   if (!raw) { msg("Paste a JSON graph, or upload a file, first.", "err"); return; }
@@ -120,15 +124,18 @@ async function runAudit(msg, close) {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify(parsed),
     });
-    const data = await res.json();
-    if (!res.ok) { msg(data.error || `Server error (${res.status}).`, "err"); return; }
+    // A static host (e.g. GitHub Pages) has no /api/assess, so the reply is a 404 HTML page
+    // rather than JSON. Say so plainly instead of surfacing a parse error.
+    let data = null;
+    try { data = await res.json(); } catch { data = null; }
+    if (!res.ok || !data) { msg(NO_BACKEND_MSG, "err"); return; }
     data.case = data.case || "your source";
     render(data);
     $("question").textContent = data.question || "Your uploaded source";
     msg("", "");
     close();
   } catch (e) {
-    msg("Could not reach the audit endpoint: " + e.message, "err");
+    msg(NO_BACKEND_MSG, "err");
   } finally {
     btn.disabled = false;
   }
