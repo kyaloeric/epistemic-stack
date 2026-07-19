@@ -23,8 +23,13 @@ import re
 
 _WORD = re.compile(r"[a-z0-9]+")
 
-# Ordinary English function words plus terms so ubiquitous in this corpus that they carry no
-# topical signal. Kept small and explicit: an aggressive list would strip real subject matter.
+# Ordinary English function words, plus discourse verbs and quantifiers ("people", "using",
+# "account for", "multiple") that are frequent enough to dominate a short-text cosine score while
+# carrying no subject matter. Without the second group, windows cohere around the word "using"
+# rather than around a topic, and the model is handed unrelated claims to relate.
+#
+# Every entry must be checked against the corpus vocabulary before being added: this list is
+# subtractive, so a term wrongly included here becomes permanently invisible to selection.
 _STOP = frozenset("""
 a an the and or but if then than that this these those there here of in on at to for from by
 with without within into onto over under about above below between across is are was were be
@@ -32,7 +37,16 @@ been being am do does did doing have has had having will would shall should can 
 must not no nor only own same so too very just as it its it's they them their we our us you your
 he she his her him i me my which who whom whose what when where why how all any both each few
 more most other some such one two three also however therefore thus hence rather quite
-claim claims argue argues argued argument evidence case cases would could
+people person account accounts accounting multiple many much several various given makes make
+made making made use used uses using say says said stated state states claim claims claimed
+argue argues argued argument arguments evidence case cases point points show shows shown showed
+suggest suggests suggested consider considers considered think thinks thought believe believes
+believed note notes noted mean means meant find finds found based due likely unlikely probable
+probability probabilities possible possibility reason reasons result results resulting
+different differences difference specific specifically particular particularly general generally
+actually really simply merely still even yet already often usually always never sometimes
+first second third last next another others whether because since while during before after
+number numbers amount level levels kind kinds type types thing things way ways fact facts
 """.split())
 
 _MIN_TOKEN_LEN = 3
