@@ -53,6 +53,43 @@ def _strip_html(html: str) -> str:
     return "\n".join(ln for ln in lines if ln)
 
 
+# Markers that reliably signal the end of the article body and the start of page chrome —
+# comment sections, related-post rails, tag/author indexes, blogrolls. These effectively never
+# appear inside real article prose, so we cut at the first whole-line occurrence.
+_END_MARKERS = re.compile(
+    r"^\s*(comments? are closed|leave a (reply|comment)|post a comment"
+    r"|related (posts|articles|stories)|you might also like|more stories"
+    r"|recent posts|most (read|popular)|top\s+\d+\s+authors|all authors"
+    r"|blogroll|post navigation|share this( article| post)?|sign up for our"
+    r"|categories)\s*[:.]?\s*$", re.I)
+
+
+def _is_list_noise(line: str) -> bool:
+    """A short, unpunctuated line — the shape of tag clouds, author rosters, and nav lists.
+    Sentence-like lines (ending in punctuation) are kept."""
+    s = line.strip()
+    if not s or len(s) > 40:
+        return False
+    if s[-1] in ".!?:’”\"'":
+        return False
+    return len(s.split()) <= 4
+
+
+def _trim_boilerplate(text: str) -> str:
+    """Cut trailing page chrome that HTML-stripping leaves behind (comments, tag clouds,
+    author lists, blogrolls). Marker-based cut, then a trailing short-list-line sweep.
+    This is a heuristic: a mis-cut trims a little real content, it never mangles the middle —
+    so the fetched files should still be eyeballed."""
+    lines = text.split("\n")
+    for i, ln in enumerate(lines):
+        if _END_MARKERS.match(ln):
+            lines = lines[:i]
+            break
+    while lines and _is_list_noise(lines[-1]):
+        lines.pop()
+    return "\n".join(lines).strip()
+
+
 def _fetch(url: str, timeout: int = 30) -> str:
     req = urllib.request.Request(url, headers=_HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -85,7 +122,7 @@ def fetch_case(case: str, only: str = None, root: str = "."):
         try:
             print(f"  fetching {sid} <- {url}")
             html = _fetch(url)
-            text = _strip_html(html)
+            text = _trim_boilerplate(_strip_html(html))
             if len(text) < 500:
                 _placeholder(out_path, src, "fetched page too short (likely JS-rendered or blocked)")
                 manual.append(sid)

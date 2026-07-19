@@ -36,6 +36,17 @@ def ingest(case: str, root: str = ".", limit_chunks: int = 0) -> dict:
         content = load_source_text(case_dir, src["id"])
         if not content:
             continue
+        # Drop the fetcher's leading "# ..." metadata/caution header before extraction:
+        # title/author/side are passed to the model separately via USER_TEMPLATE, so the
+        # header is pure scaffolding. Only the leading block is stripped; a '#' that appears
+        # inside the article body is left intact.
+        _lines = content.splitlines()
+        _i = 0
+        while _i < len(_lines) and (_lines[_i].startswith("#") or not _lines[_i].strip()):
+            _i += 1
+        content = "\n".join(_lines[_i:]).strip()
+        if not content:
+            continue
         print(f"  ingesting {src['id']} ({len(content)} chars)...")
         # chunk long sources to stay within limits; simple paragraph chunking
         chunks = _chunk(content, 12000)
