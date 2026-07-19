@@ -50,12 +50,13 @@ python -m src.run --case eggs
 ## Layout
 
 ```
-src/        pipeline stages + offline demo + runner
+src/        pipeline stages: fetch, ingest, structure, assess, concentration, warrant, run
 prompts/    the LLM prompts (the method)
 schema/     claim-graph JSON schema
-cases/      per-case source manifests + outputs
-viewer/     static HTML graph viewer
-baseline/   deep-research vs pipeline comparison
+cases/      per-case source manifests + outputs (raw texts are fetched, never committed)
+web/        interrogable app: claim index, provenance, support tree, warrant panels
+server.py   dependency-free server for web/ + POST /api/assess (audit any claim graph, no key)
+baseline/   baseline comparison and delta analysis
 tests/      adversarial robustness exercises
 Dockerfile, docker-compose.yml   one-command demo
 ```
