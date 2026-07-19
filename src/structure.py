@@ -107,21 +107,37 @@ def _dedup_windowed(claims, window=120, overlap=20):
     return clusters
 
 
-def _edges_windowed(merged, window=60, overlap=15):
-    """Extract edges in overlapping windows and union them. Output size (not input) is what
-    truncates the model, so we cap how many claims each call must relate. Overlap catches edges
-    near window boundaries. Long-range edges between very distant claims can be missed — a known
-    trade for scalability; most inference/discourse edges are local to a reasoning neighborhood."""
-    edges, seen = [], set()
+def _interleave_by_source(claims):
+    """Round-robin claims across their source documents.
+
+    Claims are appended in source order during ingestion, so a contiguous window lands almost
+    entirely inside ONE document — which is exactly where cross-source support/contradiction
+    edges get missed. Those are the edges the warrant layer depends on: independence is only
+    meaningful across sources. Interleaving puts claims from different documents in the same
+    window so the model can relate them."""
+    buckets = {}
+    for c in claims:
+        sid = c["attestations"][0]["source_id"] if c.get("attestations") else "?"
+        buckets.setdefault(sid, []).append(c)
+    order, i = [], 0
+    while any(len(b) > i for b in buckets.values()):
+        for sid in buckets:
+            if len(buckets[sid]) > i:
+                order.append(buckets[sid][i])
+        i += 1
+    return order
+
+
+def _edges_pass(ordering, window, overlap, edges, seen, label):
     step = max(1, window - overlap)
-    for start in range(0, len(merged), step):
-        batch = merged[start:start + window]
+    for start in range(0, len(ordering), step):
+        batch = ordering[start:start + window]
         if not batch:
             break
         try:
             batch_edges = call_json(EDGES_SYSTEM, _claims_brief(batch))
         except Exception as e:
-            print(f"    [warn] edge batch at {start} failed ({e}); skipping that batch.")
+            print(f"    [warn] {label} edge batch at {start} failed ({e}); skipping that batch.")
             batch_edges = []
         for ed in _as_list(batch_edges, ("edges", "relations", "relationships")):
             if not isinstance(ed, dict):
@@ -133,8 +149,23 @@ def _edges_windowed(merged, window=60, overlap=15):
             if key not in seen:
                 seen.add(key)
                 edges.append(ed)
-        if start + window >= len(merged):
+        if start + window >= len(ordering):
             break
+
+
+def _edges_windowed(merged, window=60, overlap=15):
+    """Extract edges in overlapping windows and union them. Output size (not input) is what
+    truncates the model, so we cap how many claims each call must relate.
+
+    Two passes, because ordering decides which edges are findable at all:
+      1. contiguous — captures the reasoning chain *within* each document;
+      2. source-interleaved — puts claims from different documents in the same window so
+         *cross-source* support/contradiction edges can be found.
+    A contiguous-only pass yields a graph of near-isolated per-source islands, which makes the
+    independence metrics measure within-article structure rather than cross-source agreement."""
+    edges, seen = [], set()
+    _edges_pass(merged, window, overlap, edges, seen, "within-source")
+    _edges_pass(_interleave_by_source(merged), window, overlap, edges, seen, "cross-source")
     return edges
 
 

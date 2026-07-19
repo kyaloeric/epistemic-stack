@@ -115,12 +115,13 @@ exercises, and the named failure modes (where the pipeline can be fooled).
 ## Repo layout
 
 ```
-src/            pipeline stages (ingest, structure, assess, run)
+src/            pipeline stages (fetch, ingest, structure, assess, concentration, warrant, run)
 prompts/        the LLM prompts for each stage (versioned, the real method)
 schema/         JSON schema for claims and the graph
-cases/          per-case source lists + outputs
-viewer/         static HTML/JS graph viewer
-baseline/       deep-research vs pipeline comparison
+cases/          per-case source manifests + outputs (raw texts are fetched, not committed)
+web/            interrogable web app: claim index, provenance, support tree, warrant panels
+server.py       dependency-free server for web/ + POST /api/assess (bring-your-own graph)
+baseline/       baseline comparison and delta analysis
 tests/          adversarial robustness exercises
 ```
 

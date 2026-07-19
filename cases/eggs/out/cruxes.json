@@ -1,0 +1,106 @@
+[
+  {
+    "claim_id": "C157",
+    "sensitivity": 0.671,
+    "score": 1.735,
+    "affects": "The PURE investigator findings reinforce previous research in healthy individual",
+    "affects_id": "C161",
+    "affects_support_count": 5,
+    "rationale": "Carries 67% of the evidential support for conclusion C161, which is backed by 5 claims (~2.07 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic",
+    "model_rationale": "C157 (PURE cohort no-link finding) supports(strong) C151 and supports C161, while contradicting(disputed) C103 and C109. It is a key node reconciling multiple large cohort studies into the 'no cardiovascular harm' narrative (C183 restates C041). Flipping C157 would weaken C151, C161, and C183, and remove a major counter to the cholesterol-harm cluster."
+  },
+  {
+    "claim_id": "C125",
+    "sensitivity": 0.381,
+    "score": 1.143,
+    "affects": "The study provides direct evidence of a mechanistic link between TMAO levels and",
+    "affects_id": "C133",
+    "affects_support_count": 7,
+    "rationale": "Carries 38% of the evidential support for conclusion C133, which is backed by 7 claims (~3.81 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic",
+    "model_rationale": "Parallel to C124: C120 depends_on(strong) C125, and C125 is_evidence_for(strong) C133. Along with C124, this is one of only two direct strong supports for the TMAO-clotting mechanism claims; losing it undermines C133, C136, C137, C145, C146."
+  },
+  {
+    "claim_id": "C105",
+    "sensitivity": 0.297,
+    "score": 1.099,
+    "affects": "Cholesterol, regardless of source, was associated with an increased risk of hear",
+    "affects_id": "C103",
+    "affects_support_count": 12,
+    "rationale": "Carries 29% of the evidential support for conclusion C103, which is backed by 12 claims (~6.79 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic",
+    "model_rationale": "C105 (pooled 29,615-adult cohort study) is_evidence_for(strong) C103, and C102/C115 both depend_on C105 methodologically. C103 in turn supports(strong) C099 and C111, and supports(asserted) C114, which supports C113. This is the single foundational data source for the entire 'cholesterol/eggs harmful' argument branch; if its validity flips, C103, C111, C114, C113, and C099 all lose their primary evidentiary base."
+  },
+  {
+    "claim_id": "C124",
+    "sensitivity": 0.27,
+    "score": 0.81,
+    "affects": "The study provides direct evidence of a mechanistic link between TMAO levels and",
+    "affects_id": "C133",
+    "affects_support_count": 7,
+    "rationale": "Carries 27% of the evidential support for conclusion C133, which is backed by 7 claims (~3.81 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic",
+    "model_rationale": "C120 depends_on(strong) C124 and C125; C124 also is_evidence_for(strong) C133 and C145. This single experimental result (10-fold TMAO increase after choline) is the load-bearing empirical anchor for the entire choline→TMAO→clotting mechanism, which cascades to C136, C137, C146. Flipping it would sever the mechanistic conclusions from their evidence base."
+  },
+  {
+    "claim_id": "C207",
+    "sensitivity": 0.318,
+    "score": 0.738,
+    "affects": "Whether an egg a day is okay for heart health is questioned by a new study",
+    "affects_id": "C205",
+    "affects_support_count": 4,
+    "rationale": "Carries 31% of the evidential support for conclusion C205, which is backed by 4 claims (~3.72 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C209",
+    "sensitivity": 0.318,
+    "score": 0.738,
+    "affects": "Whether an egg a day is okay for heart health is questioned by a new study",
+    "affects_id": "C205",
+    "affects_support_count": 4,
+    "rationale": "Carries 31% of the evidential support for conclusion C205, which is backed by 4 claims (~3.72 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C087",
+    "sensitivity": 0.201,
+    "score": 0.695,
+    "affects": "As part of a healthy diet, people need to consume lower amounts of cholesterol",
+    "affects_id": "C088",
+    "affects_support_count": 10,
+    "rationale": "Carries 20% of the evidential support for conclusion C088, which is backed by 10 claims (~7.33 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C142",
+    "sensitivity": 0.333,
+    "score": 0.666,
+    "affects": "Choline is directly linked to increased production of a gut bacteria byproduct t",
+    "affects_id": "C120",
+    "affects_support_count": 3,
+    "rationale": "Carries 33% of the evidential support for conclusion C120, which is backed by 3 claims (~3.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C138",
+    "sensitivity": 0.333,
+    "score": 0.666,
+    "affects": "Choline is directly linked to increased production of a gut bacteria byproduct t",
+    "affects_id": "C120",
+    "affects_support_count": 3,
+    "rationale": "Carries 33% of the evidential support for conclusion C120, which is backed by 3 claims (~3.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C121",
+    "sensitivity": 0.333,
+    "score": 0.666,
+    "affects": "Choline is directly linked to increased production of a gut bacteria byproduct t",
+    "affects_id": "C120",
+    "affects_support_count": 3,
+    "rationale": "Carries 33% of the evidential support for conclusion C120, which is backed by 3 claims (~3.0 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  }
+]
