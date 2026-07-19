@@ -1,0 +1,16 @@
+[
+{"from":"C286","to":"C287","type":"depends_on","source_id":"acx_writeup","strength":"strong"},
+{"from":"C284","to":"C287","type":"is_evidence_for","source_id":"acx_writeup","strength":"strong"},
+{"from":"C287","to":"C284","type":"contradicts","source_id":"acx_writeup","strength":"strong"},
+{"from":"C385","to":"C332","type":"caveats","source_id":"acx_writeup","strength":"asserted"},
+{"from":"C1238","to":"C287","type":"contradicts","source_id":"rootclaim_response","strength":"strong"},
+{"from":"C1592","to":"C287","type":"supports","source_id":"rootclaim_results","strength":"asserted"},
+{"from":"C989","to":"C1592","type":"supports","source_id":"rootclaim_response","strength":"asserted"},
+{"from":"C630","to":"C1078","type":"contradicts","source_id":"stansifer_response_weissman","strength":"strong"},
+{"from":"C287","to":"C332","type":"supports","source_id":"acx_writeup","strength":"asserted"},
+{"from":"C1207","to":"C287","type":"supports","source_id":"rootclaim_response","strength":"weak"},
+{"from":"C1417","to":"C228","type":"supports","source_id":"rootclaim_response","strength":"asserted"},
+{"from":"C1398","to":"C1435","type":"caveats","source_id":"rootclaim_response","strength":"weak"},
+{"from":"C667","to":"C813","type":"caveats","source_id":"stansifer_response_weissman","strength":"weak"},
+{"from":"C1435","to":"C989","type":"supports","source_id":"rootclaim_response","strength":"weak"}
+]
