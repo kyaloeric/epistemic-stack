@@ -1,0 +1,13 @@
+[
+{"from": "C113", "to": "C031", "type": "restates", "source_id": "cross_source", "strength": "strong"},
+{"from": "C114", "to": "C113", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C084", "to": "C113", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C159", "to": "C084", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C119", "to": "C113", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C144", "to": "C143", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C143", "to": "C114", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C145", "to": "C114", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C062", "to": "C113", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C058", "to": "C114", "type": "caveats", "source_id": "cross_source", "strength": "weak"},
+{"from": "C063", "to": "C062", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "strong"}
+]

@@ -1,0 +1,12 @@
+[
+{"from": "C158", "to": "C053", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C053", "to": "C114", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C158", "to": "C114", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C058", "to": "C053", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "asserted"},
+{"from": "C075", "to": "C114", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C076", "to": "C075", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C122", "to": "C075", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C053", "to": "C002", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C158", "to": "C061", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C043", "to": "C002", "type": "supports", "source_id": "cross_source", "strength": "asserted"}
+]

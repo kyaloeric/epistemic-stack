@@ -1,0 +1,18 @@
+[
+{"from": "C046", "to": "C142", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C098", "to": "C142", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C143", "to": "C142", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C143", "to": "C046", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C143", "to": "C098", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C099", "to": "C143", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C159", "to": "C143", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C166", "to": "C159", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C156", "to": "C159", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C096", "to": "C079", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C080", "to": "C079", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C078", "to": "C079", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C080", "to": "C159", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C160", "to": "C155", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C157", "to": "C155", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C157", "to": "C160", "type": "caveats", "source_id": "cross_source", "strength": "asserted"}
+]

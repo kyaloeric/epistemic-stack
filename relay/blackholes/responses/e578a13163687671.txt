@@ -1,0 +1,14 @@
+[
+{"from": "C100", "to": "C154", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C164", "to": "C154", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C100", "to": "C101", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C154", "to": "C101", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C024", "to": "C045", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C057", "to": "C153", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C057", "to": "C100", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C070", "to": "C045", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C104", "to": "C085", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C008", "to": "C153", "type": "supports", "source_id": "cross_source", "strength": "weak"},
+{"from": "C045", "to": "C153", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C102", "to": "C101", "type": "caveats", "source_id": "lifeboat_rossler_hawking", "strength": "weak"}
+]

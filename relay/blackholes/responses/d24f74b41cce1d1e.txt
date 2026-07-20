@@ -1,0 +1,11 @@
+[
+{"from": "C060", "to": "C125", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C106", "to": "C125", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C104", "to": "C125", "type": "supports", "source_id": "cross_source", "strength": "weak"},
+{"from": "C060", "to": "C106", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C114", "to": "C125", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C119", "to": "C125", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C116", "to": "C119", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C158", "to": "C114", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C158", "to": "C119", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "asserted"}
+]

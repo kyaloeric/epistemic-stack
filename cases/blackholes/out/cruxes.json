@@ -1,0 +1,102 @@
+[
+  {
+    "claim_id": "C029",
+    "sensitivity": 0.634,
+    "score": 1.268,
+    "affects": "Even the most pessimistic version of the calculation shows the black hole is not",
+    "affects_id": "C030",
+    "affects_support_count": 3,
+    "rationale": "Carries 63% of the evidential support for conclusion C030, which is backed by 3 claims (~2.13 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C082",
+    "sensitivity": 0.375,
+    "score": 0.969,
+    "affects": "New experimental and theoretical results confirm, update, and extend the earlier",
+    "affects_id": "C032",
+    "affects_support_count": 5,
+    "rationale": "Carries 37% of the evidential support for conclusion C032, which is backed by 5 claims (~4.05 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C159",
+    "sensitivity": 0.382,
+    "score": 0.887,
+    "affects": "The German science ministry concluded that the intended research at the LHC esta",
+    "affects_id": "C084",
+    "affects_support_count": 4,
+    "rationale": "Carries 38% of the evidential support for conclusion C084, which is backed by 4 claims (~3.66 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C039",
+    "sensitivity": 0.121,
+    "score": 0.751,
+    "affects": "The review studied vacuum bubbles, magnetic monopoles, microscopic black holes, ",
+    "affects_id": "C035",
+    "affects_support_count": 73,
+    "rationale": "Carries 12% of the evidential support for conclusion C035, which is backed by 73 claims (~21.83 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C116",
+    "sensitivity": 0.225,
+    "score": 0.747,
+    "affects": "RHIC studies concluded beyond reasonable doubt that heavy-ion experiments there ",
+    "affects_id": "C119",
+    "affects_support_count": 9,
+    "rationale": "Carries 22% of the evidential support for conclusion C119, which is backed by 9 claims (~6.11 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C120",
+    "sensitivity": 0.225,
+    "score": 0.747,
+    "affects": "RHIC studies concluded beyond reasonable doubt that heavy-ion experiments there ",
+    "affects_id": "C119",
+    "affects_support_count": 9,
+    "rationale": "Carries 22% of the evidential support for conclusion C119, which is backed by 9 claims (~6.11 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C050",
+    "sensitivity": 0.261,
+    "score": 0.733,
+    "affects": "Most of the arguments made in favour of the collider lack robustness",
+    "affects_id": "C052",
+    "affects_support_count": 6,
+    "rationale": "Carries 26% of the evidential support for conclusion C052, which is backed by 6 claims (~5.2 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C085",
+    "sensitivity": 0.151,
+    "score": 0.71,
+    "affects": "The overwhelming majority of the scientific community agrees the stable-black-ho",
+    "affects_id": "C016",
+    "affects_support_count": 25,
+    "rationale": "Carries 15% of the evidential support for conclusion C016, which is backed by 25 claims (~13.39 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C158",
+    "sensitivity": 0.241,
+    "score": 0.677,
+    "affects": "Most of the arguments made in favour of the collider lack robustness",
+    "affects_id": "C052",
+    "affects_support_count": 6,
+    "rationale": "Carries 24% of the evidential support for conclusion C052, which is backed by 6 claims (~5.2 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C123",
+    "sensitivity": 0.124,
+    "score": 0.673,
+    "affects": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk",
+    "affects_id": "C125",
+    "affects_support_count": 42,
+    "rationale": "Carries 12% of the evidential support for conclusion C125, which is backed by 42 claims (~16.86 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  }
+]

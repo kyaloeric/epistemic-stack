@@ -127,7 +127,19 @@ tests/          adversarial robustness exercises
 
 ## Status
 
-Scaffold + COVID ingestion working. Structure and crux layers in progress.
+All three cases run end-to-end through the identical pipeline — ingestion, dedup,
+structure, semantic cross-source edges, assessment, concentration:
+
+| case | shape | claims | edges | cross-source | spans verified |
+|---|---|---|---|---|---|
+| COVID | curated debate | 1,590 | 4,435 | 1,198 (27%) | 95.3% |
+| eggs | mundane-but-contested | 202 | 220 | 35 (16%) | 100% |
+| black holes | confident answer, complex evidence | 157 | 363 | 165 (45%) | 100% |
+
+`src/verify_spans.py` re-reads the sources and checks every `verbatim_span` is a literal
+substring — that is where the 95.3% comes from, and the 76 COVID misses are listed rather
+than hidden.
+
 This is a competition prototype, not a product — optimised for legibility and
 reproducibility over features.
 

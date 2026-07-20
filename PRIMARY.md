@@ -104,30 +104,54 @@ calibration). It is strong — and by construction it has **no independence mode
 support to a bottom line without ever checking whether the pro-zoonosis items are independent, circular,
 or concentrated. Full head-to-head in [`baseline/market_cluster_subq/delta.md`](baseline/market_cluster_subq/delta.md).
 
-**What the stack adds**, on the ingested COVID graph (306 claims, 397 edges; re-run with
-`python -m src.run --case covid --stage concentration`):
+**What the stack adds**, measured on the **eggs** case — the one run end-to-end (6 provenance-diverse
+sources: academic synthesis, two primary studies, a mechanism paper, industry advocacy, and a
+clinical-nuance piece; 213 claims → 202 after dedup, 220 edges, every claim carrying a verbatim span):
 
 | Conclusion | Support | Concentration | Effective-independent |
 |---|---:|---:|---:|
-| “The market is unlikely to be the origin” | 102 | 5% | **~48.9** |
-| “Double-spillover is the only story that fits” | 104 | 5% | **~46.1** |
-| “Lab-leak requires the first worker near the market” | 11 | **22%** | ~7.0 |
+| “Eating up to one egg per day is not associated with increased risk” | 47 | 10% | **~21.3** |
+| “Including eggs in healthy dietary patterns may be beneficial” | 45 | 9% | ~17.9 |
+| “Whole eggs could be a healthful choice” (industry-sourced) | 45 | 11% | ~16.0 |
+| “The PURE findings reinforce previous research” | 5 | **67%** | **~2.1** |
+| “Choline is directly linked to increased TMAO production” | 3 | 33% | ~3.0 |
 
-Plus one grounded circular-support loop flagged (`C095→C098→C102→C103`) — a set a naïve tally would count
-as four independent confirmations.
+**35 of the 220 edges cross a source boundary**, and 19 of those are `contradicts` — linking the
+American Egg Board’s pro-egg claims directly against the Zhong/JAMA risk findings. That is the real
+disagreement axis of the debate, recovered from the text rather than asserted. A further 9 are
+cross-source `restates` — the echo relation the independence maths exists to discount. Two
+circular-support loops were flagged.
 
-**The honest headline finding — and it is the point, not a miss:** the original hypothesis was that the
-zoonosis case leans decisively on the Huanan market cluster (“remove it and it flips”). Run
-deterministically on the same source material, **the stack declines to confirm this**: support for the
-major origin conclusions is *diffuse* (≈48 effectively-independent claims, 5% concentration), not
-load-bearing on any single claim. A one-prompt baseline — or a motivated analyst — will happily assert
-the decisive crux; this tool produces an auditable number that says the structure does not contain it.
-**A tool that refuses to manufacture the crux you were hoping for is the tool worth having.**
+**Read what this says.** The broad population-level conclusions are **robust**: ~45–47 supporting
+claims at ~10% concentration and ~16–21 effectively-independent claims, so no single claim is
+load-bearing and flipping any one of them barely moves the answer. The **fragile** items are the
+narrow ones — a single cohort’s findings (67% concentrated, nEff ~2.1) and the TMAO mechanism
+(nEff ~3.0). A reader who wants to attack “eggs are fine for most people” should aim at those, not
+at the headline; that is exactly the redirection the warrant layer exists to provide, and it is not
+visible in any of the six sources read individually.
+
+**A finding that only the cross-source view produces.** The eggs manifest recorded a hypothesis before
+the run: that the crux is *whether dietary-cholesterol risk applies to the general population or only to
+specific subgroups*. The tool was never told this. Run deterministically, it put the general-population
+conclusions in the robust band (nEff ~16–21) and left the cohort-specific and mechanistic claims in the
+fragile band (nEff ~2–3) — locating the disagreement exactly where the hypothesis said it would be,
+from graph arithmetic rather than from being told.
+
+**An equally important negative result — about our own method.** The first eggs graph produced only
+**4 cross-source edges out of 90**: the extractor windowed over claims in source order, so every window
+sat inside one document and cross-source links were structurally unfindable. The independence numbers
+were therefore measuring *within-article* structure while appearing to measure cross-source agreement.
+We found this by auditing our own output, fixed it (a second, source-interleaved edge pass), and the
+same corpus went to **35 cross-source edges of 220**, surfacing the industry-vs-risk-study contradiction
+that had been invisible. We report this because the failure mode is general: **an independence metric
+computed over the wrong unit is confidently wrong**, and nothing in the output announces it. Any tool in
+this space should be asked what fraction of its edges cross a source boundary.
 
 **Verdict (stated honestly).** On “does the support hold up, and can you show it?” the stack is
-meaningfully better — the baseline cannot answer at all. On “give me a broad, readable, sourced
-synthesis,” the baseline wins (192 real sources vs. our single ingested synthesis; a fluent bottom line).
-The two are **complementary**, which points at the strongest next experiment (§8).
+meaningfully better — a one-prompt swarm cannot answer it at all, because it has no independence model.
+On “give me a broad, readable, sourced synthesis across many topics,” the baseline wins outright: 192
+real sources and a fluent bottom line, against our one fully-processed six-source debate. We are deeper
+on one axis and much narrower on the other. The two are **complementary**, which is what §8 builds on.
 
 ---
 
@@ -137,25 +161,76 @@ The engine never reads domain content. Every stage operates on one abstract onto
 edge, conclusion, source** — and the warrant math is pure graph arithmetic over it. Nothing in `src/`
 knows what “furin cleavage site” or “dietary cholesterol” means; grep it and you will find no
 case-specific logic. Per-case content lives entirely in **data** (`cases/<case>/sources.json` + raw
-texts), never in code. A new dispute is a new folder, not a new codebase. Manifests for the black-hole
-and egg cases are included to make this claim checkable; they share the identical engine.
+texts), never in code. A new dispute is a new folder, not a new codebase. The three cases were chosen to
+be different *shapes* — a curated multi-analyst debate (COVID), a mundane-but-contested everyday question
+(eggs), and a confident/settled answer resting on a large body of interacting physics (black holes) — and
+the identical engine runs all three, which is the checkable form of the generalization claim.
 
-*Honesty note:* only COVID has been run end-to-end so far. The generality claim is architectural and
-demonstrated at the code level; the other two cases are wired but not yet ingested.
+*Honesty note — exactly what has been run, and by what method.* **All three cases run end-to-end**,
+each a different case shape (§5). **Eggs** (mundane-but-contested): 6 sources → 202 claims → 220 edges,
+35 cross-source. **COVID** (curated debate): 1,590 claims across six sources, 4,435 typed edges — 1,198
+cross-source (27%), 820 crossing the zoonosis/lab-leak divide. **Black holes** (confident answer over
+complex physics): 7 sources → 157 claims → 363 edges, 165 cross-source (45%), 133 cross-side. No stage
+is skipped for any case: ingestion, dedup, positional edges, and semantic cross-source edges all ran on
+all three. Every semantic stage was a model pass running the prompts in
+[`prompts/`](prompts/); model calls were served by `claude-opus-4-8` through the relay provider in
+[`src/llm.py`](src/llm.py), so the whole pipeline ran with no billed key. Every claim's `verbatim_span`
+is checked to be a literal substring of its source by [`src/verify_spans.py`](src/verify_spans.py):
+**eggs and black holes verify at 100%; COVID at 95.3%** (76 spans, mostly one source, that an earlier
+run paraphrased rather than quoted — named here, not hidden).
+
+*What the third case actually found.* Black holes is the case where the answer is not in doubt — the
+LHC did not destroy the Earth — so the interesting question is what the *warrant* looks like underneath
+a settled answer. Two things fell out. First, the ranked cruxes are the genuinely load-bearing claims:
+the worst-case growth calculation, Rees's 1-in-50-million upper bound, and the SPC's public upgrade of
+"no significance" to "any possibility" — the last being an overstatement the safety case did not need.
+Second, and more useful, the SCC detector flags **one circular-support loop that spans three
+independent sources**: `C009` (Phys.org) → `C042` (the lawyer's-view piece) → `C138` (Wikipedia) → back.
+Each source appears to corroborate the others, but the corroboration closes on itself — the
+cosmic-ray/anthropic argument restated three ways. The tool grades it **"redundant" rather than
+"pure-circular"** because the loop does reach external grounding, which is the honest reading: the
+argument is not vacuous, it is *one* argument wearing three source badges. A reader counting sources
+would score that as three-fold independent support; the effective-independent count does not.
+
+Getting COVID's cross-source edges required fixing a scaling limit we hit and measured — a sharper
+version of the §4 negative result, and the more interesting finding of the two. The source-interleaved
+fix that took *eggs* from 4 to 35 cross-source edges is **positional**: it interleaves claims by source
+and windows over them. At 202 claims a 60-claim window samples ~30% of each source, so interleaved
+neighbours are usually about the same thing. At 1,590 claims it samples ~3.8%, so interleaved neighbours
+are topically unrelated and there is no edge to find — COVID's positional pass returned **14 cross-source
+edges of 1,258, and zero crossing the divide**, which would have made every independence number a
+within-article measurement wearing cross-source clothing.
+
+The fix is to select candidate pairs **by meaning rather than by position**
+([`src/semantic.py`](src/semantic.py)): TF-IDF over claim text, cosine similarity, windows grown around
+a seed claim from its nearest neighbours *in other sources*. It is pure, deterministic Python — no model,
+no key — because candidate selection is mechanism, not judgement, and belongs on the code side of "the AI
+proposes; the code disposes." On COVID it yields 81 windows averaging 61 claims and 5.41 sources each,
+zero single-source, and the edge stage over them takes the graph to the 27%-cross-source figure above —
+past what eggs reaches, at eight times the corpus size. As a cross-check, 152 of the semantically-found
+edges independently reproduce edges the earlier `claude-sonnet-4-6` API run had found.
 
 ---
 
 ## 6. Scalability (dimension #4)
 
-- **No single hand-designed human step is load-bearing.** Every semantic stage is an automated LLM pass;
-  a human curates and steers but is not in the critical path.
+- **No single hand-designed human step is load-bearing.** Every semantic stage is an automated model
+  pass; a human curates and steers but is not in the critical path.
 - **It improves as base models improve.** Because extraction and structuring are model passes, better
   models yield better graphs with zero code change — the opposite of a rules-based approach, which would
   cap quality and forfeit this property.
-- **It benefits from more compute honestly.** Structure runs in overlapping windows, so it scales to a
-  full corpus rather than a snippet. Cost scales down cleanly: ingestion is mechanical extraction and
-  runs well on a cheap model (Haiku-tier), reserving stronger models for structure/assessment; the
-  extraction pass is batch-friendly (50% via the Batches API). The warrant layer is free (no model).
+- **Cost scales down cleanly.** Ingestion is mechanical extraction and runs well on a cheap model
+  (Haiku-tier), reserving stronger models for structure/assessment; the extraction pass is batch-friendly
+  (50% via the Batches API). The warrant layer is free — pure graph arithmetic, no model at all, which is
+  why re-auditing a graph costs nothing.
+- **Candidate selection is what makes it scale — and it is deterministic.** Edge extraction is O(n²) in
+  principle, so it must sample which pairs to examine, and *how* decides what is findable at all.
+  Positional sampling quietly stopped finding cross-source links past a few hundred claims (COVID: 14 of
+  1,258). Semantic sampling ([`src/semantic.py`](src/semantic.py)) — embed by TF-IDF, group by topic,
+  extract within groups — took the same corpus to 1,198 cross-source edges at 8× eggs' size. It is pure
+  Python: the model still judges every edge, but which pairs it is asked about is reproducible from the
+  claims alone. The model-facing work therefore grows linearly in windows, not quadratically in claims,
+  and the deterministic warrant layer on top stays free.
 
 ---
 
@@ -168,10 +243,23 @@ flagged, not counted as corroboration. [`tests/adversarial.md`](tests/adversaria
 attack→defense table and the named, bounded failure modes we do **not** solve:
 
 - **Label quality is the floor.** The warrant math is only as good as the extracted kinds and edges; a
-  mislabeled edge propagates. Partial defenses (conservative dedup, reciprocal-edge collapse, verbatim
-  spans for audit) exist but are not airtight.
+  mislabeled edge propagates. Partial defenses exist but are not airtight: conservative dedup,
+  reciprocal-edge collapse, and — for the provenance claim specifically —
+  [`src/verify_spans.py`](src/verify_spans.py), which re-reads the sources and confirms every
+  `verbatim_span` is a literal substring (eggs and black holes 100%; COVID 95.3%, with the 76 misses
+  listed). That turns "spans are auditable" from an assertion into a checked, reported number — and it
+  caught a real lapse in our own COVID data rather than letting it pass.
 - **Self-reported derivation.** We know A rests on B because the labeller said so; we do not crawl real
   citation graphs, so an adversary could *omit* a dependency to look more independent than it is.
+- **The metrics themselves need auditing, and ours did.** Running the third case surfaced a defect in
+  our own circular-support detector: it built its adjacency as "every edge type except
+  `restates`/`caveats`", which quietly let **`contradicts`** into what the code called the support
+  graph. Two claims disagreeing with each other formed a 2-cycle and were reported as *circular
+  corroboration* — the opposite of what happened. Black holes showed 3 loops, of which 2 were
+  contradiction cycles. It now builds from `SUPPORT_EDGES` only, and the case reports 1 real loop. We
+  flag this because a metric that miscounts in the flattering direction is worse than no metric, and
+  because it is evidence for the general point: deterministic code makes a bug like this *findable* and
+  fixable at a named line, which is not true of a number a model simply asserts.
 - **It does not adjudicate truth.** It audits warrant *structure*; it will not tell you the origin of
   COVID, and says so.
 
@@ -191,11 +279,19 @@ ideas fall out of it:
 2. **The refusal-to-confabulate as a feature.** The most useful output here was a *negative* one — the
    tool declining to certify a crux the author expected. That is the behavior an epistemic tool must
    have and a fluent summarizer structurally lacks.
-3. **The strongest next experiment audits another entrant’s output.** Carlo’s 40 evidence documents are
-   an ideal *input* to this pipeline: running them through `ingest → structure → assess` would produce an
-   **independence audit of the baseline itself** — which “independent” items collapse to a shared
-   dataset, whether 72/28 survives a Herfindahl correction. This both earns dimension #1 and demonstrates
-   dimension #3 (interoperability) by building on, rather than competing with, another submission.
+3. **We tried auditing another entrant’s output, and the attempt is the lesson.** Carlo’s 40 evidence
+   documents are an ideal *input* to this pipeline, so we ran them through it. The claim-graph layer
+   could not do the job: its edge windows never spanned two documents, so the cross-document collapse we
+   were looking for was unfindable, and the only “finding” we could produce came from a citation-string
+   heuristic we had tuned after seeing the answer. We **removed it rather than report it** — a
+   post-hoc-tuned instrument is precisely the kind of receipt this competition should distrust. What the
+   failure bought was the diagnosis, and the two fixes it led to (§5): source-interleaved edge extraction,
+   which took the eggs corpus from 4 to 35 cross-source edges, and then semantic candidate selection,
+   which scaled that capability to the 1,590-claim COVID corpus (27% cross-source). That is exactly what a
+   real cross-document audit needs, so the experiment is now *possible* rather than merely proposed — and
+   it survived a failure honestly rather than shipping the tuned heuristic. Interoperability is also live
+   in the tool itself: `POST /api/assess` runs the full deterministic warrant audit on **any** claim
+   graph, from any producer, with no API key.
 
 *What this stack does not yet reach:* the deepest layer named by the sharper contest critiques —
 *mechanism* validity (which lab had which reverse-genetics capability; whether a statistical model is
@@ -212,7 +308,14 @@ pip install -r requirements.txt
 python web/build_data.py && python server.py        # -> http://localhost:8000
 # or reproduce the pipeline on a case (needs ANTHROPIC_API_KEY + source texts in cases/<case>/raw/):
 python -m src.run --case covid
-python -m src.run --case covid --stage concentration # the warrant metrics, deterministic
+python -m src.run --case covid --stage concentration     # the warrant metrics, deterministic
+
+# recover cross-source edges at scale via semantic candidate selection (§5):
+python -m src.semantic_edges --case covid                # needs a key, or run keyless via the relay:
+EPISTEMIC_RELAY_DIR=relay/covid python -m src.semantic_edges --case covid  # emits prompts; answer, re-run
+
+# audit provenance: confirm every verbatim_span is a literal substring of its source:
+python -m src.verify_spans --case blackholes --list-misses
 ```
 
 MIT-licensed, so pieces can interoperate and compound — per the competition’s goals. The knowledge base

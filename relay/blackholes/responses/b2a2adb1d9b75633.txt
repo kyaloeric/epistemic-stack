@@ -1,0 +1,19 @@
+[
+{"from": "C083", "to": "C113", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C083", "to": "C040", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C057", "to": "C083", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C057", "to": "C038", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C057", "to": "C113", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C113", "to": "C038", "type": "restates", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C040", "to": "C113", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C112", "to": "C083", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C095", "to": "C112", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C073", "to": "C112", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C081", "to": "C113", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C082", "to": "C083", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C075", "to": "C040", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C070", "to": "C038", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C099", "to": "C070", "type": "caveats", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C093", "to": "C083", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C085", "to": "C083", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"}
+]

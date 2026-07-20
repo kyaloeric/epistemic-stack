@@ -2949,40 +2949,6 @@
   "circular_support": [
     {
       "claim_ids": [
-        "C041",
-        "C043",
-        "C044",
-        "C045",
-        "C046"
-      ],
-      "grounded": false,
-      "severity": "pure-circular",
-      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 5.",
-      "members": [
-        {
-          "id": "C041",
-          "text": "Eating up to one egg per day is not associated with an increased risk of cardiov"
-        },
-        {
-          "id": "C043",
-          "text": "The prospective analysis included more than 215,000 men and women in NHS, NHS II"
-        },
-        {
-          "id": "C044",
-          "text": "Eating an egg a day was not associated with an increased risk of incident CVD af"
-        },
-        {
-          "id": "C045",
-          "text": "The updated meta-analysis of prospective cohort studies involved 1,720,108 parti"
-        },
-        {
-          "id": "C046",
-          "text": "Moderate egg consumption was not associated with increased risk of CVD, coronary"
-        }
-      ]
-    },
-    {
-      "claim_ids": [
         "C187",
         "C188",
         "C193",
@@ -3057,6 +3023,40 @@
         {
           "id": "C204",
           "text": "Eggs can help optimize health"
+        }
+      ]
+    },
+    {
+      "claim_ids": [
+        "C041",
+        "C043",
+        "C044",
+        "C045",
+        "C046"
+      ],
+      "grounded": false,
+      "severity": "pure-circular",
+      "rationale": "Pure circular corroboration: these claims support each other and ground in nothing outside the loop. Counts as ONE independent look, not 5.",
+      "members": [
+        {
+          "id": "C041",
+          "text": "Eating up to one egg per day is not associated with an increased risk of cardiov"
+        },
+        {
+          "id": "C043",
+          "text": "The prospective analysis included more than 215,000 men and women in NHS, NHS II"
+        },
+        {
+          "id": "C044",
+          "text": "Eating an egg a day was not associated with an increased risk of incident CVD af"
+        },
+        {
+          "id": "C045",
+          "text": "The updated meta-analysis of prospective cohort studies involved 1,720,108 parti"
+        },
+        {
+          "id": "C046",
+          "text": "Moderate egg consumption was not associated with increased risk of CVD, coronary"
         }
       ]
     }

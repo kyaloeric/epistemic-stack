@@ -1,0 +1,7 @@
+[
+{"canonical_text": "If the LHC could produce a dangerous stable object, cosmic rays striking the Earth would already have done so", "member_ids": ["C009", "C021", "C041"]},
+{"canonical_text": "A black hole small enough for the LHC to produce would evaporate by Hawking radiation almost instantly, too fast to leave the machine or reach the Earth's centre", "member_ids": ["C007", "C023", "C036"]},
+{"canonical_text": "The survival of dense astronomical bodies bombarded by such collisions for billions of years shows the collisions cannot be dangerous", "member_ids": ["C005", "C034", "C118"]},
+{"canonical_text": "Cosmic rays with energies comparable to or higher than the LHC's strike the Earth's atmosphere constantly", "member_ids": ["C008", "C020", "C117"]},
+{"canonical_text": "The LHC will not destroy the Earth", "member_ids": ["C004", "C017"]}
+]

@@ -80,7 +80,11 @@ def circular_support_flags(graph):
     adversarial pattern, surfaced loudly)."""
     adj = defaultdict(set)
     for e in graph["edges"]:
-        if e["type"] in EXCLUDED_FROM_WEIGHT:
+        # Circular *support* means support edges only. `contradicts` is an evidential
+        # relation but not a supporting one: A contradicting B and B contradicting A is a
+        # disagreement, not corroboration, and must never be reported as a circular-support
+        # loop. Anything outside SUPPORT_EDGES is excluded here.
+        if e["type"] not in SUPPORT_EDGES:
             continue
         adj[e["from"]].add(e["to"])
     text = {c["id"]: c["text"] for c in graph["claims"]}

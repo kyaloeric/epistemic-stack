@@ -24,8 +24,8 @@
           "url":    { "type": "string" },
           "author": { "type": "string" },
           "date":   { "type": "string" },
-          "side":   { "type": "string", "enum": ["zoonosis", "lab_leak", "neutral", "n/a"],
-                      "description": "Which position the source argues for, if any. Used to detect 'performed settling'." }
+          "side":   { "type": "string",
+                      "description": "Which position the source argues for, if any — used to detect 'performed settling' and to measure cross-side edges. Values are case-specific (e.g. covid: zoonosis | lab_leak; black holes / eggs: no_risk | risk | depends; plus neutral | n/a), so this is a free string rather than a fixed enum." }
         }
       }
     },

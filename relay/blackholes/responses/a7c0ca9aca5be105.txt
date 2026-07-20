@@ -1,0 +1,5 @@
+[
+{"from": "C059", "to": "C031", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C082", "to": "C031", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C059", "to": "C082", "type": "supports", "source_id": "cross_source", "strength": "asserted"}
+]

@@ -1,11 +1,15 @@
-__pycache__/
-*.pyc
-.env
-cases/*/raw/*.txt
-!cases/*/raw/README.txt
-.DS_Store
 
+!cases/*/raw/README.txt
 # Playwright / UI QA artifacts
-.playwright-mcp/
-qa-*.png
+# local pre-merge backups
+# relay prompts are regenerable from claims + src/semantic.py; responses are kept as provenance
+*.pyc
+.DS_Store
+.env
 .mcp.json
+.playwright-mcp/
+__pycache__/
+cases/*/out/*.pre-merge.json
+cases/*/raw/*.txt
+qa-*.png
+relay/*/pending/

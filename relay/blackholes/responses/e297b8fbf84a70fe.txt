@@ -1,0 +1,12 @@
+[
+{"from": "C162", "to": "C160", "type": "supports", "source_id": "nbc_lawsuit_closed", "strength": "asserted"},
+{"from": "C163", "to": "C160", "type": "caveats", "source_id": "nbc_lawsuit_closed", "strength": "strong"},
+{"from": "C164", "to": "C163", "type": "supports", "source_id": "nbc_lawsuit_closed", "strength": "strong"},
+{"from": "C165", "to": "C163", "type": "supports", "source_id": "nbc_lawsuit_closed", "strength": "asserted"},
+{"from": "C166", "to": "C159", "type": "supports", "source_id": "nbc_lawsuit_closed", "strength": "asserted"},
+{"from": "C167", "to": "C160", "type": "caveats", "source_id": "nbc_lawsuit_closed", "strength": "asserted"},
+{"from": "C162", "to": "C148", "type": "supports", "source_id": "nbc_lawsuit_closed", "strength": "asserted"},
+{"from": "C164", "to": "C155", "type": "supports", "source_id": "nbc_lawsuit_closed", "strength": "asserted"},
+{"from": "C146", "to": "C148", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C150", "to": "C148", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"}
+]

@@ -2,9 +2,11 @@
   {
     "case": "blackholes",
     "question": "Could the Large Hadron Collider create a black hole that destroys the Earth?",
-    "shape": "confident/settled answer resting on a large body of interacting physics knowledge",
-    "source_count": 2,
-    "has_data": false
+    "shape": "confident/settled answer resting on a large body of interacting physics knowledge — a lopsided debate where the tool should show the safety case grounds out and the fear case does not",
+    "source_count": 7,
+    "has_data": true,
+    "claim_count": 157,
+    "edge_count": 363
   },
   {
     "case": "covid",
@@ -12,14 +14,16 @@
     "shape": "contested debate with multiple analysts reaching opposite conclusions from shared evidence",
     "source_count": 6,
     "has_data": true,
-    "claim_count": 306,
-    "edge_count": 397
+    "claim_count": 1590,
+    "edge_count": 4435
   },
   {
     "case": "eggs",
     "question": "Are eggs good or bad to eat, and what does the answer depend on?",
-    "shape": "mundane-but-contested everyday question where framing the right sub-questions is half the work",
-    "source_count": 1,
-    "has_data": false
+    "shape": "mundane-but-contested everyday question where framing the right sub-questions (whom, alongside what, which outcome) is half the work",
+    "source_count": 6,
+    "has_data": true,
+    "claim_count": 202,
+    "edge_count": 220
   }
 ]

@@ -1,0 +1,13 @@
+[
+{"from":"C150","to":"C149","type":"contradicts","source_id":"acx_writeup","strength":"strong"},
+{"from":"C150","to":"C184","type":"depends_on","source_id":"acx_writeup","strength":"strong"},
+{"from":"C102","to":"C105","type":"supports","source_id":"acx_writeup","strength":"strong"},
+{"from":"C951","to":"C937","type":"supports","source_id":"weissman_inconvenient","strength":"strong"},
+{"from":"C937","to":"C839","type":"supports","source_id":"weissman_inconvenient","strength":"weak"},
+{"from":"C775","to":"C290","type":"contradicts","source_id":"weissman_inconvenient","strength":"asserted"},
+{"from":"C290","to":"C184","type":"supports","source_id":"acx_writeup","strength":"asserted"},
+{"from":"C1146","to":"C839","type":"supports","source_id":"rootclaim_response","strength":"asserted"},
+{"from":"C1264","to":"C1146","type":"supports","source_id":"rootclaim_response","strength":"weak"},
+{"from":"C149","to":"C184","type":"is_evidence_for","source_id":"acx_writeup","strength":"asserted"},
+{"from":"C951","to":"C775","type":"supports","source_id":"weissman_inconvenient","strength":"asserted"}
+]

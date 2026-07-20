@@ -1,0 +1,14 @@
+[
+{"from": "C067", "to": "C066", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C068", "to": "C067", "type": "caveats", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C069", "to": "C068", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C070", "to": "C069", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C071", "to": "C068", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C072", "to": "C071", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C073", "to": "C071", "type": "caveats", "source_id": "lifeboat_rossler_hawking", "strength": "weak"},
+{"from": "C114", "to": "C113", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C115", "to": "C114", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C116", "to": "C119", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C065", "to": "C066", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "weak"},
+{"from": "C047", "to": "C048", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "asserted"}
+]

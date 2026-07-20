@@ -1,0 +1,10 @@
+[
+{"from": "C054", "to": "C062", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C054", "to": "C057", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "asserted"},
+{"from": "C046", "to": "C062", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "asserted"},
+{"from": "C057", "to": "C149", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C160", "to": "C062", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C149", "to": "C085", "type": "supports", "source_id": "cross_source", "strength": "weak"},
+{"from": "C132", "to": "C046", "type": "supports", "source_id": "cross_source", "strength": "weak"},
+{"from": "C102", "to": "C046", "type": "is_evidence_for", "source_id": "cross_source", "strength": "weak"}
+]

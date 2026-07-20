@@ -1,0 +1,8 @@
+[
+{"from": "C158", "to": "C157", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C112", "to": "C101", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C111", "to": "C108", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C151", "to": "C152", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C154", "to": "C155", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C157", "to": "C155", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "weak"}
+]
