@@ -170,13 +170,27 @@ the identical engine runs all three, which is the checkable form of the generali
 each a different case shape (§5). **Eggs** (mundane-but-contested): 6 sources → 202 claims → 220 edges,
 35 cross-source. **COVID** (curated debate): 1,590 claims across six sources, 4,435 typed edges — 1,198
 cross-source (27%), 820 crossing the zoonosis/lab-leak divide. **Black holes** (confident answer over
-complex physics): 7 sources → 157 claims → 169 edges, 23% cross-source, 27 cross-side. Every semantic
-stage — ingestion, dedup, edges — was a model pass running the prompts in
+complex physics): 7 sources → 157 claims → 363 edges, 165 cross-source (45%), 133 cross-side. No stage
+is skipped for any case: ingestion, dedup, positional edges, and semantic cross-source edges all ran on
+all three. Every semantic stage was a model pass running the prompts in
 [`prompts/`](prompts/); model calls were served by `claude-opus-4-8` through the relay provider in
 [`src/llm.py`](src/llm.py), so the whole pipeline ran with no billed key. Every claim's `verbatim_span`
 is checked to be a literal substring of its source by [`src/verify_spans.py`](src/verify_spans.py):
 **eggs and black holes verify at 100%; COVID at 95.3%** (76 spans, mostly one source, that an earlier
 run paraphrased rather than quoted — named here, not hidden).
+
+*What the third case actually found.* Black holes is the case where the answer is not in doubt — the
+LHC did not destroy the Earth — so the interesting question is what the *warrant* looks like underneath
+a settled answer. Two things fell out. First, the ranked cruxes are the genuinely load-bearing claims:
+the worst-case growth calculation, Rees's 1-in-50-million upper bound, and the SPC's public upgrade of
+"no significance" to "any possibility" — the last being an overstatement the safety case did not need.
+Second, and more useful, the SCC detector flags **one circular-support loop that spans three
+independent sources**: `C009` (Phys.org) → `C042` (the lawyer's-view piece) → `C138` (Wikipedia) → back.
+Each source appears to corroborate the others, but the corroboration closes on itself — the
+cosmic-ray/anthropic argument restated three ways. The tool grades it **"redundant" rather than
+"pure-circular"** because the loop does reach external grounding, which is the honest reading: the
+argument is not vacuous, it is *one* argument wearing three source badges. A reader counting sources
+would score that as three-fold independent support; the effective-independent count does not.
 
 Getting COVID's cross-source edges required fixing a scaling limit we hit and measured — a sharper
 version of the §4 negative result, and the more interesting finding of the two. The source-interleaved
@@ -237,6 +251,15 @@ attack→defense table and the named, bounded failure modes we do **not** solve:
   caught a real lapse in our own COVID data rather than letting it pass.
 - **Self-reported derivation.** We know A rests on B because the labeller said so; we do not crawl real
   citation graphs, so an adversary could *omit* a dependency to look more independent than it is.
+- **The metrics themselves need auditing, and ours did.** Running the third case surfaced a defect in
+  our own circular-support detector: it built its adjacency as "every edge type except
+  `restates`/`caveats`", which quietly let **`contradicts`** into what the code called the support
+  graph. Two claims disagreeing with each other formed a 2-cycle and were reported as *circular
+  corroboration* — the opposite of what happened. Black holes showed 3 loops, of which 2 were
+  contradiction cycles. It now builds from `SUPPORT_EDGES` only, and the case reports 1 real loop. We
+  flag this because a metric that miscounts in the flattering direction is worse than no metric, and
+  because it is evidence for the general point: deterministic code makes a bug like this *findable* and
+  fixable at a named line, which is not true of a number a model simply asserts.
 - **It does not adjudicate truth.** It audits warrant *structure*; it will not tell you the origin of
   COVID, and says so.
 
