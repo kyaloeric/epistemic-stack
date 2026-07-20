@@ -4,7 +4,9 @@
     "question": "Could the Large Hadron Collider create a black hole that destroys the Earth?",
     "shape": "confident/settled answer resting on a large body of interacting physics knowledge — a lopsided debate where the tool should show the safety case grounds out and the fear case does not",
     "source_count": 7,
-    "has_data": false
+    "has_data": true,
+    "claim_count": 157,
+    "edge_count": 169
   },
   {
     "case": "covid",
