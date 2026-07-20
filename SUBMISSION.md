@@ -43,14 +43,14 @@ python -m src.run --case eggs
 - [x] Deterministic crux fallback (tested) + offline demo graph for COVID
 - [x] Three case manifests (COVID deep; black holes; eggs) for the generalization claim
 - [x] Baseline-comparison and adversarial-test templates
-- [x] Live extraction over the real sources — **eggs** end-to-end and fully automated (202 claims, 220
-      edges, 35 cross-source); **COVID** run at scale (1,590 claims, 1,435 edges, 190 cross-source)
-- [x] Additive edge-merge tool (`src/merge_edges.py`) — import an external edge set with no API key
+- [x] Live extraction over the real sources — **eggs** (202 claims, 220 edges, 35 cross-source) and
+      **COVID** (1,590 claims, 4,435 edges, 1,198 cross-source / 820 cross-side), both pipeline-produced
+- [x] **Semantic candidate selection** (`src/semantic.py`) — deterministic TF-IDF/topic grouping that
+      scales edge extraction past the positional windowing limit (PRIMARY §5/§6)
+- [x] Relay provider (`src/llm.py`) + additive edge-merge (`src/merge_edges.py`) — run the pipeline with
+      no billed API key; import/validate an edge set against existing claims
 - [x] Written ≤10-page core finalized in `PRIMARY.md`
 - [ ] **Black holes not ingested** — curated and fetched only (manifest + raw texts present)
-- [ ] **Semantic candidate selection for edge extraction** — the named scaling gap (PRIMARY §5/§6).
-      COVID's cross-source edges came from a hand-run semantic pass over the conclusion layer, not from
-      the automated windowed pass, which returns only 14 of 1,258 at that corpus size
 - [ ] Baseline delta and adversarial results are written up from the eggs run; not re-run against COVID
 
 ## Layout

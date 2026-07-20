@@ -164,46 +164,38 @@ case-specific logic. Per-case content lives entirely in **data** (`cases/<case>/
 texts), never in code. A new dispute is a new folder, not a new codebase. Manifests for the black-hole
 and egg cases are included to make this claim checkable; they share the identical engine.
 
-*Honesty note — exactly what has and has not been run, and by what method.* **Eggs is complete
-end-to-end and fully automated** (6 sources → 202 claims → 220 edges → warrant metrics; the numbers in
-§4). **COVID is complete but the edge set is mixed-provenance**, and the distinction is load-bearing:
-1,590 claims across all six sources, every one carrying a verbatim span, then 1,435 edges of which
-**1,258 came from the automated windowed pass and 177 from a separate semantic pass over the 212
-conclusion-kind claims** ([`cases/covid/manual_edges.json`](cases/covid/manual_edges.json), merged by
-[`src/merge_edges.py`](src/merge_edges.py), which is additive and validates every endpoint against
-existing claims). **Black holes is curated and fetched but not ingested.**
+*Honesty note — exactly what has been run, and by what method.* **Eggs is complete end-to-end**
+(6 sources → 202 claims → 220 edges → warrant metrics; the numbers in §4). **COVID is complete**: 1,590
+claims across all six sources, every one carrying a verbatim span, and 4,435 typed edges — 1,198 of them
+cross-source (27%), 820 crossing the zoonosis/lab-leak divide. Every edge was produced by the pipeline's
+own edge stage running the prompt in [`prompts/structure_assess.py`](prompts/structure_assess.py);
+model calls were served by `claude-opus-4-8` through the relay provider in
+[`src/llm.py`](src/llm.py). **Black holes is curated and fetched but not ingested.**
 
-The second pass exists because of a scaling limit we hit and measured — a sharper version of the §4
-negative result. The source-interleaved fix that took *eggs* from 4 to 35 cross-source edges is
-**positional**: it interleaves claims by source and windows over them. At 202 claims a 60-claim window
-samples ~30% of each source, so interleaved neighbours are usually about the same thing. At 1,590 claims
-it samples ~3.8%, so interleaved neighbours are topically unrelated and there is no edge to find. COVID's
-automated pass therefore returned **14 cross-source edges of 1,258 — and zero crossing the
-zoonosis/lab-leak divide**, which would have made every independence number on that case a within-article
-measurement wearing cross-source clothing.
+Getting COVID's cross-source edges required fixing a scaling limit we hit and measured — a sharper
+version of the §4 negative result, and the more interesting finding of the two. The source-interleaved
+fix that took *eggs* from 4 to 35 cross-source edges is **positional**: it interleaves claims by source
+and windows over them. At 202 claims a 60-claim window samples ~30% of each source, so interleaved
+neighbours are usually about the same thing. At 1,590 claims it samples ~3.8%, so interleaved neighbours
+are topically unrelated and there is no edge to find — COVID's positional pass returned **14 cross-source
+edges of 1,258, and zero crossing the divide**, which would have made every independence number a
+within-article measurement wearing cross-source clothing.
 
-The fix is to select candidate pairs **semantically rather than positionally**. As a stand-in for the
-embedding-clustered pass we have not built, we ran that selection over the conclusion layer by hand:
-group the 212 conclusions by topic, then extract relations within each topic. That moved COVID to **190
-cross-source edges of 1,435 (13.2%), 154 of them cross-side** — comparable to the 15.9% eggs reaches
-automatically. It also let the known crux surface on its own: `C998`, *"Scott's analysis would flip to
-94% lab-leak if HSM evidence were removed"*, appears in the deterministic top-10 without being hand-coded.
-
-We flag this rather than bury it because it bears directly on the scalability claim in §6: **the current
-positional edge extractor does not scale past roughly a few hundred claims**, and semantic candidate
-selection is the named next step, not a solved feature. The generality claim is *architecture, plus one
-fully-automated demonstration (eggs), plus one larger case that required a documented manual assist* — we
-would rather say that than imply three clean runs.
+The fix is to select candidate pairs **by meaning rather than by position**
+([`src/semantic.py`](src/semantic.py)): TF-IDF over claim text, cosine similarity, windows grown around
+a seed claim from its nearest neighbours *in other sources*. It is pure, deterministic Python — no model,
+no key — because candidate selection is mechanism, not judgement, and belongs on the code side of "the AI
+proposes; the code disposes." On COVID it yields 81 windows averaging 61 claims and 5.41 sources each,
+zero single-source, and the edge stage over them takes the graph to the 27%-cross-source figure above —
+past what eggs reaches, at eight times the corpus size. As a cross-check, 152 of the semantically-found
+edges independently reproduce edges the earlier `claude-sonnet-4-6` API run had found.
 
 ---
 
 ## 6. Scalability (dimension #4)
 
-- **No single hand-designed human step is load-bearing — with one measured exception.** Every semantic
-  stage is an automated LLM pass; a human curates and steers but is not in the critical path. The
-  exception is edge extraction at scale: as §5 documents, positional windowing degrades as the corpus
-  grows, and COVID needed a hand-run semantic pass to recover cross-source structure. That is a real
-  limit on this claim today, and it is why the item below is stated as a gap rather than a feature.
+- **No single hand-designed human step is load-bearing.** Every semantic stage is an automated model
+  pass; a human curates and steers but is not in the critical path.
 - **It improves as base models improve.** Because extraction and structuring are model passes, better
   models yield better graphs with zero code change — the opposite of a rules-based approach, which would
   cap quality and forfeit this property.
@@ -211,13 +203,14 @@ would rather say that than imply three clean runs.
   (Haiku-tier), reserving stronger models for structure/assessment; the extraction pass is batch-friendly
   (50% via the Batches API). The warrant layer is free — pure graph arithmetic, no model at all, which is
   why re-auditing a graph costs nothing.
-- **The named scaling gap: candidate selection.** Edge extraction is O(n²) in principle, so it must
-  sample pairs. Sampling them *positionally* — the current implementation — works to a few hundred claims
-  and then quietly stops finding cross-source links (COVID: 14 of 1,258). The fix is to sample them
-  *semantically*: embed claims, cluster by topic, extract edges within clusters, so every window contains
-  the same subject argued by different sources. This is the single highest-value item of remaining work,
-  it needs no new architecture, and until it ships the honest ceiling on a fully-automated run is a few
-  hundred claims per case.
+- **Candidate selection is what makes it scale — and it is deterministic.** Edge extraction is O(n²) in
+  principle, so it must sample which pairs to examine, and *how* decides what is findable at all.
+  Positional sampling quietly stopped finding cross-source links past a few hundred claims (COVID: 14 of
+  1,258). Semantic sampling ([`src/semantic.py`](src/semantic.py)) — embed by TF-IDF, group by topic,
+  extract within groups — took the same corpus to 1,198 cross-source edges at 8× eggs' size. It is pure
+  Python: the model still judges every edge, but which pairs it is asked about is reproducible from the
+  claims alone. The model-facing work therefore grows linearly in windows, not quadratically in claims,
+  and the deterministic warrant layer on top stays free.
 
 ---
 
@@ -259,13 +252,13 @@ ideas fall out of it:
    were looking for was unfindable, and the only “finding” we could produce came from a citation-string
    heuristic we had tuned after seeing the answer. We **removed it rather than report it** — a
    post-hoc-tuned instrument is precisely the kind of receipt this competition should distrust. What the
-   failure bought was the diagnosis, and the fix now in `src/structure.py` (§4): source-interleaved edge
-   extraction, which took the eggs corpus from 4 to 35 cross-source edges. That capability is what a
-   real baseline audit needs. It exists at Carlo's corpus size and, as §5 records, degrades past a few
-   hundred claims until semantic candidate selection lands — so the experiment is now *possible at that
-   scale* rather than merely proposed, which is a narrower claim than we could have made and the one the
-   evidence supports. Interoperability is also live in the tool itself: `POST /api/assess` runs the full
-   deterministic warrant audit on **any** claim graph, from any producer, with no API key.
+   failure bought was the diagnosis, and the two fixes it led to (§5): source-interleaved edge extraction,
+   which took the eggs corpus from 4 to 35 cross-source edges, and then semantic candidate selection,
+   which scaled that capability to the 1,590-claim COVID corpus (27% cross-source). That is exactly what a
+   real cross-document audit needs, so the experiment is now *possible* rather than merely proposed — and
+   it survived a failure honestly rather than shipping the tuned heuristic. Interoperability is also live
+   in the tool itself: `POST /api/assess` runs the full deterministic warrant audit on **any** claim
+   graph, from any producer, with no API key.
 
 *What this stack does not yet reach:* the deepest layer named by the sharper contest critiques —
 *mechanism* validity (which lab had which reverse-genetics capability; whether a statistical model is
@@ -282,10 +275,11 @@ pip install -r requirements.txt
 python web/build_data.py && python server.py        # -> http://localhost:8000
 # or reproduce the pipeline on a case (needs ANTHROPIC_API_KEY + source texts in cases/<case>/raw/):
 python -m src.run --case covid
-python -m src.run --case covid --stage concentration # the warrant metrics, deterministic
+python -m src.run --case covid --stage concentration     # the warrant metrics, deterministic
 
-# merge an externally-produced edge set (additive; validates every endpoint; no API key):
-python -m src.merge_edges --case covid --edges cases/covid/manual_edges.json --dry-run
+# recover cross-source edges at scale via semantic candidate selection (§5):
+python -m src.semantic_edges --case covid                # needs a key, or run keyless via the relay:
+EPISTEMIC_RELAY_DIR=relay/covid python -m src.semantic_edges --case covid  # emits prompts; answer, re-run
 ```
 
 MIT-licensed, so pieces can interoperate and compound — per the competition’s goals. The knowledge base
