@@ -1,0 +1,59 @@
+{
+  "case": "eggs",
+  "note": "Every claim's verbatim_span re-checked against the fetched source text. 'exact' = literal substring; 'normalized' = matches after collapsing formatting-only differences (smart quotes, dashes, whitespace); 'miss' = not found, i.e. the span was reworded and should not be trusted as a quote. Raw sources are third-party and not redistributed; run `python -m src.fetch --case eggs` to regenerate them and re-run this check.",
+  "sources_checked": [
+    "cleveland_tmao_choline",
+    "egg_board_heart",
+    "harvard_health_evolving",
+    "harvard_nutrition_eggs",
+    "sciencedaily_zhong_2019",
+    "tctmd_drouin_2020"
+  ],
+  "per_source": {
+    "cleveland_tmao_choline": {
+      "exact": 22,
+      "normalized": 5,
+      "miss": 0,
+      "total": 27
+    },
+    "egg_board_heart": {
+      "exact": 58,
+      "normalized": 0,
+      "miss": 0,
+      "total": 58
+    },
+    "harvard_health_evolving": {
+      "exact": 9,
+      "normalized": 0,
+      "miss": 0,
+      "total": 9
+    },
+    "harvard_nutrition_eggs": {
+      "exact": 39,
+      "normalized": 1,
+      "miss": 0,
+      "total": 40
+    },
+    "sciencedaily_zhong_2019": {
+      "exact": 36,
+      "normalized": 0,
+      "miss": 0,
+      "total": 36
+    },
+    "tctmd_drouin_2020": {
+      "exact": 43,
+      "normalized": 0,
+      "miss": 0,
+      "total": 43
+    }
+  },
+  "totals": {
+    "exact": 207,
+    "normalized": 6,
+    "miss": 0,
+    "attestations": 213
+  },
+  "percent_exact": 97.2,
+  "percent_verified": 100.0,
+  "misses": []
+}

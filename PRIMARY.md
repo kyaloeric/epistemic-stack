@@ -168,29 +168,42 @@ the identical engine runs all three, which is the checkable form of the generali
 
 *Honesty note — exactly what has been run, and by what method.* **All three cases run end-to-end**,
 each a different case shape (§5). **Eggs** (mundane-but-contested): 6 sources → 202 claims → 220 edges,
-35 cross-source. **COVID** (curated debate): 1,590 claims across six sources, 4,435 typed edges — 1,198
+35 cross-source. **COVID** (curated debate): 1,590 claims across six sources, 4,434 typed edges — 1,198
 cross-source (27%), 820 crossing the zoonosis/lab-leak divide. **Black holes** (confident answer over
 complex physics): 7 sources → 157 claims → 363 edges, 165 cross-source (45%), 133 cross-side. No stage
 is skipped for any case: ingestion, dedup, positional edges, and semantic cross-source edges all ran on
-all three. Every semantic stage was a model pass running the prompts in
-[`prompts/`](prompts/); model calls were served by `claude-opus-4-8` through the relay provider in
-[`src/llm.py`](src/llm.py), so the whole pipeline ran with no billed key. Every claim's `verbatim_span`
-is checked to be a literal substring of its source by [`src/verify_spans.py`](src/verify_spans.py):
-**eggs and black holes verify at 100%; COVID at 95.3%** (76 spans, mostly one source, that an earlier
-run paraphrased rather than quoted — named here, not hidden).
+all three. Every semantic stage was a model pass running the prompts in [`prompts/`](prompts/) — no
+edge or claim in any of the three graphs was authored by hand.
+
+*Which model served which stage.* COVID's ingestion and first edge pass ran against the paid API on
+`claude-sonnet-4-6`; its dedup and semantic cross-source passes, and **all** of black holes, ran on
+`claude-opus-4-8` through the file-based relay provider in [`src/llm.py`](src/llm.py), which needs no
+key. The relay writes every prompt it issues and every answer it consumes to `relay/<case>/`, and those
+files are committed — so for the relayed stages the model I/O is auditable rather than asserted. The
+earlier paid runs have no such transcript, which is exactly why we do not claim one.
+
+Every claim's `verbatim_span` is checked to be a literal substring of its source by
+[`src/verify_spans.py`](src/verify_spans.py): **eggs and black holes verify at 100%; COVID at 95.3%**
+(76 spans, 66 of them in one source, that the earlier paid run paraphrased rather than quoted — named
+here, not hidden). The raw texts are third-party articles we do not redistribute, so the check needs
+`python -m src.fetch --case <case>` first; the result of our own run ships regardless, as
+`cases/<case>/out/span_verification.json`.
 
 *What the third case actually found.* Black holes is the case where the answer is not in doubt — the
 LHC did not destroy the Earth — so the interesting question is what the *warrant* looks like underneath
 a settled answer. Two things fell out. First, the ranked cruxes are the genuinely load-bearing claims:
 the worst-case growth calculation, Rees's 1-in-50-million upper bound, and the SPC's public upgrade of
 "no significance" to "any possibility" — the last being an overstatement the safety case did not need.
-Second, and more useful, the SCC detector flags **one circular-support loop that spans three
-independent sources**: `C009` (Phys.org) → `C042` (the lawyer's-view piece) → `C138` (Wikipedia) → back.
-Each source appears to corroborate the others, but the corroboration closes on itself — the
-cosmic-ray/anthropic argument restated three ways. The tool grades it **"redundant" rather than
-"pure-circular"** because the loop does reach external grounding, which is the honest reading: the
-argument is not vacuous, it is *one* argument wearing three source badges. A reader counting sources
-would score that as three-fold independent support; the effective-independent count does not.
+Second, and more useful, the SCC detector flags **one circular-support loop of three claims drawn from
+four distinct sources**: `C009` → `C042` (the lawyer's-view piece) → `C138` (Wikipedia) → back, where
+`C009` is itself a dedup-merged claim attested in Phys.org's rule-out piece, 4gravitons, *and* the
+lawyer's-view piece. Each source appears to corroborate the others, but the corroboration closes on
+itself — the cosmic-ray/anthropic argument restated four ways. The tool grades it **"redundant" rather
+than "pure-circular"** because the loop does reach external grounding, which is the honest reading: the
+argument is not vacuous, it is *one* argument wearing four source badges. A reader counting sources
+would score that as fourfold independent support; the effective-independent count does not. This is the
+clearest illustration of the whole thesis — the pathology is invisible at the level of "how many
+sources agree?" and only shows up once support is represented as a graph.
 
 Getting COVID's cross-source edges required fixing a scaling limit we hit and measured — a sharper
 version of the §4 negative result, and the more interesting finding of the two. The source-interleaved
@@ -314,8 +327,11 @@ python -m src.run --case covid --stage concentration     # the warrant metrics, 
 python -m src.semantic_edges --case covid                # needs a key, or run keyless via the relay:
 EPISTEMIC_RELAY_DIR=relay/covid python -m src.semantic_edges --case covid  # emits prompts; answer, re-run
 
-# audit provenance: confirm every verbatim_span is a literal substring of its source:
+# audit provenance: confirm every verbatim_span is a literal substring of its source.
+# needs the raw texts, which are third-party and not redistributed — fetch them first:
+python -m src.fetch --case blackholes
 python -m src.verify_spans --case blackholes --list-misses
+# or just read the committed receipt: cases/blackholes/out/span_verification.json
 ```
 
 MIT-licensed, so pieces can interoperate and compound — per the competition’s goals. The knowledge base

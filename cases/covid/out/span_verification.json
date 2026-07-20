@@ -1,0 +1,440 @@
+{
+  "case": "covid",
+  "note": "Every claim's verbatim_span re-checked against the fetched source text. 'exact' = literal substring; 'normalized' = matches after collapsing formatting-only differences (smart quotes, dashes, whitespace); 'miss' = not found, i.e. the span was reworded and should not be trusted as a quote. Raw sources are third-party and not redistributed; run `python -m src.fetch --case covid` to regenerate them and re-run this check.",
+  "sources_checked": [
+    "acx_writeup",
+    "rootclaim_response",
+    "rootclaim_results",
+    "stansifer_bayesian",
+    "stansifer_response_weissman",
+    "weissman_inconvenient"
+  ],
+  "per_source": {
+    "acx_writeup": {
+      "exact": 464,
+      "normalized": 9,
+      "miss": 5,
+      "total": 478
+    },
+    "rootclaim_response": {
+      "exact": 375,
+      "normalized": 22,
+      "miss": 66,
+      "total": 463
+    },
+    "rootclaim_results": {
+      "exact": 153,
+      "normalized": 5,
+      "miss": 4,
+      "total": 162
+    },
+    "stansifer_bayesian": {
+      "exact": 31,
+      "normalized": 71,
+      "miss": 1,
+      "total": 103
+    },
+    "stansifer_response_weissman": {
+      "exact": 6,
+      "normalized": 105,
+      "miss": 0,
+      "total": 111
+    },
+    "weissman_inconvenient": {
+      "exact": 250,
+      "normalized": 45,
+      "miss": 0,
+      "total": 295
+    }
+  },
+  "totals": {
+    "exact": 1279,
+    "normalized": 257,
+    "miss": 76,
+    "attestations": 1612
+  },
+  "percent_exact": 79.3,
+  "percent_verified": 95.3,
+  "misses": [
+    {
+      "claim_id": "C122",
+      "source_id": "acx_writeup",
+      "span_prefix": "COVID... has twelve completely new nucleotides in a row - a fully formed furin c"
+    },
+    {
+      "claim_id": "C455",
+      "source_id": "acx_writeup",
+      "span_prefix": "He was so confident in his system, and in the power of open discussion, that he "
+    },
+    {
+      "claim_id": "C457",
+      "source_id": "acx_writeup",
+      "span_prefix": "Both sides emailed me excitedly about this claim by Marc Johnson to have found C"
+    },
+    {
+      "claim_id": "C461",
+      "source_id": "acx_writeup",
+      "span_prefix": "Michael Weissman has an excellent Bayesian analysis favoring lab leak, which I u"
+    },
+    {
+      "claim_id": "C467",
+      "source_id": "acx_writeup",
+      "span_prefix": "I accept that this is a valid point, but counter with this article on how Strong"
+    },
+    {
+      "claim_id": "C493",
+      "source_id": "stansifer_bayesian",
+      "span_prefix": "in the terminology of functional programming, this is to say “probably-” is not "
+    },
+    {
+      "claim_id": "C988",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Scott seemingly hadn’t enough time to do so and our exchange focused on fixing f"
+    },
+    {
+      "claim_id": "C996",
+      "source_id": "rootclaim_response",
+      "span_prefix": "the main mistake in all the analyses in Scott's post – believing that the early "
+    },
+    {
+      "claim_id": "C1000",
+      "source_id": "rootclaim_response",
+      "span_prefix": "The zoonosis hypothesis fully depends on the claim that it is an extreme coincid"
+    },
+    {
+      "claim_id": "C1006",
+      "source_id": "rootclaim_response",
+      "span_prefix": "There is no contention that the strength of evidence is measured by the ratio of"
+    },
+    {
+      "claim_id": "C1035",
+      "source_id": "rootclaim_response",
+      "span_prefix": "early isolated cases of Covid are unlikely to be detected – either a) the person"
+    },
+    {
+      "claim_id": "C1053",
+      "source_id": "rootclaim_response",
+      "span_prefix": "In fact, given the above requirements, we couldn’t identify a single location in"
+    },
+    {
+      "claim_id": "C1054",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Large hospitals are the only plausible locations, as they have many permanent re"
+    },
+    {
+      "claim_id": "C1055",
+      "source_id": "rootclaim_response",
+      "span_prefix": "There should be at most a few thousand places the size of HSM or larger (since i"
+    },
+    {
+      "claim_id": "C1071",
+      "source_id": "rootclaim_response",
+      "span_prefix": "The occurrence of two such cases in Thailand and Singapore, as well as 2 out of "
+    },
+    {
+      "claim_id": "C1081",
+      "source_id": "rootclaim_response",
+      "span_prefix": "but since the other evidence for lab-leak is so strong, Wuhan can be given no we"
+    },
+    {
+      "claim_id": "C1087",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Remember we still need many permanent residents in one space for a noticeable cl"
+    },
+    {
+      "claim_id": "C1106",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Searched [wildlife -Covid “spillover locations”] prior to 2019."
+    },
+    {
+      "claim_id": "C1111",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It found that out of 23 early cases, 9 were connected to wildlife. Of these, 7 w"
+    },
+    {
+      "claim_id": "C1128",
+      "source_id": "rootclaim_response",
+      "span_prefix": "This is more compatible with early infections coming from the mahjong room – mat"
+    },
+    {
+      "claim_id": "C1140",
+      "source_id": "rootclaim_response",
+      "span_prefix": "The debate hardly discussed the methodology nor our Covid origins probabilistic "
+    },
+    {
+      "claim_id": "C1143",
+      "source_id": "rootclaim_response",
+      "span_prefix": "So, to be clear – We fully integrated into our new analysis all the new informat"
+    },
+    {
+      "claim_id": "C1184",
+      "source_id": "rootclaim_response",
+      "span_prefix": "The case wasn't reported in any peer-reviewed paper. It was reported in the tabl"
+    },
+    {
+      "claim_id": "C1192",
+      "source_id": "rootclaim_response",
+      "span_prefix": "He initially believed his cat had also contracted the same virus, was later prob"
+    },
+    {
+      "claim_id": "C1196",
+      "source_id": "rootclaim_response",
+      "span_prefix": "The drug overdose was not “shortly after”, but a year later, after he returned t"
+    },
+    {
+      "claim_id": "C1199",
+      "source_id": "rootclaim_response",
+      "span_prefix": "This is near impossible: A single young man who lives 600m from his job would no"
+    },
+    {
+      "claim_id": "C1210",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Later strains of Covid got further 12 – 15 nucleotide insertions."
+    },
+    {
+      "claim_id": "C1225",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It's just not applicable to the origins question."
+    },
+    {
+      "claim_id": "C1231",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It is worth noting that this would also explain the use of a 12nt insertion – It"
+    },
+    {
+      "claim_id": "C1249",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Scott said he's done this because Peter seemed to go deeper into chains of rebut"
+    },
+    {
+      "claim_id": "C1257",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It is true that when it is possible (controlled environments), then you should d"
+    },
+    {
+      "claim_id": "C1261",
+      "source_id": "rootclaim_response",
+      "span_prefix": "All evidence for UFOs is always ‘almost there.’ If only the camera had 3x more z"
+    },
+    {
+      "claim_id": "C1263",
+      "source_id": "rootclaim_response",
+      "span_prefix": "In the case of UFOs – when we have good documentation it reveals there is a mund"
+    },
+    {
+      "claim_id": "C1266",
+      "source_id": "rootclaim_response",
+      "span_prefix": "the market cases are all lineage B – simple and robust evidence that it is not t"
+    },
+    {
+      "claim_id": "C1276",
+      "source_id": "rootclaim_response",
+      "span_prefix": "All models assign more extreme probabilities to “First known cases in wet market"
+    },
+    {
+      "claim_id": "C1277",
+      "source_id": "rootclaim_response",
+      "span_prefix": "If you correct that mistake by replacing the wrong number with Rootclaim’s 0.5 a"
+    },
+    {
+      "claim_id": "C1289",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Once lab leak became A Thing – after people became obsessed with getting one ove"
+    },
+    {
+      "claim_id": "C1290",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Peter spent most of the debate debunking these – Mr. Chen’s supposed 12/8 Covid "
+    },
+    {
+      "claim_id": "C1292",
+      "source_id": "rootclaim_response",
+      "span_prefix": "None of these claims were actually debunked, and anyway, they were either ignore"
+    },
+    {
+      "claim_id": "C1293",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Peter failed to weaken any of Rootclaim’s core evidence, while his only evidence"
+    },
+    {
+      "claim_id": "C1294",
+      "source_id": "rootclaim_response",
+      "span_prefix": "his only evidence – the HSM early cluster, is shown to be of negligible weight w"
+    },
+    {
+      "claim_id": "C1295",
+      "source_id": "rootclaim_response",
+      "span_prefix": "he should train five people who aren’t him in how to do Rootclaim, up to standar"
+    },
+    {
+      "claim_id": "C1296",
+      "source_id": "rootclaim_response",
+      "span_prefix": "We don’t think this would be convincing to a wide audience outside people who th"
+    },
+    {
+      "claim_id": "C1306",
+      "source_id": "rootclaim_response",
+      "span_prefix": "(and of course couldn’t find any infected animal)"
+    },
+    {
+      "claim_id": "C1308",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Worth noting that it’s actually a reasonable conclusion to reach once you see th"
+    },
+    {
+      "claim_id": "C1316",
+      "source_id": "rootclaim_response",
+      "span_prefix": "We generally find equally bad reasoning on both sides of each analysis we make –"
+    },
+    {
+      "claim_id": "C1317",
+      "source_id": "rootclaim_response",
+      "span_prefix": "We similarly didn’t make a big deal of the many mistakes we found in Peter’s cla"
+    },
+    {
+      "claim_id": "C1324",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It circulates there in enough hosts and for a long enough time that it is able t"
+    },
+    {
+      "claim_id": "C1367",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Since Scott's odds are currently 17x zoonosis, fixing these mistakes easily turn"
+    },
+    {
+      "claim_id": "C1376",
+      "source_id": "rootclaim_response",
+      "span_prefix": "We didn't claim no one warned against markets, just that they were relatively lo"
+    },
+    {
+      "claim_id": "C1377",
+      "source_id": "rootclaim_response",
+      "span_prefix": "we provide an unbiased search we conducted that clearly showed markets were just"
+    },
+    {
+      "claim_id": "C1381",
+      "source_id": "rootclaim_response",
+      "span_prefix": "SARS2 is singled out here only because that's the one that in hindsight started "
+    },
+    {
+      "claim_id": "C1382",
+      "source_id": "rootclaim_response",
+      "span_prefix": "whatever restriction you choose to apply to the virus on the lab-leak side, you "
+    },
+    {
+      "claim_id": "C1386",
+      "source_id": "rootclaim_response",
+      "span_prefix": "This still has the hindsight bias mistake above of thinking we need a \"so-far-ve"
+    },
+    {
+      "claim_id": "C1394",
+      "source_id": "rootclaim_response",
+      "span_prefix": "we have here an example of an unpublished virus that is about as close to a know"
+    },
+    {
+      "claim_id": "C1398",
+      "source_id": "rootclaim_response",
+      "span_prefix": "People are not allowed (and don't want) to donate blood until feeling well."
+    },
+    {
+      "claim_id": "C1401",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Since infections more than double every week, almost all the positives will fall"
+    },
+    {
+      "claim_id": "C1403",
+      "source_id": "rootclaim_response",
+      "span_prefix": "That's 11.5 doublings. At 3.5 days it's 5.7 weeks, bringing patient zero to late"
+    },
+    {
+      "claim_id": "C1404",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Doubling is probably slower at that time, so it's even earlier, but never mind"
+    },
+    {
+      "claim_id": "C1408",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It is additionally from 1-Jan, when SARS2 was already all over Wuhan, so it's no"
+    },
+    {
+      "claim_id": "C1411",
+      "source_id": "rootclaim_response",
+      "span_prefix": "I understand others draw the line somewhere else and that’s fine."
+    },
+    {
+      "claim_id": "C1415",
+      "source_id": "rootclaim_response",
+      "span_prefix": "They claim the case “resided closer to the Huanan market than expected” based on"
+    },
+    {
+      "claim_id": "C1418",
+      "source_id": "rootclaim_response",
+      "span_prefix": "So this “finding” is just an artifact of HSM being in Wuhan’s densest areas."
+    },
+    {
+      "claim_id": "C1422",
+      "source_id": "rootclaim_response",
+      "span_prefix": "The rest don’t appear in HKU1:"
+    },
+    {
+      "claim_id": "C1426",
+      "source_id": "rootclaim_response",
+      "span_prefix": "That’s something that is common in natural evolution (duplicating a sequence dur"
+    },
+    {
+      "claim_id": "C1434",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Is that really the preferred explanation and not that he just assumed he didn’t "
+    },
+    {
+      "claim_id": "C1435",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Scott seems to not understand that the Mail quote is not an ‘interview’ but a re"
+    },
+    {
+      "claim_id": "C1437",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It therefore makes perfect sense that in real time he didn’t know what he had an"
+    },
+    {
+      "claim_id": "C1438",
+      "source_id": "rootclaim_response",
+      "span_prefix": "Reed never mentioned any hospitalization, and he isn’t even directly quoted here"
+    },
+    {
+      "claim_id": "C1440",
+      "source_id": "rootclaim_response",
+      "span_prefix": "we know he went to the hospital two weeks (day 12) after symptoms – they simply "
+    },
+    {
+      "claim_id": "C1444",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It is indeed very very rare for news reporters to make mistakes, but it’s still "
+    },
+    {
+      "claim_id": "C1448",
+      "source_id": "rootclaim_response",
+      "span_prefix": "It doesn’t mean he had Covid – it’s possible there was some misunderstanding (we"
+    },
+    {
+      "claim_id": "C1488",
+      "source_id": "rootclaim_results",
+      "span_prefix": "This is the “best explanation” – the explanation that maximizes the likelihood o"
+    },
+    {
+      "claim_id": "C1506",
+      "source_id": "rootclaim_results",
+      "span_prefix": "We found many such mistakes throughout both judges' decisions, but in the intere"
+    },
+    {
+      "claim_id": "C1522",
+      "source_id": "rootclaim_results",
+      "span_prefix": "Given that WIV was planning to do coronavirus GoF experiments under BSL-2 &#8211"
+    },
+    {
+      "claim_id": "C1559",
+      "source_id": "rootclaim_results",
+      "span_prefix": "Consider HSM to be a random location in Wuhan (i.e. will form an early cluster o"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "case": "blackholes",
+  "note": "Every claim's verbatim_span re-checked against the fetched source text. 'exact' = literal substring; 'normalized' = matches after collapsing formatting-only differences (smart quotes, dashes, whitespace); 'miss' = not found, i.e. the span was reworded and should not be trusted as a quote. Raw sources are third-party and not redistributed; run `python -m src.fetch --case blackholes` to regenerate them and re-run this check.",
+  "sources_checked": [
+    "arxiv_lhc_safety_review",
+    "fourgravitons_reassured",
+    "lifeboat_rossler_hawking",
+    "nbc_lawsuit_closed",
+    "physorg_lawyer_view",
+    "physorg_ruleout",
+    "wikipedia_collider_safety"
+  ],
+  "per_source": {
+    "arxiv_lhc_safety_review": {
+      "exact": 9,
+      "normalized": 0,
+      "miss": 0,
+      "total": 9
+    },
+    "fourgravitons_reassured": {
+      "exact": 14,
+      "normalized": 0,
+      "miss": 0,
+      "total": 14
+    },
+    "lifeboat_rossler_hawking": {
+      "exact": 48,
+      "normalized": 0,
+      "miss": 0,
+      "total": 48
+    },
+    "nbc_lawsuit_closed": {
+      "exact": 8,
+      "normalized": 0,
+      "miss": 0,
+      "total": 8
+    },
+    "physorg_lawyer_view": {
+      "exact": 25,
+      "normalized": 0,
+      "miss": 0,
+      "total": 25
+    },
+    "physorg_ruleout": {
+      "exact": 16,
+      "normalized": 0,
+      "miss": 0,
+      "total": 16
+    },
+    "wikipedia_collider_safety": {
+      "exact": 47,
+      "normalized": 0,
+      "miss": 0,
+      "total": 47
+    }
+  },
+  "totals": {
+    "exact": 167,
+    "normalized": 0,
+    "miss": 0,
+    "attestations": 167
+  },
+  "percent_exact": 100.0,
+  "percent_verified": 100.0,
+  "misses": []
+}

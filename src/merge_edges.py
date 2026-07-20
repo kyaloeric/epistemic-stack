@@ -5,8 +5,13 @@ validated against the claims already in the graph, so a merge cannot invent node
 Duplicates (same from/to/type) are skipped rather than stacked, which keeps the
 concentration and Herfindahl maths honest — a claim cannot be inflated by re-import.
 
+This exists so a *separately-run pipeline pass* can contribute edges into an existing graph —
+that is how `src/semantic_edges.py` lands its cross-source results. It is not a hand-editing
+tool: nothing in the three shipped cases was authored by hand, and the graphs contain no edge
+that does not trace to a pipeline pass.
+
 Usage:
-    python -m src.merge_edges --case covid --edges cases/covid/manual_edges.json
+    python -m src.merge_edges --case covid --edges cases/covid/out/semantic_edges.json
     python -m src.merge_edges --case covid --edges ... --dry-run
 """
 
