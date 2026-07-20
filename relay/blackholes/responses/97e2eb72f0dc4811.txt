@@ -1,0 +1,11 @@
+[
+{"from": "C111", "to": "C095", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C105", "to": "C101", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "weak"},
+{"from": "C094", "to": "C093", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C095", "to": "C093", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C109", "to": "C108", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C110", "to": "C109", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C067", "to": "C066", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C088", "to": "C087", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C086", "to": "C107", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "weak"}
+]

@@ -1,0 +1,1114 @@
+{
+  "case": "blackholes",
+  "method": "deterministic graph concentration (no LLM)",
+  "conclusions": [
+    {
+      "conclusion": "C004",
+      "conclusion_text": "The LHC will not destroy the Earth",
+      "concentration": 0.071,
+      "effective_independent_claims": 30.86,
+      "supporting_claim_count": 49,
+      "top_claim": "C032",
+      "top_claim_text": "New experimental and theoretical results confirm, update, and extend the earlier no-danger conclusion",
+      "contributions": [
+        {
+          "claim_id": "C032",
+          "weight": 1.14,
+          "share": 0.071,
+          "text": "New experimental and theoretical results confirm, update, and extend the earlier"
+        },
+        {
+          "claim_id": "C029",
+          "weight": 0.878,
+          "share": 0.055,
+          "text": "The Sun will enter its red giant phase and swallow the Earth long before such a "
+        },
+        {
+          "claim_id": "C009",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "If the LHC could produce a dangerous stable object, cosmic rays striking the Ear"
+        },
+        {
+          "claim_id": "C005",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "The survival of dense astronomical bodies bombarded by such collisions for billi"
+        },
+        {
+          "claim_id": "C011",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "The existence of humanity proves any charged black holes produced in the atmosph"
+        },
+        {
+          "claim_id": "C014",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "A slow-growing neutral stable black hole would take longer than the sun's lifeti"
+        },
+        {
+          "claim_id": "C015",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "Fast-growing neutral stable black holes are excluded because white dwarfs and ne"
+        },
+        {
+          "claim_id": "C030",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "Even the most pessimistic version of the calculation shows the black hole is not"
+        },
+        {
+          "claim_id": "C038",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "The stability of astronomical bodies strongly constrains any accretion rate, so "
+        },
+        {
+          "claim_id": "C035",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "The review studied vacuum bubbles, magnetic monopoles, microscopic black holes, "
+        },
+        {
+          "claim_id": "C040",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "Peer-reviewed studies have shown there is no significant risk of an LHC doomsday"
+        },
+        {
+          "claim_id": "C066",
+          "weight": 0.6,
+          "share": 0.037,
+          "text": "The 454 trillion collisions produced in the LHC's proton runs are evidence of it"
+        },
+        {
+          "claim_id": "C008",
+          "weight": 0.54,
+          "share": 0.034,
+          "text": "Cosmic rays with energies comparable to or higher than the LHC's strike the Eart"
+        },
+        {
+          "claim_id": "C033",
+          "weight": 0.54,
+          "share": 0.034,
+          "text": "The LHC reproduces collisions at centre-of-mass energies below those of cosmic r"
+        },
+        {
+          "claim_id": "C003",
+          "weight": 0.54,
+          "share": 0.034,
+          "text": "Giddings and Mangano examined known astrophysical phenomena to determine the lik"
+        },
+        {
+          "claim_id": "C039",
+          "weight": 0.54,
+          "share": 0.034,
+          "text": "RHIC particle-production measurements match thermodynamic models, severely const"
+        },
+        {
+          "claim_id": "C065",
+          "weight": 0.33,
+          "share": 0.021,
+          "text": "Hawking radiation is dead since the Telemach result and its precursors appeared,"
+        },
+        {
+          "claim_id": "C019",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "The LHC speeds particles to high but not unprecedentedly high energies"
+        },
+        {
+          "claim_id": "C010",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "A charged black hole from cosmic rays would be drained of energy by Earth's mate"
+        },
+        {
+          "claim_id": "C012",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "An LHC black hole would likely be charged because it would come from collisions "
+        },
+        {
+          "claim_id": "C026",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "Absorbing an entire cylinder of matter straight through the Earth would add almo"
+        },
+        {
+          "claim_id": "C037",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "If some microscopic black holes were stable, cosmic-ray-produced ones would be s"
+        },
+        {
+          "claim_id": "C049",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "A kind of white dwarf, eight of which have been observed, could hold black holes"
+        },
+        {
+          "claim_id": "C067",
+          "weight": 0.324,
+          "share": 0.02,
+          "text": "Since a world-ending black hole would already be irreversible, continued argumen"
+        },
+        {
+          "claim_id": "C057",
+          "weight": 0.312,
+          "share": 0.019,
+          "text": "Giddings and Mangano conclude no conceivable risk, but LHC risk is not zero beca"
+        },
+        {
+          "claim_id": "C046",
+          "weight": 0.3,
+          "share": 0.019,
+          "text": "Rossler calculated LHC-produced black holes might grow fast enough to end the wo"
+        },
+        {
+          "claim_id": "C062",
+          "weight": 0.3,
+          "share": 0.019,
+          "text": "Whether the LHC represents an intolerable danger is an open question"
+        },
+        {
+          "claim_id": "C126",
+          "weight": 0.3,
+          "share": 0.019,
+          "text": "The plaintiffs assert the LHC could create dangerous micro black holes or strang"
+        },
+        {
+          "claim_id": "C102",
+          "weight": 0.27,
+          "share": 0.017,
+          "text": "In 2008 anti-LHC activists raised alarm and the world press amplified it"
+        },
+        {
+          "claim_id": "C056",
+          "weight": 0.249,
+          "share": 0.016,
+          "text": "A small observational error in the eight white dwarfs could undermine the safety"
+        },
+        {
+          "claim_id": "C025",
+          "weight": 0.175,
+          "share": 0.011,
+          "text": "A black hole's gravitational pull is no stronger than any other object of the sa"
+        },
+        {
+          "claim_id": "C048",
+          "weight": 0.175,
+          "share": 0.011,
+          "text": "Cosmic-ray black holes could slip through the Earth, while LHC black holes could"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.162,
+          "share": 0.01,
+          "text": "In 2003 the two papers addressing RHIC strangelet-disaster concerns were found t"
+        },
+        {
+          "claim_id": "C060",
+          "weight": 0.162,
+          "share": 0.01,
+          "text": "Scientists have a responsibility to the rest of the world to ensure their experi"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.162,
+          "share": 0.01,
+          "text": "Johnson argued it is not clear that any particle-physics testimony should be all"
+        },
+        {
+          "claim_id": "C132",
+          "weight": 0.162,
+          "share": 0.01,
+          "text": "Walter Wagner claimed the chance of the LHC destroying the Earth was 50%, reason"
+        },
+        {
+          "claim_id": "C047",
+          "weight": 0.094,
+          "share": 0.006,
+          "text": "In 2008 Mangano and Giddings turned to the cosmic-ray argument rather than the H"
+        },
+        {
+          "claim_id": "C051",
+          "weight": 0.087,
+          "share": 0.005,
+          "text": "If black holes were smaller than CERN calculated they could conceivably sail thr"
+        },
+        {
+          "claim_id": "C158",
+          "weight": 0.087,
+          "share": 0.005,
+          "text": "Only long-trained particle physicists can understand the risk arguments, but tha"
+        },
+        {
+          "claim_id": "C002",
+          "weight": 0.081,
+          "share": 0.005,
+          "text": "Physicists discount the possibility of a stable black hole that could grow dange"
+        },
+        {
+          "claim_id": "C007",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "A black hole small enough for the LHC to produce would evaporate by Hawking radi"
+        },
+        {
+          "claim_id": "C013",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "Neutralization and Hawking radiation are linked quantum processes, so a neutral "
+        },
+        {
+          "claim_id": "C016",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "The overwhelming majority of the scientific community agrees the stable-black-ho"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.044,
+          "share": 0.003,
+          "text": "The anti-LHC risk claim is comparable to a speculative hypothesis that microchip"
+        },
+        {
+          "claim_id": "C006",
+          "weight": 0.024,
+          "share": 0.001,
+          "text": "Scientists almost universally agree that black holes evaporate by emitting Hawki"
+        },
+        {
+          "claim_id": "C052",
+          "weight": 0.012,
+          "share": 0.001,
+          "text": "Most of the arguments made in favour of the collider lack robustness"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.011,
+          "share": 0.001,
+          "text": "CERN's Scientific Policy Committee announced to the public that the results excl"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.006,
+          "share": 0.0,
+          "text": "Physicists quoted in the media on LHC safety seem not to have engaged the litera"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.006,
+          "share": 0.0,
+          "text": "Using the Hand formula, the risk of the LHC destroying the world can be computed"
+        }
+      ]
+    },
+    {
+      "conclusion": "C002",
+      "conclusion_text": "Physicists discount the possibility of a stable black hole that could grow dangerous",
+      "concentration": 0.198,
+      "effective_independent_claims": 7.08,
+      "supporting_claim_count": 12,
+      "top_claim": "C007",
+      "top_claim_text": "A black hole small enough for the LHC to produce would evaporate by Hawking radiation almost instantly, too fast to leave the machine or reach the Earth's centre",
+      "contributions": [
+        {
+          "claim_id": "C007",
+          "weight": 0.6,
+          "share": 0.198,
+          "text": "A black hole small enough for the LHC to produce would evaporate by Hawking radi"
+        },
+        {
+          "claim_id": "C013",
+          "weight": 0.6,
+          "share": 0.198,
+          "text": "Neutralization and Hawking radiation are linked quantum processes, so a neutral "
+        },
+        {
+          "claim_id": "C016",
+          "weight": 0.6,
+          "share": 0.198,
+          "text": "The overwhelming majority of the scientific community agrees the stable-black-ho"
+        },
+        {
+          "claim_id": "C006",
+          "weight": 0.324,
+          "share": 0.107,
+          "text": "Scientists almost universally agree that black holes evaporate by emitting Hawki"
+        },
+        {
+          "claim_id": "C052",
+          "weight": 0.162,
+          "share": 0.053,
+          "text": "Most of the arguments made in favour of the collider lack robustness"
+        },
+        {
+          "claim_id": "C057",
+          "weight": 0.162,
+          "share": 0.053,
+          "text": "Giddings and Mangano conclude no conceivable risk, but LHC risk is not zero beca"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.146,
+          "share": 0.048,
+          "text": "CERN's Scientific Policy Committee announced to the public that the results excl"
+        },
+        {
+          "claim_id": "C065",
+          "weight": 0.087,
+          "share": 0.029,
+          "text": "Hawking radiation is dead since the Telemach result and its precursors appeared,"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.087,
+          "share": 0.029,
+          "text": "Physicists quoted in the media on LHC safety seem not to have engaged the litera"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.087,
+          "share": 0.029,
+          "text": "Using the Hand formula, the risk of the LHC destroying the world can be computed"
+        },
+        {
+          "claim_id": "C056",
+          "weight": 0.087,
+          "share": 0.029,
+          "text": "A small observational error in the eight white dwarfs could undermine the safety"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.087,
+          "share": 0.029,
+          "text": "In 2003 the two papers addressing RHIC strangelet-disaster concerns were found t"
+        }
+      ]
+    },
+    {
+      "conclusion": "C016",
+      "conclusion_text": "The overwhelming majority of the scientific community agrees the stable-black-hole scenarios are not credible",
+      "concentration": 0.198,
+      "effective_independent_claims": 6.44,
+      "supporting_claim_count": 7,
+      "top_claim": "C052",
+      "top_claim_text": "Most of the arguments made in favour of the collider lack robustness",
+      "contributions": [
+        {
+          "claim_id": "C052",
+          "weight": 0.3,
+          "share": 0.198,
+          "text": "Most of the arguments made in favour of the collider lack robustness"
+        },
+        {
+          "claim_id": "C057",
+          "weight": 0.3,
+          "share": 0.198,
+          "text": "Giddings and Mangano conclude no conceivable risk, but LHC risk is not zero beca"
+        },
+        {
+          "claim_id": "C050",
+          "weight": 0.27,
+          "share": 0.178,
+          "text": "CERN's Scientific Policy Committee announced to the public that the results excl"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.162,
+          "share": 0.107,
+          "text": "Physicists quoted in the media on LHC safety seem not to have engaged the litera"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.162,
+          "share": 0.107,
+          "text": "Using the Hand formula, the risk of the LHC destroying the world can be computed"
+        },
+        {
+          "claim_id": "C056",
+          "weight": 0.162,
+          "share": 0.107,
+          "text": "A small observational error in the eight white dwarfs could undermine the safety"
+        },
+        {
+          "claim_id": "C055",
+          "weight": 0.162,
+          "share": 0.107,
+          "text": "In 2003 the two papers addressing RHIC strangelet-disaster concerns were found t"
+        }
+      ]
+    },
+    {
+      "conclusion": "C030",
+      "conclusion_text": "Even the most pessimistic version of the calculation shows the black hole is not dangerous",
+      "concentration": 0.638,
+      "effective_independent_claims": 2.09,
+      "supporting_claim_count": 3,
+      "top_claim": "C029",
+      "top_claim_text": "The Sun will enter its red giant phase and swallow the Earth long before such a black hole could grow dangerous",
+      "contributions": [
+        {
+          "claim_id": "C029",
+          "weight": 1.626,
+          "share": 0.638,
+          "text": "The Sun will enter its red giant phase and swallow the Earth long before such a "
+        },
+        {
+          "claim_id": "C026",
+          "weight": 0.6,
+          "share": 0.235,
+          "text": "Absorbing an entire cylinder of matter straight through the Earth would add almo"
+        },
+        {
+          "claim_id": "C025",
+          "weight": 0.324,
+          "share": 0.127,
+          "text": "A black hole's gravitational pull is no stronger than any other object of the sa"
+        }
+      ]
+    },
+    {
+      "conclusion": "C032",
+      "conclusion_text": "New experimental and theoretical results confirm, update, and extend the earlier no-danger conclusion",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C035",
+      "conclusion_text": "The review studied vacuum bubbles, magnetic monopoles, microscopic black holes, and strangelets and found no associated risks",
+      "concentration": 1.0,
+      "effective_independent_claims": 1.0,
+      "supporting_claim_count": 1,
+      "top_claim": "C039",
+      "top_claim_text": "RHIC particle-production measurements match thermodynamic models, severely constraining strangelet production at the LHC, which presents no danger",
+      "contributions": [
+        {
+          "claim_id": "C039",
+          "weight": 1.0,
+          "share": 1.0,
+          "text": "RHIC particle-production measurements match thermodynamic models, severely const"
+        }
+      ]
+    },
+    {
+      "conclusion": "C052",
+      "conclusion_text": "Most of the arguments made in favour of the collider lack robustness",
+      "concentration": 0.455,
+      "effective_independent_claims": 2.81,
+      "supporting_claim_count": 3,
+      "top_claim": "C050",
+      "top_claim_text": "CERN's Scientific Policy Committee announced to the public that the results excluded any possibility of risk, going beyond Giddings and Mangano's 'no significance' conclusion",
+      "contributions": [
+        {
+          "claim_id": "C050",
+          "weight": 1.0,
+          "share": 0.455,
+          "text": "CERN's Scientific Policy Committee announced to the public that the results excl"
+        },
+        {
+          "claim_id": "C053",
+          "weight": 0.6,
+          "share": 0.273,
+          "text": "Physicists quoted in the media on LHC safety seem not to have engaged the litera"
+        },
+        {
+          "claim_id": "C054",
+          "weight": 0.6,
+          "share": 0.273,
+          "text": "Using the Hand formula, the risk of the LHC destroying the world can be computed"
+        }
+      ]
+    },
+    {
+      "conclusion": "C062",
+      "conclusion_text": "Whether the LHC represents an intolerable danger is an open question",
+      "concentration": 0.394,
+      "effective_independent_claims": 2.82,
+      "supporting_claim_count": 3,
+      "top_claim": "C060",
+      "top_claim_text": "Scientists have a responsibility to the rest of the world to ensure their experiments are safe",
+      "contributions": [
+        {
+          "claim_id": "C060",
+          "weight": 0.6,
+          "share": 0.394,
+          "text": "Scientists have a responsibility to the rest of the world to ensure their experi"
+        },
+        {
+          "claim_id": "C157",
+          "weight": 0.6,
+          "share": 0.394,
+          "text": "Johnson argued it is not clear that any particle-physics testimony should be all"
+        },
+        {
+          "claim_id": "C158",
+          "weight": 0.324,
+          "share": 0.213,
+          "text": "Only long-trained particle physicists can understand the risk arguments, but tha"
+        }
+      ]
+    },
+    {
+      "conclusion": "C063",
+      "conclusion_text": "Johnson did not attempt a definitive answer on the danger but argues the courts should",
+      "concentration": 0.5,
+      "effective_independent_claims": 2.0,
+      "supporting_claim_count": 2,
+      "top_claim": "C061",
+      "top_claim_text": "Courts have the power to perform an in-depth analysis, reviewing evidence and gathering testimony from scientists with no personal stake in the LHC",
+      "contributions": [
+        {
+          "claim_id": "C061",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "Courts have the power to perform an in-depth analysis, reviewing evidence and ga"
+        },
+        {
+          "claim_id": "C064",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "Courts must develop tools to handle such scientific complexity or risk undoing t"
+        }
+      ]
+    },
+    {
+      "conclusion": "C083",
+      "conclusion_text": "Every rationally conceivable risk has already been exhaustively addressed",
+      "concentration": 0.331,
+      "effective_independent_claims": 5.67,
+      "supporting_claim_count": 9,
+      "top_claim": "C084",
+      "top_claim_text": "The German science ministry concluded that the intended research at the LHC establishes no danger potential",
+      "contributions": [
+        {
+          "claim_id": "C084",
+          "weight": 0.6,
+          "share": 0.331,
+          "text": "The German science ministry concluded that the intended research at the LHC esta"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.3,
+          "share": 0.166,
+          "text": "Not all risks have been addressed by CERN, and no treatise checks whether there "
+        },
+        {
+          "claim_id": "C075",
+          "weight": 0.162,
+          "share": 0.089,
+          "text": "There was no independent safety assessment nor a quantitative calculation of the"
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.162,
+          "share": 0.089,
+          "text": "CERN and its safety groups behave mostly as denying all risks instead of searchi"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.162,
+          "share": 0.089,
+          "text": "The community should actively search for not-yet-considered risks"
+        },
+        {
+          "claim_id": "C059",
+          "weight": 0.162,
+          "share": 0.089,
+          "text": "CERN's group culture tends to push dissenters to the fringe and may artificially"
+        },
+        {
+          "claim_id": "C077",
+          "weight": 0.087,
+          "share": 0.048,
+          "text": "There is an 80-page critical assessment of the Giddings-Mangano paper"
+        },
+        {
+          "claim_id": "C073",
+          "weight": 0.087,
+          "share": 0.048,
+          "text": "The problem arises only when there is a refusal to check an undisproved risk"
+        },
+        {
+          "claim_id": "C058",
+          "weight": 0.087,
+          "share": 0.048,
+          "text": "Halting the LHC would destroy billions of dollars of investment and many physici"
+        }
+      ]
+    },
+    {
+      "conclusion": "C084",
+      "conclusion_text": "The German science ministry concluded that the intended research at the LHC establishes no danger potential",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C101",
+      "conclusion_text": "None of the anti-LHC activists presented a persuasive case",
+      "concentration": 0.181,
+      "effective_independent_claims": 5.8,
+      "supporting_claim_count": 6,
+      "top_claim": "C105",
+      "top_claim_text": "Hawking's silence on the risk argument may simply reflect that he has more important things to do",
+      "contributions": [
+        {
+          "claim_id": "C105",
+          "weight": 0.6,
+          "share": 0.181,
+          "text": "Hawking's silence on the risk argument may simply reflect that he has more impor"
+        },
+        {
+          "claim_id": "C112",
+          "weight": 0.6,
+          "share": 0.181,
+          "text": "The LSAG has not provided a safety argument against fanciful risks such as LHC-g"
+        },
+        {
+          "claim_id": "C143",
+          "weight": 0.6,
+          "share": 0.181,
+          "text": "Nicolai reviewed Rossler's paper and concluded it would not pass the referee pro"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.6,
+          "share": 0.181,
+          "text": "The anti-LHC risk claim is comparable to a speculative hypothesis that microchip"
+        },
+        {
+          "claim_id": "C096",
+          "weight": 0.6,
+          "share": 0.181,
+          "text": "Official court documents make clear that Rossler overstated how supportive the C"
+        },
+        {
+          "claim_id": "C144",
+          "weight": 0.324,
+          "share": 0.097,
+          "text": "Giulini and Nicolai concluded Rossler's argument concerns only general relativit"
+        }
+      ]
+    },
+    {
+      "conclusion": "C113",
+      "conclusion_text": "The 2003 independent review concluded that, like the RHIC, LHC particle collisions pose no conceivable threat",
+      "concentration": 0.649,
+      "effective_independent_claims": 1.84,
+      "supporting_claim_count": 2,
+      "top_claim": "C114",
+      "top_claim_text": "The 2008 review, by CERN-affiliated physicists not involved in the LHC experiments, reaffirmed the safety of LHC collisions using research since 2003",
+      "contributions": [
+        {
+          "claim_id": "C114",
+          "weight": 0.6,
+          "share": 0.649,
+          "text": "The 2008 review, by CERN-affiliated physicists not involved in the LHC experimen"
+        },
+        {
+          "claim_id": "C115",
+          "weight": 0.324,
+          "share": 0.351,
+          "text": "The 2008 report was reviewed and endorsed by a CERN committee of 20 external sci"
+        }
+      ]
+    },
+    {
+      "conclusion": "C119",
+      "conclusion_text": "RHIC studies concluded beyond reasonable doubt that heavy-ion experiments there will not endanger the planet",
+      "concentration": 0.5,
+      "effective_independent_claims": 2.0,
+      "supporting_claim_count": 2,
+      "top_claim": "C120",
+      "top_claim_text": "There is powerful empirical evidence against the possibility of dangerous strangelet production",
+      "contributions": [
+        {
+          "claim_id": "C120",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "There is powerful empirical evidence against the possibility of dangerous strang"
+        },
+        {
+          "claim_id": "C116",
+          "weight": 0.6,
+          "share": 0.5,
+          "text": "The physical conditions and collision events at the LHC, RHIC and other experime"
+        }
+      ]
+    },
+    {
+      "conclusion": "C125",
+      "conclusion_text": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risky to undertake",
+      "concentration": 0.45,
+      "effective_independent_claims": 3.18,
+      "supporting_claim_count": 4,
+      "top_claim": "C123",
+      "top_claim_text": "Martin Rees calculated an upper limit of 1 in 50 million for the probability that RHIC would produce a global catastrophe or black hole",
+      "contributions": [
+        {
+          "claim_id": "C123",
+          "weight": 1.0,
+          "share": 0.45,
+          "text": "Martin Rees calculated an upper limit of 1 in 50 million for the probability tha"
+        },
+        {
+          "claim_id": "C122",
+          "weight": 0.6,
+          "share": 0.27,
+          "text": "Physicists cannot demonstrate zero probability of catastrophic events and can on"
+        },
+        {
+          "claim_id": "C127",
+          "weight": 0.324,
+          "share": 0.146,
+          "text": "The Marburger committee left open the possibility that relativistic cosmic-ray i"
+        },
+        {
+          "claim_id": "C124",
+          "weight": 0.3,
+          "share": 0.135,
+          "text": "Rees reported he is not losing sleep over the collider and trusts the scientists"
+        }
+      ]
+    },
+    {
+      "conclusion": "C130",
+      "conclusion_text": "Brian Greene answered that a black hole produced under Geneva would not swallow Switzerland or devour the Earth",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C138",
+      "conclusion_text": "The continued existence of dense bodies like neutron stars and white dwarfs, as well as the Earth, rules out the LHC producing any dangerous black holes",
+      "concentration": 0.103,
+      "effective_independent_claims": 20.14,
+      "supporting_claim_count": 34,
+      "top_claim": "C135",
+      "top_claim_text": "By standard calculations any such micro black holes are harmless because they would quickly decay by Hawking radiation",
+      "contributions": [
+        {
+          "claim_id": "C135",
+          "weight": 1.14,
+          "share": 0.103,
+          "text": "By standard calculations any such micro black holes are harmless because they wo"
+        },
+        {
+          "claim_id": "C150",
+          "weight": 0.924,
+          "share": 0.083,
+          "text": "A 2009 Physics Letters B paper summarizes proofs aimed at ruling out any possibl"
+        },
+        {
+          "claim_id": "C084",
+          "weight": 0.648,
+          "share": 0.058,
+          "text": "The German science ministry concluded that the intended research at the LHC esta"
+        },
+        {
+          "claim_id": "C130",
+          "weight": 0.6,
+          "share": 0.054,
+          "text": "Brian Greene answered that a black hole produced under Geneva would not swallow "
+        },
+        {
+          "claim_id": "C137",
+          "weight": 0.6,
+          "share": 0.054,
+          "text": "Even a stable micro black hole would be unable to accrete matter dangerously bec"
+        },
+        {
+          "claim_id": "C141",
+          "weight": 0.6,
+          "share": 0.054,
+          "text": "Thermodynamics makes forming a cold strangelet condensate about as likely as pro"
+        },
+        {
+          "claim_id": "C148",
+          "weight": 0.6,
+          "share": 0.054,
+          "text": "The LSAG reaffirmed and extended the conclusion that LHC collisions present no d"
+        },
+        {
+          "claim_id": "C083",
+          "weight": 0.6,
+          "share": 0.054,
+          "text": "Every rationally conceivable risk has already been exhaustively addressed"
+        },
+        {
+          "claim_id": "C140",
+          "weight": 0.6,
+          "share": 0.054,
+          "text": "The probability of strangelet creation decreases at higher energies, so the LHC "
+        },
+        {
+          "claim_id": "C122",
+          "weight": 0.462,
+          "share": 0.042,
+          "text": "Physicists cannot demonstrate zero probability of catastrophic events and can on"
+        },
+        {
+          "claim_id": "C142",
+          "weight": 0.462,
+          "share": 0.042,
+          "text": "Otto Rossler argues micro black holes created in the LHC could grow exponentiall"
+        },
+        {
+          "claim_id": "C146",
+          "weight": 0.405,
+          "share": 0.036,
+          "text": "Casadio, Fabi, and Harms published a paper ruling out the catastrophic growth of"
+        },
+        {
+          "claim_id": "C159",
+          "weight": 0.324,
+          "share": 0.029,
+          "text": "The German Constitutional Court rejected the injunction petition as unfounded, s"
+        },
+        {
+          "claim_id": "C162",
+          "weight": 0.324,
+          "share": 0.029,
+          "text": "A trio of physicists including Wilson, Glashow, and Wilczek filed a brief that t"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.324,
+          "share": 0.029,
+          "text": "The LSAG review found no basis for any concerns about the consequences of new pa"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.324,
+          "share": 0.029,
+          "text": "The APS Division of Particles and Fields stated the report explains why there is"
+        },
+        {
+          "claim_id": "C125",
+          "weight": 0.3,
+          "share": 0.027,
+          "text": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk"
+        },
+        {
+          "claim_id": "C145",
+          "weight": 0.3,
+          "share": 0.027,
+          "text": "Plaga concluded LHC safety studies had not definitely ruled out a catastrophic t"
+        },
+        {
+          "claim_id": "C123",
+          "weight": 0.27,
+          "share": 0.024,
+          "text": "Martin Rees calculated an upper limit of 1 in 50 million for the probability tha"
+        },
+        {
+          "claim_id": "C166",
+          "weight": 0.175,
+          "share": 0.016,
+          "text": "A similar court case in Germany was thrown out because the challenger could not "
+        },
+        {
+          "claim_id": "C127",
+          "weight": 0.162,
+          "share": 0.015,
+          "text": "The Marburger committee left open the possibility that relativistic cosmic-ray i"
+        },
+        {
+          "claim_id": "C081",
+          "weight": 0.162,
+          "share": 0.015,
+          "text": "Not all risks have been addressed by CERN, and no treatise checks whether there "
+        },
+        {
+          "claim_id": "C098",
+          "weight": 0.087,
+          "share": 0.008,
+          "text": "Rossler calculated that Earth's habitability persists only 50 months after the c"
+        },
+        {
+          "claim_id": "C075",
+          "weight": 0.087,
+          "share": 0.008,
+          "text": "There was no independent safety assessment nor a quantitative calculation of the"
+        },
+        {
+          "claim_id": "C091",
+          "weight": 0.087,
+          "share": 0.008,
+          "text": "CERN and its safety groups behave mostly as denying all risks instead of searchi"
+        },
+        {
+          "claim_id": "C092",
+          "weight": 0.087,
+          "share": 0.008,
+          "text": "The community should actively search for not-yet-considered risks"
+        },
+        {
+          "claim_id": "C059",
+          "weight": 0.087,
+          "share": 0.008,
+          "text": "CERN's group culture tends to push dissenters to the fringe and may artificially"
+        },
+        {
+          "claim_id": "C124",
+          "weight": 0.081,
+          "share": 0.007,
+          "text": "Rees reported he is not losing sleep over the collider and trusts the scientists"
+        },
+        {
+          "claim_id": "C144",
+          "weight": 0.067,
+          "share": 0.006,
+          "text": "Giulini and Nicolai concluded Rossler's argument concerns only general relativit"
+        },
+        {
+          "claim_id": "C077",
+          "weight": 0.047,
+          "share": 0.004,
+          "text": "There is an 80-page critical assessment of the Giddings-Mangano paper"
+        },
+        {
+          "claim_id": "C073",
+          "weight": 0.047,
+          "share": 0.004,
+          "text": "The problem arises only when there is a refusal to check an undisproved risk"
+        },
+        {
+          "claim_id": "C058",
+          "weight": 0.047,
+          "share": 0.004,
+          "text": "Halting the LHC would destroy billions of dollars of investment and many physici"
+        },
+        {
+          "claim_id": "C143",
+          "weight": 0.044,
+          "share": 0.004,
+          "text": "Nicolai reviewed Rossler's paper and concluded it would not pass the referee pro"
+        },
+        {
+          "claim_id": "C100",
+          "weight": 0.044,
+          "share": 0.004,
+          "text": "The anti-LHC risk claim is comparable to a speculative hypothesis that microchip"
+        }
+      ]
+    },
+    {
+      "conclusion": "C143",
+      "conclusion_text": "Nicolai reviewed Rossler's paper and concluded it would not pass the referee process in a serious journal",
+      "concentration": 1.0,
+      "effective_independent_claims": 1.0,
+      "supporting_claim_count": 1,
+      "top_claim": "C144",
+      "top_claim_text": "Giulini and Nicolai concluded Rossler's argument concerns only general relativity, makes no logical connection to LHC physics, and is neither valid nor self-consistent",
+      "contributions": [
+        {
+          "claim_id": "C144",
+          "weight": 0.6,
+          "share": 1.0,
+          "text": "Giulini and Nicolai concluded Rossler's argument concerns only general relativit"
+        }
+      ]
+    },
+    {
+      "conclusion": "C144",
+      "conclusion_text": "Giulini and Nicolai concluded Rossler's argument concerns only general relativity, makes no logical connection to LHC physics, and is neither valid nor self-consistent",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    },
+    {
+      "conclusion": "C148",
+      "conclusion_text": "The LSAG reaffirmed and extended the conclusion that LHC collisions present no danger and there are no reasons for concern",
+      "concentration": 0.133,
+      "effective_independent_claims": 7.8,
+      "supporting_claim_count": 8,
+      "top_claim": "C159",
+      "top_claim_text": "The German Constitutional Court rejected the injunction petition as unfounded, stating the opponents had failed to produce plausible evidence for their theories",
+      "contributions": [
+        {
+          "claim_id": "C159",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "The German Constitutional Court rejected the injunction petition as unfounded, s"
+        },
+        {
+          "claim_id": "C162",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "A trio of physicists including Wilson, Glashow, and Wilczek filed a brief that t"
+        },
+        {
+          "claim_id": "C146",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "Casadio, Fabi, and Harms published a paper ruling out the catastrophic growth of"
+        },
+        {
+          "claim_id": "C150",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "A 2009 Physics Letters B paper summarizes proofs aimed at ruling out any possibl"
+        },
+        {
+          "claim_id": "C084",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "The German science ministry concluded that the intended research at the LHC esta"
+        },
+        {
+          "claim_id": "C153",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "The LSAG review found no basis for any concerns about the consequences of new pa"
+        },
+        {
+          "claim_id": "C149",
+          "weight": 0.6,
+          "share": 0.133,
+          "text": "The APS Division of Particles and Fields stated the report explains why there is"
+        },
+        {
+          "claim_id": "C166",
+          "weight": 0.324,
+          "share": 0.072,
+          "text": "A similar court case in Germany was thrown out because the challenger could not "
+        }
+      ]
+    },
+    {
+      "conclusion": "C153",
+      "conclusion_text": "The LSAG review found no basis for any concerns about the consequences of new particles or forms of matter the LHC could produce",
+      "concentration": 0.0,
+      "effective_independent_claims": 0.0,
+      "supporting_claim_count": 0,
+      "top_claim": null,
+      "top_claim_text": "",
+      "contributions": [],
+      "note": "no evidential support found"
+    }
+  ],
+  "circular_support": []
+}

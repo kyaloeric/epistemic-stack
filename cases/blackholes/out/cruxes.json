@@ -1,0 +1,102 @@
+[
+  {
+    "claim_id": "C029",
+    "sensitivity": 0.638,
+    "score": 1.276,
+    "affects": "Even the most pessimistic version of the calculation shows the black hole is not",
+    "affects_id": "C030",
+    "affects_support_count": 3,
+    "rationale": "Carries 63% of the evidential support for conclusion C030, which is backed by 3 claims (~2.09 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C123",
+    "sensitivity": 0.45,
+    "score": 1.045,
+    "affects": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk",
+    "affects_id": "C125",
+    "affects_support_count": 4,
+    "rationale": "Carries 45% of the evidential support for conclusion C125, which is backed by 4 claims (~3.18 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C050",
+    "sensitivity": 0.455,
+    "score": 0.91,
+    "affects": "Most of the arguments made in favour of the collider lack robustness",
+    "affects_id": "C052",
+    "affects_support_count": 3,
+    "rationale": "Carries 45% of the evidential support for conclusion C052, which is backed by 3 claims (~2.81 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C060",
+    "sensitivity": 0.394,
+    "score": 0.788,
+    "affects": "Whether the LHC represents an intolerable danger is an open question",
+    "affects_id": "C062",
+    "affects_support_count": 3,
+    "rationale": "Carries 39% of the evidential support for conclusion C062, which is backed by 3 claims (~2.82 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C157",
+    "sensitivity": 0.394,
+    "score": 0.788,
+    "affects": "Whether the LHC represents an intolerable danger is an open question",
+    "affects_id": "C062",
+    "affects_support_count": 3,
+    "rationale": "Carries 39% of the evidential support for conclusion C062, which is backed by 3 claims (~2.82 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C007",
+    "sensitivity": 0.198,
+    "score": 0.733,
+    "affects": "Physicists discount the possibility of a stable black hole that could grow dange",
+    "affects_id": "C002",
+    "affects_support_count": 12,
+    "rationale": "Carries 19% of the evidential support for conclusion C002, which is backed by 12 claims (~7.08 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C013",
+    "sensitivity": 0.198,
+    "score": 0.733,
+    "affects": "Physicists discount the possibility of a stable black hole that could grow dange",
+    "affects_id": "C002",
+    "affects_support_count": 12,
+    "rationale": "Carries 19% of the evidential support for conclusion C002, which is backed by 12 claims (~7.08 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C122",
+    "sensitivity": 0.27,
+    "score": 0.627,
+    "affects": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk",
+    "affects_id": "C125",
+    "affects_support_count": 4,
+    "rationale": "Carries 27% of the evidential support for conclusion C125, which is backed by 4 claims (~3.18 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C057",
+    "sensitivity": 0.198,
+    "score": 0.594,
+    "affects": "The overwhelming majority of the scientific community agrees the stable-black-ho",
+    "affects_id": "C016",
+    "affects_support_count": 7,
+    "rationale": "Carries 19% of the evidential support for conclusion C016, which is backed by 7 claims (~6.44 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  },
+  {
+    "claim_id": "C081",
+    "sensitivity": 0.166,
+    "score": 0.551,
+    "affects": "Every rationally conceivable risk has already been exhaustively addressed",
+    "affects_id": "C083",
+    "affects_support_count": 9,
+    "rationale": "Carries 16% of the evidential support for conclusion C083, which is backed by 9 claims (~5.67 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+    "method": "deterministic"
+  }
+]

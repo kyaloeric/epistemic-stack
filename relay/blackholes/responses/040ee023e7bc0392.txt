@@ -1,0 +1,3 @@
+[
+{"canonical_text": "The plaintiffs assert the LHC could create dangerous micro black holes or strangelets that grow or release radiation and could destroy the Earth", "member_ids": ["C126", "C161"]}
+]

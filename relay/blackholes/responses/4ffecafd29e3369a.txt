@@ -1,0 +1,23 @@
+[
+{"from": "C109", "to": "C108", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C110", "to": "C109", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C111", "to": "C108", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C108", "to": "C107", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C108", "to": "C104", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C112", "to": "C101", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C110", "to": "C138", "type": "caveats", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C121", "to": "C120", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C120", "to": "C119", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C124", "to": "C123", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C123", "to": "C125", "type": "is_evidence_for", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C124", "to": "C125", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C122", "to": "C125", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C122", "to": "C138", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C127", "to": "C119", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C125", "to": "C138", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C128", "to": "C142", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "weak"},
+{"from": "C158", "to": "C157", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C159", "to": "C148", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C130", "to": "C138", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C102", "to": "C129", "type": "is_evidence_for", "source_id": "lifeboat_rossler_hawking", "strength": "weak"}
+]
