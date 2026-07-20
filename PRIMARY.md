@@ -175,12 +175,22 @@ is skipped for any case: ingestion, dedup, positional edges, and semantic cross-
 all three. Every semantic stage was a model pass running the prompts in [`prompts/`](prompts/) — no
 edge or claim in any of the three graphs was authored by hand.
 
-*Which model served which stage.* COVID's ingestion and first edge pass ran against the paid API on
-`claude-sonnet-4-6`; its dedup and semantic cross-source passes, and **all** of black holes, ran on
-`claude-opus-4-8` through the file-based relay provider in [`src/llm.py`](src/llm.py), which needs no
-key. The relay writes every prompt it issues and every answer it consumes to `relay/<case>/`, and those
-files are committed — so for the relayed stages the model I/O is auditable rather than asserted. The
-earlier paid runs have no such transcript, which is exactly why we do not claim one.
+*Which model served which stage — and which runs have a transcript.* The relay provider in
+[`src/llm.py`](src/llm.py) writes every prompt it issues and every answer it consumes to
+`relay/<case>/` and needs no API key; those files are committed, so relayed stages have an auditable
+model transcript rather than an asserted one. Coverage is **partial and uneven, and worth stating
+exactly**:
+
+| case | ran on | committed transcript |
+|---|---|---|
+| black holes | `claude-opus-4-8` via relay, **all stages** | 45 files — complete |
+| COVID | ingestion + first edge pass on paid `claude-sonnet-4-6`; dedup + semantic cross-source passes via relay | 81 files — relayed stages only |
+| eggs | paid `claude-sonnet-4-6` throughout | **none** |
+
+So "the model I/O is committed" is true of black holes end-to-end and of COVID's later stages, and
+false of eggs. The paid runs predate the relay and have no transcript, which is precisely why we do not
+claim one for them. What *is* verifiable for every case regardless of which model served it: the graphs,
+the deterministic warrant metrics recomputed from them, and the span receipts.
 
 Every claim's `verbatim_span` is checked to be a literal substring of its source by
 [`src/verify_spans.py`](src/verify_spans.py): **eggs and black holes verify at 100%; COVID at 95.3%**
