@@ -46,22 +46,31 @@ def _normalize(s):
     return s.strip()
 
 
+def _load_sources(raw_dir):
+    """Read the fetched source bodies. Returns {} when they are absent.
+
+    The raw texts are third-party articles (phys.org, ACX, Rootclaim, 4gravitons, ...) which we
+    deliberately do not redistribute, so a fresh clone has no `raw/`. That is an expected state,
+    not an error: the caller explains how to fetch them rather than dying on a traceback."""
+    if not os.path.isdir(raw_dir):
+        return {}
+    bodies = {}
+    for fn in sorted(os.listdir(raw_dir)):
+        if not fn.endswith(".txt") or fn == "README.txt":
+            continue
+        with io.open(os.path.join(raw_dir, fn), encoding="utf-8", errors="replace") as fh:
+            bodies[fn[:-4]] = _strip_header(fh.read())
+    return bodies
+
+
 def verify(case, root="."):
     base = os.path.join(root, "cases", case)
     with io.open(os.path.join(base, "out", "claims.json"), encoding="utf-8") as fh:
         import json
         claims = json.load(fh)["claims"]
 
-    raw_dir = os.path.join(base, "raw")
-    sources, norm_sources = {}, {}
-    for fn in os.listdir(raw_dir):
-        if not fn.endswith(".txt") or fn == "README.txt":
-            continue
-        sid = fn[:-4]
-        with io.open(os.path.join(raw_dir, fn), encoding="utf-8", errors="replace") as fh:
-            body = _strip_header(fh.read())
-        sources[sid] = body
-        norm_sources[sid] = _normalize(body)
+    sources = _load_sources(os.path.join(base, "raw"))
+    norm_sources = dict((sid, _normalize(body)) for sid, body in sources.items())
 
     stats = {}  # sid -> [exact, normalized, miss, total]
     misses = []
@@ -85,14 +94,75 @@ def verify(case, root="."):
     return stats, misses, set(sources)
 
 
+_NO_RAW = """  span verification for case=%(case)s
+
+  The raw source texts are NOT in this repository. They are third-party articles
+  (phys.org, Astral Codex Ten, Rootclaim, 4gravitons, ...) and we do not redistribute
+  copyrighted full text. This is expected on a fresh clone, not a failure.
+
+  To reproduce this check yourself:
+      python -m src.fetch --case %(case)s          # downloads them from cases/%(case)s/sources.json
+      python -m src.verify_spans --case %(case)s
+
+  The result of our own run is committed, so you can read the receipt without fetching:
+      cases/%(case)s/out/span_verification.json
+"""
+
+
+def _write_report(path, case, stats, misses, known):
+    """Persist the verification result so the receipt ships even when the sources cannot."""
+    import json
+    tot = [0, 0, 0, 0]
+    per = {}
+    for sid in sorted(stats):
+        ex, nm, ms, t = stats[sid]
+        for i, v in enumerate((ex, nm, ms, t)):
+            tot[i] += v
+        per[sid] = {"exact": ex, "normalized": nm, "miss": ms, "total": t}
+    ex, nm, ms, t = tot
+    t = t or 1
+    report = {
+        "case": case,
+        "note": ("Every claim's verbatim_span re-checked against the fetched source text. "
+                 "'exact' = literal substring; 'normalized' = matches after collapsing "
+                 "formatting-only differences (smart quotes, dashes, whitespace); "
+                 "'miss' = not found, i.e. the span was reworded and should not be trusted "
+                 "as a quote. Raw sources are third-party and not redistributed; run "
+                 "`python -m src.fetch --case %s` to regenerate them and re-run this check." % case),
+        "sources_checked": sorted(known),
+        "per_source": per,
+        "totals": {"exact": ex, "normalized": nm, "miss": ms, "attestations": t},
+        "percent_exact": round(100.0 * ex / t, 1),
+        "percent_verified": round(100.0 * (ex + nm) / t, 1),
+        "misses": [{"claim_id": c, "source_id": s, "span_prefix": sn} for c, s, sn in misses],
+    }
+    with io.open(path, "w", encoding="utf-8") as fh:
+        fh.write(json.dumps(report, indent=2, ensure_ascii=False))
+    return report
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--case", required=True)
     ap.add_argument("--root", default=".")
     ap.add_argument("--list-misses", action="store_true")
+    ap.add_argument("--report", nargs="?", const="", default=None,
+                    help="write the receipt to cases/<case>/out/span_verification.json (or a given path)")
     args = ap.parse_args()
 
     stats, misses, known = verify(args.case, args.root)
+
+    if not known:
+        # No source texts on disk: explain how to get them instead of reporting a bogus 0%.
+        sys.stdout.write(_NO_RAW % {"case": args.case})
+        sys.exit(2)
+
+    if args.report is not None:
+        path = args.report or os.path.join(
+            args.root, "cases", args.case, "out", "span_verification.json")
+        _write_report(path, args.case, stats, misses, known)
+        print("  receipt written -> %s" % path)
+
     tot = [0, 0, 0, 0]
     print("  span verification for case=%s" % args.case)
     for sid in sorted(stats):

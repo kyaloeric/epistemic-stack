@@ -132,7 +132,7 @@ structure, semantic cross-source edges, assessment, concentration:
 
 | case | shape | claims | edges | cross-source | spans verified |
 |---|---|---|---|---|---|
-| COVID | curated debate | 1,590 | 4,435 | 1,198 (27%) | 95.3% |
+| COVID | curated debate | 1,590 | 4,434 | 1,198 (27%) | 95.3% |
 | eggs | mundane-but-contested | 202 | 220 | 35 (16%) | 100% |
 | black holes | confident answer, complex evidence | 157 | 363 | 165 (45%) | 100% |
 

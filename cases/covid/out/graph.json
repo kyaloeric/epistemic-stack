@@ -32158,13 +32158,6 @@
       "strength": "disputed"
     },
     {
-      "from": "C1605",
-      "to": "C1592",
-      "type": "contradicts",
-      "source_id": "rootclaim_results",
-      "strength": "strong"
-    },
-    {
       "from": "C1606",
       "to": "C1605",
       "type": "supports",

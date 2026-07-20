@@ -44,7 +44,7 @@ python -m src.run --case eggs
 - [x] Three real cases of different shapes (COVID / eggs / black holes) for the generalization claim
 - [x] Baseline-comparison and adversarial-test templates
 - [x] All three cases run end-to-end through the identical pipeline, each a different shape —
-      **eggs** (202 claims / 220 edges), **COVID** (1,590 / 4,435, 27% cross-source), **black holes**
+      **eggs** (202 claims / 220 edges), **COVID** (1,590 / 4,434, 27% cross-source), **black holes**
       (157 / 169, 23% cross-source)
 - [x] **Verbatim-span verifier** (`src/verify_spans.py`) — checks every span is a literal source
       substring: eggs & black holes 100%, COVID 95.3% (the 76 misses named, not hidden)
