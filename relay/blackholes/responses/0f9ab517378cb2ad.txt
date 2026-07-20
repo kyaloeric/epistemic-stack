@@ -1,0 +1,16 @@
+[
+{"from": "C042", "to": "C011", "type": "restates", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C138", "to": "C042", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C037", "to": "C138", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C049", "to": "C138", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C066", "to": "C138", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C008", "to": "C011", "type": "is_evidence_for", "source_id": "physorg_ruleout", "strength": "strong"},
+{"from": "C010", "to": "C011", "type": "supports", "source_id": "physorg_ruleout", "strength": "strong"},
+{"from": "C012", "to": "C011", "type": "supports", "source_id": "physorg_ruleout", "strength": "asserted"},
+{"from": "C130", "to": "C138", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C139", "to": "C138", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C046", "to": "C138", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C046", "to": "C042", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C106", "to": "C042", "type": "contradicts", "source_id": "cross_source", "strength": "weak"},
+{"from": "C044", "to": "C046", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "asserted"}
+]

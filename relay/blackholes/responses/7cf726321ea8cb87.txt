@@ -1,0 +1,11 @@
+[
+{"from": "C031", "to": "C032", "type": "depends_on", "source_id": "arxiv_lhc_safety_review", "strength": "strong"},
+{"from": "C148", "to": "C032", "type": "restates", "source_id": "cross_source", "strength": "strong"},
+{"from": "C153", "to": "C148", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C032", "to": "C062", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C056", "to": "C148", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C050", "to": "C148", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C024", "to": "C148", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C062", "to": "C148", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C063", "to": "C062", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "strong"}
+]

@@ -9,7 +9,6 @@
 {"from": "C114", "to": "C113", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
 {"from": "C115", "to": "C114", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
 {"from": "C116", "to": "C119", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
-{"from": "C120", "to": "C121", "type": "is_evidence_for", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
 {"from": "C065", "to": "C066", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "weak"},
 {"from": "C047", "to": "C048", "type": "supports", "source_id": "physorg_lawyer_view", "strength": "asserted"}
 ]

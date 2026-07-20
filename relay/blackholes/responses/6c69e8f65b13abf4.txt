@@ -1,0 +1,15 @@
+[
+{"from": "C134", "to": "C044", "type": "restates", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C018", "to": "C044", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C043", "to": "C133", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C134", "to": "C133", "type": "caveats", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C071", "to": "C134", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C133", "to": "C126", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C137", "to": "C135", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C015", "to": "C137", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C142", "to": "C135", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C142", "to": "C137", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C110", "to": "C137", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C139", "to": "C135", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "asserted"},
+{"from": "C126", "to": "C135", "type": "contradicts", "source_id": "wikipedia_collider_safety", "strength": "strong"}
+]

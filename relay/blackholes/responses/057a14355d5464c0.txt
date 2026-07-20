@@ -1,0 +1,6 @@
+[
+{"from": "C158", "to": "C052", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C124", "to": "C158", "type": "contradicts", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C124", "to": "C052", "type": "contradicts", "source_id": "cross_source", "strength": "weak"},
+{"from": "C087", "to": "C069", "type": "supports", "source_id": "cross_source", "strength": "weak"}
+]

@@ -1,0 +1,20 @@
+[
+{"from": "C138", "to": "C005", "type": "restates", "source_id": "cross_source", "strength": "strong"},
+{"from": "C116", "to": "C138", "type": "supports", "source_id": "wikipedia_collider_safety", "strength": "strong"},
+{"from": "C116", "to": "C005", "type": "restates", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C031", "to": "C148", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C051", "to": "C138", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C128", "to": "C138", "type": "supports", "source_id": "cross_source", "strength": "weak"},
+{"from": "C094", "to": "C093", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C111", "to": "C093", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C095", "to": "C093", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C085", "to": "C093", "type": "restates", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C109", "to": "C108", "type": "supports", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C093", "to": "C107", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C093", "to": "C104", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C093", "to": "C086", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C108", "to": "C107", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "strong"},
+{"from": "C103", "to": "C108", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C072", "to": "C108", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"},
+{"from": "C106", "to": "C085", "type": "contradicts", "source_id": "lifeboat_rossler_hawking", "strength": "asserted"}
+]

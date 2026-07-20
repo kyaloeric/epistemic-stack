@@ -1,0 +1,23 @@
+[
+{"from": "C137", "to": "C026", "type": "restates", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C025", "to": "C026", "type": "supports", "source_id": "fourgravitons_reassured", "strength": "asserted"},
+{"from": "C026", "to": "C004", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C027", "to": "C028", "type": "depends_on", "source_id": "fourgravitons_reassured", "strength": "strong"},
+{"from": "C028", "to": "C029", "type": "depends_on", "source_id": "fourgravitons_reassured", "strength": "strong"},
+{"from": "C029", "to": "C004", "type": "supports", "source_id": "fourgravitons_reassured", "strength": "strong"},
+{"from": "C006", "to": "C007", "type": "supports", "source_id": "physorg_ruleout", "strength": "strong"},
+{"from": "C007", "to": "C004", "type": "supports", "source_id": "physorg_ruleout", "strength": "strong"},
+{"from": "C033", "to": "C004", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C137", "to": "C004", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C153", "to": "C004", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C130", "to": "C004", "type": "supports", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C110", "to": "C048", "type": "supports", "source_id": "cross_source", "strength": "strong"},
+{"from": "C048", "to": "C137", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C110", "to": "C137", "type": "caveats", "source_id": "cross_source", "strength": "strong"},
+{"from": "C051", "to": "C137", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C098", "to": "C004", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C098", "to": "C007", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C095", "to": "C098", "type": "caveats", "source_id": "cross_source", "strength": "asserted"},
+{"from": "C139", "to": "C004", "type": "contradicts", "source_id": "cross_source", "strength": "strong"},
+{"from": "C001", "to": "C004", "type": "caveats", "source_id": "physorg_ruleout", "strength": "asserted"}
+]

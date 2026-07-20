@@ -2875,11 +2875,11 @@
       "strength": "strong"
     },
     {
-      "from": "C120",
-      "to": "C121",
-      "type": "is_evidence_for",
+      "from": "C121",
+      "to": "C120",
+      "type": "supports",
       "source_id": "wikipedia_collider_safety",
-      "strength": "asserted"
+      "strength": "strong"
     },
     {
       "from": "C120",
@@ -3531,112 +3531,1689 @@
       "type": "caveats",
       "source_id": "wikipedia_collider_safety",
       "strength": "weak"
+    },
+    {
+      "from": "C009",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C037",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C005",
+      "to": "C138",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C042",
+      "to": "C009",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C010",
+      "to": "C009",
+      "type": "supports",
+      "source_id": "physorg_ruleout",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C087",
+      "to": "C009",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C103",
+      "to": "C009",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C089",
+      "to": "C008",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C089",
+      "to": "C033",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C110",
+      "to": "C009",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C110",
+      "to": "C037",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C127",
+      "to": "C048",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C127",
+      "to": "C009",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C068",
+      "to": "C042",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C014",
+      "to": "C002",
+      "type": "supports",
+      "source_id": "physorg_ruleout",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C015",
+      "to": "C002",
+      "type": "supports",
+      "source_id": "physorg_ruleout",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C025",
+      "to": "C029",
+      "type": "supports",
+      "source_id": "fourgravitons_reassured",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C027",
+      "to": "C029",
+      "type": "is_evidence_for",
+      "source_id": "fourgravitons_reassured",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C030",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C140",
+      "to": "C120",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C120",
+      "to": "C153",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C159",
+      "to": "C153",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C081",
+      "to": "C153",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C108",
+      "to": "C009",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C104",
+      "to": "C108",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C086",
+      "to": "C108",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C001",
+      "to": "C007",
+      "type": "supports",
+      "source_id": "physorg_ruleout",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C123",
+      "to": "C002",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C042",
+      "to": "C011",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C138",
+      "to": "C042",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C049",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C066",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C008",
+      "to": "C011",
+      "type": "is_evidence_for",
+      "source_id": "physorg_ruleout",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C139",
+      "to": "C138",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C046",
+      "to": "C138",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C046",
+      "to": "C042",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C106",
+      "to": "C042",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C044",
+      "to": "C046",
+      "type": "supports",
+      "source_id": "physorg_lawyer_view",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C137",
+      "to": "C026",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C026",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C029",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "fourgravitons_reassured",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C007",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "physorg_ruleout",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C033",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C137",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C153",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C130",
+      "to": "C004",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C110",
+      "to": "C048",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C048",
+      "to": "C137",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C110",
+      "to": "C137",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C051",
+      "to": "C137",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C098",
+      "to": "C004",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C098",
+      "to": "C007",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C095",
+      "to": "C098",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C139",
+      "to": "C004",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C001",
+      "to": "C004",
+      "type": "caveats",
+      "source_id": "physorg_ruleout",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C148",
+      "to": "C032",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C032",
+      "to": "C062",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C056",
+      "to": "C148",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C050",
+      "to": "C148",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C024",
+      "to": "C148",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C062",
+      "to": "C148",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C063",
+      "to": "C062",
+      "type": "supports",
+      "source_id": "physorg_lawyer_view",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C035",
+      "to": "C153",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C038",
+      "to": "C035",
+      "type": "supports",
+      "source_id": "arxiv_lhc_safety_review",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C114",
+      "to": "C153",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C113",
+      "to": "C153",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C082",
+      "to": "C035",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C076",
+      "to": "C153",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C081",
+      "to": "C035",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C091",
+      "to": "C082",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C092",
+      "to": "C091",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C145",
+      "to": "C081",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C145",
+      "to": "C035",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C145",
+      "to": "C153",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C139",
+      "to": "C035",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C126",
+      "to": "C035",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C108",
+      "to": "C035",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C167",
+      "to": "C153",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C158",
+      "to": "C052",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C124",
+      "to": "C158",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C124",
+      "to": "C052",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C087",
+      "to": "C069",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C158",
+      "to": "C053",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C053",
+      "to": "C114",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C158",
+      "to": "C114",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C058",
+      "to": "C053",
+      "type": "supports",
+      "source_id": "physorg_lawyer_view",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C075",
+      "to": "C114",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C076",
+      "to": "C075",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C122",
+      "to": "C075",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C053",
+      "to": "C002",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C158",
+      "to": "C061",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C043",
+      "to": "C002",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C054",
+      "to": "C062",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C054",
+      "to": "C057",
+      "type": "supports",
+      "source_id": "physorg_lawyer_view",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C046",
+      "to": "C062",
+      "type": "supports",
+      "source_id": "physorg_lawyer_view",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C057",
+      "to": "C149",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C160",
+      "to": "C062",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C149",
+      "to": "C085",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C132",
+      "to": "C046",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C102",
+      "to": "C046",
+      "type": "is_evidence_for",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C059",
+      "to": "C031",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C082",
+      "to": "C031",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C059",
+      "to": "C082",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C163",
+      "to": "C063",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C050",
+      "to": "C057",
+      "type": "supports",
+      "source_id": "physorg_lawyer_view",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C050",
+      "to": "C016",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C085",
+      "to": "C016",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C067",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C149",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C043",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C142",
+      "to": "C066",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C069",
+      "to": "C142",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C128",
+      "to": "C101",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C160",
+      "to": "C101",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C102",
+      "to": "C101",
+      "type": "caveats",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C083",
+      "to": "C113",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C083",
+      "to": "C040",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C057",
+      "to": "C083",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C057",
+      "to": "C038",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C057",
+      "to": "C113",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C113",
+      "to": "C038",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C040",
+      "to": "C113",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C112",
+      "to": "C083",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C095",
+      "to": "C112",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C073",
+      "to": "C112",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C081",
+      "to": "C113",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C082",
+      "to": "C083",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C075",
+      "to": "C040",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C070",
+      "to": "C038",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C099",
+      "to": "C070",
+      "type": "caveats",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C093",
+      "to": "C083",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C085",
+      "to": "C083",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C113",
+      "to": "C031",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C084",
+      "to": "C113",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C159",
+      "to": "C084",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C119",
+      "to": "C113",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C143",
+      "to": "C114",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C145",
+      "to": "C114",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C062",
+      "to": "C113",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C058",
+      "to": "C114",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C046",
+      "to": "C142",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C143",
+      "to": "C046",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C143",
+      "to": "C098",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C099",
+      "to": "C143",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C159",
+      "to": "C143",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C156",
+      "to": "C159",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C096",
+      "to": "C079",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C078",
+      "to": "C079",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C080",
+      "to": "C159",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C160",
+      "to": "C155",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C157",
+      "to": "C160",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C100",
+      "to": "C154",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C164",
+      "to": "C154",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C154",
+      "to": "C101",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C024",
+      "to": "C045",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C057",
+      "to": "C153",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C057",
+      "to": "C100",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C070",
+      "to": "C045",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C104",
+      "to": "C085",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C008",
+      "to": "C153",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C045",
+      "to": "C153",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C116",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C116",
+      "to": "C005",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C031",
+      "to": "C148",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C051",
+      "to": "C138",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C128",
+      "to": "C138",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C111",
+      "to": "C093",
+      "type": "supports",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C093",
+      "to": "C107",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C103",
+      "to": "C108",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C072",
+      "to": "C108",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C106",
+      "to": "C085",
+      "type": "contradicts",
+      "source_id": "lifeboat_rossler_hawking",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C141",
+      "to": "C120",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C162",
+      "to": "C120",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C121",
+      "to": "C132",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C162",
+      "to": "C132",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C070",
+      "to": "C162",
+      "type": "contradicts",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C071",
+      "to": "C140",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C132",
+      "to": "C070",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C060",
+      "to": "C125",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C106",
+      "to": "C125",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C104",
+      "to": "C125",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "weak",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C060",
+      "to": "C106",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C114",
+      "to": "C125",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C119",
+      "to": "C125",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C158",
+      "to": "C119",
+      "type": "caveats",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C134",
+      "to": "C044",
+      "type": "restates",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C043",
+      "to": "C133",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C071",
+      "to": "C134",
+      "type": "caveats",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C133",
+      "to": "C126",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C137",
+      "to": "C135",
+      "type": "supports",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C015",
+      "to": "C137",
+      "type": "supports",
+      "source_id": "cross_source",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C142",
+      "to": "C137",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C139",
+      "to": "C135",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "asserted",
+      "extraction": "semantic_window"
+    },
+    {
+      "from": "C126",
+      "to": "C135",
+      "type": "contradicts",
+      "source_id": "wikipedia_collider_safety",
+      "strength": "strong",
+      "extraction": "semantic_window"
     }
   ],
   "assessment": {
     "cruxes": [
       {
         "claim_id": "C029",
-        "sensitivity": 0.638,
-        "score": 1.276,
+        "sensitivity": 0.634,
+        "score": 1.268,
         "affects": "Even the most pessimistic version of the calculation shows the black hole is not",
         "affects_id": "C030",
         "affects_support_count": 3,
-        "rationale": "Carries 63% of the evidential support for conclusion C030, which is backed by 3 claims (~2.09 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "rationale": "Carries 63% of the evidential support for conclusion C030, which is backed by 3 claims (~2.13 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       },
       {
-        "claim_id": "C123",
-        "sensitivity": 0.45,
-        "score": 1.045,
-        "affects": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk",
-        "affects_id": "C125",
+        "claim_id": "C082",
+        "sensitivity": 0.375,
+        "score": 0.969,
+        "affects": "New experimental and theoretical results confirm, update, and extend the earlier",
+        "affects_id": "C032",
+        "affects_support_count": 5,
+        "rationale": "Carries 37% of the evidential support for conclusion C032, which is backed by 5 claims (~4.05 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C159",
+        "sensitivity": 0.382,
+        "score": 0.887,
+        "affects": "The German science ministry concluded that the intended research at the LHC esta",
+        "affects_id": "C084",
         "affects_support_count": 4,
-        "rationale": "Carries 45% of the evidential support for conclusion C125, which is backed by 4 claims (~3.18 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "rationale": "Carries 38% of the evidential support for conclusion C084, which is backed by 4 claims (~3.66 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C039",
+        "sensitivity": 0.121,
+        "score": 0.751,
+        "affects": "The review studied vacuum bubbles, magnetic monopoles, microscopic black holes, ",
+        "affects_id": "C035",
+        "affects_support_count": 73,
+        "rationale": "Carries 12% of the evidential support for conclusion C035, which is backed by 73 claims (~21.83 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C116",
+        "sensitivity": 0.225,
+        "score": 0.747,
+        "affects": "RHIC studies concluded beyond reasonable doubt that heavy-ion experiments there ",
+        "affects_id": "C119",
+        "affects_support_count": 9,
+        "rationale": "Carries 22% of the evidential support for conclusion C119, which is backed by 9 claims (~6.11 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C120",
+        "sensitivity": 0.225,
+        "score": 0.747,
+        "affects": "RHIC studies concluded beyond reasonable doubt that heavy-ion experiments there ",
+        "affects_id": "C119",
+        "affects_support_count": 9,
+        "rationale": "Carries 22% of the evidential support for conclusion C119, which is backed by 9 claims (~6.11 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       },
       {
         "claim_id": "C050",
-        "sensitivity": 0.455,
-        "score": 0.91,
+        "sensitivity": 0.261,
+        "score": 0.733,
         "affects": "Most of the arguments made in favour of the collider lack robustness",
         "affects_id": "C052",
-        "affects_support_count": 3,
-        "rationale": "Carries 45% of the evidential support for conclusion C052, which is backed by 3 claims (~2.81 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "affects_support_count": 6,
+        "rationale": "Carries 26% of the evidential support for conclusion C052, which is backed by 6 claims (~5.2 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       },
       {
-        "claim_id": "C060",
-        "sensitivity": 0.394,
-        "score": 0.788,
-        "affects": "Whether the LHC represents an intolerable danger is an open question",
-        "affects_id": "C062",
-        "affects_support_count": 3,
-        "rationale": "Carries 39% of the evidential support for conclusion C062, which is backed by 3 claims (~2.82 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
-        "claim_id": "C157",
-        "sensitivity": 0.394,
-        "score": 0.788,
-        "affects": "Whether the LHC represents an intolerable danger is an open question",
-        "affects_id": "C062",
-        "affects_support_count": 3,
-        "rationale": "Carries 39% of the evidential support for conclusion C062, which is backed by 3 claims (~2.82 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
-        "claim_id": "C007",
-        "sensitivity": 0.198,
-        "score": 0.733,
-        "affects": "Physicists discount the possibility of a stable black hole that could grow dange",
-        "affects_id": "C002",
-        "affects_support_count": 12,
-        "rationale": "Carries 19% of the evidential support for conclusion C002, which is backed by 12 claims (~7.08 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
-        "claim_id": "C013",
-        "sensitivity": 0.198,
-        "score": 0.733,
-        "affects": "Physicists discount the possibility of a stable black hole that could grow dange",
-        "affects_id": "C002",
-        "affects_support_count": 12,
-        "rationale": "Carries 19% of the evidential support for conclusion C002, which is backed by 12 claims (~7.08 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
-        "claim_id": "C122",
-        "sensitivity": 0.27,
-        "score": 0.627,
-        "affects": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk",
-        "affects_id": "C125",
-        "affects_support_count": 4,
-        "rationale": "Carries 27% of the evidential support for conclusion C125, which is backed by 4 claims (~3.18 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
-        "method": "deterministic"
-      },
-      {
-        "claim_id": "C057",
-        "sensitivity": 0.198,
-        "score": 0.594,
+        "claim_id": "C085",
+        "sensitivity": 0.151,
+        "score": 0.71,
         "affects": "The overwhelming majority of the scientific community agrees the stable-black-ho",
         "affects_id": "C016",
-        "affects_support_count": 7,
-        "rationale": "Carries 19% of the evidential support for conclusion C016, which is backed by 7 claims (~6.44 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "affects_support_count": 25,
+        "rationale": "Carries 15% of the evidential support for conclusion C016, which is backed by 25 claims (~13.39 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       },
       {
-        "claim_id": "C081",
-        "sensitivity": 0.166,
-        "score": 0.551,
-        "affects": "Every rationally conceivable risk has already been exhaustively addressed",
-        "affects_id": "C083",
-        "affects_support_count": 9,
-        "rationale": "Carries 16% of the evidential support for conclusion C083, which is backed by 9 claims (~5.67 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "claim_id": "C158",
+        "sensitivity": 0.241,
+        "score": 0.677,
+        "affects": "Most of the arguments made in favour of the collider lack robustness",
+        "affects_id": "C052",
+        "affects_support_count": 6,
+        "rationale": "Carries 24% of the evidential support for conclusion C052, which is backed by 6 claims (~5.2 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
+        "method": "deterministic"
+      },
+      {
+        "claim_id": "C123",
+        "sensitivity": 0.124,
+        "score": 0.673,
+        "affects": "Richard Posner, Toby Ord and others have argued the LHC experiments are too risk",
+        "affects_id": "C125",
+        "affects_support_count": 42,
+        "rationale": "Carries 12% of the evidential support for conclusion C125, which is backed by 42 claims (~16.86 effective independent). Ranked by share x log2(1+support) so stubs can't dominate.",
         "method": "deterministic"
       }
     ],
-    "correlated_evidence_flags": [],
+    "correlated_evidence_flags": [
+      {
+        "claim_ids": [
+          "C009",
+          "C042",
+          "C138"
+        ],
+        "grounded": true,
+        "severity": "redundant",
+        "rationale": "Mutual-support loop that also rests on an external claim — redundant, not vacuous.",
+        "members": [
+          {
+            "id": "C009",
+            "text": "If the LHC could produce a dangerous stable object, cosmic rays striking the Ear"
+          },
+          {
+            "id": "C042",
+            "text": "The continued existence of the Earth is living evidence of the safety of these s"
+          },
+          {
+            "id": "C138",
+            "text": "The continued existence of dense bodies like neutron stars and white dwarfs, as "
+          }
+        ]
+      }
+    ],
     "method": "deterministic concentration + SCC; model narration only"
   }
 }
