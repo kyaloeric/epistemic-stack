@@ -40,23 +40,27 @@ python -m src.run --case eggs
 
 - [x] Pipeline architecture (ingest → structure → assess), versioned prompts, JSON schema
 - [x] Navigable HTML viewer with provenance + crux panel
-- [x] Deterministic crux fallback (tested) + offline demo graph for COVID
-- [x] Three case manifests (COVID deep; black holes; eggs) for the generalization claim
+- [x] Deterministic crux detection (graph concentration, Herfindahl effective-count, Tarjan-SCC)
+- [x] Three real cases of different shapes (COVID / eggs / black holes) for the generalization claim
 - [x] Baseline-comparison and adversarial-test templates
-- [x] Live extraction over the real sources — **eggs** (202 claims, 220 edges, 35 cross-source) and
-      **COVID** (1,590 claims, 4,435 edges, 1,198 cross-source / 820 cross-side), both pipeline-produced
+- [x] All three cases run end-to-end through the identical pipeline, each a different shape —
+      **eggs** (202 claims / 220 edges), **COVID** (1,590 / 4,435, 27% cross-source), **black holes**
+      (157 / 169, 23% cross-source)
+- [x] **Verbatim-span verifier** (`src/verify_spans.py`) — checks every span is a literal source
+      substring: eggs & black holes 100%, COVID 95.3% (the 76 misses named, not hidden)
 - [x] **Semantic candidate selection** (`src/semantic.py`) — deterministic TF-IDF/topic grouping that
-      scales edge extraction past the positional windowing limit (PRIMARY §5/§6)
-- [x] Relay provider (`src/llm.py`) + additive edge-merge (`src/merge_edges.py`) — run the pipeline with
-      no billed API key; import/validate an edge set against existing claims
+      scales edge extraction past the positional windowing limit (the large-corpus fix COVID needed)
+- [x] Relay provider (`src/llm.py`) + additive edge-merge (`src/merge_edges.py`) — run the whole
+      pipeline, ingestion included, with no billed API key
 - [x] Written ≤10-page core finalized in `PRIMARY.md`
-- [ ] **Black holes not ingested** — curated and fetched only (manifest + raw texts present)
 - [ ] Baseline delta and adversarial results are written up from the eggs run; not re-run against COVID
+      or black holes
 
 ## Layout
 
 ```
-src/        pipeline stages: fetch, ingest, structure, assess, concentration, warrant, run
+src/        pipeline stages: fetch, ingest, structure, semantic + semantic_edges, assess,
+            concentration, warrant, run; plus verify_spans (audit) and llm (providers + relay)
 prompts/    the LLM prompts (the method)
 schema/     claim-graph JSON schema
 cases/      per-case source manifests + outputs (raw texts are fetched, never committed)

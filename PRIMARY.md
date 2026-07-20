@@ -161,16 +161,22 @@ The engine never reads domain content. Every stage operates on one abstract onto
 edge, conclusion, source** — and the warrant math is pure graph arithmetic over it. Nothing in `src/`
 knows what “furin cleavage site” or “dietary cholesterol” means; grep it and you will find no
 case-specific logic. Per-case content lives entirely in **data** (`cases/<case>/sources.json` + raw
-texts), never in code. A new dispute is a new folder, not a new codebase. Manifests for the black-hole
-and egg cases are included to make this claim checkable; they share the identical engine.
+texts), never in code. A new dispute is a new folder, not a new codebase. The three cases were chosen to
+be different *shapes* — a curated multi-analyst debate (COVID), a mundane-but-contested everyday question
+(eggs), and a confident/settled answer resting on a large body of interacting physics (black holes) — and
+the identical engine runs all three, which is the checkable form of the generalization claim.
 
-*Honesty note — exactly what has been run, and by what method.* **Eggs is complete end-to-end**
-(6 sources → 202 claims → 220 edges → warrant metrics; the numbers in §4). **COVID is complete**: 1,590
-claims across all six sources, every one carrying a verbatim span, and 4,435 typed edges — 1,198 of them
-cross-source (27%), 820 crossing the zoonosis/lab-leak divide. Every edge was produced by the pipeline's
-own edge stage running the prompt in [`prompts/structure_assess.py`](prompts/structure_assess.py);
-model calls were served by `claude-opus-4-8` through the relay provider in
-[`src/llm.py`](src/llm.py). **Black holes is curated and fetched but not ingested.**
+*Honesty note — exactly what has been run, and by what method.* **All three cases run end-to-end**,
+each a different case shape (§5). **Eggs** (mundane-but-contested): 6 sources → 202 claims → 220 edges,
+35 cross-source. **COVID** (curated debate): 1,590 claims across six sources, 4,435 typed edges — 1,198
+cross-source (27%), 820 crossing the zoonosis/lab-leak divide. **Black holes** (confident answer over
+complex physics): 7 sources → 157 claims → 169 edges, 23% cross-source, 27 cross-side. Every semantic
+stage — ingestion, dedup, edges — was a model pass running the prompts in
+[`prompts/`](prompts/); model calls were served by `claude-opus-4-8` through the relay provider in
+[`src/llm.py`](src/llm.py), so the whole pipeline ran with no billed key. Every claim's `verbatim_span`
+is checked to be a literal substring of its source by [`src/verify_spans.py`](src/verify_spans.py):
+**eggs and black holes verify at 100%; COVID at 95.3%** (76 spans, mostly one source, that an earlier
+run paraphrased rather than quoted — named here, not hidden).
 
 Getting COVID's cross-source edges required fixing a scaling limit we hit and measured — a sharper
 version of the §4 negative result, and the more interesting finding of the two. The source-interleaved
@@ -223,8 +229,12 @@ flagged, not counted as corroboration. [`tests/adversarial.md`](tests/adversaria
 attack→defense table and the named, bounded failure modes we do **not** solve:
 
 - **Label quality is the floor.** The warrant math is only as good as the extracted kinds and edges; a
-  mislabeled edge propagates. Partial defenses (conservative dedup, reciprocal-edge collapse, verbatim
-  spans for audit) exist but are not airtight.
+  mislabeled edge propagates. Partial defenses exist but are not airtight: conservative dedup,
+  reciprocal-edge collapse, and — for the provenance claim specifically —
+  [`src/verify_spans.py`](src/verify_spans.py), which re-reads the sources and confirms every
+  `verbatim_span` is a literal substring (eggs and black holes 100%; COVID 95.3%, with the 76 misses
+  listed). That turns "spans are auditable" from an assertion into a checked, reported number — and it
+  caught a real lapse in our own COVID data rather than letting it pass.
 - **Self-reported derivation.** We know A rests on B because the labeller said so; we do not crawl real
   citation graphs, so an adversary could *omit* a dependency to look more independent than it is.
 - **It does not adjudicate truth.** It audits warrant *structure*; it will not tell you the origin of
@@ -280,6 +290,9 @@ python -m src.run --case covid --stage concentration     # the warrant metrics, 
 # recover cross-source edges at scale via semantic candidate selection (§5):
 python -m src.semantic_edges --case covid                # needs a key, or run keyless via the relay:
 EPISTEMIC_RELAY_DIR=relay/covid python -m src.semantic_edges --case covid  # emits prompts; answer, re-run
+
+# audit provenance: confirm every verbatim_span is a literal substring of its source:
+python -m src.verify_spans --case blackholes --list-misses
 ```
 
 MIT-licensed, so pieces can interoperate and compound — per the competition’s goals. The knowledge base
